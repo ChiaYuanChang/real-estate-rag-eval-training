@@ -8,3 +8,5 @@ __pycache__/
 *.docx
 *.ipynb
 .DS_Store
+
+data/cleaned_twhg_with_latlng_and_places/*.json

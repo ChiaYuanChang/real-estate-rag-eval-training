@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # Neo4j Graph Database
+  neo4j:
+    image: neo4j:5.18.0
+    container_name: real_estate_neo4j
+    ports:
+      - "7474:7474" # HTTP
+      - "7687:7687" # Bolt
+    environment:
+      - NEO4J_AUTH=neo4j/password
+      - NEO4J_apoc_export_file_enabled=true
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - ./neo4j_data:/data
+
+  # Langfuse v2
+  langfuse-server:
+      image: langfuse/langfuse:2
+      depends_on:
+        db:
+          condition: service_healthy
+      ports:
+        - "3000:3000"
+      environment:
+        - DATABASE_URL=postgresql://postgres:postgres@db:5432/postgres
+        - NEXTAUTH_SECRET=mysecret
+        - SALT=mysalt
+        - ENCRYPTION_KEY=0000000000000000000000000000000000000000000000000000000000000000 # generate via `openssl rand -hex 32`
+        - NEXTAUTH_URL=http://localhost:3000
+        - TELEMETRY_ENABLED=${TELEMETRY_ENABLED:-true}
+        - LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES=${LANGFUSE_ENABLE_EXPERIMENTAL_FEATURES:-false}
+        - LANGFUSE_INIT_ORG_ID=${LANGFUSE_INIT_ORG_ID:-}
+        - LANGFUSE_INIT_ORG_NAME=${LANGFUSE_INIT_ORG_NAME:-}
+        - LANGFUSE_INIT_PROJECT_ID=${LANGFUSE_INIT_PROJECT_ID:-}
+        - LANGFUSE_INIT_PROJECT_NAME=${LANGFUSE_INIT_PROJECT_NAME:-}
+        - LANGFUSE_INIT_PROJECT_PUBLIC_KEY=${LANGFUSE_INIT_PROJECT_PUBLIC_KEY:-}
+        - LANGFUSE_INIT_PROJECT_SECRET_KEY=${LANGFUSE_INIT_PROJECT_SECRET_KEY:-}
+        - LANGFUSE_INIT_USER_EMAIL=${LANGFUSE_INIT_USER_EMAIL:-}
+        - LANGFUSE_INIT_USER_NAME=${LANGFUSE_INIT_USER_NAME:-}
+        - LANGFUSE_INIT_USER_PASSWORD=${LANGFUSE_INIT_USER_PASSWORD:-}
+
+  # postgres for Langfuse
+  db:
+    image: postgres:17
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+      start_period: 30s
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - database_data:/var/lib/postgresql/data
+
+volumes:
+  database_data:
+    driver: local
