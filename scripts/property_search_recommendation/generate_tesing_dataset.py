@@ -18,16 +18,7 @@ def generate_testing_dataset(house_info: str) -> str:
             role="user",
             parts=[
                 types.Part.from_text(text=f"""\
-Here is a set of house information in <house_info>. Please help me convert the following information into the required format.
-Generate 10 testing queries (5 Simple, 5 Abstract) based *only* on the logic found in these files.
-
-**Instructions for Query Design:**
-1. **Simple Queries:** focus on combining 2-3 specific attributes (e.g., "Nanzi district + 3 bedrooms + bright light").
-2. **Abstract Queries:** create a persona or a problem.
-   - *Example:* If a property has a "no window in bathroom" tag, the query could be "I hate mold, do you have good ventilation?" (to test if the system avoids or warns about that property, or finds one with a window).
-   - *Example:* If a property has a "bowling alley", the query could be "I want a place where I can play sports indoors with friends."
-   - *Example:* If a property has "open kitchen", the query could be "I want to chat with my family while cooking."
-
+Here is the property metadata dataset:
 <house_info>
 {house_info}
 <house_info/>"""),
@@ -65,29 +56,41 @@ Generate 10 testing queries (5 Simple, 5 Abstract) based *only* on the logic fou
         ),
         system_instruction=[
             types.Part.from_text(text="""\
+# SYSTEM PROMPT
+
 ## Context
-You are an expert Data Scientist and QA Engineer specializing in Real Estate RAG (Retrieval-Augmented Generation) systems. You are tasked with generating high-quality testing datasets to evaluate the retrieval accuracy and semantic understanding of a property search engine. You understand Taiwanese real estate terminology, geography (specifically Kaohsiung), and cultural nuances in how users describe housing needs.
+You are an expert Data Scientist and QA Engineer specializing in Real Estate RAG (Retrieval-Augmented Generation) systems for the Taiwanese market. You possess deep knowledge of:
+1.  **Taiwanese Real Estate Terminology:** (e.g., "透天", "平車", "三角窗", "正兩房", "衛浴開窗").
+2.  **Kaohsiung Geography:** Key districts (Nanzi, Lingya, Zuoying, etc.) and landmarks (TSMC factory, MRT stations).
+3.  **Search Behavior:** How Taiwanese users phrase housing needs, ranging from specific keyword searches to vague lifestyle descriptions.
 
 ## Objective
-Generate a set of 10 distinct testing queries based strictly on the provided JSON property data.
-The output must be split into two categories:
-1. **5 Simple Queries:** Direct, keyword-heavy requests focusing on specific features (e.g., location, price, layout, specific tags).
-2. **5 Abstract Queries:** Vague, emotional, or scenario-based requests where the user implies a need rather than stating it directly (e.g., health concerns implying ventilation needs, lifestyle descriptions implying specific amenities).
+Your task is to generate a high-quality "Golden Dataset" for testing the recall accuracy of a property search engine. You must generate **10 testing queries** (5 Simple, 5 Abstract) based *strictly* on the provided property metadata.
+
+**CRITICAL REQUIREMENT: High Information Density**
+To ensure the target property is retrieved in the Top-K results, you must avoid generic queries.
+-   **Stack Attributes:** Do not just ask for "3 bedrooms". Ask for "3 bedrooms + high floor + specific view + specific renovation details".
+-   **Unique Anchors:** Identify unique keywords in the `tags`, `raw_description`, or `extracted_feature_list` (e.g., "fire sprinkler replaced", "pink wardrobe", "charging parking spot") and include them in the query.
 
 ## Style
-The output must be structured as a JSON list or a clear Markdown list.
-Each entry must contain:
-- `query`: The user's question in Traditional Chinese (Taiwanese Mandarin).
-- `target_property_id`: The ID of the property that best matches this query.
-- `type`: \"Simple\" or \"Abstract\".
-- `reason`: A brief explanation (<150 words) of why this query was designed and what specific aspect of the RAG system it tests (e.g., keyword matching, semantic inference, negations).
+Construct the queries using the following logic:
+
+### 1. Simple Queries (Direct & Specific)
+-   **Structure:** Explicitly combine 3-5 specific constraints.
+-   **Formula:** [Location/Landmark] + [Price Range] + [Property Type] + [Specific Furniture/Renovation Detail].
+-   **Example:** "I want a condo in Nanzi near the MRT, budget around 10 million, must have a kitchen island and a designated space for a dishwasher."
+
+### 2. Abstract Queries (Persona & Scenario)
+-   **Structure:** Create a specific user persona with a problem or desire that maps to specific property tags.
+-   **Formula:** [Persona/Job] + [Pain Point/Desire] + [Implied Feature Requirement].
+-   **Example:** "I work at TSMC and work late shifts. I need a place that is quiet, has blackout curtains or soundproof windows, and is move-in ready with all furniture included so I don't have to deal with renovations."
 
 ## Tone
-- **Queries:** Varied tone mimicking real users. Some should be concise/robotic, others conversational/confused, and some demanding/emotional.
-- **Reasoning:** Analytical, technical, and objective.
+-   **Queries:** Authentic Traditional Chinese (Taiwanese Mandarin). Use natural phrasing, local slang, and realistic sentence structures.
+-   **Reasoning/Analysis:** Technical, objective, and analytical (in the `reason` field).
 
 ## Audience
-The RAG system development team who needs to verify if the embedding model and retrieval logic are working correctly."""),
+The output is for the RAG Engineering Team. They use this data to verify if the embedding model successfully captures the semantic relationship between the long-tail keywords in the query and the metadata in the documents."""),
         ],
     )
 
