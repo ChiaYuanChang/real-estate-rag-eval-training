@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from google import genai
 from google.genai import types
 
-from config import GEMINI_AI_STUDIO_API_KEY
+from config import GEMINI_AI_STUDIO_API_KEY, GEMINI_LLM_MODEL
 
 
 def generate_testing_dataset(house_info: str) -> str:
@@ -13,7 +13,6 @@ def generate_testing_dataset(house_info: str) -> str:
         api_key=GEMINI_AI_STUDIO_API_KEY,
     )
 
-    model = "gemini-flash-latest"
     contents = [
         types.Content(
             role="user",
@@ -93,7 +92,7 @@ The RAG system development team who needs to verify if the embedding model and r
     )
 
     response = client.models.generate_content(
-        model=model,
+        model=GEMINI_LLM_MODEL,
         contents=contents,
         config=generate_content_config,
     )
@@ -142,8 +141,8 @@ def process_single_file(file_path: str):
 
 
 if __name__ == "__main__":
-    target_folder_path = "../data/twhg_with_latlng_and_places/"
-    save_response_folder_path = "../data/testing_dataset_twhg_with_latlng_and_places/"
+    target_folder_path = "../../data/twhg_with_latlng_and_places/"
+    save_response_folder_path = "../../data/testing_dataset_twhg_with_latlng_and_places/"
 
     field_mapping = [
         ("property_id", "property_id"),

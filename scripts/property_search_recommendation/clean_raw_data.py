@@ -3,8 +3,8 @@ import json
 import os
 import re
 
-INPUT_DIR = "../data/twhg_with_latlng_and_places/"
-OUTPUT_DIR = "../data/cleaned_twhg_with_latlng_and_places/"
+INPUT_DIR = "../../data/twhg_with_latlng_and_places/"
+OUTPUT_DIR = "../../data/cleaned_twhg_with_latlng_and_places/"
 
 
 def extract_features_and_description(description_text: str):
