@@ -1,0 +1,10 @@
+.venv
+.jbeval
+.vscode/
+.idea/
+__pycache__/
+.flake8
+.env
+*.docx
+*.ipynb
+.DS_Store
