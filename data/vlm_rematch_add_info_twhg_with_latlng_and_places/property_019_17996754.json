@@ -1,0 +1,291 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique structural elements and specific furniture/fixture configurations mentioned in the tags. Desc_2 and Desc_16 were immediately matched to Image_2 (staircase in living area) and Image_16 (ground floor entrance/staircase) respectively. Utility rooms (Desc_15/Image_15) and the kitchen (Desc_6/Image_6) were also high-confidence matches due to unique appliances (water tank/pump) and layout (I-shaped counter). The Master Suite (Desc_3, Desc_7, Desc_8) was matched to Images 3, 7, and 8, which clearly belong to the same highly decorated area, with Image_3 showing the ensuite access and Image_8 showing the storage. The three bathrooms (Desc_5, Desc_9, Desc_14) were differentiated by the presence of a window (Image_9) versus the two similar windowless layouts (Images 5 and 14), which were assigned by exclusion. The four bedrooms (Desc_10, 11, 12, 13) were grouped based on size and shape (narrow/long for 12/13, spacious/square for 10/11) and assigned based on specific features like proximity to the bathroom (Image_10) or being a secondary view (Image_13).",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903a.jpg?1760408926",
+      "evidence": "Standard living/dining area with basic furniture provided (已附基本家具) and white tile floor (地磚易清潔).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳/餐廳",
+        "tag_list": [
+          "採光普通",
+          "通風尚可",
+          "格局方正",
+          "天花高度舒適",
+          "已附基本家具",
+          "地磚易清潔",
+          "插座充足"
+        ],
+        "raw_description": "空間感佳(長向空間開闊適合家庭活動), 採光普通(窗戶位於側牆中段), 餐客分區(餐桌與沙發區前後排列), 電視牆預留(矮櫃可作電視櫃與收納), 天花間接照明(燈槽與嵌燈提升均勻亮度), 地面全瓷磚(耐磨好清理適合有小孩或寵物)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903e.jpg?1760408926",
+      "evidence": "Clearly shows the combined living/dining area with a prominent staircase (樓梯) and railing, matching the '客廳/餐廳+樓梯' room name.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳/餐廳+樓梯",
+        "tag_list": [
+          "開放式格局",
+          "採光普通",
+          "動線清楚",
+          "有樓梯欄杆",
+          "客餐分區明確",
+          "天花間接照明"
+        ],
+        "raw_description": "開放式格局(客餐廳與樓梯連通視覺穿透), 採光普通(僅一面窗戶靠中間牆), 動線清楚(從樓梯至客廳餐桌動線流暢), 有樓梯欄杆(提高上下樓安全), 客餐分區明確(電視矮櫃作為空間分界), 天花間接照明(嵌燈與燈槽照明均勻)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903f.jpg?1760408926",
+      "evidence": "Master bedroom view showing the modern headboard, spaciousness, and the visible doorway leading to the ensuite bathroom (主臥套房配置).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "空間寬敞",
+          "採光良好",
+          "通風良好",
+          "主臥套房配置",
+          "收納充足",
+          "裝潢新穎",
+          "地板易整理",
+          "隱藏式冷氣預留位"
+        ],
+        "raw_description": "空間寬敞(床邊留有大面積走道與活動範圍), 採光良好(大窗戶臨外側牆), 通風良好(單面大窗便於換氣), 主臥套房配置(可見衛浴入口在房內), 收納充足(整面衣櫃與床頭櫃), 裝潢新穎(床頭大理石質感背板與間接燈光), 地板易整理(拋光磚不易積塵), 隱藏式冷氣預留位(牆上可見出風與管線空間)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903g.jpg?1760408926",
+      "evidence": "Living/dining area featuring a dark partition/bar counter that achieves clear separation (餐客分區) and indirect ceiling lighting (天花間接照明).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳",
+        "tag_list": [
+          "空間感佳",
+          "採光普通",
+          "餐客分區",
+          "電視牆預留",
+          "天花間接照明",
+          "地面全瓷磚"
+        ],
+        "raw_description": "空間感佳(長向空間開闊適合家庭活動), 採光普通(窗戶位於側牆中段), 餐客分區(餐桌與沙發區前後排列), 電視牆預留(矮櫃可作電視櫃與收納), 天花間接照明(燈槽與嵌燈提升均勻亮度), 地面全瓷磚(耐磨好清理適合有小孩或寵物)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903d.jpg?1760408926",
+      "evidence": "Bathroom with wood-look floor tiles (木紋地磚) and no clear glass separation for the shower, indicating '乾溼分離不足'.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "衛浴1",
+        "tag_list": [
+          "乾溼分離不足",
+          "採光通風尚可",
+          "設備新穎",
+          "收納基本",
+          "木紋地磚",
+          "空間中等"
+        ],
+        "raw_description": "乾溼分離不足(淋浴區無玻璃門僅地面區分), 採光通風尚可(牆面有小窗戶), 設備新穎(馬桶與面盆櫃為新式款), 收納基本(浴櫃與層板可放日用品), 木紋地磚(增加止滑感與保暖感), 空間中等(轉身較為充裕不壓迫)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903h.jpg?1760408926",
+      "evidence": "A narrow kitchen featuring a standard I-shaped counter and upper/lower cabinets (標準一字型廚房, 空間偏窄).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "標準一字型廚房",
+          "有排油煙設備",
+          "檯面狹長",
+          "上下櫃收納足夠",
+          "採光不足",
+          "空間偏窄"
+        ],
+        "raw_description": "標準一字型廚房(流理台與爐具集中一側牆面), 有排油煙設備(看見抽油煙機), 檯面狹長(適合簡易烹飪), 上下櫃收納足夠(鍋碗餐具皆可收納), 採光不足(看不到對外窗主要靠室內燈光), 空間偏窄(僅容一至兩人同時操作)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903k.jpg?1760408926",
+      "evidence": "Shows the entrance/hallway transition area leading into the master bedroom suite, characterized by the white polished tile floor (地面拋光磚).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥入口區/更衣動線",
+        "tag_list": [
+          "動線分明",
+          "隱私佳",
+          "採光良好",
+          "空間可彈性利用",
+          "地面拋光磚"
+        ],
+        "raw_description": "動線分明(入口走廊通往睡眠區與樓梯), 隱私佳(主臥與外部以走道區隔), 採光良好(主臥大窗帶進自然光), 空間可彈性利用(走廊區可規劃書桌或收納櫃), 地面拋光磚(維護簡單)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903l.jpg?1760408926",
+      "evidence": "The second view of the master bedroom, highlighting the large built-in wardrobe/storage unit (收納充足).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥另一視角",
+        "tag_list": [
+          "空間寬敞",
+          "採光良好",
+          "收納充足",
+          "裝潢完成度高",
+          "適合主臥規劃"
+        ],
+        "raw_description": "空間寬敞(床與牆面距離大可增設書桌沙發), 採光良好(窗戶面積大照亮整室), 收納充足(大型衣櫃與床頭櫃), 裝潢完成度高(床頭牆造型與燈帶), 適合主臥規劃(可同時容納睡眠與小型休憩區)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903m.jpg?1760408926",
+      "evidence": "Bathroom featuring a visible window, confirming '衛浴2(含窗)' and '採光通風佳'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "衛浴2(含窗)",
+        "tag_list": [
+          "乾溼分區",
+          "採光通風佳",
+          "設備齊全",
+          "新式裝潢",
+          "空間舒適",
+          "易清潔材質"
+        ],
+        "raw_description": "乾溼分區(淋浴區以木紋磚及排水槽區隔), 採光通風佳(高處對外窗), 設備齊全(馬桶洗手台鏡櫃毛巾架), 新式裝潢(大版面白色磁磚明亮感佳), 空間舒適(淋浴與如廁區互不擁擠), 易清潔材質(牆地磁磚耐污)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903p.jpg?1760408926",
+      "evidence": "Spacious bedroom (空間寬敞) with wood floor and a visible doorway leading directly to a bathroom (與衛浴距離近).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室A",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "空間寬敞",
+          "木地板溫暖",
+          "與衛浴距離近",
+          "裝潢簡單好規劃"
+        ],
+        "raw_description": "採光良好(雙窗戶引入日光), 通風佳(兩窗可形成對流), 空間寬敞(床外留有大面積活動空間), 木地板溫暖(適合有小孩或長輩), 與衛浴距離近(房內可見衛浴門方便使用), 裝潢簡單好規劃(牆面留白方便佈置)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903q.jpg?1760408926",
+      "evidence": "Spacious, square bedroom (空間方正) with wood floor and an attached double bed (已附雙人床).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室B",
+        "tag_list": [
+          "採光良好",
+          "木地板",
+          "空間方正",
+          "已附雙人床",
+          "與衛浴近"
+        ],
+        "raw_description": "採光良好(側牆窗戶光線充足), 木地板(腳感舒適保暖), 空間方正(容易擺放大型衣櫃與書桌), 已附雙人床(可直接入住), 與衛浴近(門外即為浴室使用方便)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903r.jpg?1760408926",
+      "evidence": "Bedroom C view showing the medium-sized, slightly long layout (空間中等偏長) with a single bed (已附床組).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室C",
+        "tag_list": [
+          "採光普通",
+          "空間中等偏長",
+          "木地板",
+          "已附床組",
+          "動線單純",
+          "私密性佳"
+        ],
+        "raw_description": "採光普通(單面中小窗), 空間中等偏長(適合作為次臥或書房), 木地板(降低噪音腳感佳), 已附床組(減少初期家具支出), 動線單純(床旁留有走道進出順暢), 私密性佳(門窗位置遠離主要活動區)"
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903s.jpg?1760408926",
+      "evidence": "The complementary view of Bedroom C (Image 12), emphasizing the narrow and long structure (格局狹長但方正).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室C另一視角",
+        "tag_list": [
+          "格局狹長但方正",
+          "採光普通",
+          "可增設收納",
+          "木地板易搭配家具",
+          "牆面無梁柱干擾"
+        ],
+        "raw_description": "格局狹長但方正(適合一人居住或書房), 採光普通(窗戶尺寸中等), 可增設收納(靠牆面有足夠空間放衣櫃), 木地板易搭配家具(淺色系好配色), 牆面無梁柱干擾(擺放家具自由度高)"
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903t.jpg?1760408926",
+      "evidence": "Bathroom with marble-patterned wall tiles (牆面大理石紋磁磚) and lack of dry/wet separation, assigned by exclusion from Image 9 and 5.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "衛浴3",
+        "tag_list": [
+          "採光通風佳",
+          "乾溼分離不足",
+          "設備新穎",
+          "收納基本",
+          "牆面大理石紋磁磚",
+          "空間中等"
+        ],
+        "raw_description": "採光通風佳(高窗戶可開啟), 乾溼分離不足(僅地面區分淋浴區), 設備新穎(馬桶與洗手台為新式款), 收納基本(洗手台下方櫃體), 牆面大理石紋磁磚(防水易清潔), 空間中等(使用時不壓迫)"
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903u.jpg?1760408926",
+      "evidence": "Utility room explicitly containing a large water tank (水塔) and pump (加壓馬達).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "設備間/儲藏室",
+        "tag_list": [
+          "有對外窗",
+          "設有水塔與加壓馬達",
+          "木紋地板",
+          "可兼作儲藏室",
+          "需注意噪音"
+        ],
+        "raw_description": "有對外窗(可自然通風減少潮濕), 設有水塔與加壓馬達(供水穩定度佳), 木紋地板(增加防滑感), 可兼作儲藏室(水塔旁仍有空間放雜物), 需注意噪音(設備運轉時可能有聲響)"
+      }
+    },
+    {
+      "description_id": "Desc_16",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186903v.jpg?1760408926",
+      "evidence": "Ground floor space with a roll-up door facing the street (直接面臨街道) and a staircase leading upstairs, suitable for a garage or storefront.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "一樓前廳/車庫空間",
+        "tag_list": [
+          "採光良好",
+          "空間方正可當車庫或店面",
+          "直接面臨街道",
+          "有樓梯直達樓上",
+          "磁磚地面耐磨好清洗",
+          "有儲物小房或電箱間"
+        ],
+        "raw_description": "採光良好(捲門大開口自然光強), 空間方正可當車庫或店面(深度與寬度足夠停車或營業), 直接面臨街道(出入與裝卸方便但可能有噪音), 有樓梯直達樓上(住商動線分明), 磁磚地面耐磨好清洗(適合停車或商用), 有儲物小房或電箱間(樓梯旁小空間可利用)"
+      }
+    }
+  ]
+}

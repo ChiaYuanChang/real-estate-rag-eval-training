@@ -1,0 +1,194 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique structural elements and flooring types. Descriptions were categorized first by room type (Bathroom, Hallway, Living Area, Bedroom) and then by specific features (flooring material, presence of stairs/platforms, windows, and utility elements like electrical boxes or exposed wiring).\n1. Flooring was the primary differentiator: Image_7 (and redundant Image_1) matched the tiled living area (Desc_1). Image_8 uniquely matched the 'old stone/terrazzo' entrance (Desc_7). Images 2, 3, 4, 9, 10, 11 were wood-floored rooms.\n2. Specialized areas were matched immediately: Image_2 (Hallway/Stairs, Desc_2), Image_4 (Elevated Platform/Electrical Box, Desc_4), and Images 5 & 6 (Bathrooms, Desc_5 & Desc_6).\n3. The remaining four wood-floored rooms (Images 3, 9, 10, 11) were matched to the four remaining bedroom descriptions (Desc_3, 8, 9, 10) based on layout and specific tags: Image_3 had the largest window (better ventilation/light, Desc_3); Image_9 was the most distinctly long and rectangular (Desc_9); Image_11 showed a lower ceiling structure (Desc_8); and Image_10 was assigned the remaining multi-purpose description (Desc_10).\n4. Image_1 was identified as redundant, as it is a near-identical view of the tiled living area already covered by Image_7 (Desc_1).",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456o.jpg?1760412797",
+      "evidence": "Matches the '客廳/餐廳區' (Living/Dining) and '磁磚地坪' (Tiled floor) tags. Shows the main ground floor area with access to the stairs/lower level.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳區",
+        "tag_list": [
+          "採光普通",
+          "通風尚可",
+          "規則格局",
+          "磁磚地坪",
+          "層高一般",
+          "已簡易整修",
+          "獨立出入口區"
+        ],
+        "raw_description": "採光普通(僅後方小窗戶與玻璃門光源有限), 通風尚可(玻璃門與窗可對流但開口不大), 規則格局(長方形空間好規劃家具), 磁磚地坪(耐磨好清潔適合家庭與寵物), 層高一般(梁位稍低但不壓迫), 已簡易整修(牆面與地面整體乾淨), 獨立出入口區(前方門口區可作鞋櫃落塵區)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456d.jpg?1760412797",
+      "evidence": "Clearly a '走道/多功能區(樓上)' (Upstairs Hallway) with '木紋地板' (Wood floor) and visible '階梯口' (Stairwell railing).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "走道/多功能區(樓上)",
+        "tag_list": [
+          "走道寬度尚可",
+          "採光不足",
+          "通風普通",
+          "木紋地板",
+          "階梯口需安全防護",
+          "規劃彈性高(長形空間可作書房",
+          "更衣或儲物區)"
+        ],
+        "raw_description": "走道寬度尚可(可兼作書桌或收納區), 採光不足(僅端部窗戶與室內窗光線偏弱), 通風普通(端部窗與室內窗可部分流通), 木紋地板(腳感較佳適合臥室或書房), 階梯口需安全防護(樓梯開口需加裝欄杆對兒童安全較佳), 規劃彈性高(長形空間可作書房、更衣或儲物區)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456h.jpg?1760412797",
+      "evidence": "A '規則大臥室' (Regular large bedroom) with '木紋地板' and '採光尚可' (Adequate lighting) due to the large bank of windows.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "採光尚可",
+          "通風較佳",
+          "規則大臥室",
+          "木紋地板",
+          "層高一般",
+          "須自行規劃收納",
+          "私密性佳"
+        ],
+        "raw_description": "採光尚可(一排橫向窗戶提供自然光), 通風較佳(多扇窗戶利於空氣流通), 規則大臥室(近方形空間好擺雙人床與衣櫃), 木紋地板(適合臥室使用舒適度高), 層高一般(天花平整無明顯壓迫感), 須自行規劃收納(僅小矮櫃內建收納不足), 私密性佳(單一出入口易作獨立房間)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456j.jpg?1760412797",
+      "evidence": "Uniquely features the '升高平台區' (Elevated platform) and the '電箱集中' (Electrical box) on the wall.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "升高平台區/更衣或儲物區",
+        "tag_list": [
+          "區域分明",
+          "採光不足",
+          "木地板鋪設",
+          "適合收納或工作區",
+          "電箱集中",
+          "通風可能較弱"
+        ],
+        "raw_description": "區域分明(前後不同地坪高度可分睡眠與收納區), 採光不足(無窗或窗不明顯偏暗), 木地板鋪設(整體連貫適合作臥室延伸), 適合收納或工作區(升高平台適合放衣櫃或書桌), 電箱集中(牆面配電箱維修方便但需注意遮蔽美觀), 通風可能較弱(看不到對外窗需依賴室內對流)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456k.jpg?1760412797",
+      "evidence": "One of the two bathrooms. Chosen for '整體較新穎' (Relatively newer) appearance, tiled walls/floor, and lack of external window ('無對外窗').",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "乾濕不分離",
+          "無對外窗",
+          "採光偏弱",
+          "磁磚全包",
+          "空間中等",
+          "基本衛浴設備齊全",
+          "整體較新穎"
+        ],
+        "raw_description": "乾濕不分離(淋浴與馬桶同一平面易噴濕), 無對外窗(可能需抽風機通風排濕), 採光偏弱(完全仰賴人工照明), 磁磚全包(牆地磁磚好清潔防潮), 空間中等(如廁及淋浴轉身尚可), 基本衛浴設備齊全(馬桶與面盆鏡子皆有), 整體較新穎(磁磚與設備看起來無明顯老舊)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456n.jpg?1760412797",
+      "evidence": "The remaining bathroom. Fits the '乾濕不分離' and '空間略為狹長' (Slightly narrow/elongated space) description.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "乾濕不分離",
+          "通風條件不明",
+          "採光依賴燈具",
+          "磁磚地面防滑",
+          "空間略為狹長",
+          "基本設備齊全",
+          "整體維護尚可"
+        ],
+        "raw_description": "乾濕不分離(地面單一排水淋浴水易四濺), 通風條件不明(未見窗戶可能仰賴機械排風), 採光依賴燈具(無自然光較昏暗), 磁磚地面防滑(小尺寸磁磚增加摩擦力), 空間略為狹長(衛浴器具靠牆排列活動範圍較窄), 基本設備齊全(馬桶洗手台鏡櫃皆備), 整體維護尚可(牆地面無明顯滲水剝落)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456r.jpg?1760412797",
+      "evidence": "Matches the '玄關/下層過道' (Entrance/Lower passage) and the unique '老式石子地面' (Old stone/terrazzo floor) in a narrow, low-light corner.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "玄關/下層過道",
+        "tag_list": [
+          "採光不足",
+          "通風較差",
+          "空間偏窄",
+          "老式石子地面",
+          "適合作鞋櫃或儲物角落",
+          "結構完整"
+        ],
+        "raw_description": "採光不足(未見窗戶且燈光偏少), 通風較差(封閉空間可能較悶), 空間偏窄(走道型僅供通行不宜擺放家具), 老式石子地面(耐磨但視覺較舊), 適合作鞋櫃或儲物角落(可利用牆面做收納), 結構完整(牆面無明顯裂縫滲水)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456u.jpg?1760412797",
+      "evidence": "A '空間寬敞' (Spacious) room with '木紋地板'. The visible ceiling beam/bulkhead suggests '層高略低' (Slightly low ceiling).",
+      "confidence_score": 0.94,
+      "extracted_feature": {
+        "room": "大房間/客廳或臥室二",
+        "tag_list": [
+          "空間寬敞",
+          "採光有限",
+          "通風普通",
+          "木紋地板",
+          "格局方正",
+          "層高略低",
+          "牆面簡潔"
+        ],
+        "raw_description": "空間寬敞(長型房間可規劃客廳兼工作區), 採光有限(僅一端小窗戶自然光不足), 通風普通(單側窗戶對流效果有限), 木紋地板(適合多功能使用腳感較佳), 格局方正(牆面筆直好擺家具與收納櫃), 層高略低(有橫梁但不至於過度壓迫), 牆面簡潔(白牆方便重新油漆或裝飾)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456s.jpg?1760412797",
+      "evidence": "Best fit for '規則長方形' (Regular rectangular shape) and '空間感佳'. The lack of a visible window in the main view suggests '採光不足' (Insufficient lighting).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "大房間/臥室三",
+        "tag_list": [
+          "規則長方形",
+          "採光不足",
+          "通風有限",
+          "木紋地板",
+          "空間感佳",
+          "無內建收納",
+          "噪音狀況不明"
+        ],
+        "raw_description": "規則長方形(易規劃床位與書桌衣櫃動線清楚), 採光不足(僅小窗戶自然光不強), 通風有限(單一小窗空氣流通較弱), 木紋地板(適合臥室或工作室使用), 空間感佳(寬度足夠擺放雙人床與收納), 無內建收納(需自行添購衣櫃或系統櫃), 噪音狀況不明(未見臨路窗但需現場確認)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS168456t.jpg?1760412797",
+      "evidence": "The remaining wood-floored room. Fits the '空間寬闊' and '高彈性用途' (High flexibility) tags. Subtle wiring along the baseboard supports the '配電與管線外露部分' (Exposed wiring) tag.",
+      "confidence_score": 0.93,
+      "extracted_feature": {
+        "room": "臥室四/多功能室",
+        "tag_list": [
+          "空間寬闊",
+          "採光不足",
+          "通風較弱",
+          "木紋地板",
+          "層高一般",
+          "配電與管線外露部分",
+          "高彈性用途(可作影音室",
+          "倉庫或多人房)"
+        ],
+        "raw_description": "空間寬闊(近方形房間可做大臥室或工作室), 採光不足(看不到對外窗多仰賴燈光), 通風較弱(缺乏明顯開窗可能偏悶), 木紋地板(適合作臥室或兒童遊戲間), 層高一般(梁體外露但不明顯壓迫), 配電與管線外露部分(牆角設備需整理以利家具配置), 高彈性用途(可作影音室、倉庫或多人房)"
+      }
+    }
+  ]
+}

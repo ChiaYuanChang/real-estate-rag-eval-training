@@ -1,0 +1,214 @@
+{
+  "reasoning_log": "The matching process involved categorizing images based on room type (living, kitchen, bath, bedroom, public areas) and then using specific tags (e.g., 'I-shaped kitchen', 'wet/dry separation', 'mailbox area', 'washing machine') for precise 1:1 alignment. Images I4, I5, I9, I10, I11, and I12 were unique and matched descriptions D4, D5, D9, D10, D11, and D12 with high certainty. The main challenge was differentiating the three living room views (I1, I2, I3) and the two master bedroom views (I6, I7). I2 was clearly the 'entrance area' (D2) due to the visible door and AC placement. I3 emphasized the large window/balcony view (D3). I1 provided the most comprehensive view of the main living space, including the integrated kitchen, fitting the general 'Living room' description (D1). I6 and I7 depict the same master bedroom; they were assigned sequentially to D6 and D7 based on the slight difference in perspective, both confirming the 'tight space' and 'large storage' tags.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076a.jpg?1760408553",
+      "evidence": "General view of the living room showing furniture, track lighting, and integrated kitchen area, fitting the 'furnished' and 'new decor' tags.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "規劃方正",
+          "天花高度舒適",
+          "家具齊全",
+          "收納中等",
+          "裝潢新穎"
+        ],
+        "raw_description": "採光佳(大片落地窗與陽台門), 通風良好(客廳直接連接陽台窗戶可對流), 規劃方正(客廳家具沿牆擺放動線順暢), 天花高度舒適(無壓迫感平頂加軌道燈), 家具齊全(沙發茶几電視櫃等基本家具到位), 收納中等(電視櫃與邊櫃提供抽屜空間), 裝潢新穎(淺色系地磚與櫃體看起來新穎好維護)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076e.jpg?1760408553",
+      "evidence": "View focused on the entrance area, showing the door, a mirror, and the AC unit above, confirming '客廳入口區' and '冷氣既裝'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳入口區",
+        "tag_list": [
+          "採光普通",
+          "分區明確",
+          "冷氣既裝",
+          "動線順暢",
+          "牆面留白"
+        ],
+        "raw_description": "採光普通(主要靠側邊空間與前方開口補光), 分區明確(客廳與玄關出入口區分清楚), 冷氣既裝(壁掛式冷氣已安裝節省成本), 動線順暢(玄關進入客廳無多餘轉折), 牆面留白(預留電視牆與收納未滿方便再規劃)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076f.jpg?1760408553",
+      "evidence": "The angle emphasizes the large sliding door/window, providing '大面採光' and linking the space to the exterior view.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳含陽台景",
+        "tag_list": [
+          "大面採光",
+          "通風佳",
+          "規劃方正",
+          "空間感寬敞",
+          "休閒陽台連結"
+        ],
+        "raw_description": "大面採光(整面陽台門使室內明亮), 通風佳(陽台推門可進行對外通風), 規劃方正(客廳呈長方形好擺家具), 空間感寬敞(淺色大尺寸地磚拉大視覺), 休閒陽台連結(客廳直通陽台增加休閒與晾曬機能)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076g.jpg?1760408553",
+      "evidence": "Clear image of an I-shaped kitchen counter with built-in microwave, stove, sink, and ample upper/lower cabinets, matching '一字型廚房' and '電器櫃規劃'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "一字型廚房",
+        "tag_list": [
+          "機能完整",
+          "收納充足",
+          "抽油煙設備",
+          "電器櫃規劃",
+          "操作動線順暢",
+          "易於清潔"
+        ],
+        "raw_description": "機能完整(瓦斯爐水槽冰箱微波爐皆備齊), 收納充足(上下廚櫃提供多層空間), 抽油煙設備(瓦斯爐上方有排油煙機利於通風), 電器櫃規劃(內建烤箱或微波爐位節省檯面), 操作動線順暢(一字型檯面料理動線簡潔), 易於清潔(光滑檯面與門板好擦拭)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076d.jpg?1760408553",
+      "evidence": "Bathroom featuring a glass partition for '乾濕分離' and '止滑木紋磚' (wood-grain floor tiles).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "乾濕分離",
+          "回收通風疑慮",
+          "衛浴設備新穎",
+          "收納檯面",
+          "採光偏弱",
+          "止滑木紋磚"
+        ],
+        "raw_description": "乾濕分離(玻璃拉門分隔淋浴區降低潮濕), 回收通風疑慮(未見窗戶可能需依賴排風設備), 衛浴設備新穎(馬桶檯面與淋浴五金狀況良好), 收納檯面(洗手台下方櫃體可收納清潔用品), 採光偏弱(人工照明為主無自然光), 止滑木紋磚(地面材質看似防滑較安全)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076h.jpg?1760408553",
+      "evidence": "Master bedroom view showing a large bed and a full-height, multi-door wardrobe, confirming '收納量大' and '空間較緊湊'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥房",
+        "tag_list": [
+          "附傢俱",
+          "收納量大",
+          "採光一般",
+          "空間較緊湊",
+          "已裝冷氣",
+          "牆面潔淨"
+        ],
+        "raw_description": "附傢俱(床架床墊與大衣櫃已配置), 收納量大(整排衣櫃與床下抽屜可放衣物寢具), 採光一般(未見窗戶或位於畫面外可能較暗), 空間較緊湊(床與衣櫃距離較近活動空間有限), 已裝冷氣(臥室獨立冷氣提升睡眠舒適度), 牆面潔淨(淺色牆面利於後續布置)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076j.jpg?1760408553",
+      "evidence": "Another angle of the master bedroom (same room as I6), highlighting the length of the room and the '集中收納' (wardrobe).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥房另一角度",
+        "tag_list": [
+          "空間細長",
+          "天花高度尚可",
+          "照明充足",
+          "收納集中",
+          "適合單人或小家庭主臥"
+        ],
+        "raw_description": "空間細長(房型偏長型擺放大型家具後走道較窄), 天花高度尚可(平頂搭配嵌燈不壓迫), 照明充足(多顆嵌燈提供均勻光線), 收納集中(衣櫃集中一側方便整理), 適合單人或小家庭主臥(床尺寸大但仍可使用)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076l.jpg?1760408553",
+      "evidence": "Room dominated by a large, modular shelving/storage unit, fitting the '多功能房' and '收納櫃完整' description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "多功能房/次臥",
+        "tag_list": [
+          "彈性空間",
+          "收納櫃完整",
+          "採光普通",
+          "方正格局",
+          "地面好清理"
+        ],
+        "raw_description": "彈性空間(可做書房兒童房或儲物間), 收納櫃完整(整面展示+下方櫃體提供大量收納), 採光普通(未見窗戶可能依靠頂燈), 方正格局(空間矩形易規劃家具), 地面好清理(拋光磚適合寵物與日常清潔)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076m.jpg?1760408553",
+      "evidence": "Outdoor balcony view showing a washing machine installed and strong sunlight through the '安全格柵', confirming '陽台洗衣區'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "陽台洗衣區",
+        "tag_list": [
+          "室外陽台",
+          "採光極佳",
+          "通風強",
+          "已設洗衣機",
+          "安全格柵",
+          "晾衣空間足夠"
+        ],
+        "raw_description": "室外陽台(與客廳相連可曬衣透氣), 採光極佳(整面格柵採光充足), 通風強(開放式鐵件欄杆利於空氣流通), 已設洗衣機(提供洗衣設備省預算), 安全格柵(金屬欄杆增加防護對有小孩寵物較安心), 晾衣空間足夠(縱深空間可加裝曬衣桿)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076s.jpg?1760408553",
+      "evidence": "Large room containing various exercise machines (treadmills, weights), matching '公設健身房' and '空間寬敞'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "公設健身房",
+        "tag_list": [
+          "社區健身設施",
+          "採光好",
+          "空間寬敞",
+          "基本器材齊全",
+          "公共區域維持良好"
+        ],
+        "raw_description": "社區健身設施(住戶可免費使用提升生活機能), 採光好(大片落地窗帶來自然光), 空間寬敞(器材間距大運動較安全), 基本器材齊全(跑步機飛輪啞鈴可滿足日常訓練), 公共區域維持良好(地面與牆面整潔反映管理品質)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076t.jpg?1760408553",
+      "evidence": "Image of a long bank of numbered mailboxes in a modern, well-lit lobby area, matching '大樓信箱區'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "大樓信箱區",
+        "tag_list": [
+          "管理完善",
+          "入口大廳明亮",
+          "出入動線清楚",
+          "公設新穎"
+        ],
+        "raw_description": "管理完善(大量信箱顯示社區規模與管理制度), 入口大廳明亮(天花燈光與淺色牆面提升質感), 出入動線清楚(信箱集中於出入口旁方便收信), 公設新穎(裝潢現代感反映大樓較新)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187076u.jpg?1760408553",
+      "evidence": "Indoor parking garage with clear white markings and a car parked in a designated spot, confirming '地下停車位' and '車位標線清楚'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "地下停車位",
+        "tag_list": [
+          "室內平面車位",
+          "車位標線清楚",
+          "高度足夠",
+          "照明充足",
+          "地面平整防滑"
+        ],
+        "raw_description": "室內平面車位(遮風避雨使用便利), 車位標線清楚(獨立格位好停車), 高度足夠(天花管線外露但仍保有安全高度), 照明充足(燈光明亮行走較安全), 地面平整防滑(環氧地坪好清潔且利於排水)"
+      }
+    }
+  ]
+}

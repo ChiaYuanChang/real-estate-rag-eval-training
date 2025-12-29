@@ -1,0 +1,114 @@
+{
+  "reasoning_log": "The matching process involved identifying key functional areas (living room, kitchen, bathrooms, parking) and then differentiating between similar categories based on specific features mentioned in the tags. Desc_1 (Living/Dining) was matched to Image_1, the only large, empty residential space. Desc_2 (Kitchen) was uniquely matched to Image_2, which shows the stove and sink. The two bathroom descriptions (Desc_3 and Desc_4) were distinguished by the presence of a bathtub: Desc_4 explicitly requires a '浴缸配置' (bathtub configuration), which is clearly visible in Image_4, while Desc_3 (Guest Bathroom) matches the tub-less configuration in Image_3. Finally, the two parking descriptions were separated by the presence of a charging facility: Desc_5 requires a '充電設施' (charging facility), which is visible on the column in Image_5, leaving Desc_6 (General Parking Lot) for the wide view in Image_6. All matches were highly confident and unambiguous.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182175e.jpg?1760408814",
+      "evidence": "Spacious, well-lit room with large window and shiny tiled floor, matching the '客廳/餐廳區' description and tags like '採光佳' and '空間寬敞'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳/餐廳區",
+        "tag_list": [
+          "採光佳",
+          "通風可",
+          "格局方正",
+          "層高舒適",
+          "地坪好整理",
+          "插座足夠",
+          "空間寬敞"
+        ],
+        "raw_description": "採光佳(大面窗戶進光足), 通風可(窗戶可開啟), 格局方正(長方形空間好規劃), 層高舒適(天花板高度正常無壓迫感), 地坪好整理(拋光磚好清潔但稍滑), 插座足夠(牆面多個插座方便家電配置), 空間寬敞(可同時規劃客廳與餐廳)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182175d.jpg?1760408814",
+      "evidence": "Clearly shows a kitchen with a gas stove, sink, cabinets, and a ventilation window/door, fulfilling the '獨立廚房' and '完整瓦斯爐具' requirements.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房",
+          "完整瓦斯爐具",
+          "抽油煙機",
+          "採光通風門",
+          "檯面收納充足",
+          "動線集中",
+          "空間略窄"
+        ],
+        "raw_description": "獨立廚房(與客餐廳分開油煙不易外散), 完整瓦斯爐具(雙口瓦斯爐適合常開伙), 抽油煙機(減少油煙殘留), 採光通風門(玻璃鋁門可通向戶外或工作陽台), 檯面收納充足(上下櫥櫃提供足夠收納空間), 動線集中(L型檯面料理動線順手), 空間略窄(兩人同時作業較擁擠)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182175k.jpg?1760408814",
+      "evidence": "A bathroom featuring '乾溼分離' (wet/dry separation) via a glass enclosure, but lacking a bathtub, consistent with a standard '客用浴室'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客用浴室",
+        "tag_list": [
+          "乾溼分離",
+          "採光通風佳",
+          "衛浴新穎",
+          "收納鏡櫃",
+          "地面止滑磚",
+          "空間中等"
+        ],
+        "raw_description": "乾溼分離(玻璃拉門淋浴間), 採光通風佳(淋浴間有對外窗), 衛浴新穎(設備與磁磚看起來較新), 收納鏡櫃(鏡面收納增加置物空間), 地面止滑磚(浴室地磚相對安全), 空間中等(活動轉身尚可但非特別寬敞)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182175o.jpg?1760408814",
+      "evidence": "A bathroom with '乾溼分離' and a visible '浴缸配置' (bathtub configuration) behind the glass, matching the '主浴室' description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主浴室",
+        "tag_list": [
+          "乾溼分離",
+          "採光通風佳",
+          "主臥套房配置",
+          "浴缸配置",
+          "收納完善",
+          "衛浴建材新穎",
+          "地面略多高低差"
+        ],
+        "raw_description": "乾溼分離(淋浴間玻璃拉門區隔), 採光通風佳(對外窗減少潮濕霉味), 主臥套房配置(含浴缸與馬桶機能完整), 浴缸配置(適合泡澡家庭使用), 收納完善(長鏡櫃與洗手台櫃體可放日用品), 衛浴建材新穎(牆面與設備現代感佳), 地面略多高低差(淋浴區與外側需注意防滑)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182175t.jpg?1760408814",
+      "evidence": "Shows a dedicated parking spot with a charging unit mounted on the adjacent column, matching the '室內停車位(含充電車位)' requirement.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "室內停車位(含充電車位)",
+        "tag_list": [
+          "地下平面車位",
+          "通道寬敞",
+          "充電設施",
+          "設備新穩定",
+          "照明充分"
+        ],
+        "raw_description": "地下平面車位(進出方便不用爬坡), 通道寬敞(迴轉與會車空間大), 充電設施(設有電動車充電樁), 設備新穩定(標線與地坪狀況良好), 照明充分(燈光明亮提升安全性)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182175u.jpg?1760408814",
+      "evidence": "A wide view of the underground parking structure showing multiple spaces, clear lanes, and lighting, matching the general '室內停車場' description.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "室內停車場",
+        "tag_list": [
+          "多車位空間大",
+          "動線清楚",
+          "柱位規律",
+          "通風設備",
+          "照明良好"
+        ],
+        "raw_description": "多車位空間大(車位數量多適合多車家庭), 動線清楚(標線與指示明確好停車), 柱位規律(車位與柱子配置整齊降低刮傷風險), 通風設備(天花管線顯示機械排風), 照明良好(燈具密集夜間也夠亮)"
+      }
+    }
+  ]
+}

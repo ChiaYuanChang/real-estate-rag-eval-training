@@ -1,0 +1,185 @@
+{
+  "reasoning_log": "The dataset provided 10 descriptions and 10 images, resulting in a perfect 1:1 mapping with no redundant images. The matching was primarily based on identifying unique architectural features and room types: Images 1-4 depict the various angles of the high-ceiling living room and mezzanine structure (Desc_1, Desc_2, Desc_3, Desc_4). Images 5 and 9 were distinguished by the presence (Desc_5/Image_5) or absence (Desc_9/Image_9) of the toilet in the frame. Images 6 and 7 were confirmed as the upper-level dining/kitchen (Desc_6) and the ground-level main kitchen adjacent to the stairs (Desc_7), respectively, identifiable by the dark green cabinets and layout. Image 8 was uniquely identified by the extensive wooden built-in storage (Desc_8), and Image 10 was clearly the indoor parking garage (Desc_10) due to the rolling doors and floor stains.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240g.jpg?1760408038",
+      "evidence": "Shows the high ceiling (挑高空間), internal stairs, and the built-in dark TV cabinet (內建電視矮櫃) against the wood-paneled wall.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳(一樓)",
+        "tag_list": [
+          "挑高空間",
+          "規則格局",
+          "採光中等",
+          "基本裝潢",
+          "壁面預留插座",
+          "內梯動線明確",
+          "內建電視矮櫃",
+          "牆面淺色"
+        ],
+        "raw_description": "挑高空間(樓中樓設計提升空間感), 規則格局(長方形客廳好規劃家具), 採光中等(前後端有開口但中段略暗), 基本裝潢(地板與天花板完成可直接入住), 壁面預留插座(多組電源方便家電佈局), 內梯動線明確(樓梯集中一側利分層使用), 內建電視矮櫃(提供收納與擺放電視位置), 牆面淺色(增加明亮感與放大效果)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240d.jpg?1760408038",
+      "evidence": "A wide-angle view of the open space, showing the speckled quartz tile floor (地坪耐磨石英磚) and the general layout from a different perspective than Image 1.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳(一樓另一視角)",
+        "tag_list": [
+          "空間開闊",
+          "採光偏後側",
+          "天花燈具完成",
+          "牆面預留弱電插孔",
+          "地坪耐磨石英磚",
+          "無固定隔間"
+        ],
+        "raw_description": "空間開闊(大面積空地適合家庭活動), 採光偏後側(主要光源來自後方門窗), 天花燈具完成(主燈與崁燈照明均勻), 牆面預留弱電插孔(方便電視與網路配置), 地坪耐磨石英磚(適合有小孩或寵物家庭), 無固定隔間(可自由規劃餐廳或辦公區)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240h.jpg?1760408038",
+      "evidence": "An upward-looking shot (仰角) clearly showing the mezzanine railing (樓中樓欄杆) and the ceiling structure above, consistent with ultra-high floor description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳挑高區(仰角)",
+        "tag_list": [
+          "超挑高樓層",
+          "樓中樓欄杆",
+          "空間通透",
+          "上層天窗採光",
+          "燈光多點配置",
+          "未見冷氣設備"
+        ],
+        "raw_description": "超挑高樓層(視覺放大空間感強), 樓中樓欄杆(可作書房或多功能區), 空間通透(前後相連增加視線延伸), 上層天窗採光(頂部透光板引入自然光), 燈光多點配置(筒燈與主燈補足夜間照明), 未見冷氣設備(後續需自行安裝空調)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240j.jpg?1760408038",
+      "evidence": "Wide view capturing the high ceiling, mezzanine, open stairs, and the white walls/ceiling with visible ceiling spotlights (頂部崁燈).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳與夾層(另一角度)",
+        "tag_list": [
+          "挑高加夾層",
+          "開放樓梯與欄杆",
+          "白色牆面與天花",
+          "採光由前後引入",
+          "頂部崁燈"
+        ],
+        "raw_description": "挑高加夾層(增加實際使用坪數), 開放樓梯與欄杆(樓層互動感佳但需注意兒童安全), 白色牆面與天花(易搭配各類家具風格), 採光由前後引入(光線穿透整個客廳), 頂部崁燈(提供均勻室內照度)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240k.jpg?1760408038",
+      "evidence": "Bathroom featuring a toilet (有馬桶) and an integrated pedestal sink (一體成型洗臉台) in a traditional wet bath setting.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "衛浴一(有馬桶)",
+        "tag_list": [
+          "採光通風佳",
+          "一體成型洗臉台",
+          "傳統濕式衛浴",
+          "空間偏緊湊",
+          "基本管線完整"
+        ],
+        "raw_description": "採光通風佳(有對外窗利於排濕除臭), 一體成型洗臉台(清潔方便), 傳統濕式衛浴(無乾濕分離洗澡時易全室潮濕), 空間偏緊湊(轉身與放置收納架空間有限), 基本管線完整(馬桶洗手台蓮蓬頭皆備)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240l.jpg?1760408038",
+      "evidence": "Shows the upper level (夾層) with the railing (欄杆臨空設計), open kitchen/dining area, floor tiles, and included dining table/chairs.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "餐廳+廚房上層區",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "開放式餐廚格局",
+          "廚具收納足夠",
+          "地面瓷磚好清潔",
+          "欄杆臨空設計",
+          "已附餐桌椅"
+        ],
+        "raw_description": "採光良好(大片玻璃與透光天花引入自然光), 通風佳(側窗與後陽台門可形成對流), 開放式餐廚格局(料理與用餐動線順暢), 廚具收納足夠(上中下櫃多組櫥櫃), 地面瓷磚好清潔(適合料理環境), 欄杆臨空設計(視野開闊但需注意小孩安全), 已附餐桌椅(可立即使用減少添購成本)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240m.jpg?1760408038",
+      "evidence": "Main kitchen view showing the I-shaped counter, appliances, fully tiled walls, and the staircase immediately adjacent to the kitchen area (樓梯緊鄰廚房).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房(主視角)",
+        "tag_list": [
+          "標準一字型流理台",
+          "抽油煙機與瓦斯爐具齊全",
+          "上下櫃大量收納",
+          "後陽台出入口",
+          "採光與通風佳",
+          "樓梯緊鄰廚房",
+          "牆面全貼磁磚"
+        ],
+        "raw_description": "標準一字型流理台(料理動線簡單實用), 抽油煙機與瓦斯爐具齊全(適合常開火家庭), 上下櫃大量收納(可放鍋具與食品), 後陽台出入口(可曬衣與設置洗衣機), 採光與通風佳(側窗加陽台門), 樓梯緊鄰廚房(上下樓拿餐便利), 牆面全貼磁磚(防油防潮好整理)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240p.jpg?1760408038",
+      "evidence": "Large room defined by extensive built-in wooden storage cabinets (木作收納櫃豐富) and wood-look flooring (地板木紋).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "多功能室/次客廳",
+        "tag_list": [
+          "規則大空間",
+          "木作收納櫃豐富",
+          "採光一般",
+          "地板木紋",
+          "半開放隔間",
+          "天花平整"
+        ],
+        "raw_description": "規則大空間(適合作次客廳或多功能房), 木作收納櫃豐富(電視櫃與展示櫃增加儲物), 採光一般(前方小窗採光有限), 地板木紋(住家感強腳感舒適), 半開放隔間(與其他空間有視覺連結但仍保有部分隱私), 天花平整(日後加裝燈具或吊扇容易)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240q.jpg?1760408038",
+      "evidence": "Bathroom view showing the sink and wet shower space, but the toilet is not visible (無馬桶畫面), matching the description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "衛浴二(無馬桶畫面)",
+        "tag_list": [
+          "採光通風佳",
+          "濕式淋浴空間",
+          "空間尚可",
+          "全磁磚牆面",
+          "基本衛浴配備齊全"
+        ],
+        "raw_description": "採光通風佳(設有對外窗), 濕式淋浴空間(未見乾濕分離需自行規劃浴簾), 空間尚可(洗澡活動範圍比另一間稍大), 全磁磚牆面(耐潮易清潔), 基本衛浴配備齊全(洗臉台與淋浴設備已設置)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187240v.jpg?1760408038",
+      "evidence": "Unmistakable indoor parking garage with large columns, multiple rolling doors (捲門設計), and visible water stains on the concrete floor (地面有積水痕跡).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "室內停車場/車庫",
+        "tag_list": [
+          "室內車位",
+          "大樑柱分隔多車位",
+          "地面有積水痕跡",
+          "採光不足需仰賴照明",
+          "捲門設計"
+        ],
+        "raw_description": "室內車位(可遮風避雨保護車輛), 大樑柱分隔多車位(適合多台車或訪客停車), 地面有積水痕跡(排水與滲水狀況需留意), 採光不足需仰賴照明(屬封閉式空間), 捲門設計(每戶車位可獨立上鎖提高安全性)"
+      }
+    }
+  ]
+}

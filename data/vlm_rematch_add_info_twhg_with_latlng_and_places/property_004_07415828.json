@@ -1,0 +1,147 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying specific room types and key differentiating features mentioned in the tags. Bathrooms were distinguished by the presence of a window and a washlet (Desc_7/Image_7) versus a compact, windowless design (Desc_4/Image_4). Living spaces were differentiated based on their relationship to the balcony and overall layout: Image_2 showed a square room dominated by a large balcony window (Desc_2), while Image_1 showed a longer space leading to a balcony, suitable for combined living/dining (Desc_1). Bedrooms were separated by window size and resulting natural light levels (Desc_5/Image_5 vs. Desc_6/Image_6). Image_8 was uniquely identified as the public facility (Desc_8). Image_3, a long interior space leading away from the entrance, was assigned to the hallway/entrance description (Desc_3). All 8 descriptions were matched 1:1 to the 8 images.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345a.jpg?1760408163",
+      "evidence": "Long, open space leading to a large sliding door/balcony, suitable for combined living/dining ('規劃彈性', '陽台相連').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳空間",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "規劃彈性",
+          "地板易清潔",
+          "層高尚可",
+          "陽台相連",
+          "牆面留白"
+        ],
+        "raw_description": "採光佳(大片落地窗引入自然光), 通風良好(陽台推拉門可全開), 規劃彈性(長方形格局好劃分客廳餐廳), 地板易清潔(耐磨木紋地板), 層高尚可(裸露管線但不壓迫), 陽台相連(適合晾衣或放戶外機), 牆面留白(方便日後收納與家具配置)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345g.jpg?1760408163",
+      "evidence": "Square room layout dominated by a large sliding glass door leading directly to a balcony railing, matching '客廳臨陽台' and '大面窗景'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳臨陽台",
+        "tag_list": [
+          "大面窗景",
+          "採光充足",
+          "動靜分區潛力",
+          "插座預留",
+          "空間方正",
+          "隔音待確認"
+        ],
+        "raw_description": "大面窗景(落地窗看向社區景觀), 採光充足(窗面寬度大), 動靜分區潛力(客廳與臥房門相鄰好動線), 插座預留(牆面多插座方便家電配置), 空間方正(家具好擺放), 隔音待確認(大面窗臨外側可能有噪音風險)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345h.jpg?1760408163",
+      "evidence": "Long, straight, empty space leading into the interior of the apartment, characteristic of a main hallway/entrance ('動線筆直').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "玄關/客廳走道",
+        "tag_list": [
+          "玄關獨立",
+          "動線筆直",
+          "家具配置受限",
+          "裝潢新穎",
+          "可規劃收納櫃"
+        ],
+        "raw_description": "玄關獨立(大門與客廳有過道較有隱私), 動線筆直(玄關直通客廳視線明確), 家具配置受限(空間較窄長型沙發與餐桌需精算尺寸), 裝潢新穎(地板門片皆為新成屋狀態), 可規劃收納櫃(玄關與側牆適合設計鞋櫃與收納櫃)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345o.jpg?1760408163",
+      "evidence": "Compact bathroom with dry/wet separation, beige tiles, and crucially, no visible window, matching '通風照明欠佳' and '空間偏緊湊'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客用衛浴一",
+        "tag_list": [
+          "乾濕分離",
+          "通風照明欠佳",
+          "衛浴設備齊全",
+          "清潔相對容易",
+          "空間偏緊湊"
+        ],
+        "raw_description": "乾濕分離(獨立淋浴間玻璃拉門), 通風照明欠佳(未見窗戶可能需仰賴排風), 衛浴設備齊全(洗手台馬桶毛巾架皆備), 清潔相對容易(大面磁磚牆地), 空間偏緊湊(轉身與置物空間有限)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345q.jpg?1760408163",
+      "evidence": "Features a large window providing excellent natural light and a city view, fitting the '採光良好' tag expected for a master bedroom.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥/臥室一",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "空間方正",
+          "地板安靜舒適",
+          "預留收納空間",
+          "私密性尚可"
+        ],
+        "raw_description": "採光良好(大窗面外看社區景觀), 通風佳(開窗面積充足), 空間方正(床與衣櫃易配置), 地板安靜舒適(木紋地板腳感佳), 預留收納空間(整面牆可做衣櫃或書桌), 私密性尚可(窗外為住宅群相對安靜)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345r.jpg?1760408163",
+      "evidence": "Small, high, dark window results in poor natural light, directly matching '採光一般' and '室內燈光需求較高'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次臥/臥室二",
+        "tag_list": [
+          "採光一般",
+          "通風尚可",
+          "適合作書房或客房",
+          "方正好利用",
+          "室內燈光需求較高"
+        ],
+        "raw_description": "採光一般(窗戶較小光線較柔和), 通風尚可(有對外窗可開啟), 適合作書房或客房(坪數較小), 方正好利用(可放單人床+小衣櫃), 室內燈光需求較高(自然光不足需仰賴照明)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345s.jpg?1760408163",
+      "evidence": "Spacious bathroom with grey tiles, dry/wet separation, a visible window, and a toilet equipped with a washlet attachment ('有免治馬桶設備').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主衛浴二",
+        "tag_list": [
+          "採光與通風佳",
+          "乾濕分離",
+          "衛浴設備新穎",
+          "空間寬敞",
+          "易打理",
+          "有免治馬桶設備"
+        ],
+        "raw_description": "採光與通風佳(有對外大窗), 乾濕分離(獨立淋浴間玻璃門), 衛浴設備新穎(面盆馬桶與五金看起來新), 空間寬敞(淋浴與如廁區域距離舒適), 易打理(淺色大尺寸磁磚), 有免治馬桶設備(提升舒適度與機能)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187345v.jpg?1760408163",
+      "evidence": "Clearly shows gym equipment (treadmills) and a separate seating area, matching '公設健身房/交誼空間'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "公設健身房/交誼空間",
+        "tag_list": [
+          "社區公設豐富",
+          "採光佳",
+          "運動方便",
+          "交誼空間",
+          "安全性較高",
+          "維護狀況佳"
+        ],
+        "raw_description": "社區公設豐富(配置跑步機與重訓設備), 採光佳(大面窗引入自然光), 運動方便(住戶可在社區內運動省去外出), 交誼空間(一側有桌椅可小聚會), 安全性較高(室內運動對家庭與長輩友善), 維護狀況佳(地毯與設備看起來新穎)"
+      }
+    }
+  ]
+}

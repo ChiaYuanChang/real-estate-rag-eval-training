@@ -1,0 +1,254 @@
+{
+  "reasoning_log": "The dataset contained 15 descriptions and 15 images, resulting in a perfect 1:1 mapping with no redundant images. Matches were primarily determined by identifying unique architectural features: Desc_2 and Desc_3 were matched to Image_2 and Image_3 based on the presence and perspective of the staircase ('新式樓梯扶手'). Kitchen descriptions (Desc_4, Desc_5) were differentiated by layout (combined dining vs. narrow hallway). The bedroom set (Desc_6, Desc_7) was matched based on the spatial relationship between the main room (Image_6, '前端空間') and the small inner alcove (Image_7, '內側小空間'). Bathroom descriptions (Desc_11, Desc_12, Desc_13) were distinguished by viewing angle and specific features like the '套房格局' entrance (Image_8) and the shower area window (Image_13). Desc_14 was uniquely identified by '雙面採光' and '內建衣櫃'.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319a.jpg?1760410519",
+      "evidence": "Simple, combined living/dining space with basic furniture and a single window, fitting '簡潔格局' and '客廳＋餐廳'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳＋餐廳",
+        "tag_list": [
+          "簡潔格局",
+          "採光普通",
+          "基本通風",
+          "天花高度舒適",
+          "新式裝修",
+          "基本家具",
+          "照明充足"
+        ],
+        "raw_description": "開放式公共空間(樓梯旁客廳餐廳連通互動性佳), 規則長方形格局(好擺放家具與收納櫃), 新式樓梯扶手(金屬扶手穩固安全), 收納潛力(電視牆與樓梯下方可規劃櫃體), 全室明亮照明(多組暖白燈具照度足夠)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319e.jpg?1760410519",
+      "evidence": "Open public space featuring a prominent staircase with decorative metal railings, matching '開放式公共空間' and '新式樓梯扶手'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳＋餐廳",
+        "tag_list": [
+          "開放式公共空間",
+          "規則長方形格局",
+          "新式樓梯扶手",
+          "收納潛力",
+          "全室明亮照明"
+        ],
+        "raw_description": "開放式公共空間(樓梯旁客廳餐廳連通互動性佳), 規則長方形格局(好擺放家具與收納櫃), 新式樓梯扶手(金屬扶手穩固安全), 收納潛力(電視牆與樓梯下方可規劃櫃體), 全室明亮照明(多組暖白燈具照度足夠)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319f.jpg?1760410519",
+      "evidence": "View from the entrance/staircase area, showing the decorative vertical slat wall which functions as the '規劃電視牆' and defines the '客廳玄關區'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳玄關區",
+        "tag_list": [
+          "玄關獨立感",
+          "規劃電視牆",
+          "動線清楚",
+          "裝潢新穎"
+        ],
+        "raw_description": "玄關獨立感(入口與客廳有過渡走道利於鞋櫃設置), 規劃電視牆(牆面燈帶與平台方便擺放影音設備), 動線清楚(玄關→客廳→餐廳一路筆直), 裝潢新穎(造型格柵與燈帶提升質感)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319g.jpg?1760410519",
+      "evidence": "Shows a complete kitchen setup (cabinets, stove) integrated with a small dining table, matching '廚房餐桌一體'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房＋小餐區",
+        "tag_list": [
+          "完整廚房設備",
+          "收納充足",
+          "採光通風尚可",
+          "廚房餐桌一體",
+          "明亮地磚"
+        ],
+        "raw_description": "完整廚房設備(流理台瓦斯爐排油煙機齊全), 收納充足(上下櫃與開放層架可收納鍋具雜物), 採光通風尚可(外窗與後門利於散熱與排煙), 廚房餐桌一體(備餐用餐動線短且方便), 明亮地磚(淺色地面易清潔也放大空間感)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319d.jpg?1760410519",
+      "evidence": "Clear view of a long, narrow kitchen layout with extensive counter space, matching '狹長型廚房格局' and '工作檯面長度足夠'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房走道",
+        "tag_list": [
+          "狹長型廚房格局",
+          "工作檯面長度足夠",
+          "照明均勻",
+          "可加裝收納"
+        ],
+        "raw_description": "狹長型廚房格局(一字型檯面適合單向操作), 工作檯面長度足夠(可同時放電器與備料區), 照明均勻(天花燈具使走道與操作區明亮), 可加裝收納(空白牆面可補強吊櫃或層架)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319h.jpg?1760410519",
+      "evidence": "Square, front room with a window and a large opening leading to an inner space, fitting '房間一(前端空間)' and '規則方正'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "房間一(前端空間)",
+        "tag_list": [
+          "有對外窗",
+          "規則方正",
+          "牆面與地坪新",
+          "可彈性隔間使用"
+        ],
+        "raw_description": "有對外窗(自然採光與通風條件佳), 規則方正(家具好配置適合臥室或書房), 牆面與地坪新(磁磚地與乳膠漆狀況良好), 可彈性隔間使用(目前無固定家具方便自訂用途)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319j.jpg?1760410519",
+      "evidence": "Small, deep alcove with limited light, clearly the '內側小空間' connected to Image_6, suitable for storage or a small function room.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "房間一(內側小空間)",
+        "tag_list": [
+          "多功能小房",
+          "採光通風有限",
+          "隱私佳",
+          "適合加設收納系統"
+        ],
+        "raw_description": "多功能小房(可作更衣間或儲藏室), 採光通風有限(僅一小窗光線較弱), 隱私佳(獨立小區塊不受外界打擾), 適合加設收納系統(四面牆可規劃衣櫃層架)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319k.jpg?1760410519",
+      "evidence": "Master bedroom view showing the bed, indirect lighting, and the open doorway leading directly to the bathroom, confirming '主臥套房格局' and '浴室出入口'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥＋浴室出入口",
+        "tag_list": [
+          "主臥套房格局",
+          "間接照明",
+          "空間寬敞",
+          "插座配置齊全",
+          "地面易清潔"
+        ],
+        "raw_description": "主臥套房格局(房內直接連通衛浴使用便利), 間接照明(床頭燈帶營造舒適睡眠氛圍), 空間寬敞(床兩側仍有活動餘裕), 插座配置齊全(床頭兩側皆有插座方便充電), 地面易清潔(拋光磚適合日常維護)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319l.jpg?1760410519",
+      "evidence": "General view of the master bedroom focusing on the bed and the wooden '床頭背板' with warm, indirect lighting ('照明偏暖').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "規劃床頭背板",
+          "牆面留白",
+          "照明偏暖",
+          "隱私佳"
+        ],
+        "raw_description": "規劃床頭背板(含燈帶與插座收納電線), 牆面留白(方便後續加設衣櫃或書桌), 照明偏暖(適合睡眠但閱讀需額外燈具), 隱私佳(封閉式臥室無對外開放)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319m.jpg?1760410519",
+      "evidence": "Visibly long and narrow room with a bed placed against the short wall, matching '格局狹長'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "狹長臥室",
+        "tag_list": [
+          "格局狹長",
+          "有對外窗",
+          "空間適合作次臥或書房",
+          "地磚新穎"
+        ],
+        "raw_description": "格局狹長(擺放大型家具彈性較小), 有對外窗(基本採光與通風), 空間適合作次臥或書房(床與書桌併用剛好), 地磚新穎(反光度佳顯得乾淨)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319n.jpg?1760410519",
+      "evidence": "Spacious bathroom showing the toilet, vanity, and window, featuring wood-look floor tiles and clear separation of wet/dry areas, fitting '衛浴一' and '空間寬敞'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "乾濕分區明確",
+          "衛浴採光通風佳",
+          "新式衛浴設備",
+          "木紋地磚止滑",
+          "空間寬敞"
+        ],
+        "raw_description": "乾濕分區明確(淋浴區地面排水溝與其他區域分開), 衛浴採光通風佳(高窗可開啟減少潮濕), 新式衛浴設備(馬桶洗手台與牆磚皆為新裝), 木紋地磚止滑(提升淋浴安全性), 空間寬敞(如廁洗手活動範圍大)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319o.jpg?1760410519",
+      "evidence": "Focuses on the vanity and toilet area of the second bathroom, clearly showing the '一體成型檯面' and the drain line for the shower area.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴二(淋浴區視角)",
+        "tag_list": [
+          "一體成型檯面",
+          "淋浴空間充足",
+          "排水設計良好",
+          "牆面防水良好"
+        ],
+        "raw_description": "一體成型檯面(清潔方便), 淋浴空間充足(洗澡不顯侷促), 排水設計良好(長條排水溝集中排水), 牆面防水良好(全貼磁磚降低滲水風險)"
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319p.jpg?1760410519",
+      "evidence": "View focused on the shower area of the second bathroom, highlighting the window ('靠窗區') and the door with ventilation slats ('分區門片').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "衛浴二(靠窗區)",
+        "tag_list": [
+          "淋浴區採光",
+          "通風佳",
+          "隱私尚可",
+          "分區門片"
+        ],
+        "raw_description": "淋浴區採光(窗戶引進自然光不壓迫), 通風佳(窗戶有助排濕防霉), 隱私尚可(窗戶高度較高不易被看見), 分區門片(衛浴門與房間有明確分隔)"
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319q.jpg?1760410519",
+      "evidence": "Room featuring windows on two adjacent walls ('雙面採光') and a large built-in wardrobe ('內建衣櫃').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "房間二",
+        "tag_list": [
+          "雙面採光",
+          "規則方正空間",
+          "內建衣櫃",
+          "地面拋光磚",
+          "牆面留白"
+        ],
+        "raw_description": "雙面採光(兩窗增加自然光與對流), 規則方正空間(適合做標準臥室), 內建衣櫃(基本收納已規劃), 地面拋光磚(視覺放大易打掃), 牆面留白(方便之後增加書桌或收納櫃)"
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186319s.jpg?1760410519",
+      "evidence": "Semi-outdoor area with stairs, metal railings, utility counter, and a dark exit door, matching '後陽台／工作陽台' and '安全扶手'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "後陽台／工作陽台",
+        "tag_list": [
+          "戶外洗衣空間",
+          "半戶外通風佳",
+          "安全扶手",
+          "防滑木紋地板",
+          "後門出入口"
+        ],
+        "raw_description": "戶外洗衣空間(牆面預留水電管線可設洗衣機), 半戶外通風佳(開放空間利於晾曬與排濕), 安全扶手(樓梯與平台設欄杆提升安全), 防滑木紋地板(適合潮濕環境), 後門出入口(可作次出入口或搬運動線)"
+      }
+    }
+  ]
+}

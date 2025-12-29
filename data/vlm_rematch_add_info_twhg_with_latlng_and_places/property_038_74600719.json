@@ -1,0 +1,188 @@
+{
+  "reasoning_log": "The matching process relied primarily on identifying unique room types (Kitchen, Master Bath with Tub, Living Room, Multi-functional Space) and specific architectural features (balcony access, external windows in bathrooms). Desc_1 (Kitchen) was uniquely matched to Image_1 (L-shaped cabinets, embedded appliances). Desc_3 (Master Bathroom) was uniquely matched to Image_3 (contains a bathtub). Desc_5 (Bedroom B) was matched to Image_5 due to the large sliding door and multiple windows indicating balcony access. Desc_2 was assigned to Image_2 as the primary living area with large light exposure. Desc_9 and Desc_10 were matched to Image_9 and Image_10, respectively, as they depict the same furnished multi-functional space, with Desc_10 specifically requesting a 'top view' perspective. The remaining bedrooms (Desc_4, Desc_7) and guest bathrooms (Desc_6, Desc_8) were visually very similar, sharing features like wood-look tile floors (bedrooms) and external windows/wet separation (bathrooms). These were assigned sequentially based on the high functional similarity described in the tags.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680f.jpg?1760410041",
+      "evidence": "L-shaped kitchen layout, white cabinets, embedded oven tower, large countertop area, and small window, matching all tags.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光佳",
+          "良好通風",
+          "L型工作動線",
+          "收納充足",
+          "嵌入式家電",
+          "檯面面積大",
+          "新穎裝潢"
+        ],
+        "raw_description": "採光佳(長窗與玻璃防濺板反光好), 良好通風(側窗可開啟), L型工作動線(洗切煮順向流暢), 收納充足(大量上櫃與下櫃), 嵌入式家電(烤箱與洗碗機省空間好清潔), 檯面面積大(多處操作區方便多人下廚), 新穎裝潢(櫃體與地磚狀況新)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680d.jpg?1760410041",
+      "evidence": "Spacious, square living area with a very large sliding glass door providing access to a balcony and maximum light exposure.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客餐廳",
+        "tag_list": [
+          "超大採光面",
+          "通風良好",
+          "方正格局",
+          "附陽台",
+          "地板易清潔",
+          "牆面留白",
+          "層高舒適"
+        ],
+        "raw_description": "超大採光面(落地門窗與側窗帶入充足自然光), 通風良好(雙面窗與陽台門利於對流), 方正格局(矩形空間好規劃家具), 附陽台(外推空間可曬衣或種植), 地板易清潔(木紋磚耐磨耐髒), 牆面留白(預留電視與收納規劃彈性), 層高舒適(視覺上不壓迫適合吊燈冷氣)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680h.jpg?1760410041",
+      "evidence": "The only bathroom image featuring a distinct bathtub alongside a separate glass shower enclosure (wet/dry separation).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主浴室",
+        "tag_list": [
+          "採光通風佳",
+          "乾濕分離",
+          "浴缸配置",
+          "檯面收納空間",
+          "鏡櫃設計",
+          "新式衛浴設備",
+          "空間寬敞"
+        ],
+        "raw_description": "採光通風佳(外窗引入自然光並可排濕), 乾濕分離(獨立玻璃淋浴間), 浴缸配置(適合泡澡家庭與長輩使用), 檯面收納空間(洗手台下方櫃體可放清潔用品), 鏡櫃設計(增加收納又方便梳洗), 新式衛浴設備(五金與磁磚新穎), 空間寬敞(活動範圍大不壓迫)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680k.jpg?1760410041",
+      "evidence": "Standard secondary bedroom view: square layout, single large window, white walls, and light wood-look tile floor.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室A",
+        "tag_list": [
+          "採光良好",
+          "通風方便",
+          "方正格局",
+          "地板舒適好打理",
+          "牆面留白",
+          "新屋況"
+        ],
+        "raw_description": "採光良好(中型窗戶引入自然光), 通風方便(單面窗可開啟換氣), 方正格局(四角完整好擺床與衣櫃), 地板舒適好打理(木紋磚兼具質感與耐用), 牆面留白(方便後續加裝衣櫃或書桌), 新屋況(牆面與窗框狀況佳)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680m.jpg?1760410041",
+      "evidence": "Bedroom with large sliding door connecting to a balcony and three additional vertical windows, fulfilling the 'large light surface' and 'connects to balcony' tags.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室B",
+        "tag_list": [
+          "大面採光",
+          "通風佳",
+          "可連接陽台",
+          "方正寬敞",
+          "地板耐磨易清潔",
+          "隱私尚可"
+        ],
+        "raw_description": "大面採光(多扇窄窗與落地門帶入大量日光), 通風佳(窗戶與陽台門可形成對流), 可連接陽台(適合作主臥或書房延伸空間), 方正寬敞(可放大床與書桌仍留走道), 地板耐磨易清潔(木紋磚適合有小孩或寵物家庭), 隱私尚可(窗戶高度適中便於加裝窗簾)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680n.jpg?1760410041",
+      "evidence": "Guest bathroom featuring an external window, wet/dry separation (glass enclosure), mirror cabinet, and towel rack.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客浴室1",
+        "tag_list": [
+          "有外窗採光通風佳",
+          "乾濕分離",
+          "新式馬桶與面盆",
+          "收納規劃完善",
+          "空間利用良好",
+          "掛架設置"
+        ],
+        "raw_description": "有外窗採光通風佳(可減少潮濕與異味), 乾濕分離(淋浴間玻璃拉門阻隔水氣), 新式馬桶與面盆(衛浴配備更新), 收納規劃完善(鏡櫃與下方櫃體可置物), 空間利用良好(馬桶與淋浴區分明不擁擠), 掛架設置(方便晾掛毛巾與衣物)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680o.jpg?1760410041",
+      "evidence": "Standard secondary bedroom view, similar to Image_4, featuring wood-grain tile floor and square layout.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室C",
+        "tag_list": [
+          "採光通風良好",
+          "方正格局",
+          "地板木紋磚",
+          "牆面完整",
+          "新屋況"
+        ],
+        "raw_description": "採光通風良好(單面大窗自然光充足), 方正格局(適合規劃次臥或書房), 地板木紋磚(耐磨防潮適合長期居住), 牆面完整(方便訂製衣櫃或收納櫃), 新屋況(油漆與窗框無明顯瑕疵)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680r.jpg?1760410041",
+      "evidence": "Second guest bathroom, visually identical to Image_6, featuring an external window, wet/dry separation, and complete storage/fixtures.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客浴室2",
+        "tag_list": [
+          "外窗採光與排氣",
+          "乾濕分離",
+          "衛浴設備新穎",
+          "收納充足",
+          "配置毛巾架",
+          "地面防滑磚"
+        ],
+        "raw_description": "外窗採光與排氣(自然通風降低潮氣), 乾濕分離(獨立淋浴區玻璃門), 衛浴設備新穎(馬桶與龍頭現代化), 收納充足(洗手台下櫃與鏡櫃可放大量備品), 配置毛巾架(提高日常使用便利性), 地面防滑磚(提升洗浴安全)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680t.jpg?1760410041",
+      "evidence": "Ground-level view of the multi-functional space, showing the tile floor, AC unit, and current setup as a dining/work area with specific wall decor.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "玄關/多功能空間",
+        "tag_list": [
+          "採光穩定",
+          "通風可",
+          "方正大空間(可作玄關",
+          "餐廳或工作區)",
+          "地磚易清潔",
+          "已有冷氣",
+          "插座與配電明確"
+        ],
+        "raw_description": "採光穩定(高窗帶入均勻散光), 通風可(橫向窗戶利於排氣), 方正大空間(可作玄關、餐廳或工作區), 地磚易清潔(適合高頻進出與鞋櫃區), 已有冷氣(減少租客或買方前期投入), 插座與配電明確(牆面電箱方便日後增設設備)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178680v.jpg?1760410041",
+      "evidence": "Higher angle/top view of the same multi-functional space seen in Image_9, emphasizing the open layout and circulation from the entrance.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "玄關/餐廳上視角",
+        "tag_list": [
+          "開放式格局",
+          "採光良好",
+          "玄關寬敞",
+          "用餐工作皆宜",
+          "新屋地面與牆面",
+          "動線清晰"
+        ],
+        "raw_description": "開放式格局(玄關與餐廳動線流暢), 採光良好(高窗與側窗提供自然光), 玄關寬敞(出入與放鞋櫃不擁擠), 用餐工作皆宜(目前擺放餐桌示意多功能), 新屋地面與牆面(整體狀況良好無明顯損傷), 動線清晰(出入口與樓梯位置一目了然)"
+      }
+    }
+  ]
+}

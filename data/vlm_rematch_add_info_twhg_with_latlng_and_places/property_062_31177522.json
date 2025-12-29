@@ -1,0 +1,267 @@
+{
+  "reasoning_log": "The matching process involved identifying the specific room type and verifying unique features mentioned in the tags. Ambiguity was primarily resolved between the two living rooms (Desc_1 vs. Desc_2) and the two kitchens (Desc_5 vs. Desc_6). Desc_1 required 'excellent lighting' and 'sufficient family scale,' which strongly matched the bright, spacious Image_1. Desc_2 required 'average lighting' and 'limited storage,' fitting the narrower, more cluttered Image_2. For the kitchens, both Image_5 and Image_6 are galley style. Image_6 was assigned to Desc_6 ('Galley kitchen') as it better emphasizes the long walkway layout. Image_5 was assigned to Desc_5 ('slightly crowded movement') due to the immediate proximity of the fridge and storage cart to the counter. All community spaces (Desc_11 through Desc_15) were uniquely identifiable based on their function (parking, lobby, multi-function hall, playroom, dining/kitchen). All 15 descriptions were successfully mapped 1:1 to the 15 images.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951a.jpg?1760411195",
+      "evidence": "Spacious living room with excellent natural light from the balcony door, white tile floor, and installed AC, matching '採光佳' and '家庭客廳尺度足夠'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風條件佳",
+          "方正格局",
+          "天花高度舒適",
+          "地磚好清潔",
+          "已裝冷氣",
+          "玄關收納",
+          "家庭客廳尺度足夠"
+        ],
+        "raw_description": "視聽牆面完整(電視櫃與插座配置齊全), 家具擺放動線順暢(沙發至走道空間足夠), 採光一般(遠端單面窗戶光線較深), 收納量有限(開放層架易顯雜亂), 已裝冷氣(牆面分離式冷氣), 安靜感尚可(內向型客廳看不到馬路)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951e.jpg?1760411195",
+      "evidence": "Living room view showing a complete TV wall setup and a cluttered appearance, suggesting '收納量有限' and '採光一般' compared to Image 1.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "視聽牆面完整",
+          "家具擺放動線順暢",
+          "採光一般",
+          "收納量有限",
+          "已裝冷氣",
+          "安靜感尚可"
+        ],
+        "raw_description": "視聽牆面完整(電視櫃與插座配置齊全), 家具擺放動線順暢(沙發至走道空間足夠), 採光一般(遠端單面窗戶光線較深), 收納量有限(開放層架易顯雜亂), 已裝冷氣(牆面分離式冷氣), 安靜感尚可(內向型客廳看不到馬路)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951f.jpg?1760411195",
+      "evidence": "Semi-outdoor space with tiled floor and brick walls, clearly functioning as a balcony/utility area ('陽台/工作陽台').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "陽台/工作陽台",
+        "tag_list": [
+          "半戶外空間",
+          "採光通風佳",
+          "可晾衣",
+          "易清潔地坪",
+          "儲物彈性高"
+        ],
+        "raw_description": "半戶外空間(磚牆與開口設計可遮雨), 採光通風佳(大開口引入自然光與風), 可晾衣(空間長寬足夠設曬衣架), 易清潔地坪(磁磚鋪面不怕水), 儲物彈性高(可放置收納櫃或工具)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951g.jpg?1760411195",
+      "evidence": "Narrow hallway/corridor leading to rooms, with children's toys visible, supporting '動線清楚' and '兒童安全可控'.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "走廊/通道",
+        "tag_list": [
+          "動線清楚",
+          "光線略昏暗",
+          "房間私密性佳",
+          "地面平整好打理",
+          "兒童安全可控"
+        ],
+        "raw_description": "動線清楚(走廊直通房間與衛浴), 光線略昏暗(走廊依賴端部自然光與燈光), 房間私密性佳(臥室門集中於走道兩側), 地面平整好打理(拋光磚鋪設), 兒童安全可控(窄走道方便家長視線掌握)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951d.jpg?1760411195",
+      "evidence": "Galley kitchen with modern white cabinets, but the presence of the large fridge and storage cart makes the movement path appear '略顯擁擠'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房空間",
+          "機能完整",
+          "上下櫃收納足夠",
+          "採光通風佳",
+          "動線略顯擁擠",
+          "局部裝潢新穎"
+        ],
+        "raw_description": "走道型廚房(長條形一字櫥櫃好操作), 通風出口明確(後門或窗可排油煙), 電器位完善(冰箱與小家電擺放區), 儲物量大(壁櫃+層架可放大量物品), 採光一般(以人工照明為主自然光較少)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951h.jpg?1760411195",
+      "evidence": "Walkway-style kitchen ('走道型廚房') with extensive upper and lower cabinets, indicating '儲物量大'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "走道型廚房",
+          "通風出口明確",
+          "電器位完善",
+          "儲物量大",
+          "採光一般"
+        ],
+        "raw_description": "走道型廚房(長條形一字櫥櫃好操作), 通風出口明確(後門或窗可排油煙), 電器位完善(冰箱與小家電擺放區), 儲物量大(壁櫃+層架可放大量物品), 採光一般(以人工照明為主自然光較少)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951k.jpg?1760411195",
+      "evidence": "A room heavily utilized for storage, featuring a long shape and large storage units, matching '房型偏長' and '目前收納量大'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "次臥/儲物房",
+        "tag_list": [
+          "採光尚可",
+          "通風條件佳",
+          "房型偏長",
+          "目前收納量大",
+          "可彈性改作書房或兒童房"
+        ],
+        "raw_description": "採光尚可(單面窗戶提供自然光), 通風條件佳(有開窗), 房型偏長(長條形擺放家具需規劃), 目前收納量大(作為儲物間堆放物品), 可彈性改作書房或兒童房(大小適中)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951l.jpg?1760411195",
+      "evidence": "View looking through a doorway into a bedroom, representing the '主臥入口' with good lighting visible from the window inside.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥入口",
+        "tag_list": [
+          "臥室私密性佳",
+          "採光良好",
+          "已裝冷氣",
+          "隔音較佳",
+          "室內高度舒適"
+        ],
+        "raw_description": "臥室私密性佳(透過走道與門片區隔), 採光良好(可見窗戶與自然光), 已裝冷氣(臥室牆面有冷氣機), 隔音較佳(實木門片有助隔音), 室內高度舒適(天花板平整無壓迫)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951m.jpg?1760411195",
+      "evidence": "The interior of the master bedroom, showing a double bed, AC unit, window, and a generally square layout ('房型方正好擺家具').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "採光通風佳",
+          "房型方正好擺家具",
+          "空間足夠擺雙人床",
+          "已裝冷氣",
+          "地板好清潔",
+          "收納略嫌不足"
+        ],
+        "raw_description": "採光通風佳(大窗戶與雙開窗簾), 房型方正好擺家具(床與床頭櫃配置順暢), 空間足夠擺雙人床(仍留出走道), 已裝冷氣(牆上分離式冷氣機), 地板好清潔(拋光磁磚), 收納略嫌不足(看不到大型衣櫃須另規劃)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951n.jpg?1760411195",
+      "evidence": "Bathroom featuring a shower curtain and glass panel for '乾濕分離' and a small '對外窗' above the toilet.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "乾濕分離",
+          "有對外窗",
+          "衛浴設備新穎",
+          "收納機能好",
+          "通風換氣設備齊全",
+          "防滑地磚"
+        ],
+        "raw_description": "乾濕分離(淋浴區玻璃拉門+浴簾), 有對外窗(採光通風佳降低潮濕與霉味), 衛浴設備新穎(面盆浴櫃與馬桶看起來較新), 收納機能好(鏡櫃與層架可置物), 通風換氣設備齊全(天花排風扇), 防滑地磚(衛浴專用瓷磚較安全)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951o.jpg?1760411195",
+      "evidence": "Covered area filled with parked motorcycles, clearly the '室內機車位' area.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "機車停車區",
+        "tag_list": [
+          "室內機車位",
+          "通風採光尚可",
+          "社區機車位充足",
+          "出入動線清楚",
+          "安全性較佳"
+        ],
+        "raw_description": "室內機車位(遮雨不日曬), 通風採光尚可(頂部與側面採光罩), 社區機車位充足(可停多台機車), 出入動線清楚(單側通道方便進出), 安全性較佳(位於社區內有門禁可能)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951q.jpg?1760411195",
+      "evidence": "A grand entrance area with a high ceiling ('挑高大廳'), large windows, and seating, characteristic of a community lobby.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "社區大廳",
+        "tag_list": [
+          "大面落地窗採光佳",
+          "挑高大廳",
+          "公設新穎",
+          "設有休憩座位",
+          "管理形象佳"
+        ],
+        "raw_description": "大面落地窗採光佳(公共空間明亮), 挑高大廳(空間感氣派減少壓迫), 公設新穎(地坪與牆面裝潢現代), 設有休憩座位(可會客或等候), 管理形象佳(大廳整潔有管理服務感)"
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951r.jpg?1760411195",
+      "evidence": "An extremely large, open indoor public space with high ceilings and good lighting, fitting the '超大室內公共空間' description of a multi-function hall.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "社區多功能廳",
+        "tag_list": [
+          "超大室內公共空間",
+          "採光好",
+          "地坪好清潔",
+          "社區公設豐富",
+          "適合家庭住戶"
+        ],
+        "raw_description": "超大室內公共空間(可辦活動或兒童遊戲), 採光好(多面窗戶與高側窗), 地坪好清潔(大面積拋光地磚), 社區公設豐富(提升居住品質), 適合家庭住戶(兒童有室內活動空間)"
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951s.jpg?1760411195",
+      "evidence": "Indoor area containing slides and play structures on safety mats, matching '兒童遊戲設施齊全' and '室內安全地墊'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "社區室內遊戲室",
+        "tag_list": [
+          "兒童遊戲設施齊全",
+          "室內安全地墊",
+          "採光充足",
+          "適合親子家庭",
+          "公設維護良好"
+        ],
+        "raw_description": "兒童遊戲設施齊全(溜滑梯與攀爬設備), 室內安全地墊(減少跌倒受傷風險), 採光充足(高窗與大窗設計), 適合親子家庭(雨天也有活動空間), 公設維護良好(環境整潔設備完整)"
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180951t.jpg?1760411195",
+      "evidence": "A public space with a dining table and a stainless steel counter/kitchen setup, serving as a '公共用餐空間' and '簡易廚房機能'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "社區交誼/廚藝教室",
+        "tag_list": [
+          "公共用餐空間",
+          "具簡易廚房機能",
+          "採光一般",
+          "家庭與社區活動友善",
+          "室內高度舒適"
+        ],
+        "raw_description": "公共用餐空間(長桌與多張椅子可聚餐), 具簡易廚房機能(流理台與大型冰箱), 採光一般(磨砂大窗引入柔和光線), 家庭與社區活動友善(適合開課或聚會), 室內高度舒適(挑高天花不壓迫)"
+      }
+    }
+  ]
+}

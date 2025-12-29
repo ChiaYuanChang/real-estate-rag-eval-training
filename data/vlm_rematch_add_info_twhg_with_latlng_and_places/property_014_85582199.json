@@ -1,0 +1,254 @@
+{
+  "reasoning_log": "The matching process prioritized unique visual features (e.g., specific furniture, tiling, or window placement) to resolve ambiguities among similar room types. For the Living/Dining areas, descriptions were matched based on the specific perspective (e.g., focusing on the long layout in Image_3 vs. the dining area in Image_2/16). In the Master Bedrooms, Desc_10 ('收納到位') and Desc_11 ('家具配置完整') were assigned to the rooms featuring the large, dark wood wardrobe/desk unit (Image_10, Image_12). Image_13 (a view of the simpler master bedroom) and Image_11 (a narrow kitchen) were identified as the two redundant images, as all 14 descriptions were successfully mapped to the remaining 14 unique visual spaces. The three bathroom descriptions were matched to the three distinct bathroom images (Image_9 for light tiles, Image_7 and Image_14 for the two views of the dark-tiled, spacious bathrooms).",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875a.jpg?1760408652",
+      "evidence": "Living room view showing the sofa, TV wall with storage ('牆面收納'), and balcony access ('採光佳', '通風良好').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "規劃完整",
+          "牆面收納",
+          "地板好清潔",
+          "家具附贈",
+          "樓高舒適"
+        ],
+        "raw_description": "公領域開闊(客廳座位區視野延伸至餐廳), 採光集中前端(靠窗區較亮中段偏暗), 規劃明確(電視牆與沙發對稱配置), 收納櫃體齊全(電視櫃與側櫃提供大量收納), 家具附贈(沙發與茶几可直接使用), 地板易保養(大面積拋光磚)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875e.jpg?1760408652",
+      "evidence": "Wide shot of the combined L/D area ('大坪數公領域') showing the dining table in the foreground and the living room extending back, confirming '用餐區預留'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客餐廳",
+        "tag_list": [
+          "大坪數公領域",
+          "動線流暢",
+          "採光延伸",
+          "用餐區預留",
+          "空間彈性高",
+          "簡易裝潢"
+        ],
+        "raw_description": "大面積開放空間(適合家庭活動與招待客人), 採光由一側引入(需靠燈具補足中後段亮度), 餐廳位置固定(靠牆桌椅不影響動線), 照明充足(多組天花燈具), 佈局彈性(可再增設書房角或兒童遊戲區), 進出動線順暢(大門至陽台一路筆直無阻礙)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875f.jpg?1760408652",
+      "evidence": "Clear view of the long, narrow layout ('長形規劃') looking toward the entrance, with light primarily from the far end ('採光單面') and a visible '收納牆面'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客餐廳",
+        "tag_list": [
+          "長形規劃",
+          "公私領域分明",
+          "插座配置齊全",
+          "收納牆面",
+          "採光單面"
+        ],
+        "raw_description": "大面積開放空間(適合家庭活動與招待客人), 採光由一側引入(需靠燈具補足中後段亮度), 餐廳位置固定(靠牆桌椅不影響動線), 照明充足(多組天花燈具), 佈局彈性(可再增設書房角或兒童遊戲區), 進出動線順暢(大門至陽台一路筆直無阻礙)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875g.jpg?1760408652",
+      "evidence": "Independent kitchen with a large glass door/window structure, strongly supporting '採光通風佳' and '可規劃後陽台'. Features open shelving ('櫥櫃收納多').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光通風佳",
+          "獨立廚房",
+          "完整爐具",
+          "櫥櫃收納多",
+          "易清潔磁磚",
+          "可規劃後陽台"
+        ],
+        "raw_description": "採光通風佳(雙扇窗與對外門), 獨立廚房(與客廳分開油煙不易外溢), 完整爐具(瓦斯爐與抽油煙機齊全), 櫥櫃收納多(上下櫃與開放層架), 易清潔磁磚(牆地面全磁磚防油汙), 可規劃後陽台(落地門外疑似晾衣空間)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875d.jpg?1760408652",
+      "evidence": "Unfurnished, square secondary bedroom ('規矩房型') with dual windows (large and small) providing excellent light ('採光良好').",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "次臥一",
+        "tag_list": [
+          "採光良好",
+          "通風條件佳",
+          "規矩房型",
+          "地板耐用易打理",
+          "預留收納空間"
+        ],
+        "raw_description": "採光良好(一大一小窗戶), 通風條件佳(雙向開窗有利對流), 規矩房型(近方正好擺雙人床與衣櫃), 地板耐用易打理(拋光磚), 預留收納空間(牆面空白可做衣櫃書桌)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875j.jpg?1760408652",
+      "evidence": "Unfurnished, square secondary bedroom ('房型方正') with dual windows, fitting the '牆面留白' and '採光佳' tags.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "次臥二",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "房型方正",
+          "隱私尚可",
+          "牆面留白"
+        ],
+        "raw_description": "採光佳(轉角大窗), 通風良好(至少兩扇可開窗), 房型方正(好規劃床位與衣櫃動線), 隱私尚可(窗外對街景需搭配窗簾), 牆面留白(方便後續加設櫃體或裝飾)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875k.jpg?1760408652",
+      "evidence": "Spacious bathroom ('空間寬敞') with dark marble-look tiles and no dry/wet separation ('無乾濕分離').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "全面磁磚防水",
+          "空間寬敞",
+          "無乾濕分離",
+          "採光有限",
+          "設備新穎",
+          "排水坡度佳"
+        ],
+        "raw_description": "全面磁磚防水(牆地皆為大面積磁磚), 空間寬敞(衛浴設備間距大適合長者使用), 無乾濕分離(淋浴區未見玻璃隔間易濺水), 採光有限(僅見小窗或反光需留意日間亮度), 設備新穎(馬桶與面盆款式較新), 排水坡度佳(地面多處排水孔)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875l.jpg?1760408652",
+      "evidence": "Furnished master bedroom ('主臥尺度大') with a simple bed and side tables, confirming '部分家具附贈'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "主臥尺度大",
+          "部分家具附贈",
+          "隱私需留意",
+          "地坪好打理"
+        ],
+        "raw_description": "方正格局(床位擺放自然四角無壓樑感), 採光穩定(大窗戶提供日照), 通風尚可(至少一大一小窗), 家具配置完整(雙人床與床頭櫃), 牆面保留(可再增設衣櫃或電視)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875m.jpg?1760408652",
+      "evidence": "Bathroom featuring light gray/taupe tiles, distinct from the darker bathrooms (Image_7, Image_14). Fits '無明顯乾濕分離'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "全磁磚包覆",
+          "空間寬敞",
+          "無明顯乾濕分離",
+          "採光不足疑慮",
+          "設備新",
+          "無浴缸"
+        ],
+        "raw_description": "全磁磚包覆(防潮好清理), 空間寬敞(馬桶與淋浴區距離大), 無明顯乾濕分離(淋浴僅花灑無隔屏), 採光不足疑慮(未見大窗多靠燈光), 設備新(衛浴五金與馬桶新穎), 無浴缸(以淋浴為主適合日常洗澡)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875n.jpg?1760408652",
+      "evidence": "Master bedroom featuring a large, dark wood wardrobe/desk unit, strongly matching '收納到位' and '家具齊全'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "收納到位",
+          "主臥空間寬敞",
+          "隱私需評估",
+          "家具齊全"
+        ],
+        "raw_description": "方正格局(床位擺放自然四角無壓樑感), 採光穩定(大窗戶提供日照), 通風尚可(至少一大一小窗), 家具配置完整(雙人床與床頭櫃), 牆面保留(可再增設衣櫃或電視)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875q.jpg?1760408652",
+      "evidence": "Second view of the highly furnished master bedroom (identical furniture to Image_10), confirming '家具配置完整' and '方正格局'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "方正格局",
+          "採光穩定",
+          "通風尚可",
+          "家具配置完整",
+          "牆面保留"
+        ],
+        "raw_description": "方正格局(床位擺放自然四角無壓樑感), 採光穩定(大窗戶提供日照), 通風尚可(至少一大一小窗), 家具配置完整(雙人床與床頭櫃), 牆面保留(可再增設衣櫃或電視)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875s.jpg?1760408652",
+      "evidence": "Second view of the dark-tiled bathroom, emphasizing the '大面積磁磚牆面' and '空間寬裕'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "浴室三",
+        "tag_list": [
+          "大面積磁磚牆面",
+          "空間寬裕",
+          "無乾濕分離",
+          "採光有限",
+          "設備新穎",
+          "地面止滑磚"
+        ],
+        "raw_description": "大面積磁磚牆面(增加防水與質感), 空間寬裕(輪椅或親子共浴較方便), 無乾濕分離(未見玻璃拉門易需加浴簾), 採光有限(以人工光源為主), 設備新穎(馬桶與龍頭較新), 地面止滑磚(顆粒感提升安全性)"
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875t.jpg?1760408652",
+      "evidence": "Close-up view of the living room, highlighting the TV wall storage ('收納櫃體齊全') and showing light concentrated at the balcony end ('採光集中前端').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "公領域開闊",
+          "採光集中前端",
+          "規劃明確",
+          "收納櫃體齊全",
+          "家具附贈",
+          "地板易保養"
+        ],
+        "raw_description": "公領域開闊(客廳座位區視野延伸至餐廳), 採光集中前端(靠窗區較亮中段偏暗), 規劃明確(電視牆與沙發對稱配置), 收納櫃體齊全(電視櫃與側櫃提供大量收納), 家具附贈(沙發與茶几可直接使用), 地板易保養(大面積拋光磚)"
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185875v.jpg?1760408652",
+      "evidence": "Open L/D space ('大面積開放空間') where the dining table is clearly positioned in the foreground, confirming '餐廳位置固定'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客餐廳",
+        "tag_list": [
+          "大面積開放空間",
+          "採光由一側引入",
+          "餐廳位置固定",
+          "照明充足",
+          "佈局彈性",
+          "進出動線順暢"
+        ],
+        "raw_description": "大面積開放空間(適合家庭活動與招待客人), 採光由一側引入(需靠燈具補足中後段亮度), 餐廳位置固定(靠牆桌椅不影響動線), 照明充足(多組天花燈具), 佈局彈性(可再增設書房角或兒童遊戲區), 進出動線順暢(大門至陽台一路筆直無阻礙)"
+      }
+    }
+  ]
+}

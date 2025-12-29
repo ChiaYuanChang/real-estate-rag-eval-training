@@ -1,0 +1,137 @@
+{
+  "reasoning_log": "The matching process prioritized unique room types first (Kitchen, Bathrooms, Bedrooms) before resolving the ambiguity between the two living/dining descriptions (Desc_1 and Desc_5). Desc_4 (Kitchen) was uniquely matched to Image_6 based on the specific layout, gas stove, and door to the rear balcony. Desc_3 and Desc_6 were differentiated by their distinct tile patterns (marble-look vs. large dark squares) and assigned to Image_4 and Image_9, respectively. Desc_2 (Master Bedroom) and Desc_7 (Empty Secondary Room) were easily identified by their contents (Image_3 and Image_11). Finally, Desc_1 (Main Living/Dining/Kitchen view) was assigned to Image_1, which provides a comprehensive view of the integrated space and TV wall, while Desc_5 (Another View) was assigned to Image_7, which prominently features the dining area, fulfilling the requirement for a 'different perspective'. Images 2, 5, 8, 10, 12, and 13 were identified as duplicates or highly similar alternative views of the primary matched images and were excluded.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842a.jpg?1760408705",
+      "evidence": "Integrated living/dining/kitchen space visible, bright interior, brick accent wall serving as the '收納電視牆', and basic furniture included.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳/開放式廚房",
+        "tag_list": [
+          "明亮室內",
+          "格局方正",
+          "客餐廳一體",
+          "半開放式廚房",
+          "已附基本家具",
+          "收納電視牆",
+          "地板好清理",
+          "冷氣預留位",
+          "對外窗及鐵窗門",
+          "室內狀況新穎"
+        ],
+        "raw_description": "明亮室內(多盞嵌燈搭配淺色地磚反光)、格局方正(客廳餐廳成一直線動線順)、客餐廳一體(沙發與餐桌距離適中方便家庭互動)、半開放式廚房(廚房以拉門與客廳區隔減少油煙)、已附基本家具(沙發茶几電視櫃餐桌椅齊全)、收納電視牆(電視櫃與層板提供收納展示)、地板好清理(大面積拋光磚適合打掃與耐磨)、冷氣預留位(牆面預留插座與位置方便裝機)、對外窗及鐵窗門(客廳有落地窗與鐵窗有基本採光與安全)、室內狀況新穎(牆面與家具維持良好可直接入住)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842d.jpg?1760408705",
+      "evidence": "Spacious bedroom ('臥室空間寬敞') with large windows ('採光佳') and fixed basic furniture (bed and built-in desk/cabinet).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "臥室空間寬敞",
+          "格局方正",
+          "附基本家具",
+          "隱私度佳",
+          "天花高度舒適"
+        ],
+        "raw_description": "採光佳(大面積窗戶引進自然光)、通風良好(雙開窗與側窗有利對流)、臥室空間寬敞(床旁仍留出大面空地可放衣櫃或嬰兒床)、格局方正(矩形空間好擺家具)、附基本家具(雙人床與書桌/梳妝台現成可用)、隱私度佳(厚窗簾可完全遮光)、天花高度舒適(無明顯壓迫樑柱)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842h.jpg?1760408705",
+      "evidence": "Bathroom with updated fixtures, pedestal sink, white toilet, and distinctive dark grey marble-look tiles. It is '乾濕不分離' and '空間略顯緊湊'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "衛浴更新",
+          "乾濕不分離",
+          "採光通風不明顯",
+          "清潔易打理",
+          "基本配備齊全",
+          "空間略顯緊湊"
+        ],
+        "raw_description": "衛浴更新(牆地磚與設備新穎)、乾濕不分離(蓮蓬頭直接設於馬桶旁洗澡易濺水)、採光通風不明顯(未見窗戶可能需依賴排風設備)、清潔易打理(大面積瓷磚牆面好擦洗)、基本配備齊全(坐式馬桶臉盆與置物層板一應俱全)、空間略顯緊湊(轉身空間有限較適合單人使用)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842k.jpg?1760408705",
+      "evidence": "Compact kitchen ('廚房空間緊湊') featuring blue upper cabinets, standard gas stove ('標準瓦斯爐具'), and a door leading to the outside/balcony ('通往後陽台門').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "標準瓦斯爐具",
+          "上中下櫃收納足夠",
+          "流理台完整",
+          "通往後陽台門",
+          "照明充足",
+          "廚房空間緊湊",
+          "新裝修廚具"
+        ],
+        "raw_description": "標準瓦斯爐具(雙口爐搭配排油煙機適合常開伙)、上中下櫃收納足夠(多層收納櫃可放鍋具調味料)、流理台完整(獨立洗槽與操作檯面)、通往後陽台門(玻璃門連接外側空間有助油煙排出)、照明充足(嵌燈與淺色櫃體提高亮度)、廚房空間緊湊(走道較窄同時多人下廚略擁擠)、新裝修廚具(門板五金狀況良好可直接使用)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842n.jpg?1760408705",
+      "evidence": "Alternative view of the living/dining area, clearly showing the dining table setup alongside the sofa, confirming the '客餐廚動線清楚' and '會客空間充足' from a different angle.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳/餐廳(另一視角)",
+        "tag_list": [
+          "採光普通",
+          "客餐廚動線清楚",
+          "可擺大家具",
+          "會客空間充足",
+          "多點照明",
+          "裝潢耐看"
+        ],
+        "raw_description": "採光普通(前方大窗但外有鐵窗與遮簾略影響光線)、客餐廚動線清楚(餐桌緊鄰廚房出菜方便)、可擺大家具(沙發與茶几中間保持寬走道)、會客空間充足(沙發面寬足夠接待訪客)、多點照明(天花多盞崁燈夜間亦明亮)、裝潢耐看(磚紋電視牆與中性色調適合多數族群)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842p.jpg?1760408705",
+      "evidence": "Second bathroom ('衛浴二') with dark grey large square tiles, '乾濕不分離', and no visible exterior window ('無對外窗').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴二",
+        "tag_list": [
+          "衛浴更新",
+          "乾濕不分離",
+          "無對外窗",
+          "設備齊全",
+          "易清潔材質",
+          "空間偏小"
+        ],
+        "raw_description": "衛浴更新(全新灰色磁磚與潔具)、乾濕不分離(淋浴區無玻璃門洗澡易噴濕地面)、無對外窗(依賴抽風機通風需留意潮濕)、設備齊全(馬桶臉盆蓮蓬頭與毛巾架一應俱全)、易清潔材質(大尺寸磁磚縫隙較少不易藏污)、空間偏小(使用時需注意收納與動線)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842s.jpg?1760408705",
+      "evidence": "Empty, square room ('空間方正') with large windows ('採光良好') and no fixed furniture ('無固定家具'), matching the description of a secondary/multi-function room.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "次臥/多功能房",
+        "tag_list": [
+          "採光良好",
+          "通風條件佳",
+          "空間方正",
+          "地面易打掃",
+          "無固定家具",
+          "牆面素淨"
+        ],
+        "raw_description": "採光良好(大窗戶引入自然光線)、通風條件佳(可開啟窗戶促進空氣流通)、空間方正(矩形房型方便規劃衣櫃書桌或兒童房)、地面易打掃(拋光地磚適合養寵或小孩)、無固定家具(可依需求規劃書房更衣間或客房)、牆面素淨(後續好做收納櫃或壁掛設計)"
+      }
+    }
+  ]
+}

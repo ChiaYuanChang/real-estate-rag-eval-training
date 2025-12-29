@@ -1,0 +1,96 @@
+{
+  "reasoning_log": "The matching process relied on identifying unique architectural features mentioned in the tags. Desc_4 was uniquely matched to Image_4 due to the presence of the '大面鏡櫃' (large mirrored cabinet). Desc_3 was matched to Image_3 based on the '附玻璃拉門區' (area with glass sliding door) and excellent natural light. Desc_2 was matched to Image_2 by the '長形格局' (long layout) and the visible '預留電線' (reserved wires). Desc_1 and Desc_5 both describe open kitchen/living spaces (Image_1 and Image_5 are visually near-identical). Desc_5 was assigned to Image_5 because it specifically mentions '廚房帶窗' and '濕區分色地坪', features clearly visible in both images, leaving Desc_1 for Image_1, which also fits the general description of an open kitchen space with basic amenities.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186327g.jpg?1760410614",
+      "evidence": "Open kitchen/living space featuring basic kitchen counter ('基本廚具') and new wood laminate flooring, consistent with a general open layout description.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "開放式客餐廚空間",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "開放式格局",
+          "天花高度舒適",
+          "基本廚具",
+          "地板新穎",
+          "插座預留"
+        ],
+        "raw_description": "自然採光佳(靠窗區域明亮提升居住舒適度), 廚房帶窗(料理時可開窗排煙通風較佳), 基礎收納(上下廚櫃可收納餐具與雜物), 濕區分色地坪(廚房區使用不同地材方便清潔), 小家庭適用格局(廚房與起居緊鄰照顧小孩方便), 管線外露少(整體視覺簡潔減少日後整理負擔)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186327h.jpg?1760410614",
+      "evidence": "Long, rectangular room ('長形格局') with decorative wall paneling and clearly visible exposed wires hanging from the ceiling ('預留電線'), indicating a base decoration stage.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "臥室/多功能房",
+        "tag_list": [
+          "長形格局",
+          "預留電線",
+          "隔音潛力",
+          "裝潢基底完成",
+          "地板狀況佳",
+          "採光一般"
+        ],
+        "raw_description": "長形格局(空間狹長適合作臥房或多功能室), 預留電線(牆面走線可加裝燈具或電視), 隔音潛力(全封閉牆面利於後續隔音處理), 裝潢基底完成(造型天花與壁面已施工減少裝修成本), 地板狀況佳(木地板平整適合直接入住), 採光一般(僅端部門口採光需依賴外側空間光線)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186327j.jpg?1760410614",
+      "evidence": "Room featuring a large glass sliding door leading to a balcony ('附玻璃拉門區'), providing excellent natural light ('採光良好'), suitable for a master bedroom.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥/附玻璃拉門區",
+        "tag_list": [
+          "採光良好",
+          "動線清楚",
+          "隱私可調",
+          "空間方正",
+          "裝潢風格完整",
+          "地板完整"
+        ],
+        "raw_description": "採光良好(玻璃拉門引入外側陽台或落地窗光線), 動線清楚(臥室與外側空間以拉門區隔進出方便), 隱私可調(玻璃拉門可加裝窗簾兼顧開放與隱私), 空間方正(主牆面筆直方便擺放床與收納櫃), 裝潢風格完整(牆面線板造型提升質感免大修), 地板完整(木地板鋪設統一視覺)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186327t.jpg?1760410614",
+      "evidence": "Open space defined by a prominent, floor-to-ceiling mirrored cabinet/partition ('大面鏡櫃'), linking the continuous living area.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "開放式客廳+餐廚區",
+        "tag_list": [
+          "空間連貫",
+          "採光延伸",
+          "大面鏡櫃",
+          "動線順暢",
+          "地板一致性佳",
+          "室內牆面素雅"
+        ],
+        "raw_description": "空間連貫(客廳延伸至廚房視覺開闊), 採光延伸(前端開窗光線可帶入整個區域), 大面鏡櫃(鏡面放大空間感並可作收納), 動線順暢(走道直通各區域減少轉折), 地板一致性佳(同色木地板方便區域彈性運用), 室內牆面素雅(淺色牆便於後續軟裝布置)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186327u.jpg?1760410614",
+      "evidence": "Open kitchen area with a window ('廚房帶窗') and a clear transition in flooring material from wood to dark tile/concrete ('濕區分色地坪'), matching the specific tags.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "開放式客餐廚空間",
+        "tag_list": [
+          "自然採光佳",
+          "廚房帶窗",
+          "基礎收納",
+          "濕區分色地坪",
+          "小家庭適用格局",
+          "管線外露少"
+        ],
+        "raw_description": "自然採光佳(靠窗區域明亮提升居住舒適度), 廚房帶窗(料理時可開窗排煙通風較佳), 基礎收納(上下廚櫃可收納餐具與雜物), 濕區分色地坪(廚房區使用不同地材方便清潔), 小家庭適用格局(廚房與起居緊鄰照顧小孩方便), 管線外露少(整體視覺簡潔減少日後整理負擔)"
+      }
+    }
+  ]
+}

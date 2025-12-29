@@ -1,0 +1,189 @@
+{
+  "reasoning_log": "The matching process relied heavily on unique architectural features and material consistency. Desc_1 and Desc_2 were matched to Image_1 and Image_2 based on the shared gray wood-look flooring and their spatial relationship (Image_1 showing the overall space and staircase, Image_2 focusing on the window with security bars). Desc_3 was uniquely identified by the combination of wooden railings and old speckled floor tiles (Image_3). The two bathrooms were easily distinguished: Desc_4 required a window (Image_4), while Desc_9 required an '異形空間' (irregular shape, likely under the stairs) and an extractor fan (Image_9). The four bedrooms (Desc_6, Desc_7, Desc_8, Desc_10) were differentiated by their window/balcony type and structural elements: Image_6 has an enclosed balcony (封閉式陽台), Image_8 has a visible low beam (頂棚樑稍低) and an internal door, leaving Image_7 and Image_10 for the two remaining bright, open-balcony descriptions (Desc_7 and Desc_10). Image_7 was assigned to the '寬敞' (spacious) description (Desc_7) due to its slightly wider perspective.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018g.jpg?1760411987",
+      "evidence": "Main downstairs living area view, showing the new gray wood-look flooring, white walls, and the clear division created by the staircase ('樓層分區明確').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳(樓下)",
+        "tag_list": [
+          "採光佳",
+          "格局方正",
+          "樓層分區明確",
+          "層高舒適",
+          "已翻新地坪",
+          "牆面潔白",
+          "室內照明足夠"
+        ],
+        "raw_description": "採光佳(樓梯上方大面窗戶), 格局方正(客廳空間近矩形好擺家具), 樓層分區明確(客廳與樓上空間以半樓層錯層區隔), 層高舒適(天花板高度足夠不壓迫), 已翻新地坪(新型木紋地板好清理), 牆面潔白(粉刷新可直接入住), 室內照明足夠(長型日光燈照明均勻)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018d.jpg?1760411987",
+      "evidence": "Shows the living area near the entrance/window, featuring the large window with security bars ('鐵窗防護') and the same gray wood-look flooring.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳(臨窗區)",
+        "tag_list": [
+          "大面窗採光佳",
+          "通風條件佳",
+          "視野開闊",
+          "格局方正",
+          "已鋪木紋地板",
+          "電視牆預留",
+          "鐵窗防護"
+        ],
+        "raw_description": "大面窗採光佳(三扇窗戶引入自然光), 通風條件佳(開窗面積大利於對流), 視野開闊(窗外為低樓景觀較不壓迫), 格局方正(完整矩形空間好規劃客廳/工作區), 已鋪木紋地板(腳感舒適適合家庭與寵物), 電視牆預留(牆面與插座位置好配置家電), 鐵窗防護(提高一樓安全性但略影響開闊感)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018h.jpg?1760411987",
+      "evidence": "Clear view of the staircase with wooden railings ('木扶手') and the old speckled floor tiles ('老式地磚') on the landing.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "樓梯/走道區",
+        "tag_list": [
+          "寬梯設計",
+          "木扶手附設",
+          "採光一般",
+          "空間較窄",
+          "老式地磚",
+          "動線清楚"
+        ],
+        "raw_description": "寬梯設計(階梯寬度足夠上下較安全), 木扶手附設(有扶手對長者小孩較友善), 採光一般(走道區無直接窗戶略顯昏暗), 空間較窄(轉角走道較緊湊搬運大型家具需留意), 老式地磚(視覺較舊但耐磨耐髒), 動線清楚(樓梯直接連接房間與衛浴使用方便)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018l.jpg?1760411987",
+      "evidence": "Bathroom with a visible external window ('有對外窗') and a modern sink cabinet ('新式洗手台櫃').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "乾淨明亮",
+          "有對外窗",
+          "免治馬桶預留電源",
+          "乾濕未完全分離",
+          "新式洗手台櫃",
+          "打理容易"
+        ],
+        "raw_description": "乾淨明亮(淺色磁磚搭配充足照明), 有對外窗(可排濕防霉通風佳), 免治馬桶預留電源(牆上插座方便升級設備), 乾濕未完全分離(無淋浴拉門洗澡時易濺水), 新式洗手台櫃(提供基本收納空間), 打理容易(全磁磚牆面好清潔)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018m.jpg?1760411987",
+      "evidence": "Kitchen featuring a complete L-shaped cabinet layout ('完整L型廚具'), stove, hood, and stainless steel countertop ('新式鋼檯面').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "完整L型廚具",
+          "瓦斯爐與抽油煙機齊備",
+          "櫃體收納充足",
+          "採光與通風佳",
+          "新式鋼檯面",
+          "地板與客餐廳同材質",
+          "後陽台連結潛力"
+        ],
+        "raw_description": "完整L型廚具(操作動線順暢備料烹飪收納方便), 瓦斯爐與抽油煙機齊備(適合常開火家庭), 櫃體收納充足(上櫃下櫃多層空間可收鍋具食材), 採光與通風佳(窗與後門可開啟排油煙), 新式鋼檯面(耐熱耐刮好清理), 地板與客餐廳同材質(視覺連貫方便規劃餐區), 後陽台連結潛力(門外可作洗衣或儲物空間)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018q.jpg?1760411987",
+      "evidence": "Bedroom characterized by the sliding door leading to a clearly enclosed/sealed balcony area ('附封閉式陽台').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室一(附小陽台)",
+        "tag_list": [
+          "採光普通偏佳",
+          "附封閉式陽台",
+          "格局方正",
+          "隔音潛力一般",
+          "新式木紋地板",
+          "私密性佳"
+        ],
+        "raw_description": "採光普通偏佳(有落地玻璃門及小窗), 附封閉式陽台(可作曬衣或儲物使用), 格局方正(長方形房間好擺床與衣櫃), 隔音潛力一般(鋁窗需現場確認氣密與噪音), 新式木紋地板(適合臥室腳感佳), 私密性佳(與公共區有門區隔)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018r.jpg?1760411987",
+      "evidence": "High-floor bedroom with excellent light ('採光極佳') and a wide perspective, fitting the '空間寬敞' tag better than Image_10.",
+      "confidence_score": 0.94,
+      "extracted_feature": {
+        "room": "臥室二(高樓層1)",
+        "tag_list": [
+          "採光極佳",
+          "通風良好",
+          "出入陽台",
+          "空間寬敞",
+          "層高舒適",
+          "插座預留",
+          "地板新穎"
+        ],
+        "raw_description": "採光極佳(落地門加兩側窗戶自然光充足), 通風良好(多向窗戶可形成對流), 出入陽台(適合種植/曬衣/休憩), 空間寬敞(可規劃雙人床+書桌+衣櫃), 層高舒適(天花高度夠不壓迫), 插座預留(牆面插座多樣方便家電配置), 地板新穎(木紋地板提升居住舒適度)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018s.jpg?1760411987",
+      "evidence": "Bedroom showing a visible structural beam near the ceiling ('頂棚樑稍低') and an internal door, suggesting potential for suite planning.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "臥室三(高樓層2)",
+        "tag_list": [
+          "採光好",
+          "視野開闊",
+          "格局端正",
+          "可與鄰室作套房規劃",
+          "地板與牆面新整理",
+          "頂棚樑稍低"
+        ],
+        "raw_description": "採光好(大面窗與側窗引光), 視野開闊(高樓層臨窗景觀較通透), 格局端正(方正空間適合作主臥或工作室), 可與鄰室作套房規劃(門口鄰近可彈性分隔), 地板與牆面新整理(可直接入住減少裝修成本), 頂棚樑稍低(局部橫樑需留意家具高度配置)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018t.jpg?1760411987",
+      "evidence": "Bathroom featuring a distinct sloped ceiling/wall, confirming '異形空間利用' (likely under the stairs), and an extractor fan ('有抽風設備').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "衛浴二(樓梯下)",
+        "tag_list": [
+          "基本設備齊全",
+          "有抽風設備",
+          "乾濕未分離",
+          "異形空間利用",
+          "磁磚狀況良好",
+          "空間偏窄"
+        ],
+        "raw_description": "基本設備齊全(馬桶洗手台鏡櫃完備), 有抽風設備(牆上排風扇幫助通風), 乾濕未分離(無獨立淋浴間洗澡易濕滑), 異形空間利用(樓梯下斜頂壓迫感稍重), 磁磚狀況良好(無明顯滲水或霉斑), 空間偏窄(多人同住早晚尖峰使用需排隊)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180018v.jpg?1760411987",
+      "evidence": "High-floor bedroom with large sliding doors providing '大面採光' and balcony access, assigned after Image_7 was matched to the '寬敞' description.",
+      "confidence_score": 0.94,
+      "extracted_feature": {
+        "room": "臥室四(高樓層3)",
+        "tag_list": [
+          "大面採光",
+          "附陽台出入口",
+          "格局方正好規劃",
+          "層高舒適",
+          "新式照明",
+          "地板新穎好清潔"
+        ],
+        "raw_description": "大面採光(落地門與側窗提供充足日照), 附陽台出入口(可曬衣與增加通風), 格局方正好規劃(適合當主臥或親子房), 層高舒適(頂部高度足夠不壓迫), 新式照明(長型燈具亮度佳適合閱讀工作), 地板新穎好清潔(木紋耐磨材質)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "reasoning_log": "The matching process prioritized unique room types first (Kitchen, Bathroom, Study) and then differentiated between similar rooms based on size, layout, and specific features (Small Bedroom vs. Main Bedroom). The most complex task was aligning the four descriptions of the high-ceiling living room (Loft) with the five candidate images (Images 7, 8, 9, 10, 11). Desc_8 was definitively matched to Image_8 (overhead view) and Desc_9 to Image_9 (entrance view). Desc_7 (general loft structure) was assigned to Image_10, which provides the clearest view of the central staircase and upper balcony. Desc_10 (focusing on structure and storage) was assigned to Image_7, which prominently features the large maroon storage cabinets and the loft connection. Image_11, an upward shot focusing primarily on the ceiling and chandelier, was determined to be redundant as it did not offer a unique perspective required by the remaining descriptions.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342j.jpg?1760410665",
+      "evidence": "Matches '小臥室' (small bedroom) and '格局偏擁擠' (cramped layout). It is the smallest of the three bedroom candidates.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "小臥室",
+        "tag_list": [
+          "採光一般",
+          "自然通風可",
+          "格局偏擁擠",
+          "收納有限",
+          "地板溫暖質感",
+          "私密性佳"
+        ],
+        "raw_description": "採光一般(單面小窗簾遮光)、自然通風可(有對外窗)、格局偏擁擠(床與牆距離窄)、收納有限(僅低矮抽屜與一層壁架)、地板溫暖質感(木地板)、私密性佳(獨立房門)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342k.jpg?1760410665",
+      "evidence": "Matches '主臥室' (main bedroom) and '家具齊全'. This is the general, wider view of the main bedroom, showing the bed and large wardrobe partially.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥室",
+        "tag_list": [
+          "採光一般",
+          "空間中等",
+          "大量收納",
+          "家具齊全",
+          "隱私良好",
+          "裝潢較舊"
+        ],
+        "raw_description": "採光一般(單窗搭配厚窗簾)、空間中等(可活動範圍尚可)、大量收納(整面衣櫃與床頭櫃)、家具齊全(床與梳妝台等基本配置)、隱私良好(獨立臥室配置)、裝潢較舊(風格老派需更新)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342l.jpg?1760410665",
+      "evidence": "The only '廚房' (kitchen) image. Features '採光良好' (large window) and '檯面空間大' (ample counter space).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光良好",
+          "自然通風佳",
+          "收納充足",
+          "料理動線順暢",
+          "檯面空間大",
+          "整體裝潢中等偏舊"
+        ],
+        "raw_description": "採光良好(大片窗戶進光足)、自然通風佳(窗邊作業檯與排油煙設備)、收納充足(上下一字排櫥櫃多)、料理動線順暢(長型操作檯面連續)、檯面空間大(可擺放多電器)、整體裝潢中等偏舊(瓷磚與櫥櫃非新式)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342m.jpg?1760410665",
+      "evidence": "Matches '多功能房/書房'. The room is mostly empty, '格局方正', and has '活動空間大', suitable for flexible use.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "多功能房/書房",
+        "tag_list": [
+          "採光尚可",
+          "格局方正",
+          "活動空間大",
+          "可作書房或遊戲室",
+          "地板木質感",
+          "收納待加強"
+        ],
+        "raw_description": "採光尚可(整面窗搭配厚窗簾)、格局方正(空間矩形好規劃)、活動空間大(目前家具少可彈性使用)、可作書房或遊戲室(留白空間靈活)、地板木質感(適合家庭與孩童活動)、收納待加強(僅低矮電視櫃與小儲物角落)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342o.jpg?1760410665",
+      "evidence": "The only '浴室' (bathroom) image. Clearly shows '有浴缸' and '乾濕不完全分離'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "乾濕不完全分離",
+          "有浴缸",
+          "採光與通風不明顯",
+          "檯面收納尚可",
+          "裝修較老舊",
+          "清潔維護需求高"
+        ],
+        "raw_description": "乾濕不完全分離(浴缸帘易濺水)、有浴缸(適合泡澡家庭使用)、採光與通風不明顯(照片未見窗戶可能需仰賴換氣扇)、檯面收納尚可(洗手台下櫃體提供空間)、裝修較老舊(磁磚與櫃體風格過時)、清潔維護需求高(深色浴缸外側易顯污漬)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342p.jpg?1760410665",
+      "evidence": "Matches '主臥室(另一角度)'. This view emphasizes the '大量收納' (large wardrobe) and the fixed bed position, confirming it is the same room as Image_2.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥室(另一角度)",
+        "tag_list": [
+          "採光一般",
+          "大量收納",
+          "床位已固定",
+          "裝潢略顯老派",
+          "隱私佳"
+        ],
+        "raw_description": "採光一般(單窗窗簾厚重)、大量收納(整面衣櫃與床頭櫃)、床位已固定(床靠牆配置穩定)、裝潢略顯老派(色系偏重需更新)、隱私佳(獨立使用空間)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342v.jpg?1760410665",
+      "evidence": "Matches '客廳(挑高樓中樓)' focusing on the structure. Image_10 provides the clearest view of the '挑高中庭' and the overall '樓層動線分明' structure.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳(挑高樓中樓)",
+        "tag_list": [
+          "挑高中庭",
+          "採光良好",
+          "通風可",
+          "公共空間寬敞",
+          "裝潢華麗偏舊",
+          "收納充足",
+          "樓層動線分明"
+        ],
+        "raw_description": "挑高中庭(客廳層高極佳空間感強)、採光良好(整面落地窗簾背後為大窗)、通風可(大窗可開啟推估氣流佳)、公共空間寬敞(兩組沙發仍留活動走道)、裝潢華麗偏舊(古典線板與深色皮沙發)、收納充足(大面積櫃體與矮櫃)、樓層動線分明(樓梯連接上下層適合家庭)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342r.jpg?1760410665",
+      "evidence": "Matches '客廳俯視' (overhead view). This is the only image taken from the upper floor looking down onto the living area.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳俯視",
+        "tag_list": [
+          "挑高優勢明顯",
+          "大面窗戶",
+          "客餐動線清楚",
+          "裝潢存在感強",
+          "家具已配置齊全"
+        ],
+        "raw_description": "挑高優勢明顯(從二樓俯瞰空間通透)、大面窗戶(窗簾後為整面採光面)、客餐動線清楚(門口到沙發區路徑順暢)、裝潢存在感強(風格鮮明未必符合所有人)、家具已配置齊全(沙發茶几到位)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342s.jpg?1760410665",
+      "evidence": "Matches '客廳入口視角'. This image clearly shows the main entrance door panel on the left and the view into the living room.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳入口視角",
+        "tag_list": [
+          "採光良好",
+          "挑高客廳",
+          "公共空間完整",
+          "家具齊全可立即入住",
+          "收納櫃多",
+          "裝潢偏舊需斟酌預算"
+        ],
+        "raw_description": "採光良好(高窗簾透光)、挑高客廳(上層夾層+高天花板)、公共空間完整(玄關與客廳銜接自然)、家具齊全可立即入住(沙發茶几現成)、收納櫃多(電視矮櫃與側邊櫃)、裝潢偏舊需斟酌預算(古典造型線板與色調)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS182342q.jpg?1760410665",
+      "evidence": "Matches '客廳與樓中樓' focusing on storage and style. Image_7 prominently displays the large maroon '收納空間多' cabinets and the traditional '華麗偏傳統' style.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳與樓中樓",
+        "tag_list": [
+          "挑高設計",
+          "樓層分區明確",
+          "收納空間多",
+          "適合家庭與招待",
+          "人工照明充足",
+          "風格華麗偏傳統"
+        ],
+        "raw_description": "挑高設計(上層迴廊俯視客廳)、樓層分區明確(客廳與二樓私領域區隔)、收納空間多(整排高櫃)、適合家庭與招待(座位與公共區大)、人工照明充足(多組天花燈具)、風格華麗偏傳統(喜好因人而異)"
+      }
+    }
+  ]
+}

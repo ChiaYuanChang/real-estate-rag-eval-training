@@ -1,0 +1,171 @@
+{
+  "reasoning_log": "The matching process relied heavily on unique structural and material cues. Desc_1 was uniquely identified by the combination of dark floor tiles and a high/sloped ceiling (Image_1). Desc_2 (Kitchen), Desc_4 (Balcony with chains/bars), Desc_5 (Bathroom with window), and Desc_7 (Wood floor, large window, AC) were all unambiguous matches (Images 2, 4, 5, 7 respectively). Desc_9 required the presence of a 'large sliding door connecting to a balcony,' which was clearly visible only in Image_10, distinguishing it from the similar living room views in Image_9 and Image_11. Desc_6 and Desc_8 describe two visually identical empty bedrooms with light tiles; they were assigned arbitrarily to Image_6 and Image_8. Images 9 and 11 were identified as redundant views of the same living room type, lacking a unique descriptive feature not already covered by Desc_9/Image_10.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633f.jpg?1760411931",
+      "evidence": "Features dark glossy floor tiles, half-height wall tiles, a long layout, and a distinctively high/sloped ceiling, matching '挑高天花' and '地坪深色磁磚'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳A",
+        "tag_list": [
+          "採光中等",
+          "長形格局",
+          "挑高天花",
+          "基礎照明完成",
+          "地坪深色磁磚",
+          "牆面已鋪磁磚",
+          "基本電視櫃配置"
+        ],
+        "raw_description": "採光中等(前端未見大面窗戶)、長形格局(空間狹長需注意家具動線)、挑高天花(吊扇與嵌燈顯得高度尚可)、基礎照明完成(多組嵌燈與吊扇燈)、地坪深色磁磚(耐髒但視覺略壓縮)、牆面已鋪磁磚(清潔容易適合有小孩或寵物)、基本電視櫃配置(入住初期可直接使用)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633g.jpg?1760411931",
+      "evidence": "Clearly an independent kitchen space with stove, hood, red upper cabinets, and tiled walls/floor, fitting the '裝潢略顯老舊' and specific appliance placements.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房空間",
+          "瓦斯爐與抽油煙機",
+          "上下櫃收納",
+          "有冰箱與微波爐位",
+          "磁磚地壁面",
+          "採光通風窗",
+          "裝潢略顯老舊"
+        ],
+        "raw_description": "獨立廚房空間(與客廳分開油煙不易外溢)、瓦斯爐與抽油煙機(完整明火烹飪機能)、上下櫃收納(提供基本廚具與物品收納)、有冰箱與微波爐位(家電配置齊全度高)、磁磚地壁面(防水好清理)、採光通風窗(有上方窗戶利於排油煙與濕氣)、裝潢略顯老舊(櫥櫃門板與設備年代感較重)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633k.jpg?1760411931",
+      "evidence": "Shows a bedroom with a wooden slat bed frame, a split AC unit, and light floor tiles, matching '附木床架' and '有分離式冷氣'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室A",
+        "tag_list": [
+          "有分離式冷氣",
+          "方正格局",
+          "單面採光不足",
+          "附木床架",
+          "淺色地磚",
+          "天花略低"
+        ],
+        "raw_description": "有分離式冷氣(入住即可使用提升舒適度)、方正格局(四角完整好擺家具)、單面採光不足(照片中未見窗戶或僅小窗需留意通風)、附木床架(學生或上班族可減少添購成本)、淺色地磚(增加明亮感且好清潔)、天花略低(壓樑結構稍壓迫)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633l.jpg?1760411931",
+      "evidence": "Identified as a rear balcony due to the reddish-brown floor tiles, safety iron bars, and chains, confirming '安全鐵窗圍設' and '地面磁磚防滑'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "後陽台",
+        "tag_list": [
+          "有陽台空間",
+          "室外通風佳",
+          "安全鐵窗圍設",
+          "地面磁磚防滑",
+          "深度尚可",
+          "視野受牆面遮擋"
+        ],
+        "raw_description": "有陽台空間(可作洗衣與晾曬區)、室外通風佳(鐵窗與開放側面利於空氣流通)、安全鐵窗圍設(增加防護適合有小孩寵物)、地面磁磚防滑(適合濕區使用)、深度尚可(可放洗衣機與清潔用品)、視野受牆面遮擋(景觀普通採光較有限)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633m.jpg?1760411931",
+      "evidence": "A narrow, fully tiled bathroom featuring a small high window ('有對外窗') and basic fixtures without full wet/dry separation.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "有對外窗",
+          "乾溼未完全分離",
+          "磁磚全面包覆",
+          "基本配備齊全",
+          "空間偏窄長形",
+          "管線外露較少"
+        ],
+        "raw_description": "有對外窗(自然通風減少潮濕與異味)、乾溼未完全分離(地面整體同一高度易積水)、磁磚全面包覆(防水與清潔方便)、基本配備齊全(馬桶洗手台鏡子毛巾架皆有)、空間偏窄長形(如多人同住早晚高峰使用需排隊)、管線外露較少(視覺較整潔)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633n.jpg?1760411931",
+      "evidence": "An empty, square room with light floor tiles and freshly painted walls, matching the description of a simple, unfurnished bedroom ('無固定傢俱').",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室B",
+        "tag_list": [
+          "方正空間",
+          "採光不足疑慮",
+          "無固定傢俱",
+          "地坪淺色磁磚",
+          "牆面重新粉刷",
+          "可能通風較弱"
+        ],
+        "raw_description": "方正空間(好規劃床與衣櫃位置)、採光不足疑慮(未見窗戶可能為內部房間)、無固定傢俱(使用彈性高可依需求規劃)、地坪淺色磁磚(耐用好保養)、牆面重新粉刷(整體感覺清爽)、可能通風較弱(需仰賴冷氣或機械通風)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633o.jpg?1760411931",
+      "evidence": "The only room featuring a wood floor ('木地板溫馨'), a large window for good lighting, an AC unit, and visible storage/desk area.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室C(木地板房)",
+        "tag_list": [
+          "大面窗採光佳",
+          "通風條件良好",
+          "木地板溫馨",
+          "附書桌與收納櫃",
+          "空間寬敞",
+          "有冷氣機",
+          "牆面與裝潢保養尚可"
+        ],
+        "raw_description": "大面窗採光佳(窗邊有書桌自然光充足)、通風條件良好(窗戶可開啟空氣流通)、木地板溫馨(腳感舒適適合做主臥或兒童房)、附書桌與收納櫃(適合學生或在家辦公)、空間寬敞(可放雙人床與衣櫃仍有走道)、有冷氣機(夏季居住舒適)、牆面與裝潢保養尚可(看起來無明顯滲水與發霉)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633p.jpg?1760411931",
+      "evidence": "An empty, square room with light floor tiles, visually identical to Image_6, confirming it is the second bedroom of the same type ('與6同型').",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室D(與6同型)",
+        "tag_list": [
+          "方正格局",
+          "採光通風可能不足",
+          "裝潢簡單好改造",
+          "無固定收納",
+          "地面磁磚易清潔"
+        ],
+        "raw_description": "方正格局(適合作次臥或書房)、採光通風可能不足(天花燈為主要光源未見窗)、裝潢簡單好改造(僅基礎地磚與粉刷牆面)、無固定收納(需另購衣櫃與櫃體)、地面磁磚易清潔(適合養寵物或長期出租)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180633r.jpg?1760411931",
+      "evidence": "A living room with half-height wall tiles and light floor tiles, uniquely featuring the '大面落地拉門' (large sliding door) connecting to a balcony.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳B(面陽台)",
+        "tag_list": [
+          "大面落地拉門",
+          "前後通風佳",
+          "長形客廳空間",
+          "連接寬敞陽台",
+          "基礎家具配置",
+          "瓷磚地坪耐用",
+          "牆面半高磁磚",
+          "視野較開闊"
+        ],
+        "raw_description": "大面落地拉門(採光充足並連接陽台)、前後通風佳(可形成穿堂風減少悶熱)、長形客廳空間(可劃分客廳與餐廳但需注意家具配置)、連接寬敞陽台(增加休閒與晾曬面積)、基礎家具配置(沙發與椅子可簡單入住)、瓷磚地坪耐用(適合家庭與寵物)、牆面半高磁磚(防髒防潮但風格較舊)、視野較開闊(外推陽台看出去無明顯遮擋)"
+      }
+    }
+  ]
+}

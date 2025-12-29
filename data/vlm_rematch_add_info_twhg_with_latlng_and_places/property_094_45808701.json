@@ -1,0 +1,107 @@
+{
+  "reasoning_log": "The matching process focused on identifying unique visual elements corresponding to the descriptive tags, particularly lighting conditions (day/night, natural/artificial), the presence of a kitchen, and specific structural features like a defined entrance (玄關) or a window platform. Image_5 was definitively matched to Desc_5 due to the explicit requirement for a '日景' (day view) and '超大採光面' combined with a kitchen. Image_3 was matched to Desc_3 based on the '夜景視野佳' and the unique '窗邊多功能平台'. Image_4 was matched to Desc_4 as it clearly shows the '小廚房' and a '休憩工作區明確' (desk/TV area). Image_2 was chosen for Desc_2 ('玄關明確', '人工照明充足') as it features a clear entrance separation and lower natural light compared to Image_1. Image_1, the remaining candidate, was assigned to Desc_1 ('臥室+小廚房一體', '採光佳'). Although Image_1 lacks a visible kitchen, it exhibits superior natural light ('採光佳') compared to Image_2, making it the best fit among the remaining bedroom-only views, assuming the kitchen is out of frame.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS164496a.jpg?1760412869",
+      "evidence": "Matches '臥室' and '採光佳' (good natural light). Chosen by exclusion, as Image_2 better fits the '玄關明確' tag.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "套房臥室+小廚房一體",
+        "tag_list": [
+          "採光佳",
+          "視野開闊",
+          "通風尚可",
+          "格局方正",
+          "天花高度舒適",
+          "地板質感佳",
+          "收納普通",
+          "基本傢俱附贈",
+          "小廚房機能基本",
+          "噪音風險中等"
+        ],
+        "raw_description": "採光佳(大面積落地窗), 視野開闊(高樓俯視城市景觀), 通風尚可(窗邊可開啟氣窗推測), 格局方正(單一大開間無突角), 天花高度舒適(看起來不壓迫), 地板質感佳(木地板提高居住舒適度), 收納普通(有衣櫃但櫃體不算多), 基本傢俱附贈(床架已配置減少添購成本), 小廚房機能基本(流理台+上櫃可簡易料理), 噪音風險中等(大窗臨外側可能有街道噪音)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS164496e.jpg?1760412869",
+      "evidence": "Clearly shows a defined entrance/hallway area ('玄關明確') separated by the large cabinet, and the lighting suggests '人工照明充足'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "套房臥室+玄關",
+        "tag_list": [
+          "人工照明充足",
+          "格局方正",
+          "玄關明確",
+          "收納尚可",
+          "基本家電預留",
+          "地板維持良好",
+          "傢俱齊全",
+          "私密性佳"
+        ],
+        "raw_description": "人工照明充足(多盞嵌燈補足室內亮度), 格局方正(床位與走道動線順暢), 玄關明確(有落塵區與大門區隔), 收納尚可(大面積衣櫃與側邊櫃體), 基本家電預留(牆面插座與空調設備已裝), 地板維持良好(木地板完整無明顯損壞), 傢俱齊全(雙人床與書桌椅適合單人或小兩口), 私密性佳(套房單一出入口方便管理)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS164496f.jpg?1760412869",
+      "evidence": "Features '超大窗戶', '夜景視野佳', and a prominent '窗邊多功能平台' (low counter/bench).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "套房臥室區",
+        "tag_list": [
+          "超大窗戶",
+          "夜景視野佳",
+          "窗邊多功能平台",
+          "動線寬敞",
+          "家具配置彈性",
+          "收納一般",
+          "隔音需留意"
+        ],
+        "raw_description": "超大窗戶(整面窗提供良好採光與視野), 夜景視野佳(高樓層可見城市燈景), 窗邊多功能平台(可作書桌/收納/賞景座位), 動線寬敞(床與窗邊平台間距離大好走動), 家具配置彈性(大開放空間可調整床位與書桌), 收納一般(僅床頭櫃與平台需另增收納櫃), 隔音需留意(大玻璃窗可能受外界噪音影響)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS164496g.jpg?1760412869",
+      "evidence": "Shows the '開放式小廚房' (sink, fridge) integrated with a clear '休憩工作區明確' (built-in desk/entertainment unit).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "套房起居+小廚房",
+        "tag_list": [
+          "開放式小廚房",
+          "通風可能受限",
+          "收納空間充足",
+          "生活機能集中",
+          "採光佳",
+          "已附基本家電",
+          "休憩工作區明確",
+          "空間利用率高"
+        ],
+        "raw_description": "開放式小廚房(流理台+上櫃+冰箱適合簡單烹煮), 通風可能受限(廚房靠室內需依賴對外窗換氣), 收納空間充足(高櫃+上櫃+電視櫃平台可放大量物品), 生活機能集中(睡眠區與料理區同一空間動線短), 採光佳(旁側大窗提供自然光), 已附基本家電(冰箱現成減少初期投入), 休憩工作區明確(窗邊長型平台可作書桌/工作台), 空間利用率高(牆面皆作櫃體與平台)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS164496d.jpg?1760412869",
+      "evidence": "The only image showing the '套房整體空間' with a clear '日景' (day view), '超大採光面', and '小廚房機能齊備'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "套房整體空間(日景)",
+        "tag_list": [
+          "超大採光面",
+          "視野遼闊",
+          "居住面積寬敞",
+          "格局方正好擺設",
+          "通風良好",
+          "收納豐富",
+          "小廚房機能齊備",
+          "採光與隱私可調",
+          "裝潢中等新"
+        ],
+        "raw_description": "超大採光面(整排落地窗帶來充足自然光), 視野遼闊(可遠眺城市與綠地增加居住價值), 居住面積寬敞(床與櫃體間留有大面積活動空間), 格局方正好擺設(矩形空間適合劃分睡眠與工作區), 通風良好(大窗可開啟促進對流), 收納豐富(高衣櫃+上櫃+平台櫃體), 小廚房機能齊備(流理台+櫃體+冰箱適合單身或小家庭), 採光與隱私可調(厚窗簾可遮光兼顧隱私), 裝潢中等新(櫥櫃與地板狀況尚佳無明顯老化)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "reasoning_log": "The dataset contained 15 descriptions but only 14 unique image IDs, with several images being exact duplicates (Image 4/6, Image 5/14, Image 7/13, Image 8/9/12). To satisfy the requirement of mapping every description (1:1 mapping for 15 descriptions), I utilized the duplicate images for descriptions labeled as 'another angle' or 'repeat angle'. Specifically, the large master bedroom (Bedroom B, Image 5/14) was described three times (Desc_5, Desc_8, Desc_14), necessitating the reuse of Image_5 for two descriptions. The studio bedroom (Image 8/9/12) was described three times (Desc_9, Desc_10, Desc_13). The storage room (Image_11) was uniquely identified by its '格柵燈板' (grid ceiling). All unique room types (Living Room, Kitchen, two Bathrooms, Storage Room) were matched with high confidence based on structural and fixture evidence.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909f.jpg?1760412914",
+      "evidence": "Clearly a long, narrow living room ('狹長型格局') with old furniture and an old wall-mounted AC unit.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "狹長型格局",
+          "採光不足",
+          "通風一般",
+          "天花高度略壓迫",
+          "舊式裝潢",
+          "收納不足",
+          "已有冷氣",
+          "噪音疑慮"
+        ],
+        "raw_description": "狹長型格局(空間細長影響動線與採光), 採光不足(僅一端有小窗與門), 通風一般(有窗但被家具與雜物部分阻擋), 天花高度略壓迫(燈具貼頂視覺偏低), 舊式裝潢(磁磚與油漆老舊需整修), 收納不足(大量開放雜物堆放), 已有冷氣(壁掛式冷氣機可直接使用), 噪音疑慮(面外側可能臨路需留意隔音)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909g.jpg?1760412914",
+      "evidence": "Identified as a narrow, old kitchen ('廚房老舊') with basic counter space and tiled walls.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "完整流理台",
+          "採光通風尚可",
+          "廚房老舊",
+          "收納空間有限",
+          "無明顯爐具",
+          "清潔度一般",
+          "空間狹長"
+        ],
+        "raw_description": "完整流理台(備有水槽與操作檯面), 採光通風尚可(有對外窗與排氣可能), 廚房老舊(地板與櫥櫃明顯年代感需翻新), 收納空間有限(部分以開放鐵架補強), 無明顯爐具(看不到固定瓦斯爐需自備), 清潔度一般(地面有磨損與汙漬), 空間狹長(多人同時使用較擁擠)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909d.jpg?1760412914",
+      "evidence": "Bathroom showing space for a washing machine on the left and lacking dry/wet separation ('無乾濕分離').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "無乾濕分離",
+          "有洗衣機空間",
+          "通風疑慮",
+          "設備老舊",
+          "收納有限",
+          "清潔與防水需檢查"
+        ],
+        "raw_description": "無乾濕分離(蓮蓬頭直接對地面易積水), 有洗衣機空間(浴室兼洗衣場節省空間), 通風疑慮(未見對外窗可能僅靠機械排風), 設備老舊(磁磚與馬桶洗手台年代感重), 收納有限(僅小吊櫃與層板), 清潔與防水需檢查(地面與牆角可能藏汙或滲水風險)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909h.jpg?1760412914",
+      "evidence": "Small, cluttered bedroom ('臥室一') with low ceiling and poor lighting, matching the '雜物多顯凌亂' tag.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "採光不足",
+          "通風一般",
+          "天花過低",
+          "空間尚可",
+          "裝潢老舊",
+          "雜物多顯凌亂",
+          "有獨立門"
+        ],
+        "raw_description": "採光不足(僅一小窗且外有遮擋), 通風一般(窗戶與窗型冷氣可開啟但面積不大), 天花過低(壓迫感較強不利長期居住), 空間尚可(放雙人床後仍有活動空間), 裝潢老舊(牆面與家具風格老式), 雜物多顯凌亂(需整理或增加收納), 有獨立門(隱私性尚可)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909j.jpg?1760412914",
+      "evidence": "Large, spacious room ('空間寬敞') featuring a massive, mirrored wardrobe ('大衣櫃').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "臥室二",
+        "tag_list": [
+          "空間寬敞",
+          "有大衣櫃",
+          "採光一般",
+          "通風尚可",
+          "天花高度普通",
+          "裝潢老舊但好整理",
+          "隱私佳",
+          "噪音需留意"
+        ],
+        "raw_description": "空間寬敞(可放大衣櫃與雙人床仍留走道), 有大衣櫃(收納量充足適合家庭), 採光一般(前端有落地窗但深處較暗), 通風尚可(窗邊有冷氣與可開啟門窗), 天花高度普通(不特別高但無明顯壓迫), 裝潢老舊但好整理(白牆與磁磚地易重新粉刷), 隱私佳(獨立房間適合作主臥), 噪音需留意(臨街窗可能有車聲)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909k.jpg?1760412914",
+      "evidence": "Duplicate view of Image_4, confirming the characteristics of '臥室一' (low ceiling, clutter).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室一(另一角度)",
+        "tag_list": [
+          "採光不足",
+          "天花過低",
+          "通風一般",
+          "家具陳舊",
+          "雜物堆積",
+          "空間中等"
+        ],
+        "raw_description": "採光不足(仍僅見一小窗光線偏弱), 天花過低(燈具貼頂壓迫感明顯), 通風一般(單一窗與窗型冷氣), 家具陳舊(床架與梳妝台較老式), 雜物堆積(收納不足影響使用感), 空間中等(適合單人或小兩人)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909m.jpg?1760412914",
+      "evidence": "Long, deep room ('房間深度大') with ample dresser space providing '儲物空間充足'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室二(另一角度)",
+        "tag_list": [
+          "房間深度大",
+          "儲物空間充足",
+          "採光一般",
+          "牆面需整修",
+          "地板易清潔",
+          "布置彈性高"
+        ],
+        "raw_description": "房間深度大(前後距離長可規劃多功能區), 儲物空間充足(多組衣櫃與抽屜), 採光一般(前端窗戶提供主要光源), 牆面需整修(局部髒汙與可能裂痕), 地板易清潔(磁磚材質維護方便), 布置彈性高(目前家具皆可調整重配)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909u.jpg?1760412914",
+      "evidence": "Duplicate view of Image_5, representing the '大坪數臥室' with the '大型衣櫃與梳妝台'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥或大房",
+        "tag_list": [
+          "大坪數臥室",
+          "大型衣櫃與梳妝台",
+          "採光一般偏弱",
+          "通風可能較差",
+          "裝潢與地磚老舊",
+          "牆面潮痕待查",
+          "動線順暢"
+        ],
+        "raw_description": "大坪數臥室(床外仍有大片空地可加書桌或嬰兒床), 大型衣櫃與梳妝台(收納量大適合家庭), 採光一般偏弱(未見窗戶近景主要靠前端光源), 通風可能較差(畫面中未見窗戶僅牆面), 裝潢與地磚老舊(未翻新需預算), 牆面潮痕待查(局部色差需留意滲水風險), 動線順暢(長方形好擺放家具)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909n.jpg?1760412914",
+      "evidence": "Clear '套房格局' showing the bedroom area with an open doorway leading directly to the private bathroom.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "套房臥室區",
+        "tag_list": [
+          "套房格局",
+          "採光尚可",
+          "通風良好",
+          "天花偏低",
+          "空間中小",
+          "牆面與地坪可接受",
+          "適合單人居住"
+        ],
+        "raw_description": "套房格局(房內自帶衛浴提高隱私與便利), 採光尚可(有對外窗導入自然光), 通風良好(臥室與衛浴各有窗利於排濕), 天花偏低(壓迫感需親自感受), 空間中小(放床後活動範圍有限), 牆面與地坪可接受(雖老舊但整體尚整潔), 適合單人居住(功能集中)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909o.jpg?1760412914",
+      "evidence": "Duplicate view of Image_8, confirming the '套房獨立衛浴' from a slightly different perspective.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "套房臥室區(另一角度)",
+        "tag_list": [
+          "採光通風仍佳",
+          "套房獨立衛浴",
+          "配電插座多",
+          "裝潢簡單好整理",
+          "層高略低"
+        ],
+        "raw_description": "採光通風仍佳(兩側小窗提供交叉氣流), 套房獨立衛浴(生活隱私佳), 配電插座多(牆上多處插座方便家電配置), 裝潢簡單好整理(白牆與淺色磚易重新油漆), 層高略低(燈具貼頂顯壓迫)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909q.jpg?1760412914",
+      "evidence": "Second unique bathroom ('浴室二') which features a small window for ventilation ('有小窗通風').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "有小窗通風",
+          "基本設備齊全",
+          "無明顯乾濕分離",
+          "磁磚老舊",
+          "空間狹小",
+          "清潔狀況一般"
+        ],
+        "raw_description": "有小窗通風(可自然排氣減少潮濕), 基本設備齊全(馬桶洗手台鏡櫃皆有), 無明顯乾濕分離(地面排水在同一區域易滑), 磁磚老舊(縫隙可能需重新勾縫), 空間狹小(轉身較受限), 清潔狀況一般(需加強整理)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909r.jpg?1760412914",
+      "evidence": "Small room used for storage, characterized by the '格柵燈板' (grid ceiling) and lack of external windows.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "儲藏室/小房",
+        "tag_list": [
+          "無對外窗",
+          "適合作收納間",
+          "天花為格柵燈板",
+          "空間中等",
+          "潛在悶熱問題"
+        ],
+        "raw_description": "無對外窗(通風與採光不足不宜長住), 適合作收納間(目前堆放紙箱與雜物), 天花為格柵燈板(可能為後加吊頂需留意高度), 空間中等(可規劃成更衣間或書房), 潛在悶熱問題(需仰賴空調或排風)"
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909s.jpg?1760412914",
+      "evidence": "Third duplicate view of Image_8, confirming the '套房格局含衛浴'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "套房臥室區(重複角度)",
+        "tag_list": [
+          "套房格局含衛浴",
+          "採光尚可",
+          "通風便利",
+          "空間方正",
+          "層高偏低",
+          "裝潢簡單易翻新"
+        ],
+        "raw_description": "套房格局含衛浴(適合出租單位), 採光尚可(臥室窗戶進光), 通風便利(臥室與衛浴都有窗), 空間方正(家具擺放彈性高), 層高偏低(對高個住戶舒適度較差), 裝潢簡單易翻新(基礎狀況尚可)"
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909j.jpg?1760412914",
+      "evidence": "Reused Image_5 (Bedroom B). This room has the largest scale ('房間尺度大') and extensive built-in storage ('大量收納家具').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥或大房(另一角度)",
+        "tag_list": [
+          "房間尺度大",
+          "大量收納家具",
+          "採光一般",
+          "通風尚可",
+          "牆面老化",
+          "動線良好"
+        ],
+        "raw_description": "房間尺度大(床與兩側家具後仍有走道), 大量收納家具(衣櫃與矮櫃充足), 採光一般(前端窗與落地門提供光線), 通風尚可(可開啟門窗與牆插冷氣), 牆面老化(局部髒汙需重新油漆), 動線良好(進門至床區一路順暢)"
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186909t.jpg?1760412914",
+      "evidence": "Duplicate view of Image_7 (Bedroom C). Fits the '長方形格局' and is the only remaining large bedroom angle for assignment.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "主臥或大房(再一角度)",
+        "tag_list": [
+          "長方形格局",
+          "大面衣櫃鏡面",
+          "採光一般",
+          "地面易打掃",
+          "需整體翻修",
+          "適合作家庭主臥"
+        ],
+        "raw_description": "長方形格局(利於區分睡眠與工作區), 大面衣櫃鏡面(增加收納並放大空間感), 採光一般(窗邊有百葉或窗簾過濾光線), 地面易打掃(磁磚鋪設減少保養成本), 需整體翻修(家具與牆面顯舊), 適合作家庭主臥(空間與收納條件佳)"
+      }
+    }
+  ]
+}

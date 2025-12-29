@@ -1,0 +1,214 @@
+{
+  "reasoning_log": "The input provided 12 descriptions but only 11 unique image candidates (Image_1 through Image_11). To fulfill the requirement of providing a 1:1 match for every description, one image had to be reused. The images were first categorized into two main studio layouts (Studio A: Balcony view, Dark Desk; Studio B: Wardrobe view, No Balcony) and two staircase views. Descriptions 9 and 10 were matched to the distinct staircase images (Image_8 and Image_9). The remaining 10 studio descriptions were matched based on specific visual cues (e.g., Desc_7 required a view showing the ceiling light and centered AC, best fit by Image_7; Desc_2 required a clear view of the green sofa and coffee table, best fit by Image_3). Desc_6, being a generic description emphasizing the 'full set' of furniture and crowdedness, was assigned to Image_1, which provides a comprehensive view of Studio A's layout, necessitating the reuse of this image to complete the 12 required mappings.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828a.jpg?1760411257",
+      "evidence": "Features a balcony (陽台空間), visible AC (有冷氣), tiled floor (磁磚地板), and strong natural light (採光佳), fitting the Studio A layout.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "採光佳",
+          "通風條件佳",
+          "格局方正",
+          "基本家具齊全(床",
+          "書桌椅",
+          "衣櫃皆備)",
+          "有冷氣",
+          "陽台空間",
+          "磁磚地板",
+          "空間偏緊湊"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828j.jpg?1760411257",
+      "evidence": "Clearly shows the green sofa and black coffee table (已附沙發茶几) defining the dual functional area (雙功能區). The furniture and wallpaper appear older (家具較老舊).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "自然光充足",
+          "雙功能區",
+          "已附沙發茶几",
+          "私密性中等",
+          "牆面與家具較老舊"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828k.jpg?1760411257",
+      "evidence": "Highlights the 'small living room' configuration (小客廳配置) with the sofa and table, and the large black wardrobe providing medium storage (收納空間中等).",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "小客廳配置",
+          "收納空間中等",
+          "動線尚可",
+          "採光良好",
+          "屋況普通"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828s.jpg?1760411257",
+      "evidence": "Focuses on the integrated desk/work station (書桌工作位) within the single room, confirming concentrated living functions.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "生活機能集中(睡眠",
+          "閱讀",
+          "休息皆在同一室)",
+          "書桌工作位",
+          "插座集中牆面",
+          "風格簡單易整理"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828t.jpg?1760411257",
+      "evidence": "Shows the complete utilization of space, packing the bed, desk, sofa (partially visible), and large wardrobe into the room (空間利用完整).",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "空間利用完整(床",
+          "書桌",
+          "沙發",
+          "衣櫃皆擺入)",
+          "採光貫穿",
+          "家具偏舊",
+          "天花高度一般"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828a.jpg?1760411257",
+      "evidence": "Generic description of a 'full set' studio (全配套房) with crowded furniture (略擁擠). Image_1 provides a comprehensive view confirming all listed items (REUSE due to input constraint).",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "全配套房(床組",
+          "衣櫃",
+          "書桌椅",
+          "沙發一應俱全)",
+          "租客可直接入住",
+          "隱私稍弱",
+          "傢俱擺設略擁擠"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828o.jpg?1760411257",
+      "evidence": "This view clearly shows the ceiling light (室內照明設備) and the AC unit positioned centrally above the balcony door (冷氣位置居中).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "採光穩定",
+          "有室內照明設備",
+          "冷氣位置居中",
+          "牆面花紋明顯"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828e.jpg?1760411257",
+      "evidence": "The AC unit is positioned to blow directly across the room towards the bed/desk area (空調直吹範圍大), and light/ventilation originate from the same balcony direction.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "工作區與床距適中",
+          "空調直吹範圍大",
+          "採光與通風同向"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828q.jpg?1760411257",
+      "evidence": "Shows the staircase landing with a window, visible '3F' text, and signs of wear/clutter, fitting the 'maintenance average' tag (公共空間維護普通).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "梯間公共空間",
+        "tag_list": [
+          "採光一般",
+          "通風尚可",
+          "無電梯僅樓梯",
+          "公共空間維護普通"
+        ],
+        "raw_description": "樓梯寬度適中(兩人交會尚可), 防滑瓷磚地面(較好清潔與安全), 採光偏弱(此角度自然光較少), 無屏障設計(搬運大型物件較方便)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828r.jpg?1760411257",
+      "evidence": "A close-up view confirming the tiled steps (防滑瓷磚地面) and relatively weak natural lighting (採光偏弱).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "梯間公共空間",
+        "tag_list": [
+          "樓梯寬度適中",
+          "防滑瓷磚地面",
+          "採光偏弱",
+          "無屏障設計"
+        ],
+        "raw_description": "樓梯寬度適中(兩人交會尚可), 防滑瓷磚地面(較好清潔與安全), 採光偏弱(此角度自然光較少), 無屏障設計(搬運大型物件較方便)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828l.jpg?1760411257",
+      "evidence": "The angle clearly illustrates the continuous flow (動線連貫) from the foreground desk area past the bed to the sofa/balcony.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "動線連貫(入口到床",
+          "沙發",
+          "書桌一目了然)",
+          "小客廳與床區相鄰",
+          "家具集中牆邊",
+          "插座與網路位可能集中"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828n.jpg?1760411257",
+      "evidence": "Confirms the rectangular layout (格局長方型) and shows the natural light from the balcony hitting the bed headboard area (採光照到床頭).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "套房主空間",
+        "tag_list": [
+          "格局長方型好規劃",
+          "採光照到床頭",
+          "屋況偏舊但可用",
+          "適合單身或學生"
+        ],
+        "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "reasoning_log": "The matching process relied heavily on differentiating between similar room types, particularly the two bathrooms and the three bedrooms, and the two views of the public area. For the bathrooms, Desc_2 was matched to Image_2 (no external window, brown tiles) and Desc_8 was matched to Image_8 (external window present, gray tiles). For the public area, Desc_1 (玄關/客廳, window side, electrical boxes) was matched to Image_1, and Desc_7 (廚房/餐區, looking inward) was matched to Image_7. For the bedrooms, Desc_4 was uniquely identified by the smaller, barred window (Image_4). Desc_5 (Master, window side) and Desc_6 (Master, door side) were paired based on the spaciousness (Image_5 and Image_6), leaving Desc_3 (Small Bedroom 1, good view) for Image_3. All 8 descriptions were matched 1:1 to the 8 images based on these unique visual cues.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226e.jpg?1760408098",
+      "evidence": "Narrow layout, large floor-to-ceiling window providing main light source, and visible electrical boxes on the right wall, matching the '客餐廳/玄關區' description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客餐廳/玄關區",
+        "tag_list": [
+          "大面落地窗",
+          "可外推陽台",
+          "狹長型格局",
+          "標準層高",
+          "新式地板",
+          "電箱集中牆面",
+          "室內空間未隔間"
+        ],
+        "raw_description": "大面落地窗(採光佳視野開闊), 可外推陽台(曬衣與通風空間), 狹長型格局(家具配置需規劃動線), 標準層高(視覺尚不壓迫), 新式地板(翻修完好免整理), 電箱集中牆面(方便機電維修), 室內空間未隔間(可彈性規劃客廳餐廳)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226j.jpg?1760408098",
+      "evidence": "Identified as a bathroom with dry/wet separation, basic fixtures, and crucially, no visible external window, matching '浴室一' (無對外窗).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "乾溼分離浴室",
+          "有暖風乾燥機/排風",
+          "空間寬敞",
+          "壁掛毛巾架與玻璃層板",
+          "全瓷磚包覆",
+          "無對外窗"
+        ],
+        "raw_description": "乾溼分離浴室(玻璃拉門隔開淋浴區), 有暖風乾燥機/排風(提升通風與防潮), 空間寬敞(如廁與淋浴不壅擠), 壁掛毛巾架與玻璃層板(基本收納機能), 全瓷磚包覆(防水好清理), 無對外窗(主要靠機械通風)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226k.jpg?1760408098",
+      "evidence": "A square bedroom with a large window offering a clear, open view and good natural light, fitting '小臥室一' (大窗戶採光佳, 對外景觀視野).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "小臥室一",
+        "tag_list": [
+          "大窗戶採光佳",
+          "對外景觀視野",
+          "方正格局",
+          "木紋地板",
+          "牆面留白",
+          "標準層高"
+        ],
+        "raw_description": "大窗戶採光佳(白天可不開燈), 對外景觀視野(視野較開闊), 方正格局(好放床與衣櫃), 木紋地板(腳感舒適適合臥室), 牆面留白(可加設收納或書桌), 標準層高(不壓迫)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226m.jpg?1760408098",
+      "evidence": "A smaller square bedroom with a single window featuring security bars/grills, suggesting a restricted view and '採光普通' (ordinary lighting), matching '小臥室二'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "小臥室二",
+        "tag_list": [
+          "單面窗採光普通",
+          "可能面中庭或騎樓",
+          "方正小房",
+          "木紋地板",
+          "無固定收納",
+          "標準層高"
+        ],
+        "raw_description": "單面窗採光普通(白天略偏暗), 可能面中庭或騎樓(隱私較佳但景觀一般), 方正小房(適合作書房或孩房), 木紋地板(安靜適合睡眠), 無固定收納(需自行添購衣櫃), 標準層高(梁柱外露但影響不大)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226n.jpg?1760408098",
+      "evidence": "The most spacious bedroom view showing a large window with an open, distant view, consistent with the '主臥室一(靠窗側)' description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥室一(靠窗側)",
+        "tag_list": [
+          "大窗戶採光充足",
+          "開闊遠景",
+          "方正大房",
+          "木紋地板",
+          "牆面完整",
+          "標準層高"
+        ],
+        "raw_description": "大窗戶採光充足(臥室明亮舒適), 開闊遠景(視野佳居住品質加分), 方正大房(可放雙人床與衣櫃), 木紋地板(隔音與腳感佳), 牆面完整(易規劃收納與電視牆), 標準層高(活動感受舒適)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226o.jpg?1760408098",
+      "evidence": "A spacious bedroom view looking towards the entrance door, confirming the '主臥室一(門口側)' perspective of the large room identified in Image 5.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥室一(門口側)",
+        "tag_list": [
+          "房間面積寬敞",
+          "方正格局",
+          "木紋地板",
+          "單開門出入口",
+          "無既有衣櫃"
+        ],
+        "raw_description": "房間面積寬敞(可兼具睡眠與更衣區), 方正格局(家具配置彈性高), 木紋地板(保養容易且舒適), 單開門出入口(私密性佳), 無既有衣櫃(需自行規劃系統櫃)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226p.jpg?1760408098",
+      "evidence": "Shows the narrow public area looking inward towards the potential kitchen/utility recess and entrance door, matching '客餐廳/廚房區' and the '狹長型公領域' tag.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客餐廳/廚房區",
+        "tag_list": [
+          "狹長型公領域",
+          "採光由端部落地窗引入",
+          "可規劃開放式廚房與餐區",
+          "無現成廚具可見",
+          "新式天花與管線外露",
+          "牆面插座預留"
+        ],
+        "raw_description": "狹長型公領域(動線由玄關直通客廳), 採光由端部落地窗引入(前段較亮後段略暗), 可規劃開放式廚房與餐區(空間機能彈性), 無現成廚具可見(需自行裝設廚房設備), 新式天花與管線外露(方便後續增設冷氣與照明), 牆面插座預留(方便家電配置)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186226q.jpg?1760408098",
+      "evidence": "Identified as a bathroom with dry/wet separation, light gray tiles, and a clearly visible external window on the left, matching '浴室二(含窗)'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室二(含窗)",
+        "tag_list": [
+          "對外窗+排風",
+          "乾溼分離",
+          "採光良好",
+          "空間方正寬敞",
+          "全面瓷磚與淺色地磚",
+          "基本收納五金齊全",
+          "新式衛浴設備"
+        ],
+        "raw_description": "對外窗+排風(通風佳不易潮濕), 乾溼分離(玻璃門獨立淋浴區), 採光良好(自然光進入浴室), 空間方正寬敞(如廁與更衣舒適), 全面瓷磚與淺色地磚(清爽易打掃), 基本收納五金齊全(毛巾架與玻璃層板), 新式衛浴設備(免額外大整修)"
+      }
+    }
+  ]
+}

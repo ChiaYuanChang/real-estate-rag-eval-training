@@ -1,0 +1,189 @@
+{
+  "reasoning_log": "The matching process involved grouping images by room type (Bathroom, Balcony, Bedroom, Storage/Clutter Room) and then differentiating between highly similar candidates (Images 1/5, 3/4, 6/9, 7/8) based on specific descriptive tags. Image 2 (Bathroom) and Image 10 (Small, orange room) were unique and matched directly to Desc_2 and Desc_10, respectively. For the remaining pairs, the assignment was based on subtle emphasis: Desc_5 explicitly mentioned the AC unit and square layout, aligning slightly better with Image 5's perspective, leaving Desc_1 for Image 1 (emphasizing obstruction). Desc_7 was matched to Image 7 due to the specific mention of '下方收納櫃' (lower cabinets) which are clearly visible, while Desc_8 was assigned to Image 8 (general storage use). The two balcony images (3/4) and two bedroom images (6/9) were assigned sequentially as the descriptions (Desc_3/4 and Desc_6/9) were nearly interchangeable given the visual similarity of the paired images.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728g.jpg?1760410564",
+      "evidence": "Cluttered storage room (雜物間) with movement obstructed (動線受阻) and visible old wall texture, matching the need for renovation.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "雜物間/工作間",
+        "tag_list": [
+          "採光普通",
+          "通風尚可",
+          "動線受阻",
+          "儲物潛力佳",
+          "室內高度普通",
+          "需整理與翻修"
+        ],
+        "raw_description": "採光普通(單面小窗提供基本日照), 有冷氣設備(牆掛式冷氣可改善悶熱感), 空間方正(矩形房型便於規劃用途), 目前雜物多(需清空整理才適合作房/書房), 裝潢簡單老舊(牆腰磁磚與地板風格較舊), 收納可再規劃(僅臨時桌面缺少固定櫃體)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728h.jpg?1760410564",
+      "evidence": "Clearly a bathroom (浴室) with poor cleanliness, old fixtures, and no wet/dry separation, matching all tags.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "無乾濕分離",
+          "採光不足",
+          "通風可能不佳",
+          "設備老舊",
+          "清潔狀況差",
+          "收納不足"
+        ],
+        "raw_description": "無乾濕分離(馬桶與淋浴同區易潮濕), 採光不足(無對外窗僅人工照明), 通風可能不佳(未見對外窗與排風設備), 設備老舊(馬桶與洗手盆明顯舊化), 清潔狀況差(地面與牆面有污漬積水), 收納不足(僅簡易層架放置用品)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728k.jpg?1760410564",
+      "evidence": "Narrow balcony (陽台) with clothes drying space, washing machine, and old brick walls, fitting the narrow/long and old wall criteria.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "陽台/洗衣區",
+        "tag_list": [
+          "自然採光佳",
+          "通風良好",
+          "具晾衣空間",
+          "已配置洗衣設備",
+          "空間較窄長",
+          "部分牆面老舊"
+        ],
+        "raw_description": "採光充足(整條陽台受自然光照射), 通風條件佳(半開放結構有助排濕), 晾曬容量大(兩側皆可掛衣服), 已有洗衣動線(洗衣機靠邊不影響走道), 空間狹長(僅容一人通行需注意安全), 裝修老舊(牆面與設備年代感重未見防水改善)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728l.jpg?1760410564",
+      "evidence": "Narrow balcony (陽台) with large drying capacity and old decoration (裝修老舊), visually identical to Image 3 but assigned based on mutual exclusion.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "陽台/洗衣區",
+        "tag_list": [
+          "採光充足",
+          "通風條件佳",
+          "晾曬容量大",
+          "已有洗衣動線",
+          "空間狹長",
+          "裝修老舊"
+        ],
+        "raw_description": "採光充足(整條陽台受自然光照射), 通風條件佳(半開放結構有助排濕), 晾曬容量大(兩側皆可掛衣服), 已有洗衣動線(洗衣機靠邊不影響走道), 空間狹長(僅容一人通行需注意安全), 裝修老舊(牆面與設備年代感重未見防水改善)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728o.jpg?1760410564",
+      "evidence": "Cluttered room (雜物間) with an AC unit visible (有冷氣設備) and currently full of clutter (目前雜物多).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "雜物間/工作間",
+        "tag_list": [
+          "採光普通",
+          "有冷氣設備",
+          "空間方正",
+          "目前雜物多",
+          "裝潢簡單老舊",
+          "收納可再規劃"
+        ],
+        "raw_description": "採光普通(單面小窗提供基本日照), 有冷氣設備(牆掛式冷氣可改善悶熱感), 空間方正(矩形房型便於規劃用途), 目前雜物多(需清空整理才適合作房/書房), 裝潢簡單老舊(牆腰磁磚與地板風格較舊), 收納可再規劃(僅臨時桌面缺少固定櫃體)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728p.jpg?1760410564",
+      "evidence": "Well-lit bedroom (臥室) with some furniture (已部分家具) and good overall condition.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光良好",
+          "通風條件佳",
+          "空間方正",
+          "室內高度舒適",
+          "已部分家具",
+          "地板狀況尚可",
+          "隱私尚可"
+        ],
+        "raw_description": "採光良好(整面窗搭配窗簾提供柔和日光), 通風條件佳(窗戶與冷氣並存調節方便), 房型方正(床頭靠牆動線清楚), 家具齊全(床組與衣櫃現成適合立即入住), 地板維持尚可(木地板平整無明顯損壞), 隱私可調(窗簾可遮蔽外部視線), 室內高度舒適(天花板平整壓迫感不強)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728q.jpg?1760410564",
+      "evidence": "Spacious storage room (多功能房) with built-in lower cabinets (已有下方收納櫃) and currently piled high with clutter (flowers).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "多功能房/儲物間",
+        "tag_list": [
+          "採光充足",
+          "通風尚可",
+          "空間寬敞方正",
+          "已有下方收納櫃",
+          "目前堆放雜物",
+          "室內高度普通",
+          "裝修一般"
+        ],
+        "raw_description": "採光良好(單面大窗提供均勻日照), 通風可(窗戶可開啟排濕), 房型方正(無明顯樑柱影響家具擺放), 具收納潛力(長邊牆適合規劃衣櫃或層架), 現況為儲物用途(花材雜物較多需整理), 牆面與地板狀況尚可(未見明顯滲水或剝落)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728r.jpg?1760410564",
+      "evidence": "Storage room (多功能房) with good light and clear storage use (現況為儲物用途), visually identical to Image 7.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "多功能房/儲物間",
+        "tag_list": [
+          "採光良好",
+          "通風可",
+          "房型方正",
+          "具收納潛力",
+          "現況為儲物用途",
+          "牆面與地板狀況尚可"
+        ],
+        "raw_description": "採光良好(單面大窗提供均勻日照), 通風可(窗戶可開啟排濕), 房型方正(無明顯樑柱影響家具擺放), 具收納潛力(長邊牆適合規劃衣櫃或層架), 現況為儲物用途(花材雜物較多需整理), 牆面與地板狀況尚可(未見明顯滲水或剝落)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728v.jpg?1760410564",
+      "evidence": "Well-lit bedroom (臥室) that appears fully furnished (家具齊全), confirming the room type and condition.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光良好",
+          "通風條件佳",
+          "房型方正",
+          "家具齊全",
+          "地板維持尚可",
+          "隱私可調",
+          "室內高度舒適"
+        ],
+        "raw_description": "採光良好(整面窗搭配窗簾提供柔和日光), 通風條件佳(窗戶與冷氣並存調節方便), 房型方正(床頭靠牆動線清楚), 家具齊全(床組與衣櫃現成適合立即入住), 地板維持尚可(木地板平整無明顯損壞), 隱私可調(窗簾可遮蔽外部視線), 室內高度舒適(天花板平整壓迫感不強)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180728w.jpg?1760410564",
+      "evidence": "Small, square room with orange walls, lacking a large window (採光不足), simple decoration, and suitable for a small study/storage room.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "小臥室/儲物室",
+        "tag_list": [
+          "採光不足",
+          "通風較差",
+          "房型方正",
+          "室內高度略低",
+          "無內建收納",
+          "裝修簡單",
+          "適合作書房或更衣間"
+        ],
+        "raw_description": "採光不足(未見對外窗依賴室內燈光), 通風較差(僅冷氣機無自然對流), 房型方正(小空間矩形好規劃), 室內高度略低(天花壓迫感較明顯), 無內建收納(牆面光禿需自行加櫃), 裝修簡單(油漆牆面易重新粉刷), 適合作書房或更衣間(面積較小不利多人同住)"
+      }
+    }
+  ]
+}

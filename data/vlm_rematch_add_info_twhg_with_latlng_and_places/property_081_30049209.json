@@ -1,0 +1,338 @@
+{
+  "reasoning_log": "The dataset contained 19 descriptions but only 17 unique images, necessitating two descriptions (Desc_16 and Desc_17) to be mapped to images already assigned, violating the strict 1:1 rule for the entire set but fulfilling the requirement that 'every description MUST be mapped.' Initial matching prioritized unique visual identifiers: Image_3 (sloped ceiling/wood floor) for Desc_3; Image_5 (built-in cabinets/tiled walls) for Desc_5; Image_2 (street opening) for Desc_2; and Image_16 (floor-to-ceiling window) for Desc_18. Bathroom descriptions were differentiated by floor tile color/pattern (blue hex for D10/D13, gray hex for D15/D19, leaf pattern for D8) and the presence of a window. Desc_15 and Desc_17 both describe a bathroom with a window, dark cabinet, and geometric floor, leading both to be mapped to Image_15, which uniquely possesses all these features. Desc_7, Desc_12, and Desc_16 were assigned to the remaining generic room views (Image_7, Image_12) based on subtle differences in perceived size and lighting focus, with Desc_16 being mapped to Image_7 as a secondary assignment.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776a.jpg?1760412169",
+      "evidence": "Long, narrow space ('空間狹長') with high artificial lighting and limited natural light, matching the description of the ground floor hall.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "一樓前廳/客餐廳",
+        "tag_list": [
+          "空間狹長",
+          "人工照明充足",
+          "自然採光有限",
+          "新裝修",
+          "室內無固定家具",
+          "平整地坪",
+          "樓層高度尚可"
+        ],
+        "raw_description": "空間狹長(深度大但寬度較窄), 人工照明充足(多組嵌燈), 自然採光有限(僅遠端門口進光), 新裝修(牆面地磚全新無明顯損壞), 室內無固定家具(好規劃但需自備設備), 平整地坪(大尺寸拋光磚易清潔), 樓層高度尚可(無壓迫感但有樑)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776e.jpg?1760412169",
+      "evidence": "Features a large, open glass storefront leading directly to the street ('臨街大面開口'), confirming its use as a commercial/shop area.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "一樓臨街前廳/店面區",
+        "tag_list": [
+          "臨街大面開口",
+          "良好通風",
+          "適合商用或工作室",
+          "開放式長條空間",
+          "噪音風險較高",
+          "地面耐磨拋光磚"
+        ],
+        "raw_description": "臨街大面開口(捲門全開採光佳並利於出入), 良好通風(前後通風門洞大), 適合商用或工作室(與街道直接連結), 開放式長條空間(可彈性劃分客廳/工作區), 噪音風險較高(臨街車流人聲), 地面耐磨拋光磚(適合人流較多使用)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776f.jpg?1760412169",
+      "evidence": "The only bathroom with a sloped ceiling ('空間較壓迫') and wood-look floor tiles ('木紋地板'), typical of a space under a staircase.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "一樓小衛浴(樓梯下)",
+        "tag_list": [
+          "空間較壓迫",
+          "基本乾濕分離不足",
+          "新式衛浴設備",
+          "木紋地板易滑風險",
+          "無對外窗"
+        ],
+        "raw_description": "空間較壓迫(樓梯下斜頂高度有限), 基本乾濕分離不足(淋浴與馬桶同區), 新式衛浴設備(馬桶與洗手台新穎), 木紋地板易滑風險(淋浴時需注意防滑), 無對外窗(通風依賴排風設備)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776g.jpg?1760412169",
+      "evidence": "The only image showing a staircase ('含樓梯') positioned against the side wall in a square room.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "一樓後區/多功能區(含樓梯)",
+        "tag_list": [
+          "方正空間",
+          "樓梯位置靠側",
+          "天花高度舒適",
+          "自然光不足",
+          "地面拋光磚",
+          "無內建收納"
+        ],
+        "raw_description": "方正空間(好規劃客廳或工作區), 樓梯位置靠側(動線清楚不影響主要活動區), 天花高度舒適(無明顯壓樑感), 自然光不足(未見窗戶須靠燈具), 地面拋光磚(視覺寬敞易清理), 無內建收納(需自行規劃櫃體)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776d.jpg?1760412169",
+      "evidence": "Features extensive built-in white cabinetry ('內建收納櫃體') and gray marble-look tiled walls ('全面磁磚牆面').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "二樓客餐廳/起居室(含收納櫃)",
+        "tag_list": [
+          "內建收納櫃體",
+          "採光窗對內天井或後陽台",
+          "完整照明",
+          "全面磁磚牆面",
+          "方正格局",
+          "新裝潢風格現代"
+        ],
+        "raw_description": "內建收納櫃體(下方櫃+展示櫃提供收納), 採光窗對內天井或後陽台(有開窗利於通風), 完整照明(多組嵌燈均勻), 全面磁磚牆面(好清理但較冰冷), 方正格局(易擺放沙發餐桌), 新裝潢風格現代(淺灰色系統櫃)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776h.jpg?1760412169",
+      "evidence": "Large room with a wide window ('大面採光窗') and a visible ceiling bulkhead/beam ('有樑').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "二樓大房/多功能廳",
+        "tag_list": [
+          "大面採光窗",
+          "室內光線均勻",
+          "空間寬敞方正",
+          "有樑但高度足夠",
+          "地面亮面磚",
+          "無衣櫃配置"
+        ],
+        "raw_description": "大面採光窗(對內庭或光井採光尚可), 室內光線均勻(吊燈+嵌燈), 空間寬敞方正(適合作主臥或大客廳), 有樑但高度足夠(視覺稍有分割), 地面亮面磚(易清潔但稍滑), 無衣櫃配置(收納需自備)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776p.jpg?1760412169",
+      "evidence": "A deep, square room view relying primarily on artificial lighting ('光源以人工為主'), fitting the '背面視角' description of a large room.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "二樓或三樓大房背面視角",
+        "tag_list": [
+          "深度大可分區",
+          "光源以人工為主",
+          "方正無柱",
+          "新裝修狀況佳",
+          "無固定收納"
+        ],
+        "raw_description": "深度大可分區(可規劃睡眠區+書桌區), 光源以人工為主(遠端窗光不足), 方正無柱(家具好擺), 新裝修狀況佳(牆面與地坪完整), 無固定收納(需加衣櫃或系統櫃)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776k.jpg?1760412169",
+      "evidence": "Unique white floor tile with a distinct gray/green leaf pattern ('花紋地磚'), and no visible window.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室A",
+        "tag_list": [
+          "乾濕未完全分離",
+          "新式衛浴與櫃體",
+          "花紋地磚防滑性較佳",
+          "無可見對外窗",
+          "掛架齊全"
+        ],
+        "raw_description": "乾濕未完全分離(淋浴區與馬桶同一平面), 新式衛浴與櫃體(使用壽命長), 花紋地磚防滑性較佳(適合長輩小孩), 無可見對外窗(可能須依靠換氣扇通風), 掛架齊全(毛巾與置物方便)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776l.jpg?1760412169",
+      "evidence": "A corner view of a square bedroom ('方正臥室格局') with a window and light polished floor.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "房間A",
+        "tag_list": [
+          "方正臥室格局",
+          "採光窗對內側",
+          "人工照明足夠",
+          "地面淺色拋光磚",
+          "無現成衣櫃",
+          "牆面預留插座"
+        ],
+        "raw_description": "方正臥室格局(床位與衣櫃好配置), 採光窗對內側(自然光中等), 人工照明足夠(天花燈分布均勻), 地面淺色拋光磚(放大空間感), 無現成衣櫃(收納需另購), 牆面預留插座(方便配置家電)"
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776n.jpg?1760412169",
+      "evidence": "Features a visible window ('有對外窗') and distinctive blue hexagonal floor tiles ('地面六角防滑磚').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室B(帶窗)",
+        "tag_list": [
+          "有對外窗",
+          "地面六角防滑磚",
+          "浮懸式洗手台櫃",
+          "乾濕分界仍不明顯",
+          "新裝修現代風"
+        ],
+        "raw_description": "有對外窗(通風佳減少潮濕), 地面六角防滑磚(增加安全性), 浮懸式洗手台櫃(下方易清潔), 乾濕分界仍不明顯(淋浴與馬桶同區), 新裝修現代風(白色牆磚搭配木色細節)"
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776o.jpg?1760412169",
+      "evidence": "Large room with a wide window ('大面採光窗') and a modern 5-bulb cluster light fixture, distinct from Image_6.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "大房/起居室B",
+        "tag_list": [
+          "大面採光窗",
+          "視野對內棟距較近",
+          "長方形空間",
+          "新式吊燈主照明",
+          "無固定收納設備"
+        ],
+        "raw_description": "大面採光窗(自然光良好), 視野對內棟距較近(景觀一般), 長方形空間(適合作客廳或多人房), 新式吊燈主照明(氣氛佳), 無固定收納設備(需自加衣櫃或書櫃)"
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776j.jpg?1760412169",
+      "evidence": "A generic interior view of a large room ('大房/起居室B另一角度') with depth, relying on artificial light, serving as the secondary angle to Desc_11/Image_11.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "大房/起居室B另一角度",
+        "tag_list": [
+          "深度足夠可分區",
+          "光線以人工照明為主",
+          "方正好利用",
+          "清爽白牆",
+          "地面光滑磚"
+        ],
+        "raw_description": "深度足夠可分區(睡眠+書桌或小客廳), 光線以人工照明為主(遠離窗側略暗), 方正好利用(裝潢彈性高), 清爽白牆(易搭配家具), 地面光滑磚(整體感新穎)"
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776q.jpg?1760412169",
+      "evidence": "Identical blue hexagonal floor tiles and layout to Image_10, but lacks a visible window ('無窗需機械換氣').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室C",
+        "tag_list": [
+          "無窗需機械換氣",
+          "六角防滑地磚",
+          "一體成型洗手台與櫃體",
+          "淋浴區無隔斷",
+          "新衛浴設備"
+        ],
+        "raw_description": "無窗需機械換氣(通風仰賴抽風機), 六角防滑地磚(淋浴更安全), 一體成型洗手台與櫃體(收納洗漱用品), 淋浴區無隔斷(洗澡時水易濺出), 新衛浴設備(維修成本低)"
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776r.jpg?1760412169",
+      "evidence": "The remaining corner bedroom view, similar to Image_9, fitting the '方正臥室' description.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "房間B",
+        "tag_list": [
+          "方正臥室",
+          "內窗採光",
+          "LED主燈光線均勻",
+          "地面亮面磁磚",
+          "無內建衣櫃",
+          "靠近門口動線簡單"
+        ],
+        "raw_description": "方正臥室(床位衣櫃好規劃), 內窗採光(對內天井或客餐廳採光一般), LED主燈光線均勻, 地面亮面磁磚(清潔方便), 無內建衣櫃(收納需規劃), 靠近門口動線簡單"
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776t.jpg?1760412169",
+      "evidence": "Features a window ('有對外窗'), gray hexagonal floor tiles, and a dark floating vanity ('深灰櫃體').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室D(深灰櫃體)",
+        "tag_list": [
+          "有對外窗",
+          "六角防滑地磚",
+          "掛壁式洗手台櫃",
+          "淋浴無隔間",
+          "新裝修現代配色"
+        ],
+        "raw_description": "有對外窗(自然通風排濕佳), 六角防滑地磚(提升洗澡安全), 掛壁式洗手台櫃(底部不積水好打掃), 淋浴無隔間(仍屬全濕式浴室), 新裝修現代配色(黑白對比)"
+      }
+    },
+    {
+      "description_id": "Desc_16",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776j.jpg?1760412169",
+      "evidence": "Mapped to Image_7 (already D12) as the best fit for a generic, medium-sized secondary room ('次臥') view, given the limited image pool.",
+      "confidence_score": 0.85,
+      "extracted_feature": {
+        "room": "房間C/次臥",
+        "tag_list": [
+          "尺寸中等適合次臥或書房",
+          "人工照明良好",
+          "方正格局易配置家具",
+          "地面拋光磚",
+          "與其他空間相連門口明確",
+          "無內建收納"
+        ],
+        "raw_description": "尺寸中等適合次臥或書房, 人工照明良好(多點光源), 方正格局易配置家具, 地面拋光磚(視覺放大空間), 與其他空間相連門口明確(動線單純), 無內建收納(需自備櫃體)"
+      }
+    },
+    {
+      "description_id": "Desc_17",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776t.jpg?1760412169",
+      "evidence": "Mapped to Image_15 (already D15) as it is the only image featuring a window, geometric floor, and a black/dark cabinet, fulfilling all criteria.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "浴室E(黑色櫃體)",
+        "tag_list": [
+          "有對外窗",
+          "地面幾何防滑磚",
+          "掛壁式洗手台與收納櫃",
+          "淋浴區無實體隔間",
+          "新衛浴設備狀況佳"
+        ],
+        "raw_description": "有對外窗(採光與通風佳), 地面幾何防滑磚(淋浴安全), 掛壁式洗手台與收納櫃(收納充足且易清潔), 淋浴區無實體隔間(用浴簾或玻璃可提升乾濕分離), 新衛浴設備狀況佳"
+      }
+    },
+    {
+      "description_id": "Desc_18",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776u.jpg?1760412169",
+      "evidence": "Features a large, floor-to-ceiling sliding glass door ('落地窗或大面窗'), suggesting a top floor or balcony connection.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "頂樓或高樓房間/帶大窗",
+        "tag_list": [
+          "落地窗或大面窗",
+          "可能連接陽台",
+          "室內空間方正寬敞",
+          "人工照明均勻",
+          "地面亮面磁磚",
+          "無固定衣櫃"
+        ],
+        "raw_description": "落地窗或大面窗(採光佳視野開闊), 可能連接陽台(下方可見門檻與外推區), 室內空間方正寬敞(適合作主臥或客廳), 人工照明均勻(嵌燈配置), 地面亮面磁磚(整體感新且易保養), 無固定衣櫃(收納需後續規劃)"
+      }
+    },
+    {
+      "description_id": "Desc_19",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178776v.jpg?1760412169",
+      "evidence": "Features gray geometric floor tiles and a black floating vanity ('黑色洗手台櫃'), but no visible window ('無窗需抽風機通風').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室F",
+        "tag_list": [
+          "無窗需抽風機通風",
+          "防滑幾何地磚",
+          "掛壁式黑色洗手台櫃",
+          "淋浴與馬桶同室無隔斷",
+          "新衛浴配備完整"
+        ],
+        "raw_description": "無窗需抽風機通風, 防滑幾何地磚(適合家庭成員使用), 掛壁式黑色洗手台櫃(現代感且提供收納), 淋浴與馬桶同室無隔斷(清潔頻率需高), 新衛浴配備完整(馬桶/花灑/毛巾架俱全)"
+      }
+    }
+  ]
+}

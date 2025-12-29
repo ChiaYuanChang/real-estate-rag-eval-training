@@ -1,0 +1,172 @@
+{
+  "reasoning_log": "The matching process relied primarily on identifying the room type (Living Room, Bedroom, Bathroom) and then using specific furniture and layout tags for differentiation. Descriptions 1 and 2 were distinguished by layout: Image_1 is a dedicated, square living room (Desc_1), while Image_2 is a long, continuous space suitable for combined living/dining (Desc_2). The three bathrooms were easily separated: Image_9 is the only one with a bathtub (Desc_9). Image_6 shows the vanity/dry area (Desc_6), and Image_7 shows the compact shower/toilet area (Desc_7). The four bedrooms were differentiated by storage and desk features: Image_8 has the '大面衣櫃' (Desc_8). Image_5 has a large, modern built-in vanity/desk and extensive shelving with a darker window ('採光較弱', Desc_5). Image_3 and Image_4 were the most similar, but Image_3's floating shelves better fit '基本收納' and '採光良好' (Desc_3), leaving Image_4 as the '小型房間' with a simple '梳妝桌' (Desc_4). All matches achieved high confidence.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953a.jpg?1760411433",
+      "evidence": "Dedicated living room space with a square layout, large window for excellent lighting, and extensive built-in storage along the wall, matching '規劃方正' and '收納充足'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "規劃方正",
+          "層高舒適",
+          "收納充足",
+          "已裝冷氣",
+          "簡易裝潢",
+          "地面好整理"
+        ],
+        "raw_description": "採光佳(大面落地窗), 通風良好(落地窗可開啟), 規劃方正(客廳空間無斜角), 層高舒適(天花板未見壓迫感), 收納充足(電視牆與展示櫃下方櫃體), 已裝冷氣(吊隱式冷氣機), 簡易裝潢(燈槽與崁燈完成可直接入住), 地面好整理(大尺寸拋光磚易清潔)"
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953e.jpg?1760411433",
+      "evidence": "Long, continuous space with built-in shelving on both sides, indicating a combined '客廳/餐廳' area with a '連通格局' and '內建展示櫃'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳",
+        "tag_list": [
+          "連通格局",
+          "採光佳",
+          "人造照明充足",
+          "空間感大",
+          "已裝冷氣",
+          "牆面留白好規劃",
+          "內建展示櫃"
+        ],
+        "raw_description": "連通格局(客餐廳一體動線順暢), 採光佳(前方整排窗戶), 人造照明充足(多組崁燈與軌道燈), 空間感大(狹長型開放區域), 已裝冷氣(吊隱式冷氣), 牆面留白好規劃(可彈性擺放家具), 內建展示櫃(側牆玻璃層板方便收納與陳列)"
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953g.jpg?1760411433",
+      "evidence": "Bedroom with good natural light ('採光良好'), a designated desk area, and floating shelves providing '基本收納'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光良好",
+          "通風可",
+          "格局方正",
+          "基本收納",
+          "已設書桌位",
+          "色調明亮"
+        ],
+        "raw_description": "採光佳(大窗面向外側建物), 通風良好(窗戶寬度大易對流), 大面衣櫃(內建衣櫃節省買櫃成本), 空間方正(可放雙人床與書桌), 已有書桌椅(適合學生與上班族), 層高舒適(天花板平整不壓迫), 燈光均勻(崁燈與間接照明)"
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953d.jpg?1760411433",
+      "evidence": "Small bedroom ('小型房間') featuring a simple, standalone wooden vanity/dresser ('已附梳妝桌').",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光一般",
+          "通風可",
+          "已附梳妝桌",
+          "小型房間",
+          "方正格局",
+          "天花平整"
+        ],
+        "raw_description": "採光佳(大窗面向外側建物), 通風良好(窗戶寬度大易對流), 大面衣櫃(內建衣櫃節省買櫃成本), 空間方正(可放雙人床與書桌), 已有書桌椅(適合學生與上班族), 層高舒適(天花板平整不壓迫), 燈光均勻(崁燈與間接照明)"
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953h.jpg?1760411433",
+      "evidence": "Features a large, modern built-in vanity/desk with a mirror and extensive shelving ('收納層板'), and the small, dark window suggests '採光較弱'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光較弱",
+          "通風可",
+          "內建化妝台/書桌",
+          "收納層板",
+          "獨立私密",
+          "燈光充足"
+        ],
+        "raw_description": "採光佳(大窗面向外側建物), 通風良好(窗戶寬度大易對流), 大面衣櫃(內建衣櫃節省買櫃成本), 空間方正(可放雙人床與書桌), 已有書桌椅(適合學生與上班族), 層高舒適(天花板平整不壓迫), 燈光均勻(崁燈與間接照明)"
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953k.jpg?1760411433",
+      "evidence": "Focuses on the vanity/sink area ('乾區/洗手台區') with a large mirror and ample under-counter storage, clearly separated from the wet area.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室一(乾區/洗手台區)",
+        "tag_list": [
+          "乾濕分離佳",
+          "採光通風好",
+          "新式衛浴設備",
+          "收納空間足夠",
+          "地面止滑磚",
+          "空間區隔清楚"
+        ],
+        "raw_description": "乾濕分離佳(淋浴間獨立玻璃門), 採光通風好(浴室外窗可開啟), 新式衛浴設備(檯面與面盆現代), 收納空間足夠(檯下櫃可收納清潔用品), 地面止滑磚(提升使用安全), 空間區隔清楚(洗手台與淋浴間分區)"
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953l.jpg?1760411433",
+      "evidence": "Shows the toilet and glass shower enclosure ('淋浴與馬桶區') in a tight space ('空間偏緊湊') with a small storage shelf above the toilet.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室一(淋浴與馬桶區)",
+        "tag_list": [
+          "乾濕分離",
+          "通風良好",
+          "採光尚可",
+          "衛浴維持新穎",
+          "有收納層板",
+          "空間偏緊湊"
+        ],
+        "raw_description": "乾濕分離(淋浴拉門阻隔水氣), 通風良好(外窗對外), 採光尚可(窗戶引入自然光), 衛浴維持新穎(牆地磚與設備無明顯老化), 有收納層板(馬桶上方層板可放備品), 空間偏緊湊(淋浴與馬桶距離較近)"
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953m.jpg?1760411433",
+      "evidence": "The defining feature is the massive, floor-to-ceiling, wall-length wardrobe ('大面衣櫃'). A desk area is visible next to the closet.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "大面衣櫃",
+          "空間方正",
+          "已有書桌椅",
+          "層高舒適",
+          "燈光均勻"
+        ],
+        "raw_description": "採光佳(大窗面向外側建物), 通風良好(窗戶寬度大易對流), 大面衣櫃(內建衣櫃節省買櫃成本), 空間方正(可放雙人床與書桌), 已有書桌椅(適合學生與上班族), 層高舒適(天花板平整不壓迫), 燈光均勻(崁燈與間接照明)"
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184953o.jpg?1760411433",
+      "evidence": "The only bathroom image containing a bathtub ('附浴缸'). It also features a large vanity counter ('收納檯面大') and a '大面鏡'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室二(含浴缸)",
+        "tag_list": [
+          "大浴室空間",
+          "乾濕分區尚可",
+          "採光通風佳",
+          "附浴缸",
+          "新式裝潢",
+          "大面鏡",
+          "收納檯面大"
+        ],
+        "raw_description": "大浴室空間(浴缸與馬桶間距充裕), 乾濕分區尚可(浴缸區與盥洗區分開), 採光通風佳(有外窗), 附浴缸(適合家庭與小孩泡澡), 新式裝潢(統一石紋磁磚與長檯面), 大面鏡(放大空間感與實用性), 收納檯面大(洗手台檯面可放多用品)"
+      }
+    }
+  ]
+}
