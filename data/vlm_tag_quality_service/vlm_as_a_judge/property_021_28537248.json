@@ -1,0 +1,176 @@
+[
+    {
+        "original_input": {
+            "description_id": "Desc_1",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590e.jpg?1760409045",
+            "evidence": "The image shows an empty, high-ceiling, rectangular space with new wood flooring, track lighting ('燈光配置完整'), and a visible wall-mounted AC unit ('空調已裝設').",
+            "confidence_score": 0.98,
+            "extracted_feature": {
+                "room": "一樓開放空間/店面",
+                "tag_list": [
+                    "高挑樓層",
+                    "前後採光尚可",
+                    "規則長方格局",
+                    "地板新穎",
+                    "空調已裝設",
+                    "燈光配置完整",
+                    "可彈性規劃隔間",
+                    "機能出入口單一"
+                ],
+                "raw_description": "前方玻璃門採光佳(自然光照入室內前半部), 高挑天花搭配輕鋼架(空間感佳且方便維修管線), 規則長條格局(易於分區規劃接待區與工作區), 目前作瑜伽/運動教室配置(適合工作室與小型商業使用), 地板平整無門檻(安全好打掃), 壁掛冷氣已裝(減少前期設備投資), 牆面可再加裝收納(現為素牆可彈性利用)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 3,
+            "reasoning": "Correctness: 大部分標籤在影像可見並被支持：規則長方長條格局（畫面為明顯的長方開放空間）、地板新穎（淺色木紋地板且狀態良好）、空調已裝設（左側前方可見壁掛分離式冷氣）、前後採光尚可（前方玻璃門採光明顯，後方亦有明亮開口）。燈具存在（天花中央有燈軌/嵌燈）也可視為燈光配置，但“完整”屬主觀評價。Specificity: 部分標籤具體（如空調已裝、規則長方格局、地板新穎），但有些過於籠統或可更精確（“燈光配置完整”可改為“中央燈軌/嵌燈陣列”；“高挑樓層”應具體高度或無法判定）。Redundancy: 標籤間冗餘不多，敘述重複性低；唯一接近重複的是前後採光與前方玻璃門採光的描述屬同一採光現象延伸。Spatial Signals: 標籤有抓到關鍵空間信號（長條且規則的格局、前後採光、開放可分區），但未提供較細的幾何資訊（如淺窄比例、樑位、天花淨高），且“高挑樓層”與畫面不符（天花為吸音或活動天花板，並非明顯挑高）。Hallucination: 存在明顯或可疑臆測：標註“高挑樓層”與敘述中說天花高挑不被畫面支持；標示“機能出入口單一”亦與畫面顯示前後至少有開口不符；敘述中提到目前作瑜伽/運動教室配置在照片中無直接可辨證據，屬使用情境推測。總結評價：整體標籤基本反映圖像（多數關鍵特徵正確），但包含數項不可驗證或錯誤的具體主張（天花挑高、單一出入口、目前用途），且可在具體性與空間信號細節上改進，因此給予中等信心評分3。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_2",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590f.jpg?1760409045",
+            "evidence": "The image emphasizes the '規則縱深格局' (regular deep layout) and '已有室內照明軌道燈' (track lighting), fitting the architectural focus of the description.",
+            "confidence_score": 0.9,
+            "extracted_feature": {
+                "room": "一樓開放空間/店面",
+                "tag_list": [
+                    "前方大面玻璃採光佳",
+                    "規則縱深格局",
+                    "高挑天花板",
+                    "已有室內照明軌道燈",
+                    "安靜室內環境",
+                    "左右牆面留白",
+                    "地板連續無高低差"
+                ],
+                "raw_description": "前方玻璃門採光佳(自然光照入室內前半部), 高挑天花搭配輕鋼架(空間感佳且方便維修管線), 規則長條格局(易於分區規劃接待區與工作區), 目前作瑜伽/運動教室配置(適合工作室與小型商業使用), 地板平整無門檻(安全好打掃), 壁掛冷氣已裝(減少前期設備投資), 牆面可再加裝收納(現為素牆可彈性利用)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 3,
+            "reasoning": "1) 正確性：多數標籤在畫面可視：前方大面玻璃採光佳（可見落地玻璃門並有自然光進入）、規則縱深格局（長條通透空間明顯）、左右牆面留白（兩側牆為素牆）、地板連續無高低差（地板平整、無門檻）、已有室內照明軌道燈（天花中央可見線性燈具）。瑜伽/運動配置亦由右側墊子堆放可推論。 2) 具體性：部分標籤已具體（大面玻璃、無門檻、軌道燈），但可更精確如標註為「玻璃門/店面落地窗」或「懸吊式格柵天花/方格吊頂」。 3) 冗餘性：描述中有重複語意（牆面留白 vs 素牆可彈性利用、採光佳在 tag 與描述重複）。 4) 空間訊號：標籤抓到關鍵空間信息（縱深格局、牆面保留、地面連續），有助於分區/動線推論；但對天花高度的描述較模糊，影像顯示為格柵/活動板天花，不是明顯的挑高裸露層高。 5) 造假／無法驗證項目：描述提到「壁掛冷氣已裝」在照片中找不到明顯室內冷氣機（屬可疑或未證實）；「安靜室內環境」為聽覺屬性，單靠影像不可驗證；「高挑天花板」屬主觀判斷，影像更接近低/中等高度的活動板吊頂而非顯著挑高。 綜合：視覺對應大致正確但存在可被駁斥或無法驗證的斷言、與輕微的具體性不足與語意重複，評分為 3。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_3",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590v.jpg?1760409045",
+            "evidence": "The image clearly shows the '已有收納架與桌面' (storage/props) stacked on the right side of the long space, which is a key feature of this description.",
+            "confidence_score": 0.9,
+            "extracted_feature": {
+                "room": "一樓開放空間/店面",
+                "tag_list": [
+                    "長型開放大空間",
+                    "高挑樓層壓迫感低",
+                    "雙面空調配置",
+                    "已有收納架與桌面",
+                    "動線清楚",
+                    "室內整潔維護良好",
+                    "插座配置在牆側"
+                ],
+                "raw_description": "前方玻璃門採光佳(自然光照入室內前半部), 高挑天花搭配輕鋼架(空間感佳且方便維修管線), 規則長條格局(易於分區規劃接待區與工作區), 目前作瑜伽/運動教室配置(適合工作室與小型商業使用), 地板平整無門檻(安全好打掃), 壁掛冷氣已裝(減少前期設備投資), 牆面可再加裝收納(現為素牆可彈性利用)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 3,
+            "reasoning": "Correctness: 大多數標記在影像中可見且正確 — 「長型開放大空間」、「動線清楚」、「已有收納架與桌面」（右側堆疊瑜珈墊/輔具與簡易置物）、「室內整潔維護良好」及「壁掛冷氣已裝（右側牆上）」在畫面可直接驗證；但「雙面空調配置」缺乏視覺證據（畫面僅見右側一台室內機），是錯誤或過度推斷；「插座配置在牆側」在圖中無明顯插座可見，屬於未驗證。 Specificity: 標籤整體具體（如長型、收納、壁掛冷氣），但也可更精確（例如標註「落地玻璃門採光」或「木紋地板」等）。 Redundancy: 標籤間重複性低，只有「高挑樓層壓迫感低」與描述中的天花/空間感略為重複但不構成重大冗餘。 Spatial Signals: 標籤捕捉到主要空間幾何（長條格局、動線、天花高度），但錯誤的「雙面空調配置」提出了不正確的雙側設備佈局，降低信賴度。 Hallucination: 有小量臆測/超擴張 — 主要為「雙面空調配置」與未能在圖中確認的「插座配置在牆側」。 整體評價：標籤與描述大體與影像一致，呈現出長型、採光良好、高挑且作為瑜伽/運動教室的佈置；但存在1–2處明顯或無法驗證的聲明，故給予中等信心（3/5）。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_4",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590d.jpg?1760409045",
+            "evidence": "This is the only bathroom image. It features a window ('有對外窗') and the shower area is not fully separated ('乾濕未完全分離').",
+            "confidence_score": 1.0,
+            "extracted_feature": {
+                "room": "浴室/廁所",
+                "tag_list": [
+                    "乾濕未完全分離",
+                    "有對外窗採光通風佳",
+                    "衛浴設備齊全",
+                    "明亮照明",
+                    "磁磚鋪設完整",
+                    "收納空間有限",
+                    "空間尺度中等"
+                ],
+                "raw_description": "乾濕未完全分離(淋浴區與馬桶同一平面易濺水), 有對外窗採光通風佳(減少潮濕與異味), 衛浴設備齊全(馬桶洗手台鏡櫃一應俱全), 明亮照明(嵌燈加上淺色磁磚提升亮度), 磁磚鋪設完整(牆地面無明顯剝落滲水), 收納空間有限(僅鏡櫃與小平台較少置物處), 空間尺度中等(活動尚可但非特別寬敞)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤在影像中可視驗證。畫面顯示馬桶、洗手台、鏡櫃與淋浴花灑，故「衛浴設備齊全」成立；淋浴區無玻璃或浴簾隔間，確實為「乾濕未完全分離」；畫面有外窗且天花板有嵌燈，加上淺色磁磚，支持「有對外窗採光通風佳」與「明亮照明」；牆地磁磚看起來完整，支援「磁磚鋪設完整」；鏡櫃與小置物層為主要收納，符合「收納空間有限」；空間並非狹窄也非寬敞，符合「空間尺度中等」。\nSpecificity: 標籤語意大多具體（如乾濕未分離、有外窗、嵌燈），但可更精確（例如寫明「無隔間淋浴」或窗型為「可開啟滑窗」）。「磁磚鋪設完整」雖具體，卻難以確認細節（裂縫、汙染需近拍）。\nRedundancy: 有輕微重複——「有對外窗採光通風佳」與「明亮照明」在照明層面部份重疊，但一者指自然採光/通風，一者指照明設備，仍可接受。其他標籤語義重複度低。\nSpatial Signals: 標籤捕捉到重要空間訊號（乾濕分離狀況、空間尺度中等），但未提供更細的幾何資訊（如淋浴位置相對馬桶距離、門與管線干涉等）。\nHallucination: 無重大錯誤或不存在的項目；唯「磁磚無滲水/無剝落」與「通風佳（降低潮濕）」屬推論性判斷，前者從照片可見表面完整但無法保證無滲水，後者有窗可開啟則合理推斷但無量化通風數據。\n總結：標籤與描述與影像高度一致，僅有少量可疑的推論性斷定與輕微重複，故評為4分。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_5",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590j.jpg?1760409045",
+            "evidence": "The image shows a car parked in a clearly marked '室內平面車位' (indoor flat parking spot) with '消防與管線外露可見' (exposed pipes/conduits) overhead.",
+            "confidence_score": 1.0,
+            "extracted_feature": {
+                "room": "地下室平面車位",
+                "tag_list": [
+                    "有專屬劃位車位",
+                    "車位寬度中等",
+                    "室內平面車位",
+                    "通道轉彎處鄰近",
+                    "照明充足",
+                    "消防與管線外露可見"
+                ],
+                "raw_description": "有專屬劃位車位(明確標號管理方便), 車位寬度中等(一台中大型房車停放尚可開門), 室內平面車位(不受日曬雨淋車況較佳), 通道轉彎處鄰近(進出車位相對便利), 照明充足(車格上方燈具明亮), 消防與管線外露可見(維修檢視方便)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤在影像中可直接觀察到 — 有明確劃位（地面可見編號與停車格線）、室內平面車位（室內平整地面、無機械格柵）、照明充足（天花板燈具與亮度足夠）、消防與管線外露可見（柱面與天花板可見管線與滅火/消防相關設備）。\nSpecificity: 標籤層級屬於中階描述，能表達關鍵特徵但不夠精準（例如可改為「編號2車格／上方照明燈具為長形燈具／可見消防栓與管線走向」）。「車位寬度中等」是主觀判斷，影像可推測但未給出量化寬度。 \nRedundancy: 標籤與描述間有重複語意（例如「照明充足」與描述中同樣說明；標示管理方便在標籤與描述都重複表述）。整體標籤未出現明顯互相衝突但有語意重疊。 \nSpatial Signals: 標註的「通道轉彎處鄰近」在影像中有明顯支撐（地面黃色曲線與箭頭、右側通道轉角與車位相鄰），也可觀察到柱的位置對停車格邊界的影響，反映出空間配置。 \nHallucination: 無重大虛構項目，但部分敘述帶推論性質（例如「一台中大型房車停放尚可開門」與「維修檢視方便」屬於使用/維護層面的推斷，照片無法完整驗證門是否能完全打開或維修便利性）。總結：標籤與影像對應良好且具代表性，僅有少數主觀或可更精確化的表述，故評為4分。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_6",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590k.jpg?1760409045",
+            "evidence": "The image displays the '室內坡道車道' (indoor ramp/driveway) with clear '動線標示清楚' (clear movement markings).",
+            "confidence_score": 1.0,
+            "extracted_feature": {
+                "room": "地下室車道及車位區",
+                "tag_list": [
+                    "室內坡道車道",
+                    "出入口採光與通風孔",
+                    "動線標示清楚",
+                    "車道寬敞",
+                    "坡度看起來平順",
+                    "公共區域維護良好"
+                ],
+                "raw_description": "室內坡道車道(出入口有坡道連接戶外), 出入口採光與通風孔(坡道上方見自然光利於排氣), 動線標示清楚(地面線條與B1標示明顯), 車道寬敞(會車與轉彎空間充足), 坡度看起來平順(一般房車皆可上下), 公共區域維護良好(地面乾淨無明顯積水)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: Overall tags are visually supported. The image clearly shows an indoor ramp/driveway (室內坡道車道) on the right, painted floor markings and a B1 column sign (動線標示清楚), yellow parking/traffic lines and space for parking (車道寬敞), a textured ramp with a moderate slope (坡度看起來平順), and a clean floor with no obvious standing water (公共區域維護良好). The ramp wall/top has vertical slits and a bright opening letting light in (出入口採光與通風孔) which supports the lighting/ventilation claim. Specificity: Tags are reasonably specific (indoor ramp, ramp slope, markings, ventilation/openings) but could be more precise (e.g., “地面車道標線與箭頭” or “落地通風格柵/窗”) — the current tags are somewhat general but acceptable. Redundancy: Minor overlap only — “室內坡道車道” and “坡度看起來平順” are related but convey different aspects (type vs. slope quality). No excessive repetition. Spatial Signals: The tags capture key layout cues: ramp location, width of drive aisle, presence of directional markings and parking bays. The photo shows adequate turning/meeting space, column positions, and ramp geometry. Hallucination: No major hallucinations. A cautious note: the tag implying functional ventilation is inferred from visible slits/openings and natural light, but actual ventilation performance (airflow) cannot be confirmed from the image alone; similarly the claim that meeting/turning space is fully ample is somewhat subjective though visually plausible. Given accurate visual matches and only minor inference limits, confidence is high but not perfect."
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_7",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590g.jpg?1760409045",
+            "evidence": "The image explicitly shows the space configured as a '瑜伽/運動教室配置' (yoga/sports classroom) and clearly displays the '壁掛冷氣已裝' (wall-mounted AC installed) on the right wall.",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "一樓開放空間/店面",
+                "tag_list": [
+                    "前方玻璃門採光佳",
+                    "高挑天花搭配輕鋼架",
+                    "規則長條格局",
+                    "目前作瑜伽/運動教室配置",
+                    "地板平整無門檻",
+                    "壁掛冷氣已裝",
+                    "牆面可再加裝收納"
+                ],
+                "raw_description": "前方玻璃門採光佳(自然光照入室內前半部), 高挑天花搭配輕鋼架(空間感佳且方便維修管線), 規則長條格局(易於分區規劃接待區與工作區), 目前作瑜伽/運動教室配置(適合工作室與小型商業使用), 地板平整無門檻(安全好打掃), 壁掛冷氣已裝(減少前期設備投資), 牆面可再加裝收納(現為素牆可彈性利用)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤在影像中可被直接觀察到。前方有玻璃門且自然光從前端進入（前方玻璃門採光佳）明顯；右側牆上可見壁掛冷氣（壁掛冷氣已裝）；空間為規則的長條形開放格局（規則長條格局）；右側堆放的墊子/道具與開放地面支持「目前作瑜伽/運動教室配置」。地板為木紋/塑合地板且看起來平整（地板平整無門檻），天花板為格柵式鋪板（可視為輕鋼架吊頂），整體空間視覺感較為高挑。Specificity: 標籤多數具體（前方玻璃門、壁掛冷氣、長條格局、用途配置、地板狀況、吊頂型式），比單一模糊詞彙具體得宜。Redundancy: 標籤間冗餘不多，描述與細節（採光、用途、天花材質、格局）為互補性資訊，未見顯著重複。Spatial Signals: 標註了關鍵空間訊號（前端採光來源、長條格局、壁掛冷氣位置、地板無門檻）能反映布局與高度感；天花與牆面狀況也有提及，空間定位充分。Hallucination: 無重大虛構，但有兩處小疑點：1) 「無門檻」在左側深色門口前可見一塊金屬或踏墊，若嚴格定義門檻可能需再確認；2) 「高挑天花」屬主觀判斷，雖天花顯得較高且為格柵吊頂，但高度感評價有一定主觀成分；3) 「牆面可再加裝收納」為合理推論但屬建議性描述，非直接可驗證的固有設備。綜合判斷：標籤整體準確且具體，僅有輕微主觀或可疑項目，評分為4（High）。"
+        }
+    }
+]

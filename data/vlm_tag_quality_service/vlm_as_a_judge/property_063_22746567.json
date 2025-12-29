@@ -1,0 +1,283 @@
+[
+    {
+        "original_input": {
+            "description_id": "Desc_1",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828a.jpg?1760411257",
+            "evidence": "Features a balcony (陽台空間), visible AC (有冷氣), tiled floor (磁磚地板), and strong natural light (採光佳), fitting the Studio A layout.",
+            "confidence_score": 0.98,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "採光佳",
+                    "通風條件佳",
+                    "格局方正",
+                    "基本家具齊全(床",
+                    "書桌椅",
+                    "衣櫃皆備)",
+                    "有冷氣",
+                    "陽台空間",
+                    "磁磚地板",
+                    "空間偏緊湊"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "1) 正確性：大部分標註在影像中可見且屬實。床、書桌椅、鏡台與深色衣櫃均明顯可見；室內有分離式冷氣機安裝於窗門上方；落地推拉門與外側陽台欄杆可見，地板為白色磁磚。採光從陽台方向進入，視覺上光線充足。2) 具體性：標籤為中等具體程度——例如寫出「磁磚地板」「有冷氣」「陽台空間」是具體的，但可更精確（如「推拉玻璃門/分離式冷氣/白色拋光磁磚」）。3) 冗餘性：標籤間冗餘不多；「基本家具齊全(床 書桌椅 衣櫃皆備)」已集合列出家具，沒有和其他條目明顯重複。4) 空間訊號：有提到格局（方正）與空間緊湊，影像呈長方形房間、家具沿牆擺放，支持「長方型/方正好規劃」與「偏緊湊」的判斷；不過缺少更細的空間幾何訊息（如樑位、層高等）。5) 幻覺/不可驗證項目：描述中「採光照到床頭」從照片可見光線到達床側，但「早晨光線較充足」屬時間性推論，無法僅憑單張照片驗證；「屋況偏舊但可用」屬主觀評價，影像顯示裝潢較舊但無明顯破損，屬合理推測但非絕對事實。綜合：標籤與影像整體對應良好、只有少數主觀/時間性描述不可完全驗證，故評分為4。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_2",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828j.jpg?1760411257",
+            "evidence": "Clearly shows the green sofa and black coffee table (已附沙發茶几) defining the dual functional area (雙功能區). The furniture and wallpaper appear older (家具較老舊).",
+            "confidence_score": 0.98,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "自然光充足",
+                    "雙功能區",
+                    "已附沙發茶几",
+                    "私密性中等",
+                    "牆面與家具較老舊"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 3,
+            "reasoning": "總評 (3/5)：標籤整體大致正確但有重要模糊與少量幻想性描述。具體分析：1) 正確性：可視證據支持「自然光充足」(畫面可見強烈日光進入並照亮地面)與「已附沙發茶几」(綠色沙發與黑色茶几清楚可見)。「牆面與家具較老舊」也可視為合理 — 牆紙花紋與家具款式偏舊。2) 具體性：標籤較泛，如「自然光充足」正確但未指出光源類型(如落地窗/陽台)，「牆面與家具較老舊」亦未說明為表面汙損、剝落或僅款式老舊。3) 冗餘性：標籤間無明顯重複語義，整體精簡。4) 空間訊號：描述中提到長方格局、家具沿牆擺放與節省空間，畫面支持長條式/沿牆佈置的空間感；但「雙功能區」(如客廳+臥室)從此視角並未明顯分區，僅能算部分支持（可見客廳使用區與存櫃/收納區，但無明確睡眠區）。5) 幻想/不可驗證項目：raw_description 中提到「採光照到床頭」有明確提及床，但照片未見床或床頭，屬不可驗證/可能幻想；「私密性中等」為主觀評估、畫面無法判定外部視線或窗戶遮蔽程度，應標註不確定。結論：標籤有多項可視支持但也有不可檢驗或太籠統的敘述，故評為 Average (3)。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_3",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828k.jpg?1760411257",
+            "evidence": "Highlights the 'small living room' configuration (小客廳配置) with the sofa and table, and the large black wardrobe providing medium storage (收納空間中等).",
+            "confidence_score": 0.96,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "小客廳配置",
+                    "收納空間中等",
+                    "動線尚可",
+                    "採光良好",
+                    "屋況普通"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤在照片中可被視覺證實 — 有小客廳配置（綠色沙發＋茶几）、有儲物家具（深色立櫃與抽屜）且窗外光線明顯（採光良好）；屋況看起來屬普通／非全新（壁紙與裝潢較舊但無明顯破損）。\nSpecificity: 標籤偏通用（例如「採光良好」、「收納空間中等」），未說明窗型、落地窗或具體收納容積，細節不足但描述整體狀況合理。\nRedundancy: 標籤之間語意重複不多，彼此獨立（小客廳、收納、動線、採光、屋況皆涵蓋不同面向），無明顯冗餘。\nSpatial Signals: 原文描述提到格局為長方形與家具沿牆擺放，照片可見狹長/矩形動線與家具沿牆配置，標籤雖未直接標出格局但動線/配置的判斷與影像一致。\nHallucination: 原始描述中「採光照到床頭（早晨光線）」、「適合單身或學生」屬推論或時間/使用建議，無法僅從照片絕對驗證（時間、使用族群無法視覺確定）；聲稱床頭被採光照到亦為推測（畫面僅見陽光落入室內，床或床頭位置不夠明確）。\n總結：標籤整體與影像高度一致且無重大錯誤，但描述內含少量主觀或時間性推論與缺乏細節的表述，故評為4分（高）。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_4",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828s.jpg?1760411257",
+            "evidence": "Focuses on the integrated desk/work station (書桌工作位) within the single room, confirming concentrated living functions.",
+            "confidence_score": 0.97,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "生活機能集中(睡眠",
+                    "閱讀",
+                    "休息皆在同一室)",
+                    "書桌工作位",
+                    "插座集中牆面",
+                    "風格簡單易整理"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "1) 正確性：大部分標籤與影像相符 — 可見床鋪、座位（綠色沙發/椅）、茶几、衣櫃與靠牆的書桌/工作位，確實為單一空間同時承擔睡眠與休憩功能。牆面上可見電線與一組插座／電源點，但畫面中僅顯示少數插座，不足以完全證明「插座集中」為強烈事實。整體屋況看起來偏舊但無明顯破損，與描述相符。 2) 具體性：標籤屬於中等具體（例如有明確的「書桌工作位」），但仍可更精準（例如標註「窗邊採光」、「長方形格局」、「獨立衣櫃」等）。 3) 冗餘性：標籤間冗餘程度低；「生活機能集中」與「適合單身或學生」概念上相關但並非直接重複。 4) 空間訊號：影像支持長方型格局、家具沿牆擺放以節省空間、以及採光從窗戶方向延伸至床區，這些空間/幾何訊號被描述且在畫面可驗證。 5) 幻覺（Hallucination）：無重大虛構內容，但「插座集中牆面」的強斷定略有過度推論（畫面未清楚顯示多個集中插座），以及描述中的「早晨光線較充足」帶有時間推測性，應標為可見採光而非時間斷言。 綜合判斷：標籤與描述大致準確且具可用性，但在「插座集中」與時間性採光表述上有小幅過度推論，且標籤可更具體化，因此給予高但非滿分的信心評分。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_5",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828t.jpg?1760411257",
+            "evidence": "Shows the complete utilization of space, packing the bed, desk, sofa (partially visible), and large wardrobe into the room (空間利用完整).",
+            "confidence_score": 0.96,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "空間利用完整(床",
+                    "書桌",
+                    "沙發",
+                    "衣櫃皆擺入)",
+                    "採光貫穿",
+                    "家具偏舊",
+                    "天花高度一般"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤在影像中可視驗證。房間內可見床、沙發、衣櫃與一張桌/書桌，符合「空間利用完整」。畫面有明顯陽光斑照在床側與牆面，支持「採光」的描述；家具外觀與款式偏舊，支持「家具偏舊」。天花看起來無異常挑高或壓低，可接受為「天花高度一般」。\nSpecificity: 標籤偏通用，缺乏精確度（例如未指明是單人床/雙人床、窗型或窗位置，也未說明採光是「窗邊採光」或「採光貫穿整間」的具體程度）。描述可以更具體地標出窗的位置、採光方向與房間實際長寬比。 \nRedundancy: 標籤與說明有語意重複（如「家具偏舊」與描述中的「屋況偏舊」重複表述）。其他標籤間無明顯冗餘。 \nSpatial Signals: 影像顯示長方形格局、家具沿牆擺放以節省中間空間，光線由一側進入並照到床側，空間流向與配置敘述與視覺相符，空間幾何訊號被部分捕捉到。 \nHallucination: 說明中「採光照到床頭(早晨光線較充足)」中關於「早晨」時段的斷定無法由單張照片確認，屬於時段推論；此外「採光貫穿」可能誇大（照片顯示有強光但無法確認是否從窗戶貫穿至另一端）。「適合單身或學生」為主觀推論，非直接可視事實。 \n綜合評價：標籤與影像大致對應且正確，但具體化不足並含少量不可驗證的時間/用途推論，因此評分為4（高）。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_6",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828a.jpg?1760411257",
+            "evidence": "Generic description of a 'full set' studio (全配套房) with crowded furniture (略擁擠). Image_1 provides a comprehensive view confirming all listed items (REUSE due to input constraint).",
+            "confidence_score": 0.9,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "全配套房(床組",
+                    "衣櫃",
+                    "書桌椅",
+                    "沙發一應俱全)",
+                    "租客可直接入住",
+                    "隱私稍弱",
+                    "傢俱擺設略擁擠"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 3,
+            "reasoning": "1) Correctness：大部分描述在影像中可見——床組、衣櫃、書桌與椅子明顯存在，採光來自對外玻璃門也確實照到床區，房間風格與裝潢確實偏舊但無明顯破損。標記中「沙發」則無明確傳統沙發可辨（僅見一張可摺疊躺椅/靠椅），因此「沙發一應俱全」為不完全正確。2) Specificity：標籤偏概括（例如寫「全配套房」而非指明床尺寸、是否為雙人床、是否有落地窗或陽台），缺乏更精確的家具規格與窗型描述。3) Redundancy：有語義重複——「全配套房（列舉家具）」與「租客可直接入住」在資訊上高度重疊；「全配」與「傢俱擺設略擁擠」也部分重複（前者表達齊備，後者表達配置緊湊）。4) Spatial Signals：說明中的「格局長方型、家具沿牆擺放節省空間、採光照到床頭」與照片匹配良好，空間為長方形且家具多沿牆擺放，光源位置與室內亮度也被正確捕捉；但標籤本身未充分標示重要空間信號（如落地窗/陽台、動線寬度或床與門/窗的相對位置）。5) Hallucination：主要為「沙發一應俱全」可能為誤標；其餘如能直接入住、採光、屋況偏舊等為可視證據支持的主張。總結：標籤基本正確且描述大體符合影像，但存在一項可辨識的錯誤（沙發）、標籤過於籠統及少量冗餘，屬於準確但需改進的情形。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_7",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828o.jpg?1760411257",
+            "evidence": "This view clearly shows the ceiling light (室內照明設備) and the AC unit positioned centrally above the balcony door (冷氣位置居中).",
+            "confidence_score": 0.97,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "採光穩定",
+                    "有室內照明設備",
+                    "冷氣位置居中",
+                    "牆面花紋明顯"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大多標籤與影像相符 — 可見落地拉門有自然採光、天花板有室內照明燈具、牆面貼有明顯圖紋壁紙，且分離式冷氣機安裝於拉門上方（視覺上位於牆面中央偏上）。Specificity: 標籤偏向中等具體性；「冷氣位置居中」較具體，但「有室內照明設備」與「採光穩定」可更精確（例如標註為『天花板吸頂燈』或『落地窗/拉門採光』）。Redundancy: 標籤間無明顯語意重複，僅描述光源的兩個標籤與描述文字重複表達採光情況。Spatial Signals: 提到冷氣位置與採光，捕捉到重要空間信號；原始描述也指出長方形格局與家具沿牆擺放，這些在影像中可見並合理。Hallucination: 有少許過度推論——「採光穩定」與描述裡指稱『早晨光線較充足』屬時間/穩定性判斷，單張照片無法驗證長期穩定性或時間性；關於屋況『偏舊但可用』為主觀推論，影像未顯示明顯破損但也無法確定屋齡或整體屋況。總結：標籤與影像整體相符且具實用性，僅有少許描述性/時間性推論無法從照片直接驗證，故給予高信心評分（4/5）。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_8",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828e.jpg?1760411257",
+            "evidence": "The AC unit is positioned to blow directly across the room towards the bed/desk area (空調直吹範圍大), and light/ventilation originate from the same balcony direction.",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "工作區與床距適中",
+                    "空調直吹範圍大",
+                    "採光與通風同向"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤在照片中有視覺依據。畫面有獨立工作區（書桌與椅子）與床，二者保留走道，支撐「工作區與床距適中」。牆上方可見分離式冷氣機位於落地窗上方，且自然光從落地窗照入並照到床頭，支持「採光與通風同向」與「採光照到床頭」的描述。房間呈長方形且裝潢非新、壁紙與傢俱狀況可視為「屋況偏舊但可用」。 Specificity: 標籤層級偏中等，指出了關鍵關係（工作區 vs. 床、採光與通風方向、冷氣直吹）但不夠細緻（例如未標註為「分離式冷氣/壁挂机」、「落地窗/陽台推拉門」或「磁簧安全欄/防護網」等）。 Redundancy: 標籤間無明顯語義重複，三項各自聚焦不同面向。 Spatial Signals: 標籤捕捉到部分空間信號（工作區與床的相對距離、採光/通風來源方向），但未指出房間為長方形格局或動線狀態（雖描述中提到格局長方型，該點在影像中可見但未被列為標籤）。 Hallucination: 有小幅推論或不可驗證之處：1) 「空調直吹範圍大」屬主觀範圍判斷，從單一靜態照片難以量化冷氣覆蓋範圍；2) 描述中提到的「早晨光線」為時間推論，照片只能證明有直射陽光但無法確定時間。總結：標籤整體與影像高度一致且實用，僅有少數主觀/不可驗證的陳述（冷氣覆蓋範圍、光線時間）與可加強的標註細節，因此評分為4。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_9",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828q.jpg?1760411257",
+            "evidence": "Shows the staircase landing with a window, visible '3F' text, and signs of wear/clutter, fitting the 'maintenance average' tag (公共空間維護普通).",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "梯間公共空間",
+                "tag_list": [
+                    "採光一般",
+                    "通風尚可",
+                    "無電梯僅樓梯",
+                    "公共空間維護普通"
+                ],
+                "raw_description": "樓梯寬度適中(兩人交會尚可), 防滑瓷磚地面(較好清潔與安全), 採光偏弱(此角度自然光較少), 無屏障設計(搬運大型物件較方便)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 3,
+            "reasoning": "總評：標籤大致與圖像相符但偏泛且有少量不能完全從影像驗證的敘述，屬於中等準確性。 1) 正確性：影像清楚顯示樓梯、瓷磚地面、木扶手與一扇窗戶，『採光/通風可見但不強』與『公共空間維護普通（牆面有些髒汙、使用痕跡）』在視覺上成立；『無電梯僅樓梯』雖合理但僅憑此張圖無法絕對確認整棟是否無電梯，屬推論而非直接可見事實。 2) 特異性：標籤過於籠統（例如「採光一般」「通風尚可」），未量化或描述為何為「一般/尚可」，缺少更精確空間資訊（樓梯淨寬、窗型、光源方向等）。 3) 冗餘性：標籤間語義重複性低，項目彼此獨立，無明顯多餘重複詞彙。 4) 空間訊號：描述中提到樓梯寬度適中、無屏障等有助於搬運的空間資訊是有價值的，但這些空間訊號未反映在生成的標籤中；標籤未提供樓梯淨寬或層高、轉角位置等具體幾何資訊。 5) 幻覺（Hallucination）：詳細描述中的「防滑瓷磚」屬於材質與防滑性能判定，從照片難以確定其防滑係數，屬於弱驗證（可能為合理推測但非直接可見）；「無電梯僅樓梯」亦屬不可完全核證的宣稱。 建議：保留已有標籤但改為更精確措辭（如「採光偏弱／窗戶提供側向自然光」「樓梯淨寬可雙向會車」），並避免將材質防滑性能與整棟是否有電梯當作確定事實。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_10",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828r.jpg?1760411257",
+            "evidence": "A close-up view confirming the tiled steps (防滑瓷磚地面) and relatively weak natural lighting (採光偏弱).",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "梯間公共空間",
+                "tag_list": [
+                    "樓梯寬度適中",
+                    "防滑瓷磚地面",
+                    "採光偏弱",
+                    "無屏障設計"
+                ],
+                "raw_description": "樓梯寬度適中(兩人交會尚可), 防滑瓷磚地面(較好清潔與安全), 採光偏弱(此角度自然光較少), 無屏障設計(搬運大型物件較方便)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤與影像相符。可見樓梯與走道為瓷磚舖面，樓梯寬度在影像中屬於中等（單向通行順暢，兩人交會屬主觀但有可能），且畫面未見門禁或欄杆阻隔，採光主要來自上方窗戶但階段偏暗——標示「採光偏弱」可接受。 Specificity: 標籤偏實用但仍可更精確（例如給出實際寬度估計、寫明為「巖面防滑橫紋瓷磚」或標註扶手材質/位置）。 Redundancy: 標籤間無明顯重複語意，各項各自描述不同面向。 Spatial Signals: 標籤抓到重要空間訊號（寬度、地材、是否有屏障），但缺少階梯方向、轉角/踏步數量或扶手位置等更細節的空間描述。 Hallucination: 無重大虛構項目；唯「防滑」為材質外觀推論（視覺上確有防滑紋理，但無法從照片確認材質與防滑等級），以及描述中關於「兩人交會尚可」與「搬運大型物件較方便」為主觀推測，屬可合理但非絕對可驗證的判斷。 總結：標籤整體與影像高度一致，僅有少量主觀推論與可補強的細節，因此給予高分但非完美。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_11",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828l.jpg?1760411257",
+            "evidence": "The angle clearly illustrates the continuous flow (動線連貫) from the foreground desk area past the bed to the sofa/balcony.",
+            "confidence_score": 0.96,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "動線連貫(入口到床",
+                    "沙發",
+                    "書桌一目了然)",
+                    "小客廳與床區相鄰",
+                    "家具集中牆邊",
+                    "插座與網路位可能集中"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標註與照片吻合 — 入口視角可清楚見到床、沙發與書桌（動線連貫可視）；小客廳（綠色沙發）確實與床區相鄰；家具（床、書桌、鏡櫃、沙發）多沿牆或靠牆擺放。唯一無法在影像中直接驗證的是「插座與網路位可能集中」，圖片未顯示任何插座或網路孔，屬推論。  \nSpecificity: 標籤在表述動線與鄰接關係上具體可用，但仍可更精確（例如指出「套房一字型／長方型動線」、「床靠房間右側牆邊」、「落地窗採光」等）。原描述中「採光照到床頭」在照片可見光線照及床區，較具體；「早晨光線較充足」為時間性推論，影像無法驗證。  \nRedundancy: 標籤間有輕微重複語意 —「小客廳與床區相鄰」與「家具集中牆邊」皆在描述家具配置與區域相近，二者資訊部分重疊但不完全相同。  \nSpatial Signals: 標註有提供有用的空間訊號（長方型格局、動線從入口直視主要家具、家具沿牆節省空間），與畫面中可觀察到的格局相符。  \nHallucination: 出現少量無法視覺驗證或屬主觀推論的內容 — 特別是「插座與網路位可能集中」與「早晨光線較充足」與「屋況偏舊」的絕對判定（影像顯示裝潢款式偏舊但仍完整，可稱偏舊為主觀評價）。 綜合評估：文本與影像整體一致、空間訊號良好、僅有少量不可驗證的推論，故給予高分（4/5）。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_12",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510SS62828n.jpg?1760411257",
+            "evidence": "Confirms the rectangular layout (格局長方型) and shows the natural light from the balcony hitting the bed headboard area (採光照到床頭).",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "套房主空間",
+                "tag_list": [
+                    "格局長方型好規劃",
+                    "採光照到床頭",
+                    "屋況偏舊但可用",
+                    "適合單身或學生"
+                ],
+                "raw_description": "格局長方型好規劃(家具沿牆擺放節省空間), 採光照到床頭(早晨光線較充足), 屋況偏舊但可用(裝潢非新但無明顯破損), 適合單身或學生(空間與家具配置以一人使用為主)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "1) 正確性: 大多數標籤與照片相符——為套房主空間，格局呈縱深長方形（床、沙發、電視櫃與陽台在同一視線軸上）、有落地式玻璃推拉門/陽台窗、床、沙發、電視與冷氣機可見，整體裝潢與家具風格偏舊可用。2) 精確度: 標籤過於概括（例如只寫「採光」而未標示為「落地窗/陽台採光」；未註明地板材質為拋光地磚或牆面為花紋壁紙）。3) 冗餘性: 描述與標籤內容重複（標籤與詳細說明幾乎逐字對應），缺乏補充性資訊。4) 空間訊號: 有標示「長方型好規劃」，這一幾何資訊與畫面相符；但沒有更細的空間量化（如通道寬度、梁位、採光面朝向），未充分捕捉布局細節。5) 換言之／幻覺: 「採光照到床頭(早晨光線較充足)」帶有時間/光照強度的推論，單張照片無法驗證早晨光源方向與強弱，屬於部分推測；「屋況無明顯破損」雖看不出明顯毀損，但無法保證全屋狀態。 綜合來看：標籤整體真實且實用，但精確度與部分論斷（時間性採光）有推測成分、且資訊較泛，故給予高但非滿分評價。"
+        }
+    }
+]
