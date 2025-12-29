@@ -168,4 +168,5 @@ def main():
 
 
 if __name__ == "__main__":
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     main()
