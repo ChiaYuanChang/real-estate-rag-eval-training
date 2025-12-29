@@ -33,3 +33,28 @@ class RealEstateTagEvaluation(BaseModel):
             "Explain exactly what matched or failed to match in the image."
         )
     )
+
+
+class SpatialEvaluation(BaseModel):
+    confidence_score: int = Field(
+        ...,
+        ge=-1,
+        le=5,
+        description=(
+            "A score representing the confidence in the spatial accuracy of the text against the depth map. "
+            "OPTIONS: "
+            "[-1] IRRELEVANT: Text contains NO spatial/geometric info (e.g., only decor, price). "
+            "[0] INCORRECT: Text contains spatial info but it contradicts visual depth evidence (Hallucination). "
+            "[1-4] PARTIAL: Minor discrepancies or partial accuracy. "
+            "[5] ACCURATE: Text contains sufficient spatial info and perfectly matches the depth geometry."
+        )
+    )
+
+    reasoning: str = Field(
+        ...,
+        description=(
+            "A concise explanation strictly between 20 and 150 words. "
+            "Must explicitly reference visual cues from the Depth Map (e.g., 'depth gradient', 'darker pixels') "
+            "to justify the score."
+        )
+    )
