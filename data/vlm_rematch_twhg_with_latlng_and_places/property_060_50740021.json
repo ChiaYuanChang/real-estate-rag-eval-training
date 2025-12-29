@@ -1,0 +1,271 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique architectural features, floor materials, and built-in furniture configurations, especially for distinguishing between similar room types (e.g., the four bedrooms and the three bathrooms). The public area (Desc_1, 2, 3) was identified by the combination of glossy tile and wood laminate flooring, and the presence of a specific white console/altar area (Image_3). The bathrooms were separated by tile color (Bathroom 1: blue/dark tiles, Bathroom 2: large gray tiles, Master Bath: white/gray tiles with dark wood vanity). Bedrooms were differentiated by floor type (warm wood vs. light gray laminate), presence of a balcony (Image_8), and specific built-in features (desk vs. glass display cabinets). Desc_10/11 and Desc_12/13, and Desc_5/6 and Desc_14/15 were confirmed as different views of the same respective rooms, ensuring a consistent 1:1 mapping across all 16 items.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408a.jpg?1760411080",
+      "evidence": "Wide view of the living area showing the large L-shaped sofa, glossy tile floor, and the highly detailed coffered ceiling with ample lighting.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳/餐廳一體",
+        "tag_list": [
+          "大面採光",
+          "良好通風",
+          "規劃方正",
+          "公私分明",
+          "天花造型燈充足",
+          "地坪易清潔",
+          "家具尺寸寬裕",
+          "已裝冷氣"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408f.jpg?1760411080",
+      "evidence": "Alternative view of the public area, confirming the open layout, multi-point lighting, and showing the transition from tile to wood flooring near the dining space.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳視角二",
+        "tag_list": [
+          "開放式公領域",
+          "多點照明",
+          "收納展示櫃",
+          "餐廳空間充足",
+          "動線順暢",
+          "隔音潛力佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408g.jpg?1760411080",
+      "evidence": "Focuses on the dining area, clearly showing the floor material change and the large white console/cabinet suitable for a dining/worship area (拜拜區).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "餐廳/多功能區",
+        "tag_list": [
+          "採光良好",
+          "用餐與拜拜區分明",
+          "地坪異材質分區",
+          "餐邊櫃實用",
+          "動線寬敞",
+          "天花高度舒適"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408d.jpg?1760411080",
+      "evidence": "Bedroom featuring a light gray laminate floor, a square layout, and a dedicated built-in dark wood desk/work area.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "採光一般",
+          "方正格局",
+          "內建書桌工作區",
+          "地板耐用",
+          "置物空間可再規劃",
+          "隔間門實心木門"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408h.jpg?1760411080",
+      "evidence": "Bathroom view showing the sink and a separate brown vanity counter against distinctive dark blue/black tiled walls.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室一(洗手台區)",
+        "tag_list": [
+          "乾濕分離",
+          "檯面收納佳",
+          "通風可能仰賴機械",
+          "採光偏弱",
+          "磁磚防滑設計",
+          "清潔狀況良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408j.jpg?1760411080",
+      "evidence": "Second view of Bathroom 1, focusing on the toilet and the glass shower enclosure, confirming the dry/wet separation.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室一(馬桶/淋浴區)",
+        "tag_list": [
+          "獨立淋浴間",
+          "乾濕分離佳",
+          "空間實用",
+          "通風靠排風",
+          "容易打理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408k.jpg?1760411080",
+      "evidence": "Identified as 'Bathroom 2' due to its large size, modern gray marble-look tiles, and spacious layout, distinct from the blue-tiled bathrooms.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "浴室二(大浴室)",
+        "tag_list": [
+          "特大衛浴空間",
+          "乾濕分離",
+          "雙人檯面潛力",
+          "收納充足",
+          "通風採光有限",
+          "磁磚更新度高"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408l.jpg?1760411080",
+      "evidence": "Bedroom characterized by a warm reddish wood floor and large sliding glass doors providing direct access to a balcony/outside area.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "臥室二(連陽台)",
+        "tag_list": [
+          "採光通風佳",
+          "獨立陽台",
+          "木地板溫暖",
+          "空間寬敞",
+          "隱私良好",
+          "適合作主臥"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408n.jpg?1760411080",
+      "evidence": "Dedicated study room dominated by extensive built-in dark wood cabinets (including glass display) and a continuous integrated desk.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "書房",
+        "tag_list": [
+          "大量收納櫃",
+          "一體成型書桌",
+          "採光尚可",
+          "集中照明",
+          "靜音潛力佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408p.jpg?1760411080",
+      "evidence": "Bedroom with light gray laminate floor, built-in wardrobe/display cabinet, and a small, straight desk arrangement near the window.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室三(含書桌)",
+        "tag_list": [
+          "採光一般",
+          "方正格局(床與衣櫃",
+          "書桌排布順直)",
+          "內建衣櫃與展示櫃",
+          "有書桌工作位",
+          "地板好保養",
+          "天花高度舒適"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408q.jpg?1760411080",
+      "evidence": "Alternative angle of Bedroom 3 (Image_10), confirming the layout, furniture configuration, and smooth flow.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室三另一角度",
+        "tag_list": [
+          "動線順暢",
+          "家具配置完整",
+          "採光均勻",
+          "牆面保留空白"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408r.jpg?1760411080",
+      "evidence": "Identified as the 'Master Bedroom' due to its exceptionally large size, glossy tile floor, and connection to a large window/terrace area.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥室一角",
+        "tag_list": [
+          "超大主臥空間",
+          "採光良好",
+          "連接陽台或露台",
+          "公私動線佳",
+          "可規劃多功能區",
+          "天花燈光柔和"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408s.jpg?1760411080",
+      "evidence": "Second view of the Master Bedroom (Image_12), emphasizing the spaciousness and showing the storage/dressing area on the right.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥室另一角度",
+        "tag_list": [
+          "採光通風佳",
+          "收納及梳妝區到位",
+          "地坪易清潔",
+          "空間感寬闊"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408t.jpg?1760411080",
+      "evidence": "Master Bathroom view showing the large mirror, substantial dark wood vanity, and excellent dry/wet separation setup.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥浴室",
+        "tag_list": [
+          "乾濕分離優良",
+          "擴大鏡面增空間感",
+          "檯面與櫃體容量大",
+          "採光通風偏弱",
+          "空間舒適",
+          "清潔維護方便"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408u.jpg?1760411080",
+      "evidence": "Second view of the Master Bathroom (Image_14), focusing specifically on the spacious, fully enclosed glass shower area and the toilet.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥浴室淋浴區",
+        "tag_list": [
+          "全封閉淋浴間",
+          "淋浴空間寬敞",
+          "乾區保持乾燥",
+          "排水規劃清晰"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_16",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169408v.jpg?1760411080",
+      "evidence": "Bedroom with light gray laminate floor and a large built-in wardrobe featuring prominent glass display sections, distinct from other bedrooms.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室四",
+        "tag_list": [
+          "採光一般",
+          "內建衣櫃與玻璃展示櫃",
+          "地板耐磨",
+          "格局方正易擺家具",
+          "適合作次臥或兒童房"
+        ]
+      }
+    }
+  ]
+}

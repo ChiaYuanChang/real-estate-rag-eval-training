@@ -1,0 +1,112 @@
+{
+  "reasoning_log": "The matching process prioritized unique room types and specific high-value features. Desc_1 (Living/Dining) and Desc_4 (Bedroom with AC/Balcony) were easily matched to Image_1 and Image_4, respectively. Desc_2 (Kitchen) was confirmed by the presence of the central island and appliance cabinet in Image_2. Desc_5 (High-end Bathroom) was uniquely identified by the freestanding bathtub and modern dark tiling in Image_5. The remaining two standard bathrooms (Image_3 and Image_6) were differentiated based on subtle cues: Image_3 appeared slightly more compact, aligning with Desc_3's '空間偏緊湊' tag. Image_6's mirror reflection showed a distinct framed opening, which was interpreted as supporting Desc_6's '雙門動線' (double door access) tag.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184257g.jpg?1760411731",
+      "evidence": "Image shows a combined living and dining area with installed AC, basic furniture (sofa, coffee table, dining set), and clear zone separation.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳/餐廳",
+        "tag_list": [
+          "採光普通",
+          "格局方正",
+          "用餐起居區分明",
+          "天花高度舒服",
+          "已裝冷氣",
+          "基本傢俱附贈",
+          "收納中等",
+          "室內狀況新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184257h.jpg?1760411731",
+      "evidence": "Image displays an open kitchen layout featuring a central island ('中島廚房'), complete stove setup, and dedicated appliance cabinet space.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "開放式中島廚房",
+          "完整瓦斯爐具",
+          "收納充足",
+          "電器櫃規劃完善",
+          "採光通風尚可",
+          "燈光充足",
+          "格局方正好利用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184257j.jpg?1760411731",
+      "evidence": "Standard bathroom with wet/dry separation (glass enclosure). The tight framing and basic pedestal sink align with the '空間偏緊湊' and '衛浴配備基本齊全' tags.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "衛浴1",
+        "tag_list": [
+          "乾濕分離",
+          "通風設備",
+          "採光不足",
+          "衛浴配備基本齊全",
+          "清潔度佳",
+          "空間偏緊湊"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184257l.jpg?1760411731",
+      "evidence": "Bedroom view showing an installed AC unit and a large sliding door/window leading to a potential balcony area, confirming '具陽台空間' and '已裝冷氣'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室1",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "具陽台空間",
+          "已裝冷氣",
+          "收納潛力高",
+          "格局方正",
+          "獨立性佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184257m.jpg?1760411731",
+      "evidence": "High-end bathroom featuring a freestanding bathtub, vessel sink, dark modern tiling, and a spacious layout, matching '高級衛浴配置' and '空間寬敞'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "衛浴2",
+        "tag_list": [
+          "高級衛浴配置",
+          "乾濕完全分離",
+          "採光有限",
+          "現代風裝修",
+          "檯面收納空間",
+          "通風設備",
+          "空間寬敞"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184257p.jpg?1760411731",
+      "evidence": "Standard bathroom with wet/dry separation. The mirror reflection shows a distinct framed doorway, supporting the '雙門動線' (double door access) tag, differentiating it from Image_3.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "衛浴3",
+        "tag_list": [
+          "乾濕分離",
+          "通風設備",
+          "採光普通",
+          "雙門動線",
+          "衛浴設備齊全",
+          "清潔度良好"
+        ]
+      }
+    }
+  ]
+}

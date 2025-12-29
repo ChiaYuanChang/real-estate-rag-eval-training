@@ -1,0 +1,209 @@
+{
+  "reasoning_log": "The dataset contained three distinct groups: Community Facilities (Images 8, 9, 10), Kitchens (Images 3, 7, 11), and Living Rooms/Entryways (Images 1, 2, 4, 5, 6, 12). The community facilities were easily matched based on unique features (reception desk, high corridor, large lounge). The main challenge was resolving the redundancy in the residential images: Images 1 and 6 are duplicates, and Images 4 and 12 are duplicates. Additionally, Images 3, 7, and 11 are nearly identical views of the same kitchen. For these redundant images, descriptions were assigned based on the most specific visual cues mentioned (e.g., '隔間玻璃' for Image 1/6, '採光偏弱' for Image 4/12, and '櫃體光面板'/'雙口設計' for the kitchens) to ensure a strict 1:1 mapping across all 12 unique image IDs.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928a.jpg?1760408391",
+      "evidence": "Living room view showing the sofa, coffee table, and the key feature: a glass partition ('隔間玻璃') separating the space.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光普通",
+          "通風可能受限",
+          "規則格局",
+          "天花高度佳",
+          "簡易收納",
+          "已附沙發與茶几",
+          "隔間玻璃提升採光",
+          "地面磁磚好清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928e.jpg?1760408391",
+      "evidence": "View focused on the transition area towards the entryway, clearly showing the wooden paneling, coat rack area, and the hidden AC vent ('隱藏式冷氣出風口') above.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳入口區",
+        "tag_list": [
+          "玄關過渡空間明確",
+          "入口收納櫃",
+          "採光仰賴室內燈光",
+          "動線順暢(大門到客廳",
+          "廚房路徑筆直)",
+          "新穎裝潢",
+          "隱藏式冷氣出風口"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928t.jpg?1760408391",
+      "evidence": "Assigned the most generic kitchen description to this image ID, confirming the '一字型廚房' and '吧台兼餐桌' layout.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "開放式廚房+吧台",
+        "tag_list": [
+          "一字型廚房",
+          "IH爐具",
+          "上下櫃收納齊全",
+          "檯面材質易清潔",
+          "無對外窗",
+          "小型水槽",
+          "吧台兼餐桌",
+          "廚房與客廳半開放"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928h.jpg?1760408391",
+      "evidence": "Living room view emphasizing the TV wall with system cabinets ('系統櫃收納'). The lighting appears reliant on indoor sources, fitting '採光偏弱'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光偏弱",
+          "規劃電視主牆",
+          "家具尺度適中",
+          "動線集中",
+          "系統櫃收納",
+          "室內整潔新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928j.jpg?1760408391",
+      "evidence": "Living room view showing extensive white wall space ('牆面留白多') and the small coat hanging area ('玄關掛衣區') near the dark entry door.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "空間比例勻稱",
+          "採光同樣依賴外側空間",
+          "牆面留白多",
+          "玄關掛衣區",
+          "地面磁磚耐磨"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928k.jpg?1760408391",
+      "evidence": "Identical to Image 1, confirming the presence of the glass partition ('玻璃隔間') separating the living room from the inner space, providing a '視覺放大感'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳+臥室玻璃隔間",
+        "tag_list": [
+          "區域分明",
+          "採光由臥室側引入",
+          "私密性普通",
+          "家具擺放固定性高",
+          "視覺放大感"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928l.jpg?1760408391",
+      "evidence": "Kitchen view where the range hood is integrated or hidden, matching '沒有傳統排油煙機外露'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "開放式廚房+吧台",
+        "tag_list": [
+          "小家庭適用廚房",
+          "電磁爐與流理台距離近",
+          "櫥櫃收納良好",
+          "沒有傳統排油煙機外露",
+          "與客廳距離近",
+          "吧台座位規劃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928m.jpg?1760408391",
+      "evidence": "Clear view of the community reception desk ('管理櫃台明確') set against large floor-to-ceiling windows ('大面落地窗') with outdoor greenery.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "社區大廳櫃台區",
+        "tag_list": [
+          "大面落地窗",
+          "挑高大廳",
+          "室外景觀綠意",
+          "管理櫃台明確",
+          "公設新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928n.jpg?1760408391",
+      "evidence": "High-ceilinged ('超高挑空') community hallway/entrance area with multiple seating arrangements ('多休憩座位').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "社區大廳走廊",
+        "tag_list": [
+          "超高挑空",
+          "充足自然光",
+          "多休憩座位",
+          "公設維護良好",
+          "物業形象佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928o.jpg?1760408391",
+      "evidence": "Dedicated community lounge ('社區交誼廳') featuring numerous seats and large windows overlooking a green view ('大面窗與綠景').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "社區交誼廳",
+        "tag_list": [
+          "大面窗與綠景",
+          "公共交誼空間完善",
+          "座位數量多",
+          "採光柔和",
+          "提升生活機能"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928f.jpg?1760408391",
+      "evidence": "Kitchen view matching specific details: glossy white cabinet panels ('櫃體光面板'), visible double induction cooker ('電磁爐雙口設計'), and the narrow perspective ('空間較窄長').",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "開放式廚房+吧台",
+        "tag_list": [
+          "一體成型流理台",
+          "電磁爐雙口設計",
+          "櫃體光面板",
+          "廚房無窗",
+          "吧台臨近廚房",
+          "空間較窄長"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186928u.jpg?1760408391",
+      "evidence": "Identical to Image 4, confirming the reliance on artificial light ('採光依賴室內照明') and the defined entryway area ('玄關與客廳分區') via wooden paneling.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光依賴室內照明",
+          "玄關與客廳分區",
+          "內建收納櫃",
+          "風格簡約現代",
+          "適合小家庭或單身",
+          "冷氣管線隱藏"
+        ]
+      }
+    }
+  ]
+}

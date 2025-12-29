@@ -1,0 +1,249 @@
+{
+  "reasoning_log": "The dataset contained multiple views of two distinct living room styles (one with a teal accent wall, one with a narrow layout and red brick accent wall) and two distinct bedroom styles (Bedroom A with teal wall/two windows, Bedroom B with blue curtain/balcony access). Matching was performed by first grouping images by room type and then using specific tags (e.g., '格局狹長', '工作閱讀區明確', '靠陽台門', '電箱集中') to differentiate between near-identical views or specific corners. Images 1 and 9, 5 and 11, and 13 and 15 were identified as views of the same space but matched to descriptions requiring slightly different perspectives (e.g., '全景' vs. '一般視角'). Image 16, showing a third, distinct living room setup (different curtains and furniture arrangement), was determined to be the redundant image.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273a.jpg?1760408000",
+      "evidence": "General view of the living room/work area with a teal accent wall, brown sofa, and small dining table, fitting the '格局方正' and '基本家具附贈' tags.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳/餐工作區",
+        "tag_list": [
+          "格局方正",
+          "採光普通",
+          "基本家具附贈",
+          "地板易清潔",
+          "天花高度普通",
+          "收納略不足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273e.jpg?1760408000",
+      "evidence": "View of Bedroom A, characterized by the teal accent wall, two windows, AC unit, and platform bed ('有床架').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室A",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "已備冷氣",
+          "有床架",
+          "收納有限",
+          "私密性佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273f.jpg?1760408000",
+      "evidence": "Clear view of the toilet and sink area ('廁所(馬桶區)'), featuring modern gray tiles and a sit-down toilet ('坐式馬桶配置').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廁所(馬桶區)",
+        "tag_list": [
+          "乾淨整修過",
+          "無對外窗",
+          "空間略顯狹窄",
+          "坐式馬桶配置",
+          "五金配備基本齊全"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273d.jpg?1760408000",
+      "evidence": "Wide view of the second living room style, clearly showing the '格局狹長' (narrow layout) and the red brick accent wall.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光尚可",
+          "格局狹長",
+          "已附客廳家具",
+          "裝潢簡約",
+          "牆面保存良好",
+          "適合小家庭或合租公共區域使用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273h.jpg?1760408000",
+      "evidence": "View of Bedroom B showing the platform bed, AC unit, and the frosted glass door leading to the outside ('可通往外陽台/曬衣區').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室B(靠陽台門)",
+        "tag_list": [
+          "採光佳",
+          "通風極佳",
+          "已設冷氣",
+          "有平台床架",
+          "動線順暢",
+          "可通往外陽台/曬衣區"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273j.jpg?1760408000",
+      "evidence": "Dedicated view of the shower stall ('淋浴間'), confirming '乾濕分離獨立淋浴區' and '空間偏窄'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "淋浴間",
+        "tag_list": [
+          "乾濕分離獨立淋浴區",
+          "無對外窗",
+          "空間偏窄",
+          "磁磚地面防滑",
+          "管線外露度低"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273k.jpg?1760408000",
+      "evidence": "View of the narrow living room focusing on the desk and shelving unit, highlighting the '工作閱讀區明確'.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "客廳(另一視角)",
+        "tag_list": [
+          "採光良好",
+          "工作閱讀區明確",
+          "公私領域可分",
+          "家具配置彈性",
+          "收納可再加強"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273l.jpg?1760408000",
+      "evidence": "Unique image showing electrical boxes, exposed wiring ('線路外露'), and signs, including a no-smoking sign, matching '明確標示禁菸及用電資訊'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "電箱/管線區(玄關或走道)",
+        "tag_list": [
+          "電箱集中",
+          "線路外露",
+          "牆面狀況尚可",
+          "明確標示禁菸及用電資訊"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273n.jpg?1760408000",
+      "evidence": "Wide, full view ('全景') of the teal-walled living room, emphasizing the '多功能規劃' including the dining/work area in the background. (Similar to Image 1, but reserved for the '全景' tag).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳(含餐工作區全景)",
+        "tag_list": [
+          "空間開闊感尚可",
+          "採光普通",
+          "多功能規劃",
+          "已附基本家電",
+          "頂燈照明充足",
+          "適合小型聚會"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273o.jpg?1760408000",
+      "evidence": "Close-up view of the desk and chair, specifically capturing the '客廳書桌角落' in the narrow, brick-walled living room.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳書桌角落",
+        "tag_list": [
+          "採光佳",
+          "家具齊備",
+          "動線順暢",
+          "牆面配色明亮",
+          "插座位置便利"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273q.jpg?1760408000",
+      "evidence": "Another view ('另一視角') of Bedroom B, showing the same balcony door and platform bed setup as Image 5.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室B(另一視角)",
+        "tag_list": [
+          "採光通風佳",
+          "私密性尚可",
+          "家具配置基本",
+          "收納中等",
+          "空間可再佈置"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273r.jpg?1760408000",
+      "evidence": "Another view ('另一視角') of Bedroom A, showing the teal wall, windows, and emphasizing the '空間偏窄' aspect.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "臥室A(另一視角)",
+        "tag_list": [
+          "採光良好",
+          "空間偏窄",
+          "已備冷氣與窗簾",
+          "收納有限",
+          "簡易裝潢"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273s.jpg?1760408000",
+      "evidence": "View from the bed in Bedroom B looking down the long, straight path toward the door/hallway, matching '臥室B與走道連接' and '動線筆直'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室B與走道連接",
+        "tag_list": [
+          "採光好",
+          "動線筆直",
+          "家具高度適中",
+          "空間利用彈性",
+          "牆面與地板狀況佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273t.jpg?1760408000",
+      "evidence": "Image clearly shows an indoor area filled with motorcycles, matching '機車停車區' and '室內停車空間'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "機車停車區(地下或騎樓)",
+        "tag_list": [
+          "室內停車空間",
+          "照明普通",
+          "通風一般",
+          "地面未劃分車位",
+          "安全性中等"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187273v.jpg?1760408000",
+      "evidence": "View of Bedroom B focusing on the large wooden wardrobe ('衣櫃視角') next to the window and bed.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室B(靠窗衣櫃視角)",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "收納中等",
+          "隱私尚可",
+          "適合單人或小兩口"
+        ]
+      }
+    }
+  ]
+}

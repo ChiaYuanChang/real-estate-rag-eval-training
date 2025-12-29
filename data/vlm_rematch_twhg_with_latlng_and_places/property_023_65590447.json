@@ -1,0 +1,197 @@
+{
+  "reasoning_log": "The matching process relied on identifying unique room types and specific features mentioned in the tags. Descriptions 9, 10, and 11 were easily matched to the public/external areas (Lobby and Parking). For the internal residential areas: Image_1 was identified as the combined living/dining area (Desc_1) due to the visible sofa and balcony light, leaving Image_2 as the central dining/hallway transition zone (Desc_2). Image_3 was confirmed as the enclosed kitchen (Desc_3) by the visible rear balcony door. The two small bedrooms were differentiated by decor: Image_4 showed childish pink bedding and an AC unit (Desc_4, Children's Room), while Image_6 was neater with blue plaid and curtains (Desc_6, Student/Office Room). The two bathrooms were distinguished by separation: Image_7 showed clear glass separation (Desc_7, Master Bath), while Image_5 was compact with no clear separation (Desc_5, Guest Bath). Image_8 was the clear match for the independent foyer (Desc_8). The two parking images (10 and 11) were differentiated based on the visual focus: Image_10 highlighted the safety mirror and dedicated scooter line (Desc_10), while Image_11 showed a broader view of separated car and motorcycle zones (Desc_11). All 11 descriptions were matched 1:1.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129a.jpg?1760409164",
+      "evidence": "This image captures the full depth of the combined living room (sofa visible) and dining area, featuring excellent natural light from the balcony door, fitting '客廳／餐廳區' and '採光佳'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳／餐廳區",
+        "tag_list": [
+          "採光佳",
+          "通風可",
+          "動線順暢",
+          "格局方正",
+          "天花高度正常",
+          "用餐空間充足",
+          "簡易收納"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129e.jpg?1760409164",
+      "evidence": "This image focuses on the dining table situated in a central hallway/transition space, surrounded by doors, fitting '餐廳／走道區' and '動線良好'. The lighting is ceiling-dependent, aligning with '採光普通' relative to the main living area.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "餐廳／走道區",
+        "tag_list": [
+          "公私分區明確",
+          "動線良好",
+          "採光普通",
+          "天花設計簡潔",
+          "牆面留白可加收納",
+          "家庭聚餐適合"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129f.jpg?1760409164",
+      "evidence": "This is a modern, enclosed kitchen ('封閉式廚房') with new white cabinetry and a large window/door leading to the exterior, confirming the '後陽台連結' and '自然通風佳' tags.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "封閉式廚房",
+          "自然通風佳",
+          "採光不錯",
+          "廚具新穎",
+          "瓦斯爐具完整",
+          "收納空間足夠",
+          "後陽台連結",
+          "動線順暢"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129d.jpg?1760409164",
+      "evidence": "The room is small ('空間偏小'), features pink/childish decor, and has an AC unit installed, making it the definitive match for '兒童房／小臥室一'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "兒童房／小臥室一",
+        "tag_list": [
+          "採光潛力佳",
+          "私密性好",
+          "空調已裝設",
+          "空間偏小",
+          "收納可再規劃",
+          "天花高度正常",
+          "適合作兒童房或書房"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129h.jpg?1760409164",
+      "evidence": "A compact bathroom ('空間偏緊湊') with a toilet and pedestal sink. The lack of a full glass enclosure suggests '乾濕未完全分離'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客衛浴一",
+        "tag_list": [
+          "乾濕未完全分離",
+          "通風恐需依賴機器",
+          "衛浴翻新感佳",
+          "空間偏緊湊",
+          "基本收納有",
+          "清潔度尚可"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129j.jpg?1760409164",
+      "evidence": "A functional, well-lit bedroom with a desk and blue plaid bedding, suitable for a student/office worker ('學生／上班族適合'). It clearly shows installed curtains ('安裝窗簾').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "小臥室二",
+        "tag_list": [
+          "採光佳",
+          "通風可",
+          "空間適中",
+          "學生／上班族適合",
+          "私密性良好",
+          "可再增收納",
+          "安裝窗簾"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129k.jpg?1760409164",
+      "evidence": "This bathroom features a modern vessel sink and a clear glass shower enclosure, confirming '乾濕分離佳' and '衛浴設備新穎'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主衛浴／淋浴間",
+        "tag_list": [
+          "乾濕分離佳",
+          "採光通風良好",
+          "衛浴設備新穎",
+          "安全性較佳",
+          "收納空間中等",
+          "私密度可"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129l.jpg?1760409164",
+      "evidence": "The image shows the main entrance door and an adjacent wooden shoe cabinet, defining an '玄關獨立' space with '收納鞋櫃已設'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "玄關",
+        "tag_list": [
+          "玄關獨立",
+          "收納鞋櫃已設",
+          "採光較弱",
+          "動線順",
+          "安全感佳",
+          "牆面留白可掛衣鉤或鏡子"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129n.jpg?1760409164",
+      "evidence": "A spacious, modern communal area with high ceilings, marble floors, and ample seating, perfectly matching '大樓大廳' and '挑高大廳'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "大樓大廳",
+        "tag_list": [
+          "挑高大廳",
+          "公設新穎",
+          "採光充足",
+          "休憩空間完善",
+          "管理形象佳",
+          "社區質感好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129v.jpg?1760409164",
+      "evidence": "Underground parking showing a dedicated motorcycle area and prominent safety features like the convex mirror and striped bollards, aligning with '機車位充足' and '有安全設施'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "地下停車場一",
+        "tag_list": [
+          "車位機車位充足",
+          "動線清楚",
+          "亮度充足",
+          "有安全設施",
+          "地面平整",
+          "通風機械化"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS177129w.jpg?1760409164",
+      "evidence": "Underground parking showing clear separation between motorcycles (foreground) and large vehicles (SUVs in the background), fitting '大型車友善' and '機車汽車分區'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "地下停車場二",
+        "tag_list": [
+          "大型車友善",
+          "機車汽車分區",
+          "管理規劃佳",
+          "採光有限但照明足夠",
+          "設備新穎",
+          "出入便利"
+        ]
+      }
+    }
+  ]
+}

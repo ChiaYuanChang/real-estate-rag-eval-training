@@ -1,0 +1,296 @@
+{
+  "reasoning_log": "The dataset contained 17 descriptions and 18 images, including several duplicates or multiple views of the same room. The matching strategy focused on identifying unique features mentioned in the descriptions (e.g., '內建開放書架' for Desc_12, '乾濕不分離' for Desc_11, '與衛浴相連' for Desc_7, and specific views of the living room/master suite). Images 1, 2, and 14 were assigned to the three living room descriptions based on the specific features highlighted (storage/finish, open layout, and TV wall, respectively). Images 4, 8, and 16, which depict the same bar area, were differentiated by the angle and emphasis (atmosphere, connection, concentrated lighting). The four master bedroom descriptions (Desc_6, 9, 10, 16) were matched to the four distinct views of the primary master suite (Images 6, 9, 10, 17) based on the spatial focus (flow, comfort, scale, storage wall). Image 15 was identified as a duplicate of Image 1 and is the redundant image.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036a.jpg?1760412375",
+      "evidence": "Living room view showing large windows (採光佳), extensive wood paneling/shelving (收納充足), and modern grey tile flooring (地板好清潔).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "格局方正",
+          "天花高度舒適",
+          "燈光充足",
+          "收納充足",
+          "裝潢新穎",
+          "地板好清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036e.jpg?1760412375",
+      "evidence": "Living room view emphasizing the connection to the dining/bar area (開放餐廳客廳) and the overall flow (生活動線順暢). Lighting is uniform but not overly bright (採光一般).",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "生活動線順暢",
+          "大尺度客廳",
+          "採光一般",
+          "燈光均勻",
+          "展示收納兼具",
+          "隱藏式收納",
+          "開放餐廳客廳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036f.jpg?1760412375",
+      "evidence": "Independent galley kitchen (獨立廚房空間) with a long countertop (作業檯面長) and extensive white cabinetry (收納非常充足).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房空間",
+          "機能完整廚具",
+          "收納非常充足",
+          "作業檯面長",
+          "通風尚可",
+          "採光普通",
+          "易清潔建材"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036g.jpg?1760412375",
+      "evidence": "Bar area featuring a large island (中島餐桌設計) and display cabinets (展示收納櫃). This view is similar to Image 8 but emphasizes the structure.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "餐吧區",
+        "tag_list": [
+          "中島餐桌設計",
+          "多人用餐空間",
+          "展示收納櫃",
+          "燈光重點照明",
+          "與客廳相連",
+          "裝潢新"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036d.jpg?1760412375",
+      "evidence": "Spacious, empty multi-function room (空間寬敞) with a built-in storage niche/bookshelf (收納潛力高) and a relatively small window (採光一般).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "多功能房/次臥",
+        "tag_list": [
+          "空間寬敞",
+          "採光一般",
+          "格局方正",
+          "收納潛力高",
+          "燈光充足",
+          "地板耐用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036h.jpg?1760412375",
+      "evidence": "Master bedroom view highlighting the large scale (主臥尺度大) and the long entry/walkway, suggesting space for an independent rest area.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "主臥尺度大",
+          "採光佳",
+          "充足收納",
+          "獨立休息區",
+          "裝潢完成",
+          "燈光柔和",
+          "地板易打理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036j.jpg?1760412375",
+      "evidence": "Dressing area with a vanity (化妝檯設計), glass wardrobe (收納分區明確), and a clear connection/doorway leading directly to the bathroom (與衛浴相連).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "更衣/化妝區",
+        "tag_list": [
+          "更衣室配置",
+          "化妝檯設計",
+          "與衛浴相連",
+          "燈光明亮",
+          "收納分區明確",
+          "私密性佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036k.jpg?1760412375",
+      "evidence": "Bar area showing the island, high chairs, and the decorative chandelier (燈光設計感強), emphasizing the atmosphere (展示櫃氣氛佳).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "餐吧區",
+        "tag_list": [
+          "中島搭配高腳椅",
+          "展示櫃氣氛佳",
+          "開放式餐廳",
+          "燈光設計感強",
+          "收納櫃體齊全"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036l.jpg?1760412375",
+      "evidence": "Close-up view of the master bed area, highlighting the soft lighting (燈光柔和) and comfortable setup (舒適睡眠空間).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "採光佳",
+          "舒適睡眠空間",
+          "收納完善",
+          "私密安靜感",
+          "燈光柔和",
+          "裝潢風格統一"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036m.jpg?1760412375",
+      "evidence": "Wide view of the master bedroom showing the large space and the wide aisle between the bed and the window/wall (動線順暢), confirming the large spatial sense (主臥空間感大).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "主臥空間感大",
+          "採光良好",
+          "收納牆面",
+          "休閒角落潛力",
+          "動線順暢(床與門",
+          "窗之間走道寬敞)"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036n.jpg?1760412375",
+      "evidence": "Bathroom featuring a wood ceiling (木作天花) and no physical barrier between the shower and the rest of the room (乾濕不分離).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥衛浴",
+        "tag_list": [
+          "衛浴空間寬敞",
+          "乾濕不分離",
+          "通風可能一般",
+          "新式衛浴設備",
+          "易清潔磁磚",
+          "木作天花"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036o.jpg?1760412375",
+      "evidence": "Secondary bedroom with a built-in open bookshelf (內建開放書架) next to the window.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次臥",
+        "tag_list": [
+          "採光佳",
+          "格局方正",
+          "內建開放書架",
+          "牆面留白多",
+          "燈光足夠",
+          "地板易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036p.jpg?1760412375",
+      "evidence": "Bathroom featuring a glass partition separating the shower area (乾濕分離佳) and a wood ceiling.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次衛浴",
+        "tag_list": [
+          "乾濕分離佳",
+          "衛浴設備新穎",
+          "安全防滑地磚",
+          "燈光明亮",
+          "通風可能一般",
+          "收納有限"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036q.jpg?1760412375",
+      "evidence": "Living room view focusing on the large, modern wall reserved for the television (電視主牆預留) and the overall large space (大客廳空間).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "視野開闊",
+          "大客廳空間",
+          "裝潢現代",
+          "電視主牆預留",
+          "通風良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036t.jpg?1760412375",
+      "evidence": "Bar area view showing the island and the concentrated lighting fixture above it (燈光集中).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "餐吧區",
+        "tag_list": [
+          "小家庭餐桌",
+          "燈光集中",
+          "展示收納一體",
+          "開放式格局",
+          "裝潢新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_16",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036u.jpg?1760412375",
+      "evidence": "Master bedroom view focusing on the wall opposite the bed, which features built-in shelving/storage (主臥收納牆).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "主臥收納牆",
+          "採光良好",
+          "動線流暢(床與櫃",
+          "門之間走道寬)",
+          "裝潢完整",
+          "休閒空間彈性"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_17",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS176036v.jpg?1760412375",
+      "evidence": "Empty, square room (空間方正) with a large window/sliding door providing excellent natural light (採光佳).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "多功能房/空房",
+        "tag_list": [
+          "空間方正",
+          "採光佳",
+          "收納潛力大",
+          "燈光充足",
+          "地板材質耐磨"
+        ]
+      }
+    }
+  ]
+}

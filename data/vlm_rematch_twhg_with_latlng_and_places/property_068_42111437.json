@@ -1,0 +1,258 @@
+{
+  "reasoning_log": "The dataset contained 15 descriptions and 16 images. Initial analysis grouped the images into Living Room (6 views), Bedrooms (4 distinct rooms/views), Kitchen (1), Dining (1), and Bathrooms (2). The goal was to match all 15 descriptions 1:1, leaving one image redundant.\r\n1. Unique Rooms (Kitchen, Dining, Bathrooms): These were matched immediately based on object presence (stove, dining table, bathtub) and specific tags (e.g., '老屋磁磚配置' for the kitchen, '設備較老舊' for Bathroom 1).\r\n2. Bedrooms: The Master Bedroom (Desc_6) was uniquely identified by the '可通往陽台' tag, leading to Image_7 (Image_6, a similar view, was deemed redundant as it lacked this visual evidence). The Study/Bedroom C (Desc_9/Desc_13) was matched to Image_10/Image_14 due to the built-in desk and AC. The two empty bedrooms (Desc_5/Desc_8) were assigned to the two visually identical empty rooms (Image_5/Image_9).\r\n3. Living Room: The six remaining descriptions (Desc_1, Desc_2, Desc_10, Desc_11, Desc_14, Desc_15) were matched to the six remaining living room images (Image_1, Image_2, Image_11, Image_12, Image_15, Image_16) by differentiating the camera angle and focus (e.g., '最廣角' to Image_11, '含走道' to Image_2, '特寫' to Image_16).",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549a.jpg?1760411525",
+      "evidence": "Living room view highlighting the built-in storage cabinet and the entrance flow ('獨立玄關動線').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "方正格局",
+          "天花高度舒適",
+          "基本家具附贈",
+          "收納充足",
+          "獨立玄關動線",
+          "室內維護尚可"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549t.jpg?1760411525",
+      "evidence": "A general view of the main seating area, emphasizing the '大空間感' (large sense of space).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳(另一視角)",
+        "tag_list": [
+          "大空間感",
+          "採光穩定",
+          "家具好配置",
+          "公私分區明確",
+          "室內燈光充足",
+          "地面易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549f.jpg?1760411525",
+      "evidence": "Clearly shows a dedicated dining area ('獨立用餐區') with a table set near a window.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "餐廳",
+        "tag_list": [
+          "採光良好",
+          "獨立用餐區",
+          "牆面完整",
+          "空間深度足夠",
+          "簡易裝潢"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549g.jpg?1760411525",
+      "evidence": "Narrow kitchen with dark green cabinets, visible stove, and old-style tiles ('老屋磁磚配置').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光通風佳",
+          "有基本瓦斯爐具",
+          "上下櫃收納",
+          "雙一字工作動線",
+          "廚房略為狹窄",
+          "老屋磁磚配置"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549d.jpg?1760411525",
+      "evidence": "Empty, square room with wood flooring ('木紋地板') and white walls ('牆面留白').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室A",
+        "tag_list": [
+          "採光通風尚可",
+          "方正格局",
+          "木紋地板",
+          "牆面留白",
+          "無固定衣櫃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549k.jpg?1760411525",
+      "evidence": "Master bedroom with built-in bed/cabinets and clear access to a balcony ('可通往陽台').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "採光佳",
+          "可通往陽台",
+          "內建收納櫃",
+          "附固定床架",
+          "空間寬敞",
+          "私密性佳",
+          "地坪維護良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549l.jpg?1760411525",
+      "evidence": "Bathroom with a bathtub, non-separated wet area, and older fixtures (green accents, yellowish toilet seat).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "乾溼不分離",
+          "通風較弱",
+          "有浴缸設備",
+          "設備較老舊",
+          "地面防滑一般",
+          "清潔狀況尚可"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549m.jpg?1760411525",
+      "evidence": "Empty room with wood flooring, paired with Image_5 as the second empty bedroom view.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室B",
+        "tag_list": [
+          "採光通風尚可",
+          "方正好利用",
+          "木地板溫暖感",
+          "牆面高可做收納櫃",
+          "無現成衣櫃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549n.jpg?1760411525",
+      "evidence": "Room featuring built-in white desk/cabinet unit ('已有書桌與吊櫃') and visible AC unit.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室C/書房",
+        "tag_list": [
+          "採光良好",
+          "已有書桌與吊櫃",
+          "內建展示櫃",
+          "木地板新穎感較佳",
+          "空間方正",
+          "已裝冷氣"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549e.jpg?1760411525",
+      "evidence": "Living room view emphasizing the separation between the public area and the hallway leading to private rooms ('公私分區清楚').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳(含走道)",
+        "tag_list": [
+          "公私分區清楚",
+          "開放寬敞",
+          "採光連續",
+          "裝潢簡約易改造",
+          "插座配置一般",
+          "地面無高低差"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549p.jpg?1760411525",
+      "evidence": "View highlighting the ceiling fan/light fixture ('電扇燈設備') and the TV cabinet wall.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳(另一角度)",
+        "tag_list": [
+          "電扇燈設備",
+          "家具動線順暢",
+          "牆面留白可掛電視",
+          "採光穩定",
+          "室內顏色明亮"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549q.jpg?1760411525",
+      "evidence": "Second bathroom view, featuring a bathtub and non-separated wet area, distinct from Image_8.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "有浴缸設計",
+          "衛浴設備齊全",
+          "乾溼不分離",
+          "采光通風不明顯",
+          "磁磚較老舊",
+          "收納不足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549s.jpg?1760411525",
+      "evidence": "Secondary view ('另一視角') of the Study/Bedroom C, showing the built-in desk and cabinet unit.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室C/書房(另一視角)",
+        "tag_list": [
+          "採光良好",
+          "已裝冷氣",
+          "書桌與吊櫃一體成型",
+          "牆面可再加衣櫃",
+          "木地板狀況佳",
+          "房型方正"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549o.jpg?1760411525",
+      "evidence": "The widest angle shot ('最廣角') of the public area, capturing the overall flow and breadth.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳(最廣角)",
+        "tag_list": [
+          "公領域寬敞",
+          "採光充足",
+          "家具與收納已備",
+          "動線流暢",
+          "頂部照明完善",
+          "裝潢年代略久"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510CS172549u.jpg?1760411525",
+      "evidence": "A focused, close-up view ('特寫') of the main seating and cabinet area.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "客廳(特寫)",
+        "tag_list": [
+          "休憩區完整",
+          "背牆可做主視覺牆",
+          "採光柔和",
+          "室內整潔度佳",
+          "隔音狀況不明"
+        ]
+      }
+    }
+  ]
+}

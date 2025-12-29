@@ -1,0 +1,170 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique room types (kitchen, bathroom, balcony, bedroom) first, and then differentiating between similar views of the same room type (living areas, kitchen views, bathroom views). Descriptions 6/7 and 8/9 were identified as different angles of the same physical space. The three living areas (Desc_1, 2, 3) were distinguished by the presence and prominence of windows: Desc_1 matched the internal view (Image_1) lacking a large window, while Desc_2 and Desc_3 were assigned to the two slightly different perspectives of the windowed living area (Image_2 and Image_3), based on the specific emphasis on 'window area' (Desc_2/Image_2) versus 'large living room potential' (Desc_3/Image_3). Bedrooms (Desc_4, 5) were matched based on perceived size and layout regularity.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982a.jpg?1760412273",
+      "evidence": "Matches the description of a main living/dining area focused on internal flow ('動線順暢') with no large external window visible in the primary view ('采光一般').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳區",
+        "tag_list": [
+          "規則格局",
+          "天花高度舒適",
+          "采光一般",
+          "動線順暢",
+          "已重新粉刷",
+          "地面易清理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982e.jpg?1760412273",
+      "evidence": "Matches the '客廳/餐廳帶窗區' (Living/Dining with window area) description, showing a large window and emphasizing sufficient lighting ('燈光充足').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳/餐廳帶窗區",
+        "tag_list": [
+          "前後採光",
+          "可規劃餐廳區",
+          "規則格局",
+          "動線清楚",
+          "燈光充足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982f.jpg?1760412273",
+      "evidence": "Matches the '客廳/多功能區' description, providing a wide view suitable for planning a '大型客廳' (large living room) and showing the window recess suitable for a desk/daybed.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳/多功能區",
+        "tag_list": [
+          "可規劃大型客廳",
+          "靠窗位置可做書桌/臥榻",
+          "室內採光尚可",
+          "牆面留白好裝修",
+          "插座配置基本齊全"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982m.jpg?1760412273",
+      "evidence": "Identified as the primary, '方正臥室' (Square bedroom) with a standard large window.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "方正臥室",
+          "外窗通風",
+          "隔音一般",
+          "採光一般",
+          "牆地面新整修"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982o.jpg?1760412273",
+      "evidence": "Identified as the '中小型臥室' (Small/medium bedroom), suitable for a study or guest room, featuring a corner window placement.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室二",
+        "tag_list": [
+          "中小型臥室",
+          "外窗採光通風",
+          "隱私佳",
+          "規則格局",
+          "適合作書房或客房"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982q.jpg?1760412273",
+      "evidence": "Matches the '浴室一' description: fully renovated, wet/dry non-separated, and clearly shows the '雙地排' (double floor drain) and shower area.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "整體翻新衛浴",
+          "乾濕不分離",
+          "空間寬敞",
+          "有排水坡度與雙地排",
+          "基本配備齊全",
+          "無對外窗"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982r.jpg?1760412273",
+      "evidence": "Matches the '浴室二(同一衛浴不同角度)' description, providing a frontal view of the sink, mirror cabinet, and toilet, confirming the fixtures and layout.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室二(同一衛浴不同角度)",
+        "tag_list": [
+          "淋浴設備簡潔",
+          "清潔容易",
+          "插座與鏡櫃位置方便",
+          "空間平整無高低差",
+          "仍為濕區較大"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982s.jpg?1760412273",
+      "evidence": "Matches the general '廚房' description, showing the long countertop ('流理台操作檯面長') and the external window from an angled perspective.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房空間",
+          "雙口瓦斯爐",
+          "抽油煙機與上櫃",
+          "下櫃收納充足",
+          "流理台操作檯面長",
+          "有外窗通風",
+          "新式裝修"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982t.jpg?1760412273",
+      "evidence": "Matches the '廚房正面' description, providing a clear frontal view of the '一字型廚具配置' (I-shaped layout) and the upper/lower storage cabinets.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房正面",
+        "tag_list": [
+          "一字型廚具配置",
+          "上下廚櫃大量收納",
+          "預留家電位置",
+          "照明充足",
+          "檯面易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS179982u.jpg?1760412273",
+      "evidence": "Perfect match for '狹長型工作陽台' (narrow/long utility balcony) and '有鐵窗防護' (protected by iron bars/grills).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "前後陽台/工作陽台",
+        "tag_list": [
+          "狹長型工作陽台",
+          "有鐵窗防護",
+          "地面排水孔",
+          "局部採光通風",
+          "適合作曬衣區",
+          "私密性佳"
+        ]
+      }
+    }
+  ]
+}

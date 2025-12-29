@@ -1,0 +1,130 @@
+{
+  "reasoning_log": "The matching process prioritized unique spatial categories (Bathroom, Parking, Driveway) first, achieving perfect matches for Desc_4, Desc_5, and Desc_6. The remaining four descriptions (Desc_1, Desc_2, Desc_3, Desc_7) all refer to ground floor open spaces (storefronts). Image_1 was uniquely identified as the empty, newly renovated space matching Desc_1 (emphasizing AC and complete lighting). Images 2, 3, and 7 depict the same type of space configured as a yoga studio. Desc_7, which specifies 'yoga/sports classroom configuration' and 'wall-mounted AC,' was matched to Image_3, where the AC unit is clearly visible alongside the props. The final ambiguity was between Desc_2 (focus on track lighting/depth) and Desc_3 (focus on storage/dual AC) for Images 2 and 7. Image_7 was assigned to Desc_3 due to its slightly clearer depiction of the stacked props/storage, while Image_2 was assigned to Desc_2, emphasizing the track lighting and deep layout.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590e.jpg?1760409045",
+      "evidence": "The image shows an empty, high-ceiling, rectangular space with new wood flooring, track lighting ('燈光配置完整'), and a visible wall-mounted AC unit ('空調已裝設').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "一樓開放空間/店面",
+        "tag_list": [
+          "高挑樓層",
+          "前後採光尚可",
+          "規則長方格局",
+          "地板新穎",
+          "空調已裝設",
+          "燈光配置完整",
+          "可彈性規劃隔間",
+          "機能出入口單一"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590f.jpg?1760409045",
+      "evidence": "The image emphasizes the '規則縱深格局' (regular deep layout) and '已有室內照明軌道燈' (track lighting), fitting the architectural focus of the description.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "一樓開放空間/店面",
+        "tag_list": [
+          "前方大面玻璃採光佳",
+          "規則縱深格局",
+          "高挑天花板",
+          "已有室內照明軌道燈",
+          "安靜室內環境",
+          "左右牆面留白",
+          "地板連續無高低差"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590v.jpg?1760409045",
+      "evidence": "The image clearly shows the '已有收納架與桌面' (storage/props) stacked on the right side of the long space, which is a key feature of this description.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "一樓開放空間/店面",
+        "tag_list": [
+          "長型開放大空間",
+          "高挑樓層壓迫感低",
+          "雙面空調配置",
+          "已有收納架與桌面",
+          "動線清楚",
+          "室內整潔維護良好",
+          "插座配置在牆側"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590d.jpg?1760409045",
+      "evidence": "This is the only bathroom image. It features a window ('有對外窗') and the shower area is not fully separated ('乾濕未完全分離').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室/廁所",
+        "tag_list": [
+          "乾濕未完全分離",
+          "有對外窗採光通風佳",
+          "衛浴設備齊全",
+          "明亮照明",
+          "磁磚鋪設完整",
+          "收納空間有限",
+          "空間尺度中等"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590j.jpg?1760409045",
+      "evidence": "The image shows a car parked in a clearly marked '室內平面車位' (indoor flat parking spot) with '消防與管線外露可見' (exposed pipes/conduits) overhead.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "地下室平面車位",
+        "tag_list": [
+          "有專屬劃位車位",
+          "車位寬度中等",
+          "室內平面車位",
+          "通道轉彎處鄰近",
+          "照明充足",
+          "消防與管線外露可見"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590k.jpg?1760409045",
+      "evidence": "The image displays the '室內坡道車道' (indoor ramp/driveway) with clear '動線標示清楚' (clear movement markings).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "地下室車道及車位區",
+        "tag_list": [
+          "室內坡道車道",
+          "出入口採光與通風孔",
+          "動線標示清楚",
+          "車道寬敞",
+          "坡度看起來平順",
+          "公共區域維護良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS180590g.jpg?1760409045",
+      "evidence": "The image explicitly shows the space configured as a '瑜伽/運動教室配置' (yoga/sports classroom) and clearly displays the '壁掛冷氣已裝' (wall-mounted AC installed) on the right wall.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "一樓開放空間/店面",
+        "tag_list": [
+          "前方玻璃門採光佳",
+          "高挑天花搭配輕鋼架",
+          "規則長條格局",
+          "目前作瑜伽/運動教室配置",
+          "地板平整無門檻",
+          "壁掛冷氣已裝",
+          "牆面可再加裝收納"
+        ]
+      }
+    }
+  ]
+}

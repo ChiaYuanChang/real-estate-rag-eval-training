@@ -1,0 +1,242 @@
+{
+  "reasoning_log": "The dataset contained 13 descriptions and 13 unique images, suggesting a perfect 1:1 mapping with no redundant images. Matching was primarily achieved by grouping images into pairs representing different views of the same room (A, B, C, Kitchen, Living Room, Bathrooms) and then using specific visual cues mentioned in the tags.\n1. **Entrance/Garage (Desc_1):** Identified by the large metal security door and rough concrete floor (Image_1).\n2. **Kitchen (Desc_4, Desc_5):** Identified by the full white tiling on the walls. Desc_4 was matched to Image_4 (showing the back door), and Desc_5 to Image_5 (showing the sink/countertop).\n3. **Living Room (Desc_11, Desc_12):** Identified uniquely by the '老式拼花石' (old style patterned stone) floor (Image_11, Image_12).\n4. **Room B (Desc_7, Desc_8):** Identified by the excellent natural light and severe peeling damage extending to the ceiling, plus the cracked floor (Image_7, Image_8).\n5. **Room A vs. Room C:** Both are dark, small rooms. Room A (Desc_2, Desc_3) was characterized by '牆面受潮剝落' (peeling/flaking near baseboard) and the presence of an interior door (Image_2, Image_3). Room C (Desc_9, Desc_10) was characterized by '採光極差' and the '地面水泥未完工' (unfinished cement floor) in Image_9, and the complementary view in Image_10.\n6. **Bathrooms (Desc_6, Desc_13):** Both are tiled. Desc_6 was matched to Image_6 due to the extremely dark and damaged floor, while Desc_13 was matched to Image_13, which showed a standard, heavily stained tiled floor.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727f.jpg?1760410959",
+      "evidence": "Matches '玄關/車庫空間' due to the large metal security door, adjacent window, and rough concrete floor ('地面需整修').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "玄關/車庫空間",
+        "tag_list": [
+          "採光普通",
+          "通風尚可",
+          "規則格局",
+          "層高尚可",
+          "裸裝狀態",
+          "地面需整修",
+          "隔音可能較差"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727g.jpg?1760410959",
+      "evidence": "Matches '房間A' (corner view) showing '無對外窗', '採光不足', and severe '牆面受潮剝落' near the dark baseboard.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "房間A",
+        "tag_list": [
+          "規則格局",
+          "無對外窗",
+          "採光不足",
+          "牆面受潮剝落",
+          "地坪老舊",
+          "層高尚可",
+          "適合作儲藏室"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727d.jpg?1760410959",
+      "evidence": "Matches the complementary view of Room A, showing the '室內門完整' and the same pattern of wall damage as Image_2.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "房間A(另一角)",
+        "tag_list": [
+          "方正格局",
+          "無對外窗",
+          "採光依賴室內燈",
+          "牆角受潮明顯",
+          "地面需更新",
+          "室內門完整",
+          "居住舒適度較低"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727h.jpg?1760410959",
+      "evidence": "Matches the kitchen view showing '磁磚全包牆面', '空間寬敞', and the '有後門對外' (back door).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房/工作區",
+        "tag_list": [
+          "空間寬敞",
+          "有後門對外",
+          "備有水槽",
+          "磁磚全包牆面",
+          "採光有限",
+          "通風條件普通",
+          "地面老舊粗糙",
+          "廚房需全面更新"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727j.jpg?1760410959",
+      "evidence": "Matches the complementary kitchen view, clearly showing the '已有水槽與檯面' (existing sink and countertop).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房/工作區(另一角)",
+        "tag_list": [
+          "動線尚可",
+          "採光略顯不足",
+          "已有水槽與檯面",
+          "牆面全貼磁磚",
+          "天花較低有樑",
+          "地坪需翻新",
+          "可預留洗衣區"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727k.jpg?1760410959",
+      "evidence": "Matches '浴室一'. Shows old equipment, tiled walls, and a very dark, severely damaged floor, consistent with '地面磁磚汙損明顯' and '設備老舊'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "空間中等",
+          "無乾濕分離",
+          "採光與通風不足",
+          "設備老舊",
+          "地面磁磚汙損明顯",
+          "牆面全貼磁磚",
+          "需要全面整修"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727l.jpg?1760410959",
+      "evidence": "Matches '房間B' view 1. Shows '採光良好' from the large window, '牆面嚴重剝落', and '地面老舊龜裂'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "房間B",
+        "tag_list": [
+          "採光良好",
+          "通風條件佳",
+          "方正格局",
+          "牆面嚴重剝落",
+          "天花可能有滲水問題",
+          "地面老舊龜裂",
+          "隔音需評估",
+          "需中度以上整修"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727m.jpg?1760410959",
+      "evidence": "Matches the complementary view of Room B, showing the door and maintaining the '採光通透' and severe damage characteristics.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "房間B(另一角)",
+        "tag_list": [
+          "採光通透",
+          "通風尚佳",
+          "臥室尺寸適中",
+          "牆面與天花破損",
+          "地坪需更新",
+          "現況裸裝",
+          "私密性良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727n.jpg?1760410959",
+      "evidence": "Matches '房間C' view 1. It is extremely dark ('採光極差') and the floor is rough, consistent with '地面水泥未完工'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "房間C",
+        "tag_list": [
+          "採光極差",
+          "通風不佳",
+          "規則小房間",
+          "適合儲物或書房",
+          "牆面略有潮痕",
+          "地面水泥未完工",
+          "僅基本電源"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727p.jpg?1760410959",
+      "evidence": "Matches the complementary view of Room C, showing '牆面受潮斑駁' (vertical streaks) and a dark, old, patched floor ('地坪老舊').",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "房間C(另一角)",
+        "tag_list": [
+          "採光不足",
+          "通風條件弱",
+          "方正布局",
+          "牆面受潮斑駁",
+          "地坪老舊",
+          "層高尚可",
+          "適合作更衣間或儲藏"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727q.jpg?1760410959",
+      "evidence": "Matches the living room view, defined by the unique '地面老式拼花石' (old style patterned stone floor) and wide space.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳/多功能廳",
+        "tag_list": [
+          "採光普通",
+          "空間寬敞",
+          "格局方正",
+          "地面老式拼花石",
+          "牆角有潮濕與脫漆",
+          "臨近出入口",
+          "層高舒適",
+          "現況需翻新"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727r.jpg?1760410959",
+      "evidence": "Matches the complementary view of the living room, confirming the patterned floor and showing the door/window configuration.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳/多功能廳(另一角)",
+        "tag_list": [
+          "動線順暢",
+          "採光尚可",
+          "家具配置彈性",
+          "牆面局部受潮",
+          "地坪狀況普通",
+          "插座配置基本",
+          "適合作公共起居空間"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185727s.jpg?1760410959",
+      "evidence": "Matches '浴室二'. Shows basic, old equipment, tiled walls, and a floor with '汙漬明顯' (obvious stains) on white tiles.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "基本衛浴設備齊全",
+          "無乾濕分離",
+          "採光與通風不足",
+          "設備老舊與汙漬明顯",
+          "牆面磁磚完整",
+          "空間偏小",
+          "需全面翻新與防水處理"
+        ]
+      }
+    }
+  ]
+}

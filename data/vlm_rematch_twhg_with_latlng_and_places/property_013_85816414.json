@@ -1,0 +1,249 @@
+{
+  "reasoning_log": "The matching process prioritized unique visual identifiers, especially for specialized rooms (kitchens, bathrooms) and specific architectural features (e.g., dual windows, balcony access). The main challenge was differentiating between the four living room descriptions and the six bedroom candidates. \r\n1. Living Rooms: Image_3 was uniquely identified as the '開放式客餐廳' (Desc_3). Image_4 was chosen for '空間尺度大' (Desc_4). Images 2 and 15 depict the same room; Desc_14 ('裝潢新穎', '電視牆完整') was assigned to Image_2, and Desc_2 (general living room tags) was assigned to Image_15, resolving the redundancy in the description set. Image_1 was the remaining spacious living/dining area (Desc_1).\r\n2. Kitchens: Image_14 was clearly the '狹長型格局' (Desc_13), leaving Image_5 for the '獨立廚房空間' with '大量收納' (Desc_5).\r\n3. Bathrooms: Image_9 was matched to '深色磁磚' and '無窗' (Desc_9), leaving Image_6 for the general secondary bathroom (Desc_6).\r\n4. Bedrooms: Image_12 was the only room with '雙面採光' (Desc_11). Image_8 showed clear '連接陽台' (Desc_8). Image_10 was visually the '空間異常寬敞' master bedroom (Desc_10). Image_7 was the best fit for the generic, square, empty '臥室一' (Desc_7). Image_13 was chosen for the '狹長' layout (Desc_12) over Image_11, which was deemed redundant.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844a.jpg?1760408599",
+      "evidence": "Spacious combined living/dining area with good light and modern, dark wood cabinetry, fitting the general '客餐廳' tags after the more specific descriptions were matched.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客餐廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "動線順暢",
+          "天花高度舒適",
+          "設備齊全",
+          "收納空間基本",
+          "裝潢新穎",
+          "室內明亮燈光"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844v.jpg?1760408599",
+      "evidence": "Matches the furnished living room setup (same room as Image_2) with a distinct TV wall and good light, fitting the '家具配置完成' and '獨立電視牆' tags.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光中上",
+          "通風條件佳",
+          "規劃方正",
+          "觀景視野一般",
+          "家具配置完成",
+          "牆面淺色",
+          "獨立電視牆"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844f.jpg?1760408599",
+      "evidence": "Clearly shows the '開放式客餐廳' layout with the dining table and living area visible in a single, well-lit frame. The hanging light confirms '餐廳照明充足'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客餐廳",
+        "tag_list": [
+          "開放式客餐廳",
+          "動線流暢",
+          "採光不錯",
+          "餐廳照明充足",
+          "空間寬敞",
+          "家具尺度合宜"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844d.jpg?1760408599",
+      "evidence": "Visually the largest living room, emphasizing '空間尺度大' and '易於分區' due to the distance between the sofa and the dining area in the background.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "規劃方正",
+          "空間尺度大",
+          "採光尚可",
+          "室內燈光足夠",
+          "牆面留白",
+          "易於分區"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844h.jpg?1760408599",
+      "evidence": "Independent kitchen with a large open shelving unit ('大量收納') and a double glass door providing '採光通風佳'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光通風佳",
+          "獨立廚房空間",
+          "料理檯面充足",
+          "大量收納",
+          "雙口瓦斯爐",
+          "抽油煙機完善",
+          "地壁磚易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844j.jpg?1760408599",
+      "evidence": "Secondary bathroom with lighter gray/brown tiles and a decorative mosaic band. It is '乾濕未完全分離'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "乾濕未完全分離",
+          "通風疑慮",
+          "空間尚可",
+          "衛浴設備完整",
+          "瓷磚全覆蓋",
+          "龍頭與配件新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844k.jpg?1760408599",
+      "evidence": "Empty room with a square layout ('房型方正') and light walls, fitting the description of a standard, spacious secondary bedroom.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "採光良好",
+          "通風不錯",
+          "房型方正",
+          "空間寬敞",
+          "地面磚面好清理",
+          "牆面淺色"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844l.jpg?1760408599",
+      "evidence": "Large master bedroom featuring a sliding glass door that '連接陽台或外推空間', confirming the key feature.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥室",
+        "tag_list": [
+          "超大主臥空間",
+          "採光佳",
+          "通風良好",
+          "連接陽台或外推空間",
+          "居家隱私佳",
+          "傢俱部分到位",
+          "燈光充足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844m.jpg?1760408599",
+      "evidence": "Ensuite bathroom characterized by '深色磁磚' and the absence of a window, matching '無窗通風疑慮'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "衛浴二(主臥)",
+        "tag_list": [
+          "乾濕未完全分離",
+          "無窗通風疑慮",
+          "衛浴設備齊全",
+          "空間尚稱寬鬆",
+          "深色磁磚",
+          "裝修較新"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844n.jpg?1760408599",
+      "evidence": "Visually the most expansive bedroom, fitting '空間異常寬敞'. The doorway on the right suggests '主臥帶衛浴'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥室",
+        "tag_list": [
+          "主臥帶衛浴",
+          "採光充足",
+          "空間異常寬敞",
+          "收納條件中等",
+          "動線順暢",
+          "隱私佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844r.jpg?1760408599",
+      "evidence": "The room clearly displays two large windows on adjacent walls, confirming '雙面採光極佳' and '通風對流佳'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室二",
+        "tag_list": [
+          "雙面採光極佳",
+          "通風對流佳",
+          "房型方正好規劃",
+          "採光時間長",
+          "附簡易收納櫃",
+          "地板易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844s.jpg?1760408599",
+      "evidence": "The perspective suggests a slightly rectangular or '狹長' layout compared to the other empty bedrooms, while still being '方正' enough for planning.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "臥室三",
+        "tag_list": [
+          "採光中上",
+          "通風尚可",
+          "房型狹長但方正",
+          "空間足夠擺雙人床",
+          "燈光明亮",
+          "牆面淺色易搭配"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844u.jpg?1760408599",
+      "evidence": "Classic '狹長型格局' (galley kitchen/walkway) with a long counter ('檯面長度足夠') and full stove equipment.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房走道區",
+        "tag_list": [
+          "全套爐具設備",
+          "收納櫃體多",
+          "檯面長度足夠",
+          "廚房採光一般",
+          "狹長型格局",
+          "牆地磁磚易清洗"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185844e.jpg?1760408599",
+      "evidence": "Highly furnished living room with a distinct white brick '電視牆完整' and modern lighting, fitting '裝潢新穎' and '燈光豐富'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "電視牆完整",
+          "家具齊全",
+          "空間開闊",
+          "燈光豐富",
+          "裝潢新穎"
+        ]
+      }
+    }
+  ]
+}

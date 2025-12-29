@@ -1,0 +1,198 @@
+{
+  "reasoning_log": "The matching process prioritized unique room types (Kitchen, Parking, Bathrooms) first, followed by distinguishing features within similar room categories (Living Rooms, Bedrooms). Desc_3 (Kitchen) and Desc_10 (Parking) were immediate, high-confidence matches (Image_3, Image_10). Bathrooms (Desc_5, Desc_8) were differentiated by floor color/texture (Image_5) versus the presence of a decorative border tile (Image_8). The four Living Room descriptions (Desc_1, 2, 11, 12) were matched based on furniture complexity and built-in features: Image_2 showed the simplest setup with a potential shoe area (Desc_2). Images 1, 11, and 12 all feature built-in TV walls. Image_11 and Image_12 are very similar, but both show the long, modern TV wall and entrance door, fitting Desc_11 and Desc_12 (spacious/ample storage). Image_1 was assigned to Desc_1 (standard built-in cabinet). The two furnished bedrooms (Desc_4, Desc_6) and two empty bedrooms (Desc_7, Desc_9) were assigned arbitrarily to the visually identical pairs (4/6 and 7/9) as the descriptions were too generic to distinguish between the specific images within those pairs, relying only on the room type match.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803e.jpg?1760411565",
+      "evidence": "Living room with built-in TV cabinet/storage (內建電視櫃收納) and standard, regular layout (規則格局).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風可",
+          "規則格局",
+          "天花高度舒適",
+          "內建電視櫃收納",
+          "基本家具附",
+          "牆面與地坪新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803f.jpg?1760411565",
+      "evidence": "Living room with simple furniture (家具配置簡單) and visible floor mats/shoes near the wall, suggesting a planned shoe area (規劃鞋區空間).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光足",
+          "規劃鞋區空間",
+          "家具配置簡單",
+          "冷氣既有",
+          "動線順暢"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803g.jpg?1760411565",
+      "evidence": "Independent kitchen (獨立廚房空間) with red upper and lower cabinets, stove, sink, and a window for ventilation (採光與通風良好).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光與通風良好",
+          "獨立廚房空間",
+          "瓦斯爐與上櫃下櫃齊全",
+          "易清潔材質",
+          "插座配置可見"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803d.jpg?1760411565",
+      "evidence": "Master bedroom with basic furniture (bed) and a large sliding door leading to a balcony (通往陽台).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥房",
+        "tag_list": [
+          "採光佳",
+          "通往陽台",
+          "基本家具附",
+          "格局方正",
+          "冷氣既有"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803j.jpg?1760411565",
+      "evidence": "Bathroom with full wall tiling, standard fixtures, and no shower enclosure (乾濕未完全分離).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "乾濕未完全分離",
+          "通風條件不明",
+          "設備齊全",
+          "牆面全貼磁磚",
+          "空間中等"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803l.jpg?1760411565",
+      "evidence": "Master bedroom with basic furniture (bed) and good light/ventilation, matching the general description of a furnished master bedroom.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥房",
+        "tag_list": [
+          "採光與通風佳",
+          "可規劃衣櫃空間",
+          "地坪新穎",
+          "冷氣現成"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803m.jpg?1760411565",
+      "evidence": "Empty secondary bedroom (空房好規劃) with square layout and tile flooring (地面磁磚).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "次臥房",
+        "tag_list": [
+          "採光良好",
+          "通風可",
+          "空房好規劃",
+          "格局方正",
+          "地面磁磚"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803n.jpg?1760411565",
+      "evidence": "Tight bathroom space (空間略緊湊) featuring a distinctive black/white decorative border tile.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "採光與對外窗不明",
+          "設備基本齊全",
+          "空間略緊湊",
+          "牆面貼磚",
+          "乾濕未分離"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803o.jpg?1760411565",
+      "evidence": "Empty secondary bedroom (空房好規劃) with square layout and good wall/floor condition (牆面與地面狀況佳).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "次臥房",
+        "tag_list": [
+          "採光佳",
+          "通風條件良好",
+          "空間方正",
+          "牆面與地面狀況佳",
+          "插座現成"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803s.jpg?1760411565",
+      "evidence": "Indoor parking area (室內停車位) with low light (光線偏弱) and motorcycles visible.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "機車停車區",
+        "tag_list": [
+          "室內停車位",
+          "光線偏弱",
+          "動線尚可",
+          "地面為水泥",
+          "無明顯劃位"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803t.jpg?1760411565",
+      "evidence": "Living room with a long built-in TV wall (內建收納電視牆) and the entrance door visible, suggesting a half-partitioned entrance area (玄關與客廳半分區).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光充足",
+          "內建收納電視牆",
+          "家具與家電區分清楚",
+          "玄關與客廳半分區",
+          "裝潢簡潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS165803u.jpg?1760411565",
+      "evidence": "Spacious living room emphasizing the long built-in storage (收納空間充足) and rectangular layout (規則長方形格局).",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "規則長方形格局",
+          "採光與人工照明皆佳",
+          "收納空間充足",
+          "可容納多人聚會",
+          "裝修狀況良好"
+        ]
+      }
+    }
+  ]
+}

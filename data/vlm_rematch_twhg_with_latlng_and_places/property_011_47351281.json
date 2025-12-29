@@ -1,0 +1,159 @@
+{
+  "reasoning_log": "The matching process relied on identifying unique room types and specific features mentioned in the tags. Public facilities (Lobby, Gym, Parking) were matched immediately (Desc 6, 7, 8 to Images 6, 7, 8). Bathrooms were differentiated by the presence of a bathtub (Desc 5 -> Image 5, featuring a tub and wooden ceiling) versus a dedicated shower stall (Desc 3 -> Image 3). The bedroom (Desc 4) was uniquely identified by its wood floor, AC unit, and built-in storage (Image 4). The three living room descriptions (Desc 1, 2, 9) were matched based on perspective: Desc 9 explicitly mentions the '書櫃平台' (bookshelf platform) and '另一角度' (another angle), aligning with Image 9 which highlights this unique feature and the wall decal. Desc 1 was assigned to the main, wide living room view showing the balcony (Image 1). Desc 2, focusing on '動線區' (flow/circulation), was assigned to Image 2, which captures the central axis and transition area of the apartment.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499a.jpg?1760408495",
+      "evidence": "Wide view of the main living room showing the balcony access and extensive built-in storage, matching the primary '客廳' description.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "規則格局",
+          "天花高度舒適",
+          "收納完善",
+          "已裝修可立即入住",
+          "有陽台",
+          "地板易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499e.jpg?1760408495",
+      "evidence": "Image focuses on the central flow path and open space, showing the transition from the living area (TV wall) into the hallway, matching '客廳/餐廳動線區' and '動線順暢'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳動線區",
+        "tag_list": [
+          "空間開闊",
+          "採光不錯",
+          "動線順暢",
+          "收納櫃體充足",
+          "已有電視牆配置",
+          "天花燈具完整",
+          "地坪平整好利用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499l.jpg?1760408495",
+      "evidence": "Standard guest bathroom featuring a fully enclosed glass shower stall, confirming '乾濕分離' (wet/dry separation).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客浴(淋浴間)",
+        "tag_list": [
+          "乾濕分離",
+          "採光通風可",
+          "衛浴設備齊全",
+          "清潔狀況尚可",
+          "空間中等",
+          "安全性尚可"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499m.jpg?1760408495",
+      "evidence": "The only bedroom image, featuring wood flooring, extensive system storage cabinets, and a visible AC unit, matching '臥室一' tags.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "系統收納充足",
+          "地板溫暖舒適",
+          "已裝冷氣",
+          "格局方正",
+          "隱私性好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499q.jpg?1760408495",
+      "evidence": "Master bathroom identified by the presence of a bathtub and the distinctive wooden ceiling ('天花木作保溫感佳').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主浴",
+        "tag_list": [
+          "採光通風佳",
+          "乾濕分離部分達成",
+          "有浴缸",
+          "空間寬敞",
+          "天花木作保溫感佳",
+          "設備齊全",
+          "磁磚新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499r.jpg?1760408495",
+      "evidence": "Clear depiction of an indoor parking garage with marked spaces, matching '室內平面車位'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "室內平面車位",
+        "tag_list": [
+          "有規劃車位",
+          "進出動線單純",
+          "車位寬度正常",
+          "室內停車較安全"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499s.jpg?1760408495",
+      "evidence": "Grand, well-lit entrance hall with marble floors and high-end finishes, matching '大樓門廳' and '迎賓大廳氣派'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "大樓門廳",
+        "tag_list": [
+          "迎賓大廳氣派",
+          "採光極佳",
+          "公設維護良好",
+          "休憩等候空間",
+          "管理形象佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499t.jpg?1760408495",
+      "evidence": "Image clearly shows exercise equipment (treadmills) and a spacious area suitable for fitness, matching '社區健身房'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "社區健身房",
+        "tag_list": [
+          "公設完善",
+          "採光好",
+          "空間寬敞",
+          "地板適合運動",
+          "生活機能提升"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181499w.jpg?1760408495",
+      "evidence": "Focuses on the unique raised platform/desk area and adjacent storage, matching '客廳(另一角度)' and the specific tag '起居區與書櫃平台分區明確'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳(另一角度)",
+        "tag_list": [
+          "採光與視野佳",
+          "起居區與書櫃平台分區明確",
+          "格局方正好規劃",
+          "收納空間豐富",
+          "適合親子活動",
+          "地面磁磚反光良好"
+        ]
+      }
+    }
+  ]
+}

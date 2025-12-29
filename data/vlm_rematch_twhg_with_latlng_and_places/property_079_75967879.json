@@ -1,0 +1,249 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique architectural features and fixed installations. Kitchen (Image_5, back door), Dining Room (Image_4, tiled walls), and Garage (Image_15, striped floor) were matched with 100% certainty. The three Living Room views (Images 1, 2, 3) were differentiated by specific features: Image_3 showed the 'multiple windows' and 'shoe area' (玄關), while Image_1 showed the connection to the dining area. Bedrooms were separated based on the presence of built-in cabinets (Image_9) or accent walls (Images 6, 7). The two multi-functional room descriptions (Desc_11, Desc_12) were assigned to the two angles of the room featuring extensive built-in storage (Images 11, 12). Bathrooms were distinguished by their tile patterns and ceiling materials (Image_10: patterned floor; Image_13: wood ceiling/black wall; Image_14: all white). Although Desc_13 and Desc_14 are labeled as two angles of the same room, the visual evidence suggests they are two distinct bathrooms (Image_13 and Image_14), but they were matched based on elimination and specific features (wood ceiling for 13, all-white for 14). All 15 descriptions were matched 1:1.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413a.jpg?1760412056",
+      "evidence": "Living room view showing the connection to the dining area (與餐廳相連) and a standard window setup.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光一般",
+          "基本通風",
+          "規則格局",
+          "天花高度舒適",
+          "局部裝潢完成",
+          "地坪易清潔",
+          "與餐廳相連"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413e.jpg?1760412056",
+      "evidence": "Close-up angle of the living room emphasizing the open layout and furniture arrangement, consistent with the '開放式客餐廳連結' tag.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "開放式客餐廳連結",
+          "規劃彈性高",
+          "人工照明充足",
+          "家具比例合宜",
+          "安靜內向格局"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413f.jpg?1760412056",
+      "evidence": "Clearly shows two separate window units ('多窗設計') and shoes lined up in the foreground, indicating the '玄關鞋區預留'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "多窗設計",
+          "採光中等",
+          "玄關鞋區預留",
+          "動線單純",
+          "牆面完整"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413g.jpg?1760412056",
+      "evidence": "Dedicated dining space with distinctive marble-look wall tiles ('牆面磁磚包覆') and a spacious layout.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "餐廳",
+        "tag_list": [
+          "用餐空間獨立",
+          "空間寬敞",
+          "牆面磁磚包覆",
+          "人工照明均勻",
+          "格局方正"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413d.jpg?1760412056",
+      "evidence": "Galley-style kitchen ('狹長型廚房') with full cabinetry and a dark door visible at the end, confirming '後門對外'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "狹長型廚房",
+          "完整廚具設備",
+          "上下櫃收納齊全",
+          "抽油煙機與瓦斯爐組合",
+          "後門對外",
+          "採光一般"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413j.jpg?1760412056",
+      "evidence": "Empty bedroom with a light blue accent wall, fitting '牆面單色易布置' and '無固定家具'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "標準臥室尺寸",
+          "採光一般",
+          "基本通風",
+          "牆面單色易布置",
+          "無固定家具"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413k.jpg?1760412056",
+      "evidence": "Different angle of the same room as Image_6, showing the corner and confirming the '規則長方格局'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室一(不同角度)",
+        "tag_list": [
+          "規則長方格局",
+          "插座預留",
+          "天花高度正常",
+          "低噪音潛力"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413l.jpg?1760412056",
+      "evidence": "Empty room with white walls ('牆面留白') and a square layout ('空間方正'), suitable for a secondary bedroom or study.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室二",
+        "tag_list": [
+          "空間方正",
+          "採光一般",
+          "牆面留白",
+          "地坪一致性高",
+          "適合作次臥或書房"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413m.jpg?1760412056",
+      "evidence": "The only bedroom image featuring a large, built-in white wardrobe/cabinetry ('內建衣櫃').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室二(含衣櫃)",
+        "tag_list": [
+          "內建衣櫃",
+          "收納展示櫃",
+          "採光通風基本",
+          "適合作主臥",
+          "裝潢新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413n.jpg?1760412056",
+      "evidence": "Bathroom featuring a deep black tiled shower wall ('深色淋浴牆面') and highly patterned floor tiles ('地面防滑磚').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "乾濕分區不明顯",
+          "通風條件不明",
+          "衛浴全新裝修",
+          "收納層板與毛巾架",
+          "深色淋浴牆面",
+          "地面防滑磚"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413p.jpg?1760412056",
+      "evidence": "Large multi-functional room ('大面積空間') dominated by a substantial built-in white cabinet wall ('內建大衣櫃').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "多功能房",
+        "tag_list": [
+          "大面積空間",
+          "內建大衣櫃",
+          "人工照明充足",
+          "採光一般",
+          "樑下高度尚可",
+          "適合家庭收納需求"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413q.jpg?1760412056",
+      "evidence": "Wider angle of the room in Image_11, emphasizing the full '收納牆面完整' and overall flow ('動線順暢').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "多功能房(不同角度)",
+        "tag_list": [
+          "收納牆面完整",
+          "動線順暢",
+          "牆面留白利於加裝家具",
+          "人工照明主導"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413r.jpg?1760412056",
+      "evidence": "Bathroom featuring a distinct wood ceiling detail ('上方木質天花') and a black accent shower wall, defining the independent shower area.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "浴室二(角度一)",
+        "tag_list": [
+          "衛浴新裝修",
+          "淋浴空間獨立區塊",
+          "仍無實體乾濕隔間",
+          "通風條件不明",
+          "上方木質天花",
+          "地面止滑磁磚"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413s.jpg?1760412056",
+      "evidence": "The remaining bathroom image, showing the toilet and sink configuration, with the shower spray head positioned near the toilet.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "浴室二(角度二)",
+        "tag_list": [
+          "馬桶與洗手台配置合理",
+          "毛巾架與小層板",
+          "採光偏弱",
+          "噴頭位置靠近馬桶"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183413u.jpg?1760412056",
+      "evidence": "Large, semi-open space with distinctive black and white striped flooring and two-tone tiled walls, matching the '車庫／騎樓' description.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "車庫／騎樓",
+        "tag_list": [
+          "室內車位空間",
+          "半開放通風",
+          "全磚面牆與地坪",
+          "照明充足",
+          "可作多功能空間",
+          "進出動線直接"
+        ]
+      }
+    }
+  ]
+}

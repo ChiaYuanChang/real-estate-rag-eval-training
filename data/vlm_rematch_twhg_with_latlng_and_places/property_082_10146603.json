@@ -1,0 +1,319 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique room features and specific camera angles mentioned in the descriptions (e.g., '全景' (panoramic), '特寫' (close-up), '單窗' (single window), '雙窗' (double windows), and specific furniture layouts). The dataset contained multiple views of the same four main areas: Living Room (Images 1, 2, 11, 13, 17), Master Bedroom (Images 9, 14, 15), Bedroom 1 (Images 4, 12), Bedroom 2 (Images 7, 16), and Balcony (Images 5, 18). The two bathrooms (Images 3, 10) were easily distinguished by their tile patterns (simple gray vs. decorative blue/white). The empty bedrooms (Images 7, 8, 16) were differentiated solely by the number of windows. The living room views were assigned based on the scope: Image 17 for '全景', Image 13 for '電視牆', Image 2 for the '玄關走道' transition, and Images 1 and 11 for general/light-focused views.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982a.jpg?1760412220",
+      "evidence": "General, well-composed view of the furnished living room, capturing the sofa, coffee tables, and display shelving, matching the '家具齊全' and '收納充足' tags.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風尚可",
+          "天花高度舒適",
+          "動線順暢",
+          "收納充足",
+          "已裝潢",
+          "家具齊全",
+          "地坪好清理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982e.jpg?1760412220",
+      "evidence": "Shows the transition area from the living room (display shelf) into the hallway/entrance ('玄關走道'), confirming the '開放式格局' and '動線清楚'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳與玄關走道",
+        "tag_list": [
+          "開放式格局",
+          "採光延伸",
+          "收納展示一體",
+          "玄關空間預留",
+          "動線清楚",
+          "裝潢新穎",
+          "地面平整"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982f.jpg?1760412220",
+      "evidence": "Identified as '衛浴一' due to the simple gray tiling, pedestal sink, and lack of shower separation ('乾濕不分離').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "乾濕不分離",
+          "通風可能一般",
+          "衛浴空間寬敞",
+          "設備新穎",
+          "收納有限",
+          "好清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982d.jpg?1760412220",
+      "evidence": "View of Bedroom 1 showing the bed and the small desk/vanity area ('帶書桌'), with an open door leading to the hallway.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "臥室一(帶書桌)",
+        "tag_list": [
+          "採光普通",
+          "房型方正",
+          "天花偏高",
+          "已部分家具",
+          "安靜感佳",
+          "地面好清理",
+          "收納需再補強"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982h.jpg?1760412220",
+      "evidence": "Narrow balcony space with high metal railings and a planter box, matching '深度較窄' and '視野受遮擋'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "前陽台",
+        "tag_list": [
+          "有陽台空間",
+          "安全感高",
+          "採光通風佳",
+          "深度較窄",
+          "視野受遮擋"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982j.jpg?1760412220",
+      "evidence": "Clear view of the kitchen featuring white, linear cabinets ('一字型廚具') and adequate storage.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光通風尚可",
+          "一字型廚具",
+          "廚具新穎",
+          "收納空間足夠",
+          "有排油煙設備",
+          "烹飪空間略窄",
+          "易清潔材質"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982k.jpg?1760412220",
+      "evidence": "Empty bedroom with a single window unit ('單窗'), matching '空房好規劃'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室二(單窗)",
+        "tag_list": [
+          "採光良好",
+          "房型方正",
+          "天花高度佳",
+          "空房好規劃",
+          "私密性佳",
+          "地坪易打掃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982l.jpg?1760412220",
+      "evidence": "Empty bedroom featuring two separate window units ('雙窗'), indicating good ventilation and light.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室三(雙窗)",
+        "tag_list": [
+          "採光充足",
+          "通風良好",
+          "空間寬敞",
+          "房型方正",
+          "天花高度佳",
+          "地面易保養",
+          "私密性一般"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982m.jpg?1760412220",
+      "evidence": "Master bedroom view showing the bed, built-in wardrobe ('衣櫃'), and the large glass door connecting directly to the exterior ('直接連接陽台').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主臥(附陽台門與衣櫃)",
+        "tag_list": [
+          "採光良好",
+          "直接連接陽台",
+          "收納充足",
+          "已裝潢佈置",
+          "家具完善",
+          "私密性佳",
+          "動線順暢"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982n.jpg?1760412220",
+      "evidence": "Identified as '衛浴二' due to the distinct vertical strip of blue/white patterned tiles ('裝飾磁磚') and the floating vanity.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "衛浴二(主臥衛浴)",
+        "tag_list": [
+          "衛浴空間寬敞",
+          "乾濕不分離",
+          "設備新穎",
+          "收納空間尚可",
+          "通風可能一般",
+          "裝飾磁磚",
+          "好清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982o.jpg?1760412220",
+      "evidence": "Living room view focused on the large sliding glass door ('含陽台門'), emphasizing the '超大採光面'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳(含陽台門)",
+        "tag_list": [
+          "超大採光面",
+          "通風良好",
+          "客廳尺度適中",
+          "天花高度與燈光佳",
+          "動線流暢",
+          "視野開闊感尚可",
+          "已裝潢家具"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982p.jpg?1760412220",
+      "evidence": "View from Bedroom 1 looking out towards the hallway/public area ('靠走道視角'), confirming the connection to the common space.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室一(靠走道視角)",
+        "tag_list": [
+          "與公共區域連結佳",
+          "採光一般",
+          "已配置工作區",
+          "空間適中",
+          "適合作為主臥或客房",
+          "地坪易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982q.jpg?1760412220",
+      "evidence": "Close-up view focusing specifically on the TV wall unit, display shelves, and marble backing ('收納展示一體', '視聽主牆完成').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳電視牆",
+        "tag_list": [
+          "收納展示一體",
+          "視聽主牆完成",
+          "裝潢新穎",
+          "採光間接",
+          "家具尺寸合宜",
+          "牆面可再利用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982r.jpg?1760412220",
+      "evidence": "Master bedroom view showing the bed, desk/vanity area, and the door on the left, which is the likely path to the bathroom ('靠衛浴門視角').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥(靠衛浴門視角)",
+        "tag_list": [
+          "近衛浴動線便利",
+          "採光一般",
+          "已安裝系統櫃",
+          "有書桌或化妝區",
+          "私密性佳",
+          "空間配置完整(睡眠區與收納",
+          "工作區分明)"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982s.jpg?1760412220",
+      "evidence": "Close-up shot ('特寫') of the bed and the balcony door in the master bedroom, highlighting the direct access and light.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主臥(帶陽台門特寫)",
+        "tag_list": [
+          "採光好",
+          "通風佳",
+          "收納空間足",
+          "家具齊全",
+          "直接出入陽台",
+          "隔音需留意"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_16",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982u.jpg?1760412220",
+      "evidence": "Repeat angle of Bedroom 2 (Image 7), confirming the empty room status and single window setup.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室二重複角度",
+        "tag_list": [
+          "採光良好",
+          "房型方正",
+          "空房好規劃",
+          "天花偏高",
+          "地坪好清理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_17",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982v.jpg?1760412220",
+      "evidence": "The widest, most comprehensive view of the living room, capturing the entire space from the entrance to the balcony door, matching '客廳全景'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳全景",
+        "tag_list": [
+          "大面採光",
+          "通風良好",
+          "開放式客餐廳",
+          "天花高度與燈光佳",
+          "家具配置完整",
+          "地面平整好打掃",
+          "空間感舒適"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_18",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181982w.jpg?1760412220",
+      "evidence": "Repeat angle of the front balcony (Image 5), emphasizing the safety railing and narrow depth, suitable for '曬衣空間'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "前陽台重複角度",
+        "tag_list": [
+          "曬衣空間",
+          "通風採光佳",
+          "安全防護完善",
+          "深度有限",
+          "地坪防滑易清潔"
+        ]
+      }
+    }
+  ]
+}

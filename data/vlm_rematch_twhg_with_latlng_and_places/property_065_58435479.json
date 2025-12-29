@@ -1,0 +1,201 @@
+{
+  "reasoning_log": "The matching process involved identifying key functional areas (Living/Dining, Kitchen, Bathrooms, Bedrooms, Utility areas) first. The three Master Bedroom descriptions (Desc_4, Desc_5, Desc_6) were confirmed to correspond to the three distinct angles of the same highly decorated bedroom (Image_4, Image_5, Image_6), based on the presence of the unique wood feature wall and built-in cabinetry/desk. The two bathrooms were differentiated by the dry/wet separation feature: Desc_7 requires 'good dry/wet separation' and an 'external window', matching Image_7 (glass enclosure and window). Desc_3 requires 'dry/wet not fully separated' and 'wooden ceiling', matching Image_3 (wooden ceiling, no glass enclosure visible). The three secondary rooms (Desc_8, Desc_9, Desc_10) were matched based on specific window types and built-in features (low cabinet in Image_8, corner window in Image_9, proximity to entrance in Image_10). The utility areas (parking and entrance) were straightforward matches.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015a.jpg?1760411363",
+      "evidence": "Image shows an open-plan living and dining area (客餐廳) with modern furniture, ample storage, and new marble-look flooring, confirming '開放格局' and '地坪新穎'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客餐廳",
+        "tag_list": [
+          "開放格局",
+          "明亮度佳",
+          "家具可直接入住",
+          "收納櫃體多",
+          "地坪新穎",
+          "天花高度適中"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015d.jpg?1760411363",
+      "evidence": "Image displays a modern, separate kitchen (獨立廚房) with white cabinets, a cooktop area ('完整瓦斯爐具'), and a door/window suggesting connection to a rear balcony ('後陽台連通').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "獨立廚房",
+        "tag_list": [
+          "採光通風佳",
+          "完整瓦斯爐具",
+          "廚具收納充足",
+          "易清潔材質",
+          "可規劃用餐區",
+          "後陽台連通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015k.jpg?1760411363",
+      "evidence": "This bathroom features a wooden ceiling and floating vanity ('懸空浴櫃', '木質天花設計'). Crucially, there is no glass enclosure, supporting the tag '乾濕未完全分離'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "乾濕未完全分離",
+          "衛浴採光不足",
+          "衛浴整體新穎",
+          "懸空浴櫃",
+          "木質天花設計",
+          "空間寬敞"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015l.jpg?1760411363",
+      "evidence": "First angle of the master bedroom, showing the large bed, built-in white wardrobes, and wood feature wall ('內建衣櫃', '裝潢新穎').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主臥室(角度一)",
+        "tag_list": [
+          "可放特大床",
+          "內建衣櫃",
+          "裝潢新穎",
+          "採光普通",
+          "地坪易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015m.jpg?1760411363",
+      "evidence": "Second angle of the master bedroom, clearly showing the window providing '採光良好' and the integrated desk/work area separate from the bed ('休息與工作區分明').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主臥室(角度二)",
+        "tag_list": [
+          "採光良好",
+          "通風可",
+          "多功能收納",
+          "休息與工作區分明",
+          "隱私度佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015n.jpg?1760411363",
+      "evidence": "Third angle of the master bedroom, highlighting the extensive white wardrobe space ('衣櫃量充足') and the desk/workspace ('書桌工作台') positioned near the side window.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主臥室(角度三)",
+        "tag_list": [
+          "衣櫃量充足",
+          "書桌工作台",
+          "採光從側窗引入",
+          "動線順暢",
+          "適合作主臥"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015o.jpg?1760411363",
+      "evidence": "This bathroom features a glass shower enclosure ('乾濕分離佳'), an external window, and a wooden ceiling/feature wall ('木質天花與造型牆').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "衛浴二",
+        "tag_list": [
+          "乾濕分離佳",
+          "衛浴對外窗",
+          "設備新穎",
+          "防滑地磚",
+          "收納層架齊全",
+          "木質天花與造型牆"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015p.jpg?1760411363",
+      "evidence": "Secondary room with a large bay window and a low, built-in storage cabinet beneath it ('低檯度收納櫃'). The room is rectangular and bright.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "次臥/多功能房一",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "正矩形格局",
+          "低檯度收納櫃",
+          "牆面與地面新"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015q.jpg?1760411363",
+      "evidence": "Secondary room characterized by a corner window providing '採光充足' and a spacious, empty '矩形格局'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "次臥/多功能房二",
+        "tag_list": [
+          "採光充足",
+          "通風良好",
+          "空間寬敞",
+          "正常樓高",
+          "適合作兒童房或書房"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015r.jpg?1760411363",
+      "evidence": "Secondary room with a single window and a doorway visible on the left, suggesting it is '靠近公共區'. It is a simple '矩形空間' with white walls.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "次臥/多功能房三",
+        "tag_list": [
+          "採光通風佳",
+          "矩形空間",
+          "靠近公共區",
+          "牆面留白",
+          "安靜感佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015s.jpg?1760411363",
+      "evidence": "Image shows an indoor parking space ('室內停車') with concrete columns near the side and visible wear/aging on the structure ('牆面有老舊痕跡').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "室內車位",
+        "tag_list": [
+          "有專屬車位",
+          "室內停車",
+          "柱位靠側邊",
+          "車道高度一般",
+          "牆面有老舊痕跡"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185015u.jpg?1760411363",
+      "evidence": "Image captures a community entrance with a green metal structure acting as a '遮雨棚設計', tiled pavement, and a view into a landscaped '中庭綠化'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "社區中庭/出入口",
+        "tag_list": [
+          "有中庭綠化",
+          "採光通風尚可",
+          "社區出入口寬敞",
+          "有遮雨棚設計",
+          "磁磚鋪面易清潔"
+        ]
+      }
+    }
+  ]
+}

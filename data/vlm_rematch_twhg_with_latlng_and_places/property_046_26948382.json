@@ -1,0 +1,214 @@
+{
+  "reasoning_log": "The matching process prioritized room type identification (kitchen, bathroom, bedrooms) first, followed by distinguishing between multiple views of the same area (living room/entrance). For the kitchen, Desc_4 was matched to Image_4 based on the 'ㄇ字型料理檯面' (U-shape counter), while Desc_5 was matched to Image_5 due to the '狹長型廚房' (narrow layout) and prominent refrigerator. For the living room, Desc_3 was isolated as the close-up view of the '客廳收納牆' (Image_3). The remaining living room descriptions (Desc_1, Desc_2, Desc_11, Desc_12) were differentiated by focusing on specific features: Image_2 showed the dedicated viewing area (Desc_2), Image_1 showed the AC and wide window view (Desc_1), Image_12 emphasized the straight entrance path and clutter (Desc_11), and Image_11 provided the overall wide layout view (Desc_12). Bedroom matches were confirmed by floor type (wood vs. tile) and primary function (storage/clutter vs. study/work equipment). All 12 descriptions were successfully mapped 1:1.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347a.jpg?1760410420",
+      "evidence": "Living room view showing the large window ('視野開闊'), air conditioning unit ('冷氣設備現成'), and light tile floor ('地磚易清潔').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "視野開闊",
+          "格局方正",
+          "天花高度佳",
+          "冷氣設備現成",
+          "收納外露",
+          "地磚易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347e.jpg?1760410420",
+      "evidence": "Focuses on the sofa and TV setup, confirming the '休息觀影區完整' and '家電位明確'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "休息觀影區完整",
+          "格局方正",
+          "天花嵌燈",
+          "家電位明確",
+          "收納外露",
+          "地面狀況良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347f.jpg?1760410420",
+      "evidence": "Close-up view of the large open shelving unit, clearly showing '大量開放收納' and the resulting '易顯雜亂'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳收納牆",
+        "tag_list": [
+          "大量開放收納",
+          "易顯雜亂",
+          "電視主牆完成",
+          "插座充足",
+          "地面易清理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347g.jpg?1760410420",
+      "evidence": "Kitchen view showing the corner counter configuration consistent with 'ㄇ字型料理檯面', along with '明火烹飪設備' and '抽油煙機配置'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "ㄇ字型料理檯面",
+          "廚具收納多(上",
+          "下櫃空間豐富)",
+          "明火烹飪設備",
+          "抽油煙機配置",
+          "工作檯面連續",
+          "採光不足",
+          "地墊防滑"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347d.jpg?1760410420",
+      "evidence": "View of the narrow, long kitchen hallway ('狹長型廚房') with the large refrigerator prominently visible ('冰箱位固定').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房走道",
+        "tag_list": [
+          "狹長型廚房",
+          "冰箱位固定",
+          "收納量足夠",
+          "採光通風較弱",
+          "料理與通行干擾",
+          "新式廚具"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347h.jpg?1760410420",
+      "evidence": "Master bedroom showing heavy stacking of boxes and items ('物品堆疊多') and a tile floor ('地面為磁磚').",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "主臥房",
+        "tag_list": [
+          "採光一般",
+          "收納空間充足",
+          "格局方正",
+          "冷氣既有",
+          "天花高度尚可",
+          "物品堆疊多",
+          "地面為磁磚"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347j.jpg?1760410420",
+      "evidence": "Master bedroom view emphasizing the '雙人床尺度足夠' and the open doorway showing connection to the public area ('與公領域銜接佳').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥房",
+        "tag_list": [
+          "雙人床尺度足夠",
+          "採光由單側窗提供",
+          "與公領域銜接佳",
+          "收納量大",
+          "室內照明明亮",
+          "動線尚順(床到門",
+          "櫃不過於擁擠)"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347k.jpg?1760410420",
+      "evidence": "Secondary bedroom featuring wood flooring ('木地板腳感佳') and a visible bookshelf/storage unit ('書櫃與置物架').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "次臥房一",
+        "tag_list": [
+          "採光尚可",
+          "通風條件佳",
+          "木地板腳感佳",
+          "冷氣既有",
+          "書櫃與置物架",
+          "空間略顯緊湊"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347l.jpg?1760410420",
+      "evidence": "Secondary room set up as a study, featuring a printer and monitor ('工作設備齊全') and black metal open shelving ('收納以開放架為主').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "次臥房二/書房",
+        "tag_list": [
+          "採光一般",
+          "工作設備齊全",
+          "空間偏小",
+          "收納以開放架為主",
+          "冷氣既有",
+          "隔音需評估"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347m.jpg?1760410420",
+      "evidence": "Bathroom showing glass enclosure ('乾濕分離'), large vanity counter ('檯面空間大'), and dark floor tiles ('深色地磚防滑感佳').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "乾濕分離",
+          "採光通風尚可",
+          "檯面空間大",
+          "衛浴設備新穎",
+          "深色地磚防滑感佳",
+          "空間寬裕"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347o.jpg?1760410420",
+      "evidence": "Wide view capturing the entrance area (玄關) and the long, straight path ('動線筆直清楚') leading past the cluttered storage area ('物品堆積多').",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳/玄關",
+        "tag_list": [
+          "玄關落塵區明確",
+          "大量收納櫃體",
+          "採光由客廳窗帶入",
+          "動線筆直清楚",
+          "室內高度舒適",
+          "物品堆積多"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186347n.jpg?1760410420",
+      "evidence": "Wide shot of the living room/entrance area emphasizing the overall layout, sufficient width ('客廳面寬足夠'), and the separation of public/private zones.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "客廳/玄關",
+        "tag_list": [
+          "公私領域分明",
+          "玄關可設鞋櫃",
+          "客廳面寬足夠",
+          "採光來自一端大窗",
+          "空調主機集中",
+          "生活機能完整"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "reasoning_log": "The matching process prioritized unique room types first (Kitchen, Bathrooms, Bedrooms) before resolving the ambiguity between the two living/dining descriptions (Desc_1 and Desc_5). Desc_4 (Kitchen) was uniquely matched to Image_6 based on the specific layout, gas stove, and door to the rear balcony. Desc_3 and Desc_6 were differentiated by their distinct tile patterns (marble-look vs. large dark squares) and assigned to Image_4 and Image_9, respectively. Desc_2 (Master Bedroom) and Desc_7 (Empty Secondary Room) were easily identified by their contents (Image_3 and Image_11). Finally, Desc_1 (Main Living/Dining/Kitchen view) was assigned to Image_1, which provides a comprehensive view of the integrated space and TV wall, while Desc_5 (Another View) was assigned to Image_7, which prominently features the dining area, fulfilling the requirement for a 'different perspective'. Images 2, 5, 8, 10, 12, and 13 were identified as duplicates or highly similar alternative views of the primary matched images and were excluded.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842a.jpg?1760408705",
+      "evidence": "Integrated living/dining/kitchen space visible, bright interior, brick accent wall serving as the '收納電視牆', and basic furniture included.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳/開放式廚房",
+        "tag_list": [
+          "明亮室內",
+          "格局方正",
+          "客餐廳一體",
+          "半開放式廚房",
+          "已附基本家具",
+          "收納電視牆",
+          "地板好清理",
+          "冷氣預留位",
+          "對外窗及鐵窗門",
+          "室內狀況新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842d.jpg?1760408705",
+      "evidence": "Spacious bedroom ('臥室空間寬敞') with large windows ('採光佳') and fixed basic furniture (bed and built-in desk/cabinet).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "臥室空間寬敞",
+          "格局方正",
+          "附基本家具",
+          "隱私度佳",
+          "天花高度舒適"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842h.jpg?1760408705",
+      "evidence": "Bathroom with updated fixtures, pedestal sink, white toilet, and distinctive dark grey marble-look tiles. It is '乾濕不分離' and '空間略顯緊湊'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "衛浴更新",
+          "乾濕不分離",
+          "採光通風不明顯",
+          "清潔易打理",
+          "基本配備齊全",
+          "空間略顯緊湊"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842k.jpg?1760408705",
+      "evidence": "Compact kitchen ('廚房空間緊湊') featuring blue upper cabinets, standard gas stove ('標準瓦斯爐具'), and a door leading to the outside/balcony ('通往後陽台門').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "標準瓦斯爐具",
+          "上中下櫃收納足夠",
+          "流理台完整",
+          "通往後陽台門",
+          "照明充足",
+          "廚房空間緊湊",
+          "新裝修廚具"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842n.jpg?1760408705",
+      "evidence": "Alternative view of the living/dining area, clearly showing the dining table setup alongside the sofa, confirming the '客餐廚動線清楚' and '會客空間充足' from a different angle.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳/餐廳(另一視角)",
+        "tag_list": [
+          "採光普通",
+          "客餐廚動線清楚",
+          "可擺大家具",
+          "會客空間充足",
+          "多點照明",
+          "裝潢耐看"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842p.jpg?1760408705",
+      "evidence": "Second bathroom ('衛浴二') with dark grey large square tiles, '乾濕不分離', and no visible exterior window ('無對外窗').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "衛浴二",
+        "tag_list": [
+          "衛浴更新",
+          "乾濕不分離",
+          "無對外窗",
+          "設備齊全",
+          "易清潔材質",
+          "空間偏小"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185842s.jpg?1760408705",
+      "evidence": "Empty, square room ('空間方正') with large windows ('採光良好') and no fixed furniture ('無固定家具'), matching the description of a secondary/multi-function room.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "次臥/多功能房",
+        "tag_list": [
+          "採光良好",
+          "通風條件佳",
+          "空間方正",
+          "地面易打掃",
+          "無固定家具",
+          "牆面素淨"
+        ]
+      }
+    }
+  ]
+}

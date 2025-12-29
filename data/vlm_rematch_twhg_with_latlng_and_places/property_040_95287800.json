@@ -1,0 +1,249 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique architectural features, especially within the bathroom and bedroom categories. For bathrooms, the key differentiators were: presence/absence of a tub (Desc_7, Desc_8), type of separation (fully enclosed glass vs. floor drain only vs. none), and specific vanity/storage features (e.g., open storage in Desc_5/Image_5, mirror cabinet in Desc_3/Image_3 and Desc_10/Image_13). For bedrooms, the distinction was based on flooring (tile vs. wood-look tile) and window configuration (single window, double windows/corner room, or massive sliding doors). Image_1 (carport), Image_2 (stairs/living), and Image_4 (kitchen) were unique and matched immediately. The final assignments for the four secondary bathrooms (Desc_3, Desc_5, Desc_10, Desc_13) and the four secondary bedrooms (Desc_6, Desc_9, Desc_11, Desc_12, Desc_14) were resolved by prioritizing specific tags like '雙面採光' (Desc_12/Image_12) and '收納鏡櫃' (Desc_10/Image_13).",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214e.jpg?1760410136",
+      "evidence": "Image shows a covered, tiled outdoor/indoor space (carport/portico) with a large entrance door, matching '車庫／騎樓空間' and '地坪易清潔'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "車庫／騎樓空間",
+        "tag_list": [
+          "室內車庫",
+          "方正格局",
+          "挑高空間",
+          "採光一般",
+          "通風普通",
+          "地坪易清潔",
+          "有排水孔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214g.jpg?1760410136",
+      "evidence": "Image clearly displays a main living area with an open staircase ('開放梯間') and large sliding doors providing '良好採光'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳樓梯區",
+        "tag_list": [
+          "良好採光",
+          "通風佳",
+          "方正客廳",
+          "開放梯間",
+          "樓高舒適",
+          "新屋裝修",
+          "預留燈位"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214d.jpg?1760410136",
+      "evidence": "Features a shower area that is not fully separated (just a drain next to the toilet), fitting '乾濕不完全分離'. It also has a vanity and a mirror cabinet ('有收納鏡櫃').",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "採光通風佳",
+          "乾濕不完全分離",
+          "空間感不錯",
+          "新式衛浴設備",
+          "牆地磚易清潔",
+          "有收納鏡櫃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214j.jpg?1760410136",
+      "evidence": "A modern L-shaped kitchen with extensive white cabinetry, counter space, and built-in ovens, matching '全功能廚房' and '家電預留'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "全功能廚房",
+          "瓦斯爐具",
+          "充足收納",
+          "採光通風佳",
+          "家電預留",
+          "操作動線順暢",
+          "新式裝潢"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214k.jpg?1760410136",
+      "evidence": "The vanity features a black metal frame with open shelving underneath, matching '開放式下方收納'. The room is spacious and lacks a shower enclosure, fitting '尚未明顯乾濕分離'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "浴室二(客衛)",
+        "tag_list": [
+          "採光通風佳",
+          "空間寬敞",
+          "預留洗衣設備位",
+          "開放式下方收納",
+          "牆地磚新穎",
+          "尚未明顯乾濕分離"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214m.jpg?1760410136",
+      "evidence": "This is the largest empty room, featuring a tiled floor and a massive sliding glass door plus multiple side windows, confirming '超大開窗' and '方正大空間'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "臥室／多功能大房一",
+        "tag_list": [
+          "超大開窗",
+          "通風良好",
+          "方正大空間",
+          "樓高舒適",
+          "新式地板",
+          "可規劃衣櫃牆",
+          "具陽台連結"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214o.jpg?1760410136",
+      "evidence": "Shows a freestanding bathtub ('有浴缸') and a brown door with ventilation louvers ('門扇具通風百葉').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主浴室一(有浴缸)",
+        "tag_list": [
+          "乾濕分離空間感(淋浴",
+          "浴缸與馬桶區塊分明)",
+          "有浴缸",
+          "採光不錯",
+          "牆地磚易整理",
+          "新式衛浴配備",
+          "門扇具通風百葉",
+          "空間寬敞"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214p.jpg?1760410136",
+      "evidence": "Features both a glass shower enclosure and a visible bathtub area, confirming '完整乾濕分離' and '大尺寸主浴'. The louvered door and window provide '雙向通風'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主浴室二(淋浴隔間+浴缸)",
+        "tag_list": [
+          "完整乾濕分離",
+          "雙向通風",
+          "大尺寸主浴",
+          "收納充足",
+          "新式五金設備",
+          "地坪止滑磚",
+          "自然採光佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214q.jpg?1760410136",
+      "evidence": "A large room with wood-look tile flooring and a large sliding glass door leading to a balcony ('具陽台或外推空間').",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室／大房二",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "方正好家具配置",
+          "木紋地板質感",
+          "具陽台或外推空間",
+          "牆面留白"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214u.jpg?1760410136",
+      "evidence": "Features a glass shower enclosure ('乾濕分離') and a prominent dark vanity with a large white/brown mirror cabinet ('收納鏡櫃').",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "浴室三(客浴或次浴)",
+        "tag_list": [
+          "乾濕分離",
+          "採光通風尚可",
+          "新式衛浴",
+          "收納鏡櫃",
+          "空間中等",
+          "淺色磚面"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214s.jpg?1760410136",
+      "evidence": "A simple, square room with wood-look tile and only one medium-sized window, matching '單面大窗' and '方正房型'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次臥一",
+        "tag_list": [
+          "單面大窗",
+          "方正房型",
+          "木紋地板",
+          "牆面留白",
+          "適合作次臥或書房"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214t.jpg?1760410136",
+      "evidence": "Shows a large sliding door and a separate side window, confirming the '雙面採光' and '角間房' characteristics.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次臥二／角間房",
+        "tag_list": [
+          "雙面採光",
+          "通風佳",
+          "大房格局",
+          "木紋地板",
+          "具陽台連結",
+          "家具規劃彈性"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214r.jpg?1760410136",
+      "evidence": "A compact bathroom with a glass shower enclosure ('乾濕分離') and a small window visible above the toilet area ('有小窗'), fitting '空間緊湊'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "浴室四(次浴)",
+        "tag_list": [
+          "乾濕分離",
+          "有小窗",
+          "新式衛浴",
+          "收納空間足夠",
+          "空間緊湊",
+          "淺色牆磚"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178214w.jpg?1760410136",
+      "evidence": "Features a tall narrow window on the left and a large window on the right, confirming '多面開窗' and '通風極佳'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "多功能房／臥室三",
+        "tag_list": [
+          "多面開窗",
+          "通風極佳",
+          "方正寬敞",
+          "木紋地板",
+          "樓高感佳",
+          "私密性尚可"
+        ]
+      }
+    }
+  ]
+}

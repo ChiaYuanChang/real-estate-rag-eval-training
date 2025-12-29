@@ -1,0 +1,125 @@
+{
+  "reasoning_log": "The matching process relied on identifying distinct room types (commercial lobby, bathroom, bedroom) and then using specific tags (e.g., counter area, wet/dry separation, spaciousness) to differentiate between visually similar candidates. Descriptions 4 and 5 were easily matched to Image 4 (no shower, compact) and Image 5 (wet/dry separation, modern). Descriptions 6 and 7 were matched based on size and furnishing, with Image 6 being the more spacious 'Master Bedroom' (Desc_6) due to the inclusion of a large massage chair and open closet. The commercial spaces (Desc_1, Desc_2, Desc_3) were resolved by assigning Desc_3 to Image 3, which uniquely features a counter/reception area. Desc_1 (regular layout, smooth flow) was assigned to Image 1, which shows a more structured seating arrangement, while Desc_2 (high flexibility, multi-purpose use) was assigned to Image 2, which includes a visible children's play area near the window.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183859d.jpg?1760411652",
+      "evidence": "Commercial space with large windows ('大面採光') and a highly '規則格局' (regular layout) of tables, supporting '前後動線順暢'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客餐廳／店面大廳",
+        "tag_list": [
+          "大面採光",
+          "通風佳",
+          "規則格局",
+          "天花高度佳",
+          "照明充足",
+          "地坪易清潔",
+          "前後動線順暢",
+          "適合招待客人"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183859h.jpg?1760411652",
+      "evidence": "Commercial space featuring large windows and a flexible layout that includes a children's play area (tent/toys), supporting '規劃彈性高' and '可多用途使用'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客餐廳／店面大廳",
+        "tag_list": [
+          "大面採光",
+          "室內明亮",
+          "規劃彈性高",
+          "地面平整好利用",
+          "前庭景觀",
+          "可多用途使用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183859j.jpg?1760411652",
+      "evidence": "The image clearly shows a built-in counter/reception area in the background, matching the '客餐廳／櫃台區' room name and '可規劃開放式廚房或吧台' tag.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客餐廳／櫃台區",
+        "tag_list": [
+          "開放式格局",
+          "照明均勻",
+          "可規劃開放式廚房或吧台",
+          "牆面留白好裝修",
+          "插座與設備已配置",
+          "動線集中"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183859k.jpg?1760411652",
+      "evidence": "Identified as a bathroom with a toilet and sink/vanity but no visible shower enclosure, fitting the '客用衛浴(無淋浴)' description and '空間略為緊湊' tag.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客用衛浴(無淋浴)",
+        "tag_list": [
+          "乾爽明亮",
+          "乾區為主",
+          "清潔易維護",
+          "檯面收納空間",
+          "空間略為緊湊"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183859l.jpg?1760411652",
+      "evidence": "Identified as a bathroom featuring a glass shower enclosure, confirming '乾溼分離' (wet/dry separation) as required for the '主衛浴(含淋浴)'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主衛浴(含淋浴)",
+        "tag_list": [
+          "乾溼分離",
+          "通風可能仰賴機械",
+          "採光偏不足",
+          "檯面收納充足",
+          "現代化裝修",
+          "清潔狀況良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183859m.jpg?1760411652",
+      "evidence": "A spacious bedroom ('空間寬敞') containing a large massage chair, indicating '電器空間預留' and fitting the '主臥房' designation.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥房",
+        "tag_list": [
+          "空間寬敞",
+          "採光一般",
+          "地板溫暖好維護",
+          "牆面簡潔好收納",
+          "隱私佳",
+          "電器空間預留"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183859n.jpg?1760411652",
+      "evidence": "A smaller, square bedroom ('房型方正') with wood-look flooring ('地板為木紋'), fitting the '次臥房' description.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "次臥房",
+        "tag_list": [
+          "房型方正",
+          "採光一般",
+          "地板為木紋",
+          "牆面留白易規劃收納",
+          "適合作為臥室或書房",
+          "天花高度舒適"
+        ]
+      }
+    }
+  ]
+}

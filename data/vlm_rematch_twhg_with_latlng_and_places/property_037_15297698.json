@@ -1,0 +1,185 @@
+{
+  "reasoning_log": "The matching process relied heavily on unique room types and specific material cues. Desc_4 (Bathtub) and Desc_10 (Shower/Newer) were uniquely matched to Image_4 and Image_10, respectively. Desc_5 was the only room specified with a '木地板' (wood floor), matching Image_5. Desc_6 was clearly identified as the covered balcony (Image_6) due to the plants and storage items. Desc_1 was the main living area, uniquely featuring the integrated staircase and unfinished walls (Image_1). The staircase views were separated into the main run (Desc_7 -> Image_8) and the landing/turn (Desc_8 -> Image_7). The remaining three tiled bedrooms (Desc_2, Desc_3, Desc_9) were differentiated by the presence of a visible interior door in Image_3 (matched to Desc_3). Image_2 and Image_9, being visually almost identical, were assigned to Desc_2 and Desc_9 sequentially, as they both fit the '寬敞' (spacious) criteria.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459e.jpg?1760409996",
+      "evidence": "Identified as the main living/dining area due to the large open space, tile floor, integrated staircase, and exposed/tiled wall area ('牆面裸露需整理').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳/餐廳區",
+        "tag_list": [
+          "採光一般",
+          "通風可",
+          "挑高尚可",
+          "格局方正",
+          "樓梯動線明確",
+          "地磚好清理",
+          "預留餐廚位置",
+          "牆面裸露需整理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459f.jpg?1760409996",
+      "evidence": "Assigned as one of the spacious, tile-floored bedrooms (similar to Desc_9/Image_9).",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "採光普通",
+          "通風可",
+          "空間寬敞",
+          "格局方正",
+          "天花高度舒適",
+          "噪音可能偏高",
+          "無內建收納",
+          "地磚耐磨"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459g.jpg?1760409996",
+      "evidence": "Tile-floored bedroom distinguished by the visible interior door, fitting the '房門位置合理' tag.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "臥室二",
+        "tag_list": [
+          "採光尚可",
+          "通風佳",
+          "格局方正",
+          "房門位置合理",
+          "無固定收納",
+          "照明充足",
+          "地磚易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459d.jpg?1760409996",
+      "evidence": "Unique identification based on the presence of an older, built-in bathtub ('有浴缸', '設備老舊').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室一(有浴缸)",
+        "tag_list": [
+          "有浴缸",
+          "採光不足",
+          "通風可能一般",
+          "乾濕未完全分離",
+          "設備老舊",
+          "清潔難度較高",
+          "空間尚可"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459h.jpg?1760409996",
+      "evidence": "Unique identification based on the '木地板溫暖' tag; this is the only room with a wood floor.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室三(木地板)",
+        "tag_list": [
+          "木地板溫暖",
+          "採光一般",
+          "通風可",
+          "空間中等",
+          "格局方正",
+          "牆面與地板狀況良好",
+          "附網窗安全"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459k.jpg?1760409996",
+      "evidence": "Clearly a covered balcony/sunroom with plants and storage items (barrel), matching '陽台/曬衣區' and '種植空間'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "陽台/曬衣區",
+        "tag_list": [
+          "可用陽台",
+          "採光良好",
+          "通風佳",
+          "安全圍籬",
+          "種植空間",
+          "地磚防滑",
+          "雜物收納區"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459m.jpg?1760409996",
+      "evidence": "Represents the main run of the staircase ('樓梯與走廊'), showing clear steps and handrails.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "樓梯與走廊",
+        "tag_list": [
+          "採光尚可",
+          "動線清楚",
+          "樓梯有扶手",
+          "樓梯寬度適中",
+          "格局分區良好",
+          "裝修一般"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459l.jpg?1760409996",
+      "evidence": "Represents the stair landing or turn ('樓梯平台/樓層玄關'), showing the transition area and a doorway.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "樓梯平台/樓層玄關",
+        "tag_list": [
+          "採光一般",
+          "動線集中",
+          "安全扶手",
+          "空間可作小玄關",
+          "樓梯轉折多",
+          "牆面空白"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459o.jpg?1760409996",
+      "evidence": "Assigned as the remaining spacious, tile-floored bedroom (similar to Desc_2/Image_2).",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "臥室四",
+        "tag_list": [
+          "採光普通",
+          "通風可",
+          "格局方正",
+          "空間寬敞",
+          "無內建衣櫃",
+          "地磚耐用",
+          "天花高度舒適"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186459s.jpg?1760409996",
+      "evidence": "Identified as the second bathroom (shower-only) with newer, modern fixtures ('衛浴設備較新').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室二(淋浴)",
+        "tag_list": [
+          "乾濕分離條件一般",
+          "採光欠佳",
+          "通風可能依賴排風扇",
+          "衛浴設備較新",
+          "收納機能基本",
+          "空間適中",
+          "地面有坡度排水"
+        ]
+      }
+    }
+  ]
+}

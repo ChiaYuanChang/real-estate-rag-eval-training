@@ -1,0 +1,86 @@
+{
+  "reasoning_log": "The matching process involved identifying unique functional areas described in the text and locating the corresponding visual evidence in the images. Desc_5 (Rooftop Terrace) was uniquely identified by Image_5 (large outdoor space with metal awning). Desc_4 (Utility Balcony) was uniquely identified by Image_4 (washing machine and large window). Desc_1 (Bedroom) was clearly Image_1 (mattress, AC, curtains). Desc_2 (Living Area) was identified as Image_2 due to the presence of a TV, small refrigerator, and storage cabinet, fulfilling the 'basic appliances' tag. Finally, Desc_3 (Overall Studio View) was matched to Image_3, which provides a wider perspective showing the sleeping area connected to the bathroom entrance, consistent with the 'overall view' and 'slightly long and narrow' layout tags. All matches were highly confident and mutually exclusive.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183556d.jpg?1760410903",
+      "evidence": "Image shows a sleeping area (mattress) with an air conditioner and large windows with curtains, confirming '臥室' (Bedroom) and '採光佳' (Good lighting).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光佳",
+          "可通風",
+          "格局方正",
+          "基本家具附贈",
+          "牆面乾淨"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183556h.jpg?1760410903",
+      "evidence": "Image displays a wall-mounted TV, a small refrigerator, and a cabinet, fulfilling the '起居區/小客廳' (Living area) requirement with '基本家電齊全' (Basic appliances complete).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "起居區/小客廳",
+        "tag_list": [
+          "基本家電齊全",
+          "收納中等",
+          "牆面簡潔",
+          "地板好整理",
+          "插座方便"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183556j.jpg?1760410903",
+      "evidence": "This image provides a wide shot encompassing the sleeping area and the doorway to the bathroom, representing the '套房整體視角' (Overall studio view). The perspective suggests a slightly long layout.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "套房整體視角",
+        "tag_list": [
+          "動線簡單",
+          "空間略顯狹長",
+          "私密性一般",
+          "地面平整",
+          "採光一般"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183556k.jpg?1760410903",
+      "evidence": "The image clearly features a washing machine and a large window in a spacious, tiled room, matching the '室內曬衣/工作陽台' (Utility balcony) description and '洗衣設備到位' (Washing equipment in place).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "室內曬衣/工作陽台",
+        "tag_list": [
+          "採光充足",
+          "良好通風",
+          "洗衣設備到位",
+          "空間寬敞",
+          "地磚耐用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS183556l.jpg?1760410903",
+      "evidence": "This is a large, open outdoor space with a metal awning structure and an open view, definitively matching the '頂樓大露台' (Large rooftop terrace) description.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "頂樓大露台",
+        "tag_list": [
+          "超大戶外空間",
+          "半戶外遮雨棚",
+          "良好通風",
+          "視野開闊",
+          "適合曬衣/養寵物",
+          "地面老舊可留意"
+        ]
+      }
+    }
+  ]
+}

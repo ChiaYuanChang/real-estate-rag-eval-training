@@ -1,0 +1,228 @@
+{
+  "reasoning_log": "The matching process relied heavily on specific architectural and material cues. Desc_1 was uniquely identified by the long layout and built-in display cabinets (Image_1). The three main rooms (Desc_2, Desc_3, Desc_9) were differentiated by lighting and ceiling features: Desc_3 required good natural light and a decorative ceiling (Image_3); Desc_9 required a windowless, rectangular space (Image_9); and Desc_2 was the remaining narrow room with visible pre-wiring (Image_2). The three wet areas were distinguished by function and age: Desc_6 was the narrow, toilet-only space (Image_6); Desc_4 and Desc_8 were the two modern wet/dry bathrooms (Image_4 and Image_8, which are visually almost identical but assigned sequentially). The stairwells (Desc_10 and Desc_12) were separated based on the presence of wooden stair treads (Image_12 for Desc_12) versus standard treads (Image_10 for Desc_10). Desc_5 was clearly the old, tiled area with a kitchenette and stairs (Image_5). Desc_11 was matched to the small room with peeling green floor and old tiles (Image_11). Desc_13 was the only semi-outdoor space with a metal roof and cement floor (Image_13).",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500f.jpg?1760412473",
+      "evidence": "Open, long layout (開放長型格局) with existing cabinets/display cases (已有櫃體收納) and tile floor (磁磚地面).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "店面空間",
+        "tag_list": [
+          "開放長型格局",
+          "室內採光不足",
+          "天花高度一般",
+          "已有櫃體收納",
+          "磁磚地面",
+          "裝潢中性色系",
+          "冷氣已安裝"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500g.jpg?1760412473",
+      "evidence": "Narrow room (狹長型格局) with wood grain floor, recessed lighting, and visible coiled wires (已預留線路) on the wall.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "後側房間A",
+        "tag_list": [
+          "狹長型格局",
+          "採光弱",
+          "完整天花與崁燈",
+          "木紋地板",
+          "已預留線路",
+          "冷氣設備現成",
+          "牆面留白"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500h.jpg?1760412473",
+      "evidence": "Good natural light (前方採光佳) from large windows, wood floor, AC, and a distinct decorative ceiling section (天花造型區塊).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "前側房間B",
+        "tag_list": [
+          "前方採光佳",
+          "獨立出入口潛力",
+          "木紋地板",
+          "天花造型區塊",
+          "冷氣已裝",
+          "牆面留白",
+          "可視外部街景"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500j.jpg?1760412473",
+      "evidence": "Modern bathroom with wet/dry separation (乾濕分離) via a glass enclosure and light-colored tiles (淺色磁磚).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "乾濕分離",
+          "現代化衛浴",
+          "通風不明",
+          "空間略顯緊湊",
+          "淺色磁磚",
+          "基本收納不足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500k.jpg?1760412473",
+      "evidence": "Area featuring stairs (動線多樓梯), fully tiled walls (牆面全貼磁磚), a low ceiling, and a visible simple kitchenette (有簡易廚房), showing an old feel.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "夾層/廚房區走道",
+        "tag_list": [
+          "有簡易廚房",
+          "自然通風採光一般",
+          "動線多樓梯",
+          "空間可作餐廳或工作區",
+          "牆面全貼磁磚",
+          "天花較低",
+          "老舊感明顯"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500l.jpg?1760412473",
+      "evidence": "Extremely narrow space (空間狹窄) configured as toilet only (純廁所配置) with old, small square tiles.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "廁所二",
+        "tag_list": [
+          "純廁所配置",
+          "空間狹窄",
+          "老式磁磚與設備",
+          "可能通風較弱",
+          "易清潔牆面"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500m.jpg?1760412473",
+      "evidence": "Hallway (走道) with continuous wood grain floor (木紋地板一體延伸) and recessed lighting, connecting to a room and a utility/bathroom door.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "走道連接房間與浴室",
+        "tag_list": [
+          "動線清楚",
+          "室內採光中等",
+          "木紋地板一體延伸",
+          "房浴近距離配置",
+          "牆面留白",
+          "天花崁燈均勻"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500n.jpg?1760412473",
+      "evidence": "Second modern bathroom with wet/dry separation (乾濕分離) and neutral color scheme (中性色調), visually similar to Image 4.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "浴室三",
+        "tag_list": [
+          "乾濕分離",
+          "設備較新",
+          "空間略窄但機能完整",
+          "通風狀況不明",
+          "中性色調"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500o.jpg?1760412473",
+      "evidence": "Rectangular room (規則矩形格局) with wood floor and uniform recessed lighting, notably lacking any visible external windows (無對外窗可見).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "房間C",
+        "tag_list": [
+          "規則矩形格局",
+          "無對外窗可見",
+          "木紋地板",
+          "崁燈照明均勻",
+          "牆面預留插座與線路",
+          "收納空間不足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500p.jpg?1760412473",
+      "evidence": "Public stairwell (公共梯間) with tile floor and metal railing, lacking the specific wooden treads mentioned in Desc_12.",
+      "confidence_score": 0.96,
+      "extracted_feature": {
+        "room": "公共梯間一層",
+        "tag_list": [
+          "樓梯間寬敞",
+          "公共空間採光尚可",
+          "磁磚地面",
+          "欄杆高度一般",
+          "無電梯資訊",
+          "可加設鞋櫃或機車用品櫃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500q.jpg?1760412473",
+      "evidence": "Small room (空間較小) with old wall tiles (牆面老舊磁磚), a small window, and a clearly damaged/peeling green floor (地面剝落需重作).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "小房/儲藏室",
+        "tag_list": [
+          "有對外小窗",
+          "空間較小",
+          "牆面老舊磁磚",
+          "地面剝落需重作",
+          "獨立房門",
+          "潛在濕氣問題"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500s.jpg?1760412473",
+      "evidence": "Public stairwell (公共梯間) with good lighting and distinct wooden stair treads (樓梯採木踏板).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "公共梯間二層",
+        "tag_list": [
+          "採光佳",
+          "樓梯間通風好",
+          "空間可利用",
+          "磁磚地坪易清潔",
+          "無電梯",
+          "樓梯採木踏板"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS169500t.jpg?1760412473",
+      "evidence": "Large semi-outdoor area (大面積露臺) with a rough cement floor (地面粗糙水泥) and a metal sheet roof (有遮雨鐵皮頂).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "頂樓露臺",
+        "tag_list": [
+          "大面積露臺",
+          "半室外採光通風極佳",
+          "有遮雨鐵皮頂",
+          "地面粗糙水泥",
+          "隱私普通",
+          "適合養寵物或種植"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "reasoning_log": "The matching process was highly successful as most descriptions referred to unique facility types (e.g., bowling alley, ball pit, bar, kitchen). The two bathroom descriptions were differentiated based on the shower separation: Desc_1 required '乾濕分離' (glass enclosure, Image_1), while Desc_2 noted '乾濕區區隔有限' (partial separation, Image_2). The only ambiguity was between Desc_4 and Desc_11, which both describe '公共遊戲室1' from different angles. Since Image_4 and Image_11 are visually almost identical views of the same arcade room, they were assigned sequentially to these two descriptions.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126g.jpg?1760408325",
+      "evidence": "Modern bathroom featuring a glass enclosure for the shower, confirming '乾濕分離' (wet/dry separation).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "衛浴1",
+        "tag_list": [
+          "乾濕分離",
+          "新式衛浴設備",
+          "易清潔材質",
+          "收納不足",
+          "採光普通",
+          "通風可能一般"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126j.jpg?1760408325",
+      "evidence": "Bathroom with a pedestal sink and a shower area separated only by a wall/curtain rod, matching '乾濕區區隔有限'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "衛浴2",
+        "tag_list": [
+          "空間方正",
+          "乾濕區區隔有限",
+          "採光不足",
+          "通風需確認",
+          "新裝修感",
+          "收納不足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126l.jpg?1760408325",
+      "evidence": "Compact kitchen area featuring white cabinetry, a sink, and a black '雙口瓦斯爐' (two-burner stove).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房空間",
+          "雙口瓦斯爐",
+          "櫥櫃收納佳",
+          "抽油煙機位置預留",
+          "流理台完整",
+          "採光一般",
+          "通風需確認"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126o.jpg?1760408325",
+      "evidence": "Large recreational room showing an air hockey table and arcade machines, fitting the '公共遊戲室' description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "公共遊戲室1",
+        "tag_list": [
+          "大坪數公共設施",
+          "休閒娛樂豐富",
+          "採光偏弱",
+          "隔音需留意",
+          "適合青少年與成人休閒"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126p.jpg?1760408325",
+      "evidence": "Spacious, well-furnished lounge area with multiple seating groups, characteristic of a '交誼廳' (lounge/reception hall).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "交誼廳",
+        "tag_list": [
+          "大型迎賓大廳",
+          "公共休憩空間",
+          "採光偏弱",
+          "隱私一般",
+          "新穎裝修"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126q.jpg?1760408325",
+      "evidence": "Features a prominent central counter with bar stools, clearly matching the '吧台設計' (bar design) requirement.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "吧台交誼區",
+        "tag_list": [
+          "吧台設計",
+          "休閒社交功能強",
+          "採光偏暗",
+          "公設豐富",
+          "空間開放"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126r.jpg?1760408325",
+      "evidence": "Dedicated children's area dominated by a large, colorful '球池' (ball pit) and slide.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "兒童球池遊戲室",
+        "tag_list": [
+          "親子友善設施",
+          "兒童專用空間",
+          "軟墊與球池較安全",
+          "採光不足",
+          "噪音集中於室內"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126s.jpg?1760408325",
+      "evidence": "Large indoor playground structure set on a checkered '軟墊地板' (soft mat floor), matching '兒童遊戲室2'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "兒童遊戲室2",
+        "tag_list": [
+          "大型室內遊樂場",
+          "軟墊地板",
+          "家庭友善社區",
+          "採光偏弱",
+          "高使用彈性"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126t.jpg?1760408325",
+      "evidence": "Grand, long, high-ceilinged entrance hall with modern finishes, fitting the description of a '大樓門廳' (main lobby).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "大樓門廳",
+        "tag_list": [
+          "超高樓層挑高",
+          "公設質感佳",
+          "採光可能一般",
+          "動線清楚",
+          "安全感佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126v.jpg?1760408325",
+      "evidence": "Unambiguously shows a bowling lane and pin setting machine, matching '保齡球室'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "保齡球室",
+        "tag_list": [
+          "社區專屬保齡球道",
+          "休閒娛樂機能強",
+          "採光偏暗",
+          "噪音集中",
+          "室內裝修新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS187126w.jpg?1760408325",
+      "evidence": "Another view of the same arcade room seen in Image_4, confirming it is the '公共遊戲室1(另一角度)'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "公共遊戲室1(另一角度)",
+        "tag_list": [
+          "大面積開放娛樂空間",
+          "多樣遊戲設施",
+          "採光不足",
+          "室內通風需確認",
+          "適合社區活動與聚會"
+        ]
+      }
+    }
+  ]
+}

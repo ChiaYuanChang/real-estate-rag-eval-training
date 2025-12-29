@@ -1,0 +1,223 @@
+{
+  "reasoning_log": "The matching process involved segmenting the descriptions into residential (Desc_1 to Desc_7) and public facility (Desc_8 to Desc_13) categories. For the residential areas, specific features like '陽台' (balcony, Desc_3 -> Image_3), '大衣櫃' (large wardrobe, Desc_4 -> Image_4), and '書桌與上方層架' (desk and upper shelf, Desc_6 -> Image_6) were used for precise differentiation. Desc_1 and Desc_2 were distinguished by focusing on the '玄關區' (entrance area) mentioned in Desc_2, which is more prominent in Image_2. For the public facilities, the descriptions were highly specific (e.g., '健身房', '吧台區', '撞球室'), allowing for direct 1:1 mapping based on the primary object visible in the image (Image_12 for gym, Image_10 for bar, Image_13 for billiards). Image_11 was chosen for the general '遊憩室' (recreation room) as it shows multiple game types (foosball/billiards). All 13 descriptions were successfully mapped to 13 unique images with high confidence.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237a.jpg?1760408272",
+      "evidence": "Image shows the main living area with a prominent wooden TV feature wall and sofa, fitting the '客廳/餐廳區' description.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳區",
+        "tag_list": [
+          "格局方正",
+          "室內採光普通",
+          "通風可能較弱",
+          "天花高度舒適",
+          "電視主牆已完成",
+          "收納一般",
+          "地板易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237e.jpg?1760408272",
+      "evidence": "Image focuses on the sofa area adjacent to a dark entrance door/cabinetry, supporting the '客廳/玄關區' and '玄關獨立區' tags.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "客廳/玄關區",
+        "tag_list": [
+          "玄關獨立區",
+          "採光稍弱",
+          "廚房緊鄰客廳",
+          "收納空間有限",
+          "動線順暢",
+          "已裝冷氣"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237f.jpg?1760408272",
+      "evidence": "Clearly shows a master bedroom with a large glass door leading to a balcony ('含陽台') and a visible bookshelf ('書架收納足夠').",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "主臥室(含陽台)",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "陽台可晾衣",
+          "視野開闊",
+          "臥室空間充足",
+          "已裝冷氣",
+          "書架收納足夠"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237g.jpg?1760408272",
+      "evidence": "Shows a master bedroom with a large wooden sliding wardrobe ('大衣櫃收納佳') and recessed ceiling lighting ('天花燈槽設計').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥室",
+        "tag_list": [
+          "格局方正",
+          "天花燈槽設計",
+          "採光中等",
+          "大衣櫃收納佳",
+          "臥室隱私佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237d.jpg?1760408272",
+      "evidence": "This is an alternate view of the master bedroom (Image_4), focusing on the large blank wall space ('牆面留白') and floor sockets.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥室另一角度",
+        "tag_list": [
+          "動線順暢",
+          "牆面留白可加裝收納",
+          "天花高度舒適",
+          "插座預留"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237j.jpg?1760408272",
+      "evidence": "Shows a small, cluttered room ('空間偏小略顯壅擠') featuring a wooden desk and an upper shelf ('書桌與上方層架').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次臥/書房",
+        "tag_list": [
+          "採光尚可",
+          "通風良好",
+          "空間偏小略顯壅擠",
+          "書桌與上方層架",
+          "收納空間有限",
+          "適合作為孩童房或書房"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237k.jpg?1760408272",
+      "evidence": "An angle of the small bedroom that emphasizes its narrow, long shape ('房間狹長') suitable for a single person.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "次臥/客房",
+        "tag_list": [
+          "採光可",
+          "通風尚可",
+          "房間狹長",
+          "收納不足",
+          "適合單人居住或工作室",
+          "私密性佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237n.jpg?1760408272",
+      "evidence": "Represents the main '公共交誼廳/大廳' with diverse seating arrangements and a reception/bar counter visible in the background.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "公共交誼廳/大廳",
+        "tag_list": [
+          "公設完善",
+          "採光良好",
+          "視野佳",
+          "座位充足",
+          "管理形象佳",
+          "適合遠端工作或閱讀"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237o.jpg?1760408272",
+      "evidence": "Features a large seating area adjacent to a prominent, tall bookshelf wall, matching the '閱讀區' (reading area) tag.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "公共交誼廳/閱讀區",
+        "tag_list": [
+          "大坪數公設",
+          "採光佳",
+          "社區質感佳",
+          "多功能使用(可閱讀",
+          "開小會",
+          "休憩)",
+          "隔音可能普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237p.jpg?1760408272",
+      "evidence": "A close-up of a marble counter with high stools, clearly identifying the '公設吧台區'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "公設吧台區",
+        "tag_list": [
+          "社區設有吧台交誼空間",
+          "裝潢新穎質感高",
+          "採光人工為主",
+          "座位數量充足",
+          "公設維護良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237r.jpg?1760408272",
+      "evidence": "Shows multiple entertainment facilities, including a foosball table and a glimpse of a pool table, fitting the broad '遊憩室(桌球/撞球/遊戲區)' description.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "公設遊憩室(桌球/撞球/遊戲區)",
+        "tag_list": [
+          "娛樂設施豐富",
+          "採光中上",
+          "空間寬敞",
+          "高級裝修",
+          "通風尚可"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237s.jpg?1760408272",
+      "evidence": "Unmistakably a '健身房' with treadmills and exercise equipment, featuring floor-to-ceiling windows providing an '視野遼闊' (expansive view).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "健身房",
+        "tag_list": [
+          "採光極佳",
+          "通風良好",
+          "健身設備齊全",
+          "空間寬敞",
+          "視野遼闊",
+          "公設品質高"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS185237w.jpg?1760408272",
+      "evidence": "Shows a dedicated room centered around a single red-felt pool table, matching the '公設撞球室' description.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "公設撞球室",
+        "tag_list": [
+          "專屬撞球空間",
+          "採光良好",
+          "裝潢高規格",
+          "空間尺度足夠",
+          "隔間完整"
+        ]
+      }
+    }
+  ]
+}

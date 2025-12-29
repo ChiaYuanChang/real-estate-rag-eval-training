@@ -1,0 +1,100 @@
+{
+  "reasoning_log": "The matching process prioritized unique room types and highly specific visual tags. Desc_2 (Kitchen) and Desc_4 (Empty Bedroom) were immediately matched to Image_4 and Image_8, respectively, as they represent unique room functions among the candidates. The two bathrooms (Desc_3 and Desc_5) were differentiated by the presence of a 'safety grab bar' (備有安全扶手). Image_7 clearly shows this feature, making it the definitive match for Desc_3. Image_9, the remaining distinct bathroom view, was assigned to Desc_5. For Desc_1 (Living Room), Image_11 was selected because it uniquely captures the living area, the entrance door, and the adjacent kitchen/storage area simultaneously, confirming the tags '玄關區隱約劃分' (entrance defined) and '靠廚房動線順' (smooth flow near kitchen). Images 1, 2, 3, 5, 6, 10, and 12 are considered redundant views of the living room or the first bathroom.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186012u.jpg?1760408761",
+      "evidence": "Living room view that clearly shows the entrance door (玄關區) and the adjacent white cabinets/storage area, confirming the smooth flow towards the kitchen (靠廚房動線順).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光中等",
+          "通風尚可",
+          "規則格局",
+          "天花高度適中",
+          "已裝修完成",
+          "基本家具附",
+          "燈光充足",
+          "玄關區隱約劃分",
+          "收納一般",
+          "靠廚房動線順"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186012g.jpg?1760408761",
+      "evidence": "A modern kitchen with complete fixtures, ample white cabinetry, and a door/window providing good light and ventilation, matching '完整廚具' and '收納充足'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "完整廚具",
+          "收納充足",
+          "磁磚地面好清潔",
+          "作業動線順",
+          "可規劃洗衣區",
+          "獨立廚房區"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186012m.jpg?1760408761",
+      "evidence": "Bathroom featuring a safety grab bar near the shower area, which is the key differentiator specified by the tag '備有安全扶手'.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "新式衛浴",
+          "濕式衛浴",
+          "無對外窗",
+          "空間方正",
+          "乾淨易整理",
+          "備有安全扶手",
+          "基本收納架"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186012q.jpg?1760408761",
+      "evidence": "An empty, spacious, rectangular room with a tile floor and a large window, matching the tags '空間寬敞', '地磚地面', and '尚未配置收納'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "臥室",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "規則長方格局",
+          "空間寬敞",
+          "地磚地面",
+          "獨立天花燈",
+          "尚未配置收納",
+          "隱私佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186012r.jpg?1760408761",
+      "evidence": "The second distinct bathroom view. It features neutral gray tiles ('色調中性'), complete fixtures, and a wet design, fitting the general description of a functional, newly renovated bathroom.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "第二間浴室",
+        "tag_list": [
+          "新裝修衛浴",
+          "濕式衛浴設計",
+          "無對外窗",
+          "空間機能完整",
+          "全面磁磚包覆",
+          "配備沖洗設備",
+          "色調中性"
+        ]
+      }
+    }
+  ]
+}

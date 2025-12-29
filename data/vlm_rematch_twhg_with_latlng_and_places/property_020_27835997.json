@@ -1,0 +1,239 @@
+{
+  "reasoning_log": "The matching process prioritized unique spaces first (Kitchen, Balcony, Rooftop, Entrance, Empty Room). The remaining challenge was differentiating between the multiple views of the living room and the two similar bathrooms and master bedroom views. Desc_6 (次臥1) was matched to the only empty bedroom ([Image_7]). Desc_7 and Desc_8 were assigned to the two distinct views of the master bedroom ([Image_8] and [Image_9]). Desc_11 was assigned to the other furnished bedroom ([Image_12]). The four living/dining descriptions were matched to the four most representative views: Desc_4 to the dining close-up ([Image_5]), Desc_3 to the combined view ([Image_3]), and Desc_1/Desc_2 to the two main living room angles ([Image_1] and [Image_2]). Image_4, which is another combined living/dining view, was identified as redundant.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887a.jpg?1760408981",
+      "evidence": "Main living room view showing the sofa, coffee table, and TV feature wall, emphasizing the square layout and partial decoration.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "格局方正",
+          "層高舒適",
+          "已部分裝潢",
+          "收納一般",
+          "靜音尚可",
+          "地板新穎"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887e.jpg?1760408981",
+      "evidence": "Wider angle of the living room, emphasizing the open visual space and smooth flow, fitting the '視覺開闊' tag.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光佳",
+          "容易配置家電",
+          "視覺開闊",
+          "動線順暢",
+          "無明顯樑壓"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887f.jpg?1760408981",
+      "evidence": "View showing the connection between the living area (foreground) and the dining/hallway area (background), illustrating the combined space and flow.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/餐廳連通",
+        "tag_list": [
+          "公私領域分明",
+          "動線良好",
+          "採光延伸",
+          "家庭客適合",
+          "可規劃收納牆"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887d.jpg?1760408981",
+      "evidence": "Close-up view of the dining table and chairs, confirming a '正常用餐空間' with simple, complete walls and indirect ceiling lighting.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "餐廳",
+        "tag_list": [
+          "正常用餐空間",
+          "採光間接",
+          "牆面完整",
+          "動線順暢",
+          "層高舒適"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887h.jpg?1760408981",
+      "evidence": "Long, covered outdoor space with metal railings, matching the '大面積陽台' and '安全欄杆' tags.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "前陽台",
+        "tag_list": [
+          "大面積陽台",
+          "採光充足",
+          "良好通風",
+          "可做洗衣/收納區",
+          "安全欄杆",
+          "景觀一般"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887j.jpg?1760408981",
+      "evidence": "The only completely empty bedroom, fitting the '空間彈性大' and '收納需自行規劃' tags.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "次臥1",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "格局方正",
+          "空間彈性大",
+          "地板新穎",
+          "收納需自行規劃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887k.jpg?1760408981",
+      "evidence": "Main view of the furnished master bedroom, showing the bed, side table, and decorative wall paneling, confirming '已部分家具'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "主臥空間寬敞",
+          "採光中等",
+          "通風尚可",
+          "層高舒適",
+          "已部分家具",
+          "收納不足",
+          "隱私佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887l.jpg?1760408981",
+      "evidence": "Another angle of the master bedroom (or highly similar room), focusing on the wall space and furniture placement, matching '主臥另一視角'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "主臥另一視角",
+        "tag_list": [
+          "家具擺放動線順",
+          "插座配置充足",
+          "牆面完整",
+          "採光穩定"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887m.jpg?1760408981",
+      "evidence": "Bathroom view showing the shower area and vanity, confirming '乾濕不分離' and '空間偏緊湊'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "衛浴1",
+        "tag_list": [
+          "乾濕不分離",
+          "通風待確認",
+          "衛浴設備新",
+          "收納基本",
+          "地面防滑磚",
+          "空間偏緊湊"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887n.jpg?1760408981",
+      "evidence": "Second bathroom view, also '乾濕不分離', showing the toilet and vanity from a different angle.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "衛浴2",
+        "tag_list": [
+          "次衛浴設備新穎",
+          "乾濕不分離",
+          "通風待確認",
+          "收納有限",
+          "清潔度佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887o.jpg?1760408981",
+      "evidence": "Secondary bedroom that is '已附床組' (furnished bed set) but requires additional storage.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "次臥2",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "格局方正",
+          "已附床組",
+          "牆面插座齊全",
+          "收納需再增加"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887p.jpg?1760408981",
+      "evidence": "Independent kitchen space with I-shaped counter, stove, hood, and sufficient upper/lower white cabinets.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房空間",
+          "瓦斯爐與排油煙機齊全",
+          "流理台一字型",
+          "吊櫃與下櫃收納足夠",
+          "採光通風佳",
+          "空間略窄"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887t.jpg?1760408981",
+      "evidence": "Large, unfinished space with corrugated metal walls and concrete floor, clearly matching '頂樓鐵皮空間'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "頂樓鐵皮空間",
+        "tag_list": [
+          "採光充足",
+          "通風良好",
+          "空間大",
+          "完工度低",
+          "可能熱度較高",
+          "隔音較差"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS186887u.jpg?1760408981",
+      "evidence": "Ground floor area showing parked motorcycles and old stairs, matching '一樓騎樓/出入口' and '機車停放空間'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "一樓騎樓/出入口",
+        "tag_list": [
+          "機車停放空間",
+          "採光不足",
+          "公共區域老舊",
+          "安全需留意",
+          "上下樓需爬梯"
+        ]
+      }
+    }
+  ]
+}

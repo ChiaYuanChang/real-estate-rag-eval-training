@@ -1,0 +1,167 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique structural elements (stairs, built-in cabinets, metal roofing) and specific condition tags (狹長格局, 地坪需更新, 牆面嚴重受潮). Descriptions 6 and 7 were confirmed as two views of the same large 2F room (Image_6 and Image_7) due to shared features like the ceiling condition and overall style. Descriptions 8 and 9 were differentiated by their layout (狹長 vs. 較寬) and the specific wall damage mentioned (Image_9 clearly shows severe dampness/peeling, matching Desc_9's '牆面嚴重受潮'). Image_1 was uniquely identified by its extreme narrowness and poor floor condition, matching Desc_1.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554f.jpg?1760411688",
+      "evidence": "Matches '一樓狹長空間' and '地坪需更新'. The image shows a long, narrow 1F space with a heavily worn, dark floor.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "一樓狹長空間",
+        "tag_list": [
+          "採光普通",
+          "通風尚可",
+          "狹長格局",
+          "層高一般",
+          "基本照明",
+          "牆面老舊",
+          "地坪需更新",
+          "可彈性隔間"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554g.jpg?1760411688",
+      "evidence": "Clearly depicts a kitchen area with a traditional tiled sink/counter and a door leading to a small bathroom, fulfilling '廚房及衛浴區' and '衛浴內含'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房及衛浴區",
+        "tag_list": [
+          "採光尚可",
+          "通風良好",
+          "傳統流理臺",
+          "衛浴內含",
+          "乾濕未完全分離",
+          "磁磚好清理",
+          "格局方正",
+          "老屋設備"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554d.jpg?1760411688",
+      "evidence": "Represents a square 1F front space ('格局方正') with old, light-colored floor tiles ('地板老舊磁磚').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "一樓前段客餐廳空間",
+        "tag_list": [
+          "採光一般",
+          "通風可對流",
+          "格局方正",
+          "層高略低",
+          "已有窗簾軌道",
+          "地板老舊磁磚",
+          "牆面待整修"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554h.jpg?1760411688",
+      "evidence": "Features large windows providing '採光良好', built-in low cabinets along the window wall ('內建下方櫃體'), and visible '電線外露' on the side wall.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "二樓房間A",
+        "tag_list": [
+          "採光良好",
+          "通風佳",
+          "隔音有限",
+          "內建下方櫃體",
+          "格局方正",
+          "牆面老舊",
+          "電線外露"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554j.jpg?1760411688",
+      "evidence": "The only 1F image showing a prominent staircase ('樓梯佔位') and a large built-in wooden display cabinet ('內建大櫃體'), defining the living area.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "一樓帶樓梯客廳",
+        "tag_list": [
+          "採光普通",
+          "通風尚可",
+          "客餐廳一體",
+          "樓梯佔位",
+          "內建大櫃體",
+          "層高一般",
+          "老屋裝潢"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554k.jpg?1760411688",
+      "evidence": "A large 2F room ('大坪數臥室') featuring extensive built-in storage/wardrobe units ('充足收納') and a visibly damaged drop ceiling ('天花板老化').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "二樓大房間B",
+        "tag_list": [
+          "採光良好",
+          "通風對流佳",
+          "大坪數臥室",
+          "充足收納",
+          "地板耐用",
+          "天花板老化",
+          "牆面需整修",
+          "插座配置傳統"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554l.jpg?1760411688",
+      "evidence": "A different perspective of the large 2F room (Room B), showing large windows ('採光充足') and additional built-in storage/desk units ('既有收納櫃').",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "二樓大房間B另一視角",
+        "tag_list": [
+          "採光充足",
+          "視野開闊感",
+          "格局方正",
+          "隱私一般",
+          "老舊窗框",
+          "既有收納櫃"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554n.jpg?1760411688",
+      "evidence": "Matches '頂樓加蓋空間A' and '結構簡易鐵皮'. It is a very narrow, long metal structure ('空間狹長') suitable for storage.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "頂樓加蓋空間A",
+        "tag_list": [
+          "採光一般",
+          "通風良好",
+          "空間狹長",
+          "結構簡易鐵皮",
+          "牆面明顯老化",
+          "適合作儲藏或曬衣"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS181554o.jpg?1760411688",
+      "evidence": "Matches '頂樓加蓋空間B'. The image clearly shows a metal structure where the walls exhibit severe peeling and water damage ('牆面嚴重受潮'), and the floor is tiled ('地面已鋪磚').",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "頂樓加蓋空間B",
+        "tag_list": [
+          "採光尚可",
+          "通風佳",
+          "層高足夠",
+          "地面已鋪磚",
+          "牆面嚴重受潮",
+          "隔熱與防水待加強"
+        ]
+      }
+    }
+  ]
+}

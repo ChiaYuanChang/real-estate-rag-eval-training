@@ -1,0 +1,166 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique room types (kitchen, bathrooms) and specific color cues in the bedrooms. Image_3 was uniquely identified as the '廚房' (galley kitchen). Images 9 and 10 were differentiated as '浴室一' (Desc_8, with a window) and '浴室二' (Desc_9, without a window), both featuring the distinctive black and white hexagonal floor and wood ceiling. Bedroom differentiation was based on color: Image_7 matched the '淺藍色牆面' (Desc_6). The remaining bedrooms (Desc_4, Desc_5, Desc_7) were assigned based on size and accent color: Image_4 and Image_5, sharing the warm beige accent wall, were assigned to the two largest bedrooms (Desc_4 and Desc_5). Image_6, being the smallest remaining white room, was assigned to '空間偏小' (Desc_7). Image_1 and Image_2 were clearly identified as the main living area and the entrance/hallway, respectively. Image_8 was determined to be redundant.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605a.jpg?1760409108",
+      "evidence": "Large, rectangular main room with a large sliding glass door, track lighting, and glossy gray tile floor, fitting the description of a modern living room (客廳).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光普通",
+          "通風尚可",
+          "規則格局",
+          "天花高度舒適",
+          "新式裝修",
+          "地磚易清理",
+          "基本照明完整",
+          "隔音潛力普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605e.jpg?1760409108",
+      "evidence": "Intermediate space showing a hallway, a partial counter/cabinet, and an electrical box on the wall, consistent with a combined entrance/dining area (餐廳/玄關區).",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "餐廳/玄關區",
+        "tag_list": [
+          "動線順暢",
+          "採光間接",
+          "空間可彈性運用",
+          "新式地坪",
+          "電箱集中",
+          "牆面留白",
+          "無固定家具"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605f.jpg?1760409108",
+      "evidence": "Clear visual of a galley kitchen ('走道型廚房') with black cabinets, white countertops, and tiled walls, confirming '獨立廚房' and '全套櫥櫃'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "獨立廚房",
+          "全套櫥櫃",
+          "明火爐具",
+          "抽油煙機配置",
+          "通風良好",
+          "走道型廚房稍窄",
+          "牆面全瓷磚",
+          "採光依賴人工"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605g.jpg?1760409108",
+      "evidence": "Large bedroom space with a window and a distinct warm beige accent wall, matching the '規則大空間' and '色調溫和' tags for the master bedroom (主臥).",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "採光尚可",
+          "規則大空間",
+          "天花高度舒適",
+          "靜音潛力普通",
+          "無內建收納",
+          "新裝潢",
+          "色調溫和"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605d.jpg?1760409108",
+      "evidence": "A large, standard-shaped bedroom featuring the same warm beige accent wall as Image 4, making it the next largest and most standard secondary room (次臥A).",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "次臥A",
+        "tag_list": [
+          "採光普通",
+          "房型端正",
+          "適合作為書房/兒童房",
+          "無內建衣櫃",
+          "新裝潢維護成本低",
+          "可能較安靜"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605k.jpg?1760409108",
+      "evidence": "The only bedroom featuring a '淺藍色牆面' (light blue accent wall), providing a unique and definitive match for 次臥B.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "次臥B",
+        "tag_list": [
+          "採光普通",
+          "房型規則",
+          "淺藍色牆面",
+          "無固定收納",
+          "新裝潢",
+          "天花高度佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605h.jpg?1760409108",
+      "evidence": "A small, simple white-walled room with a window, fitting the '空間偏小' and '採光有限' tags for 次臥C, and appearing slightly smaller than Image 8.",
+      "confidence_score": 0.94,
+      "extracted_feature": {
+        "room": "次臥C",
+        "tag_list": [
+          "採光有限",
+          "空間偏小",
+          "動線直覺",
+          "無內建衣櫃",
+          "新裝修易入住",
+          "適合辦公書房"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605o.jpg?1760409108",
+      "evidence": "Bathroom featuring a '具對外窗' (window), '黑白地磚' (black and white hexagonal floor), and '木紋天花', matching all key features of 浴室一.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室一",
+        "tag_list": [
+          "具對外窗",
+          "乾濕未完全分離",
+          "通風良好",
+          "新式衛浴設備",
+          "黑白地磚防滑度較佳",
+          "收納鏡櫃",
+          "木紋天花有溫潤感"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS174605p.jpg?1760409108",
+      "evidence": "Bathroom featuring '無對外窗' (no window), but sharing the '木紋天花' and patterned floor with Image 9, matching 浴室二.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "無對外窗僅機械排風",
+          "乾濕未分離",
+          "新裝潢衛浴",
+          "排風設備已設置",
+          "地磚有防滑紋理",
+          "鏡櫃與下櫃收納",
+          "空間寬敞"
+        ]
+      }
+    }
+  ]
+}

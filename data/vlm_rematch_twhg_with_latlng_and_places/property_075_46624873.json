@@ -1,0 +1,260 @@
+{
+  "reasoning_log": "The matching process prioritized unique architectural features and specific furniture arrangements. Desc_1 was immediately matched to Image_1 due to the unmistakable high-ceiling/loft structure (挑高複層). Utility spaces were also highly distinct: Desc_8 matched Image_8 (enclosed metal utility balcony) and Desc_12 matched Image_12 (long, narrow kitchen with extensive cabinetry). The bedrooms required careful differentiation based on size, layout, and function. Desc_4 was identified by its '狹長型' (narrow/long) layout (Image_4). The three largest bedrooms (Desc_5, Desc_9, Desc_11, Desc_13) were separated by specific features: Image_11 showed the clearest 'home office' setup and direct balcony access (Desc_11); Image_9 featured the most prominent 'large built-in storage' (Desc_9); and Image_13 showed a clear separation into sleeping and work zones (Desc_13). Image_5 was assigned the remaining large master bedroom description (Desc_5). Finally, Desc_3 and Desc_15 were matched to Image_3 and Image_15, respectively, noting that these two images are visually identical views of the same type of bathroom setup, but must be assigned uniquely based on the provided image IDs.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200e.jpg?1760411824",
+      "evidence": "The image clearly displays a high-ceiling living room with a second-floor balcony/loft structure (挑高複層).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "客廳(挑高複層)",
+        "tag_list": [
+          "採光佳",
+          "挑高空間",
+          "格局方正",
+          "起居動線順暢",
+          "已部分家具",
+          "地板維持良好",
+          "隔音可能普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200f.jpg?1760411824",
+      "evidence": "Large living space with a high volume of furniture, including a prominent massage chair, fitting the '大坪數起居空間' and '家具量大' tags.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳/多功能起居室",
+        "tag_list": [
+          "採光良好",
+          "大坪數起居空間",
+          "格局方正",
+          "家具量大",
+          "天花高度尚可",
+          "地板易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200g.jpg?1760411824",
+      "evidence": "Bathroom view showing an external window, wet/dry separation, and new, patterned floor tiles.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "衛浴一",
+        "tag_list": [
+          "有對外窗",
+          "乾濕分離條件佳",
+          "衛浴空間寬敞",
+          "採光中等",
+          "磁磚新穎",
+          "清潔維護相對容易"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200h.jpg?1760411824",
+      "evidence": "The perspective shows a distinctly narrow and long (狹長型) room with a full wall of built-in closets and a dedicated desk/work area.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室一(狹長房)",
+        "tag_list": [
+          "採光尚可",
+          "狹長型格局",
+          "內建衣櫃",
+          "可規劃書桌工作區",
+          "木地板溫暖感",
+          "隱私佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200j.jpg?1760411824",
+      "evidence": "A very large, bright bedroom with excellent natural light and implied balcony access, fitting the '採光極佳' and '房間坪數大' tags.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "主臥或大型臥室一",
+        "tag_list": [
+          "採光極佳",
+          "通風良好",
+          "房間坪數大",
+          "具陽台連結",
+          "內建收納櫃體",
+          "格局方正好規劃",
+          "已裝冷氣"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200l.jpg?1760411824",
+      "evidence": "A smaller, square-shaped bedroom with a large window and wood flooring, suitable for a secondary room or study.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "次臥/書房一",
+        "tag_list": [
+          "採光良好",
+          "房型方正",
+          "內建大衣櫃",
+          "適合作書房或兒童房",
+          "地板狀況佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200m.jpg?1760411824",
+      "evidence": "Dedicated dining area featuring a table set and built-in display/side cabinets (內建餐邊櫃).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "餐廳",
+        "tag_list": [
+          "用餐區獨立",
+          "採光尚可",
+          "內建餐邊櫃",
+          "座位數充足",
+          "動線順暢",
+          "裝潢完成度高"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200n.jpg?1760411824",
+      "evidence": "Extremely long, narrow, enclosed space with metal framing and corrugated siding, matching the '超大工作陽台' and '結構加蓋金屬頂' tags.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "陽台/加蓋工作陽台",
+        "tag_list": [
+          "超大工作陽台",
+          "多面窗通風佳",
+          "良好採光",
+          "適合曬衣與儲物",
+          "結構加蓋金屬頂",
+          "地面磁磚易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200q.jpg?1760411824",
+      "evidence": "Spacious bedroom featuring a prominent, wall-spanning built-in wardrobe, matching '內建大型收納櫃'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "大型臥室二",
+        "tag_list": [
+          "採光佳",
+          "房間坪數寬敞",
+          "內建大型收納櫃",
+          "格局方正好利用",
+          "地板整潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200r.jpg?1760411824",
+      "evidence": "Room currently used for storage, featuring open shelving filled with items, fitting the '多功能房/儲藏房' and '收納空間豐富' tags.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "多功能房/儲藏房",
+        "tag_list": [
+          "採光中上",
+          "收納空間豐富",
+          "房型方正",
+          "適合作更衣間或儲物室",
+          "木地板維護良好"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200s.jpg?1760411824",
+      "evidence": "Very large bedroom with direct access to a balcony via large glass doors and a clear setup for a home office (desk/monitor).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "主臥或大型臥室三",
+        "tag_list": [
+          "採光極佳",
+          "直接連接陽台",
+          "房間面積很大",
+          "適合居家辦公",
+          "已裝冷氣",
+          "收納櫃齊全",
+          "私密性佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200t.jpg?1760411824",
+      "evidence": "Long kitchen layout with extensive wooden cabinetry, ample counter space, and a narrow walkway, matching the description details.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "全套廚房設備",
+          "操作檯面充足",
+          "採光良好",
+          "通風條件尚可",
+          "收納空間非常多",
+          "走道較狹長",
+          "地面與檯面易清理"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200u.jpg?1760411824",
+      "evidence": "Large bedroom showing distinct sleeping and work/living zones (desk setup in foreground), fulfilling the '起居與睡眠可分區' requirement.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "主臥帶更衣區(視角二)",
+        "tag_list": [
+          "採光佳",
+          "臥室空間大",
+          "起居與睡眠可分區",
+          "已有冷氣與電器插座",
+          "收納櫃與矮櫃齊全",
+          "私密性高"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_14",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200v.jpg?1760411824",
+      "evidence": "Dedicated walk-in closet space with extensive open shelving and hanging storage, featuring green marble accents.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "更衣室",
+        "tag_list": [
+          "大量開放收納",
+          "採光佳",
+          "更衣動線順暢",
+          "已有梳妝/展示檯面",
+          "適合家庭使用",
+          "木地板營造溫暖感"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_15",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS167200w.jpg?1760411824",
+      "evidence": "Bathroom view showing an external window, wet/dry separation, and sufficient space. (Visually identical to Image_3, assigned as the second bathroom view).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "衛浴二",
+        "tag_list": [
+          "有對外窗",
+          "乾濕分區條件佳",
+          "洗手台與檯面寬",
+          "牆地磁磚新穎",
+          "空間尺度足夠"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "reasoning_log": "The matching process relied heavily on identifying unique, specific features mentioned in the tags, especially for rooms that had multiple candidates (Living Room, Bedrooms, Bathrooms, Kitchen). For the two living room descriptions (Desc_1, Desc_2) and the two master bedroom descriptions (Desc_5, Desc_6), which shared the same physical space across two images, the assignment was based on which image best highlighted the differentiating tags. For instance, Desc_2's focus on '玄關明確' (clear entrance) and '空間開闊' (spacious) was best represented by the wider view in Image_1. Desc_3 was uniquely identified by the '衣櫃到頂' (floor-to-ceiling wardrobe) which is bright pink in Image_3. Desc_7 and Desc_8 were separated by the presence of a '木質天花' (wood ceiling) in Image_7 and '馬賽克磁磚' (mosaic tiles) in Image_8. All 12 descriptions were successfully mapped 1:1 to the 12 provided images.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357e.jpg?1760408442",
+      "evidence": "Living room view emphasizing the sofa, AC, and ample storage ('收納充足', '已裝冷氣', '家具配置佳').",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "採光普通",
+          "格局方正",
+          "層高舒適",
+          "收納充足",
+          "已裝冷氣",
+          "基本裝潢完成",
+          "家具配置佳"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357a.jpg?1760408442",
+      "evidence": "Wider living room view clearly showing the entrance door ('玄關明確') and the overall open layout ('空間開闊') and complete AV wall.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "客廳",
+        "tag_list": [
+          "空間開闊",
+          "玄關明確",
+          "牆面收納櫃",
+          "視聽主牆完整",
+          "地坪易清潔"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357f.jpg?1760408442",
+      "evidence": "Features the '和室架高地台' (raised platform), built-in desk, and the distinctive, bright pink '衣櫃到頂' (floor-to-ceiling wardrobe).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次臥/書房",
+        "tag_list": [
+          "採光尚可",
+          "良好通風",
+          "和室架高地台",
+          "內建書桌與層板",
+          "衣櫃到頂",
+          "動線清楚"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357g.jpg?1760408442",
+      "evidence": "Shows the '多功能地台' (multi-functional platform), built-in desk, and a large '鏡面設計' (mirror design) on the left wall.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "次臥/書房",
+        "tag_list": [
+          "採光通風一般",
+          "多功能地台",
+          "牆面層架",
+          "內建書桌",
+          "鏡面設計",
+          "空房彈性高"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357d.jpg?1760408442",
+      "evidence": "Master bedroom view highlighting the '雙窗設計' (dual windows), '架高床架' (raised bed frame), and '隱藏燈光' (hidden lighting) underneath.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "採光良好",
+          "雙窗設計",
+          "架高床架",
+          "內建書桌與層板",
+          "隱藏燈光",
+          "隔音普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357h.jpg?1760408442",
+      "evidence": "Alternative view of the master bedroom emphasizing the '格局狹長' (narrow layout) and the '收納一體成形' (integrated storage) shelves behind the bed.",
+      "confidence_score": 0.97,
+      "extracted_feature": {
+        "room": "主臥",
+        "tag_list": [
+          "格局狹長但方正",
+          "採光佳",
+          "收納一體成形",
+          "牆面留白",
+          "家具現成"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357j.jpg?1760408442",
+      "evidence": "Bathroom featuring '乾濕分離', a large '對外窗', and a distinctive '木質天花' (wood ceiling).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "乾濕分離",
+          "有對外窗",
+          "採光良好",
+          "檯面收納足夠",
+          "設備維持良好",
+          "木質天花"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357k.jpg?1760408442",
+      "evidence": "Bathroom characterized by the '牆面馬賽克磁磚' (wall mosaic tiles) near the shower area.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "浴室",
+        "tag_list": [
+          "通風採光仍佳",
+          "乾區空間寬",
+          "地面防滑磚",
+          "排水坡度明顯",
+          "牆面馬賽克磁磚"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357l.jpg?1760408442",
+      "evidence": "Wider kitchen view showing the '一字型廚房' layout, the narrow path ('人行動線略窄'), and the dark exit door '靠陽台出口'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "廚房",
+        "tag_list": [
+          "一字型廚房",
+          "瓦斯爐與抽油煙機",
+          "上下櫃收納齊全",
+          "檯面連續",
+          "洗碗槽與爐具距離適中",
+          "靠陽台出口",
+          "人行動線略窄"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357m.jpg?1760408442",
+      "evidence": "Close-up ('近照') of the counter showing the standard configuration of stove, sink, and continuous counter ('備餐檯一排完成') with '局部照明'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "廚房近照",
+        "tag_list": [
+          "標準流理臺配置(瓦斯爐",
+          "水槽",
+          "備餐檯一排完成)",
+          "櫥櫃狀況良好",
+          "局部照明",
+          "插座配置",
+          "易清潔材質"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357n.jpg?1760408442",
+      "evidence": "Clear view of the '獨立洗衣空間' containing both a '洗衣機與冰箱' (washing machine and refrigerator) next to a window/railing.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "陽台/洗衣區",
+        "tag_list": [
+          "獨立洗衣空間",
+          "有窗採光通風佳",
+          "已備洗衣機與冰箱",
+          "磁磚牆面好清理",
+          "欄杆安全"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS184357p.jpg?1760408442",
+      "evidence": "Image of the building lobby, matching '大尺度挑高空間' (large scale high ceiling) and '石材地坪' (stone flooring).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "大樓公設大廳",
+        "tag_list": [
+          "大尺度挑高空間",
+          "公共環境維護良好",
+          "管理感明顯",
+          "採光充足",
+          "石材地坪"
+        ]
+      }
+    }
+  ]
+}

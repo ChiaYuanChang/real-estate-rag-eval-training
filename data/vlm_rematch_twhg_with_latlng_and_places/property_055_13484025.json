@@ -1,0 +1,225 @@
+{
+  "reasoning_log": "The matching process prioritized unique architectural features first (hallway, staircase, balcony access). Desc_1 (Hallway with half-height tiles) matched Image_1. Desc_3 (Staircase) matched Image_3. Desc_11 (Bedroom with balcony door/security bars) matched Image_11. The four bathroom descriptions (Desc_5, Desc_7, Desc_9, Desc_12) were differentiated based on relative size and storage features: Desc_5 (Spacious) was assigned to Image_5 (widest view). Desc_9 (Better storage) was assigned to Image_9 (large vanity and glass shelf). Desc_12 (Tight space) was assigned to Image_7 (most compact sink/toilet arrangement). Desc_7 (Medium space) was assigned to the remaining Image_12. The four remaining bedrooms (Desc_6, Desc_10, Desc_13) were visually almost identical (empty rooms with wood floors and similar windows), so they were assigned sequentially to the remaining images (Image_6, Image_10, Image_13) based on structural similarity.",
+  "matching_result_list": [
+    {
+      "description_id": "Desc_1",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403a.jpg?1760410791",
+      "evidence": "Long corridor/hallway (玄關／走廊) featuring white marble floor and half-height marble wainscoting (牆面半高磁磚).",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "玄關／走廊",
+        "tag_list": [
+          "規則格局",
+          "採光不足",
+          "通風較弱",
+          "新裝修",
+          "牆面半高磁磚",
+          "天花高度普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_2",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403d.jpg?1760410791",
+      "evidence": "Very small bathroom (小浴室) containing only a toilet and a compact sink/vanity, confirming '空間偏小' and '收納不足'.",
+      "confidence_score": 0.98,
+      "extracted_feature": {
+        "room": "小浴室",
+        "tag_list": [
+          "新式衛浴設備",
+          "空間偏小",
+          "無明顯對外窗",
+          "乾淨明亮",
+          "收納不足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_3",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403h.jpg?1760410791",
+      "evidence": "Clear view of a staircase (樓梯間) with marble steps and a wooden handrail, showing a half-flight design and wood flooring nearby.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "樓梯間",
+        "tag_list": [
+          "採光不足",
+          "通風不佳",
+          "半層樓梯設計",
+          "天花壓迫感",
+          "地板木紋鋪設",
+          "無明顯收納利用"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_4",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403j.jpg?1760410791",
+      "evidence": "Large, empty room with a wide window providing excellent natural light (採光良好), typical of a main living space (客廳／公共空間).",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "客廳／公共空間",
+        "tag_list": [
+          "規則長方形格局",
+          "採光良好",
+          "通風條件佳",
+          "新式木紋地板",
+          "層高中等",
+          "插座配置可見"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_5",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403k.jpg?1760410791",
+      "evidence": "The largest bathroom view, showing significant space between the toilet, vanity, and shower enclosure, matching '空間寬裕' and '乾濕分離'.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "主浴室一",
+        "tag_list": [
+          "乾濕分離",
+          "新裝修衛浴",
+          "空間寬裕",
+          "通風可能仰賴機械",
+          "收納中等",
+          "照明充足"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_6",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403l.jpg?1760410791",
+      "evidence": "Standard empty bedroom (臥室一) with wood flooring and a window with security bars, matching the generic bedroom tags.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "臥室一",
+        "tag_list": [
+          "規則方正格局",
+          "採光一般",
+          "通風尚可",
+          "新式木紋地板",
+          "無內建收納",
+          "層高普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_7",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403t.jpg?1760410791",
+      "evidence": "Dry/wet bathroom with a large curved sink/vanity, fitting the description of '空間中等' better than the tighter options.",
+      "confidence_score": 0.92,
+      "extracted_feature": {
+        "room": "浴室二",
+        "tag_list": [
+          "乾濕分離",
+          "新裝修",
+          "空間中等",
+          "無可見窗戶",
+          "收納有限",
+          "照明明亮"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_8",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403o.jpg?1760410791",
+      "evidence": "Large room with both a wide window and a separate glass door leading outside, indicating connection to a balcony/utility space (陽台連接客廳空間) with '採光極佳'.",
+      "confidence_score": 0.99,
+      "extracted_feature": {
+        "room": "陽台連接客廳空間",
+        "tag_list": [
+          "採光極佳",
+          "通風良好",
+          "規則方正格局",
+          "可外出曬衣空間",
+          "新式木紋地板",
+          "裝潢新"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_9",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403p.jpg?1760410791",
+      "evidence": "Bathroom featuring a large sink/vanity and a glass shelf above the toilet, providing the best visible storage ('收納較佳') among the dry/wet options.",
+      "confidence_score": 0.95,
+      "extracted_feature": {
+        "room": "浴室三",
+        "tag_list": [
+          "乾濕分離",
+          "新式衛浴",
+          "空間充足",
+          "通風依賴機械",
+          "收納較佳",
+          "照明明亮"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_10",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403r.jpg?1760410791",
+      "evidence": "Standard empty bedroom (臥室二) with wood flooring and a window with security bars, matching the generic bedroom tags.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "臥室二",
+        "tag_list": [
+          "規則方正格局",
+          "採光一般",
+          "通風尚可",
+          "無內建衣櫃",
+          "新式木紋地板",
+          "層高普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_11",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403s.jpg?1760410791",
+      "evidence": "Bedroom featuring a large door with security mesh/bars (安全鐵窗與鐵門), confirming '帶陽台出入口'.",
+      "confidence_score": 1.0,
+      "extracted_feature": {
+        "room": "臥室三／帶陽台出入口",
+        "tag_list": [
+          "採光佳",
+          "通風良好",
+          "可出入陽台",
+          "規則方正格局",
+          "無內建收納",
+          "安全鐵窗與鐵門"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_12",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403m.jpg?1760410791",
+      "evidence": "Dry/wet bathroom with a very small rectangular sink and tight placement of fixtures, matching '空間中等偏緊'.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "浴室四",
+        "tag_list": [
+          "乾濕分離",
+          "新裝修",
+          "空間中等偏緊",
+          "無自然採光",
+          "通風需抽風機",
+          "收納普通"
+        ]
+      }
+    },
+    {
+      "description_id": "Desc_13",
+      "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS175403v.jpg?1760410791",
+      "evidence": "Standard empty bedroom (臥室四) with wood flooring and a window with security bars, matching the generic bedroom tags.",
+      "confidence_score": 0.9,
+      "extracted_feature": {
+        "room": "臥室四",
+        "tag_list": [
+          "規則方正格局",
+          "採光一般",
+          "通風尚可",
+          "無內建收納",
+          "新式木紋地板",
+          "牆面與天花新整修"
+        ]
+      }
+    }
+  ]
+}
