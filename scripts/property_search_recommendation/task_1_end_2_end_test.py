@@ -7,7 +7,7 @@ from typing import Dict
 from infrastructures.neo4j.client import neo4j_client
 from infrastructures.neo4j.retriever import hybrid_search
 from services.property_search_recommendation.models import RealEstateQuery
-from services.property_search_recommendation.service import extract_user_question_intent
+from services.property_search_recommendation import extract_user_question_intent
 
 DATASET_DIR = "../../data/testing_dataset_twhg_with_latlng_and_places"
 REPORT_FILE = "../../reports/task_1/evaluation_report.md"
