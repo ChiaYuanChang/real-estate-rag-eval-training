@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找小港區復華路附近，總價1400萬內，水電管線全部翻新，且有三間獨立大套房的透天厝。",
+      "reason": "This query stacks the specific location (Xiaogang/Fuhua Rd), the price ceiling, the critical renovation detail (water/electrical lines updated), and the unique layout feature (three large master suites). This combination is highly specific to the target property.",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有近88快速道路，總價1398萬左右的小港透天，要求衛浴要有開窗通風，而且設備間必須有安裝水塔和加壓馬達的？",
+      "reason": "This query uses the transportation anchor (Hwy 88), the exact price, and two specific utility/design details found in the image tags: '衛浴開窗' (Image 9, 14) and the presence of a '水塔與加壓馬達' (Image 15).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一樓可以當作小型辦公室或倉庫使用，且離中安黃昏市場很近的翻新透天，室內裝潢要有大理石質感床頭背板的主臥。",
+      "reason": "Combines the unique multi-use ground floor feature, the specific local landmark (中安黃昏市場), and a high-end interior design detail ('床頭大理石質感背板' from Image 3 tags).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找小港區高檔裝潢的透天，客廳地面要是大面積拋光磚且插座充足，主臥要有隱藏式冷氣預留位，並且臥室都鋪設木地板。",
+      "reason": "Stacks multiple specific material and design requirements: '高檔裝潢', '大面積拋光磚', '插座充足' (Image 1), '隱藏式冷氣預留位' (Image 3), and '臥室木地板' (Image 10, 11, 12).",
+      "type": "simple"
+    },
+    {
+      "question": "雖然屋齡超過50年，但要求必須是全棟水電管線更新的翻新透天，格局要有3房5衛，希望是可立即入住的豪華裝潢。",
+      "reason": "Addresses the high property age (52 years) but anchors the search on the '全翻新' status, the unusual 3房5衛 layout, and the '立即入住' condition.",
+      "type": "simple"
+    },
+    {
+      "question": "我是做網拍的小型貿易商，需要一個住辦合一的空間，一樓要能當作臨時倉庫或進出貨的車庫，而且要能快速上88快速道路，希望是高檔裝潢免整理的透天。",
+      "reason": "The persona (small trader) requires the 1F flexibility (office/warehouse/garage) and excellent traffic access (near Hwy 88), mapping directly to the property description and Image 16 tags.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是三代同堂，需要高度隱私，希望每個房間都是獨立的衛浴套房，至少要有三間，而且裝潢要新穎，最好是拋光磚地面好清潔。",
+      "reason": "The multi-generational scenario requires privacy, which is fulfilled by the '三間大套房' (3 large master suites). It also requests new decoration and easy-to-clean '拋光磚' flooring (Image 1, 7).",
+      "type": "abstract"
+    },
+    {
+      "question": "我很重視家庭活動空間，希望客廳和餐廳的空間感要開闊，天花板不能太壓迫，但廚房只要標準一字型，能簡單烹飪就好，地點要在小港區，預算1400萬內。",
+      "reason": "This query prioritizes the spacious, comfortable living/dining area ('空間感佳', '天花高度舒適' from Image 1, 4 tags) while accepting the limitation of the '標準一字型廚房' (Image 6 tags).",
+      "type": "abstract"
+    },
+    {
+      "question": "擔心老屋的管線問題，我只考慮水電全部換新的翻新透天，特別要求衛浴一定要有對外窗，避免潮濕發霉，而且要有加壓馬達確保水壓穩定。",
+      "reason": "This query addresses common old house pain points by demanding '水電管線更新', '衛浴開窗' (Image 9, 14), and the specific utility feature '加壓馬達' (Image 15) for stable water pressure.",
+      "type": "abstract"
+    },
+    {
+      "question": "我急著搬家，需要一間高檔裝潢、家具齊全、可立即入住的透天。臥室希望是溫暖的木地板，主臥要有大窗戶採光好，並且已經預留好隱藏式冷氣的管線位置。",
+      "reason": "Focuses on the '立即入住' status and stacks specific comfort features: '木地板' (Image 10, 11, 12), '主臥大窗戶' (Image 3), and the specific design detail of the '隱藏式冷氣預留位' (Image 3).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS186903"
+}

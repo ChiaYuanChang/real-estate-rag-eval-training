@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找鳳山區漢慶街附近，總價1200萬以內的透天，希望可以當個人工作室使用，但客廳是狹長型格局的物件。",
+      "reason": "Simple query combining location, price constraint, specific usage ('個人工作室'), and a detailed negative layout attribute ('狹長型格局') found in the living room tags.",
+      "type": "simple"
+    },
+    {
+      "question": "我想找屋齡超過50年，門口可以停車的鳳山透天，廚房需要翻新且沒有固定瓦斯爐，另外至少要有一間衛浴有預留洗衣機的空間。",
+      "reason": "Stacks multiple specific physical constraints: property age (53y), parking feature ('門口停車'), kitchen detail ('無固定瓦斯爐'), and a utility feature ('衛浴有洗衣機空間').",
+      "type": "simple"
+    },
+    {
+      "question": "適合三代同堂的5房透天，靠近衛武營都會公園，請問有沒有臥室天花板高度偏低，會讓人有壓迫感的物件？",
+      "reason": "Combines the high-level benefit ('三代同堂') and landmark proximity ('衛武營都會公園') with a specific, detailed structural defect mentioned in the bedroom tags ('天花板高度偏低', '壓迫感').",
+      "type": "simple"
+    },
+    {
+      "question": "請問鳳山區靠近新甲國小的老透天，總價1198萬左右，有沒有主臥牆面有潮痕或局部色差，需要檢查滲水風險的物件？",
+      "reason": "Targets a very specific, technical defect ('牆面有潮痕', '滲水風險') found in the description of the main bedroom, anchored by the exact price and school proximity.",
+      "type": "simple"
+    },
+    {
+      "question": "找鳳山肉豆公市場附近，有獨立儲藏室或小房間是無對外窗，通風採光不足，適合堆放紙箱雜物的透天。",
+      "reason": "Focuses on the specific utility and negative attributes of the smallest room ('無對外窗', '通風採光不足', '適合作收納間'), linked to the nearby market ('肉豆公市場').",
+      "type": "simple"
+    },
+    {
+      "question": "我是剛創業的SOHO族，想找一間鳳山區可以登記辦公室的透天，希望有門口停車位，而且至少要有一間臥室是獨立套房格局，方便未來分租或接待客戶。",
+      "reason": "Abstract query mapping a persona's needs ('SOHO族', '分租/接待客戶') to the property's features: 'office' usage, '門口停車', and the existence of a '套房格局' (with private bath).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有五個人，希望住在新甲國中附近，需要5房的透天。因為房子比較舊，我很擔心臨街的房間會有車聲噪音，請問有沒有客廳或臥室標註有噪音疑慮的物件？",
+      "reason": "Abstract query based on a family scenario (5 people, near school) that directly references the specific warning tag about noise ('噪音疑慮', '臨街窗可能有車聲') found in the image metadata.",
+      "type": "abstract"
+    },
+    {
+      "question": "我預算有限，想找一間鳳山區屋齡超過50年，總價1200萬內的老透天來徹底翻修。我特別想知道衛浴是不是沒有乾濕分離，而且廚房流理台和櫥櫃都已經很老舊，需要全部打掉重做的物件。",
+      "reason": "Persona is a budget renovator ('徹底翻修'). The query pulls out multiple specific renovation requirements: '屋齡超過50年', '沒有乾濕分離', and '廚房流理台和櫥櫃都已經很老舊'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是投資客，想找鳳山區可以隔套出租的透天。請問有沒有那種已經是套房格局，且臥室和衛浴都有對外窗，地板是磁磚材質，裝潢簡單好整理的物件？",
+      "reason": "Focuses on landlord priorities ('隔套出租', '投資客') by requiring the specific '套房格局' feature, combined with maintenance-friendly attributes ('臥室和衛浴都有對外窗', '磁磚材質易打掃').",
+      "type": "abstract"
+    },
+    {
+      "question": "我很重視採光和通風，但家裡雜物很多，需要充足的收納空間。請問有沒有那種雖然客廳採光不足，但有大衣櫃和專門無對外窗的儲藏室可以堆放紙箱雜物的鳳山透天？",
+      "reason": "Creates a conflict scenario (desire for light vs. need for storage) that forces retrieval of both negative light attributes ('客廳採光不足') and positive storage features ('大衣櫃', '無對外窗的儲藏室').",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS186909"
+}

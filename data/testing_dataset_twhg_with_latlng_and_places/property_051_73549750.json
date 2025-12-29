@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "苓雅區高樓層，要找重新裝潢過、有木紋地板的開放式廚房套房，總價不要超過700萬。",
+      "reason": "This query stacks multiple hard constraints: specific district (苓雅區), floor level (高樓層), renovation status (重新裝潢), specific material (木紋地板), layout (開放式廚房), and a tight budget (不超過700萬), ensuring high recall for this specific unit.",
+      "type": "simple"
+    },
+    {
+      "question": "亞洲新灣區附近，適合通勤族，希望臥室是用玻璃拉門區隔，且廚房有對外窗可以排煙的景觀套房。",
+      "reason": "The query uses the key location anchor (亞洲新灣區), targets the stated audience (通勤族), and includes two unique layout features found in the image tags (玻璃拉門, 廚房有對外窗), making it highly specific.",
+      "type": "simple"
+    },
+    {
+      "question": "靠近自強夜市和漢神百貨，找裝潢精緻，室內有大面鏡櫃可以放大空間感的套房。",
+      "reason": "This query anchors on two strong local landmarks (自強夜市, 漢神百貨) and demands the specific 'deluxe' decoration level (裝潢精緻) combined with the unique feature '大面鏡櫃' (large mirror cabinet) mentioned in the image analysis.",
+      "type": "simple"
+    },
+    {
+      "question": "交通方便近捷運輕軌，一房一廳格局，樓層要在9樓以上，且室內地板是新鋪設的木地板。",
+      "reason": "Focuses on transportation convenience (捷運輕軌), the exact unit type (一房一廳), a specific floor constraint (9樓以上, matching the 9th floor unit), and the specific renovation detail (新鋪設的木地板).",
+      "type": "simple"
+    },
+    {
+      "question": "苓雅區小坪數，但要求開放式客餐廚空間，總價680萬左右，裝潢要有線板造型提升質感。",
+      "reason": "This query targets the small size (小坪數), the exact price point (680萬左右), the open layout (開放式客餐廚), and a specific decorative element (線板造型) found in the image tags, ensuring precision.",
+      "type": "simple"
+    },
+    {
+      "question": "我是金融業高階主管，想找亞洲新灣區附近，下班後可以走路去流行音樂中心或漢神百貨，要求高樓層景觀好，裝潢風格要完整有質感，適合單身貴族。",
+      "reason": "This abstract query creates a persona (金融業高階主管) matching the property's marketing target (商業成功人士), demanding the high-end location, proximity to entertainment, high floor, and complete, quality decoration (裝潢風格要完整有質感).",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡在家煮輕食，但很怕油煙味，希望廚房有窗戶可以通風。另外，空間要開放但臥室可以用拉門隔開，方便朋友來訪時保有隱私。",
+      "reason": "This query maps a lifestyle need (cooking light meals, avoiding smoke) directly to the unique feature '廚房帶窗' (kitchen with window) and the flexible layout solution '玻璃拉門' (glass sliding door) for privacy.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是外地來高雄工作的通勤族，要求房子一定要離輕軌捷運近，而且要重新裝潢過，採光要好，最好是木地板，可以直接入住不用再整理。",
+      "reason": "The query uses the '通勤族' persona mentioned in the description and stacks requirements for transportation proximity, move-in readiness (重新裝潢), good lighting (採光要好), and the specific material (木地板).",
+      "type": "abstract"
+    },
+    {
+      "question": "請問有沒有未來高雄富人區的投資標的？希望是小坪數但格局開放，室內牆面素雅，管線外露少，方便出租或自住。",
+      "reason": "This query leverages the specific marketing phrase '未來高雄富人區' and links it to the property's modern, low-maintenance features described in the tags: '格局開放', '牆面素雅', and '管線外露少'.",
+      "type": "abstract"
+    },
+    {
+      "question": "雖然是小套房，但我希望室內採光要非常好，有大面窗戶引進自然光，而且要有鏡面收納櫃來放大空間感。",
+      "reason": "This query focuses on overcoming the small size constraint by demanding the specific features highlighted in the image tags: '採光佳(大面窗戶引進自然光)' and '大面鏡櫃' (mirror cabinet to enlarge space).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KR72624907"
+}

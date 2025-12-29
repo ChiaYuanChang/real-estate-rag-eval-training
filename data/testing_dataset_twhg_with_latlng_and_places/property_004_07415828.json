@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓區靠近後勁捷運站的新成屋，總價1500萬內，主臥衛浴一定要有對外窗和免治馬桶。",
+      "reason": "This query stacks four specific constraints: location (楠梓/後勁捷運站), price cap (1500萬內), status (全新成屋), and two unique, high-value features found in the metadata (主衛浴有對外窗 + 免治馬桶設備).",
+      "type": "simple"
+    },
+    {
+      "question": "找台積電附近，高樓層有遼闊視野的景觀三房，必須是全新交屋且含平面車位。",
+      "reason": "This query targets the primary economic anchor (台積電), combines the floor/view attributes (高樓層/遼闊視野/景觀宅), and includes the structural requirements (三房) and parking type (平車).",
+      "type": "simple"
+    },
+    {
+      "question": "我要找楠梓區格局方正的綠建築大樓，室內希望是耐磨木紋地板，且客廳有大片落地窗採光要好。",
+      "reason": "This query focuses on specific construction and interior design details: the '綠建築' tag, the layout description ('格局正漂亮'), the specific flooring material ('耐磨木紋地板'), and the lighting source ('大片落地窗').",
+      "type": "simple"
+    },
+    {
+      "question": "權狀42坪左右的楠梓三房，希望有獨立玄關，且次臥坪數較小適合當書房或客房的物件。",
+      "reason": "This query uses the precise gross area (42.42坪), the specific layout feature ('玄關獨立'), and a detailed observation from the image tags regarding the secondary bedroom's intended use ('適合作書房或客房').",
+      "type": "simple"
+    },
+    {
+      "question": "預算1480萬左右，楠梓區走路可到國中小學區的電梯大樓，社區公設要有健身房。",
+      "reason": "This query uses the exact listed price (1480萬), the proximity to schools ('走路即可到國中小學區'), and verifies the presence of a specific community amenity ('公設健身房').",
+      "type": "simple"
+    },
+    {
+      "question": "我是剛到楠梓台積電上班的工程師，希望找一個下班後可以馬上入住的全新三房，最好是走路就能到捷運站，而且社區內要有地方可以運動健身。",
+      "reason": "This abstract query establishes a persona (TSMC engineer) whose needs map to: proximity to work/transit (台積電/捷運站), move-in readiness (全新完工), and on-site amenities (社區健身房).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有小孩，希望找一個採光通風都很好的高樓層住宅，特別要求主臥衛浴一定要有對外窗，避免潮濕發霉。",
+      "reason": "This query reflects a family's concern for hygiene and air quality, mapping directly to the property's high floor, excellent lighting/ventilation tags, and the unique feature of the master bath having a window ('主衛浴有對外大窗').",
+      "type": "abstract"
+    },
+    {
+      "question": "喜歡新房子的簡約風格，希望客廳是耐磨木地板，而且大門進來不要直接看到客廳，要有獨立的玄關空間可以規劃鞋櫃。",
+      "reason": "This query describes a preference for privacy and specific interior finishes, requiring the RAG system to retrieve the '全新交屋', '耐磨木紋地板', and '玄關獨立' attributes.",
+      "type": "abstract"
+    },
+    {
+      "question": "尋找楠梓區保值性高的綠建築景觀宅，希望是三房平車，且鄰近大學和捷運站，方便未來出租或自住。",
+      "reason": "This query uses investment-focused terminology ('保值性高') and requires the retrieval of the '綠建築', '景觀宅', '三房平車', and proximity to '高科大' (大學) and '捷運站' features.",
+      "type": "abstract"
+    },
+    {
+      "question": "請問有沒有楠梓區全新交屋的三房，客廳格局方正，適合擺放大型家具，而且陽台空間夠大，可以放洗衣機和戶外機，不會太擁擠？",
+      "reason": "This query focuses on practical space utilization, requiring the system to identify '全新交屋', '格局方正', and the specific detail from the tags about the '綠建築大陽台' being suitable for appliances ('陽台相連適合晾衣或放戶外機').",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS187345"
+}

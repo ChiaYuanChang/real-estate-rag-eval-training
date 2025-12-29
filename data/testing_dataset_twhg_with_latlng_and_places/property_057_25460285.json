@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "橋頭區總價一億到一億五千萬之間，靠近橋頭糖廠捷運站，需要至少15間套房的透天厝，適合當作員工宿舍或包租公物件。",
+      "reason": "Simple Query targeting the high investment value (120M TWD), specific location (Qiaotou MRT), and the unique room count (16B/16B), which strongly suggests a dormitory or rental complex.",
+      "type": "simple"
+    },
+    {
+      "question": "尋找橋頭區省道旁車潮多的四層樓旗艦總部，需要有超大頂樓露台，且露台具備半戶外遮雨棚，方便舉辦員工活動或戶外展示。",
+      "reason": "Simple Query combining the commercial potential (旗艦總部, 省道車潮多) with the highly specific feature of the top-floor terrace (頂樓大露台) and its semi-outdoor awning (半戶外遮雨棚).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近樂購廣場的橋頭透天，要求每間套房都已配備冰箱、電視、洗衣機等基本家電，且臥室採光良好，牆面乾淨無發霉。",
+      "reason": "Simple Query anchoring on a specific landmark (樂購廣場) and stacking detailed interior tags (基本家電齊全, 冰箱、電視、洗衣機, 牆面乾淨) derived from the image metadata.",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有橋頭區靠近高醫岡山醫院或仕隆國小的物件，需要16間以上衛浴的透天，適合多隔間出租或診所使用。",
+      "reason": "Simple Query using the exact high room/bath count (16間以上衛浴) combined with proximity to specific educational and medical landmarks mentioned in the description (高醫岡山醫院, 仕隆國小).",
+      "type": "simple"
+    },
+    {
+      "question": "找橋頭區200坪以上的大型住商兩用透天，座向要求西南朝東北，且套房設計動線簡單，衛浴門直接對睡眠區的格局。",
+      "reason": "Simple Query combining the large area (200坪以上), the exact orientation (SW-NE), and a specific, detailed layout observation from the image tags (衛浴門直接對睡眠區).",
+      "type": "simple"
+    },
+    {
+      "question": "我是橋科的投資客，想找一個可以立即收租的現成包租公物件。希望地點在橋頭，靠近捷運站，且所有隔間都已經是套房，不需要再花時間裝潢，最好連家具家電都已經配好，可以馬上讓員工或學生入住。",
+      "reason": "Abstract Query simulating an investor persona focused on Qiaoke (橋科). Requirements map to the property's core attributes: Qiaotou location, near MRT, 16 ready-made suites (套房), and basic furniture/appliances included (move-in ready).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是三代同堂的大家族，需要極多間臥室和衛浴，希望每個人都有獨立的套房空間。最重要的是，需要一個超大的頂樓空間，可以讓小孩和寵物跑跳，最好還有遮雨棚可以烤肉或曬棉被。",
+      "reason": "Abstract Query simulating a large family persona. It requires the extremely high room count (極多間臥室/衛浴) and specifically targets the large rooftop terrace (超大的頂樓空間) with the semi-outdoor awning (遮雨棚) suitable for pets/leisure.",
+      "type": "abstract"
+    },
+    {
+      "question": "我打算在橋頭開一間旗艦店，需要高曝光度，最好在省道旁邊車流量大的地方。除了店面空間，樓上還需要大量的員工宿舍，並且要靠近傳統市場（橋頭市場）方便採買食材。",
+      "reason": "Abstract Query simulating a business owner needing high visibility (省道旁邊車流量大) and combining it with the need for extensive employee housing (大量的員工宿舍, 16 rooms) and proximity to the specific local market (橋頭市場).",
+      "type": "abstract"
+    },
+    {
+      "question": "我對房子的維護要求很高，希望找一間橋頭的透天，雖然屋齡有十幾年，但室內地板必須是拋光瓷磚，容易清潔打掃。而且每間套房都要有獨立的曬衣空間，最好是走道型陽台，通風要好，適合濕區使用。",
+      "reason": "Abstract Query simulating a maintenance-focused landlord. It targets the property age (14年), the specific flooring type (拋光瓷磚易清潔), and the detailed description of the work balcony (走道型陽台, 通風要好, 適合濕區使用).",
+      "type": "abstract"
+    },
+    {
+      "question": "我在找橋頭糖廠捷運站附近的租屋，希望是套房，雖然空間可能狹長一點，但一定要有獨立的洗衣機和冷氣。臥室採光要好，要有單面大窗戶可以通風，而且牆面要乾淨，不要有滲水或發霉的痕跡。",
+      "reason": "Abstract Query simulating a tenant/student focusing on the individual unit features. It stacks multiple specific tags: near MRT, suite type, narrow space (空間略顯狹長), included appliances (洗衣機/冷氣), and specific window/wall conditions (單面大窗戶, 牆面乾淨).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS183556"
+}

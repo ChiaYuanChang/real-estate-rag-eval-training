@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "橋頭區青埔站附近，預算1200萬內，高樓層兩房，社區要有保齡球館的。",
+      "reason": "Simple query stacking location (橋頭區, 捷運青埔站), price constraint (1200萬內), floor level (高樓層), and the highly unique amenity '保齡球館' (Bowling alley).",
+      "type": "simple"
+    },
+    {
+      "question": "找室內實坪15坪左右的兩房，樓層要在15樓以上，要有無限景觀，而且廚房必須是獨立空間，使用雙口瓦斯爐。",
+      "reason": "Directly targets the specific interior area (15.0坪), floor requirement (16/24F), the marketing phrase '無限景觀', and the specific kitchen setup (獨立廚房, 雙口瓦斯爐).",
+      "type": "simple"
+    },
+    {
+      "question": "7年左右的電梯大樓，希望是東南朝向，兩間衛浴都要有乾濕分離，社區要有兒童球池遊戲室。",
+      "reason": "Combines property age (7年屋), orientation (東南), bathroom feature (乾濕分離), and the specific children's amenity '兒童球池遊戲室' (Ball pit).",
+      "type": "simple"
+    },
+    {
+      "question": "橋頭區經武路附近，總價1150萬以內，公設要有KTV室和泳池SPA區的兩房。",
+      "reason": "Uses the street name (經武路), a tight price range (1118萬), and stacks two specific luxury amenities (KTV室 and 泳池SPA區).",
+      "type": "simple"
+    },
+    {
+      "question": "24層樓高的電梯大樓，我要16樓的兩房，公設要有空氣曲棍球桌或大型機台遊戲室。",
+      "reason": "Highly specific floor constraint (16/24F) combined with the unique game room details found in the image tags (空氣曲棍球桌, 大型機台遊戲室).",
+      "type": "simple"
+    },
+    {
+      "question": "我們是喜歡運動和社交的年輕夫妻，希望社區公設能媲美飯店，除了健身房和瑜珈教室外，最好還有保齡球道或撞球桌，方便我們下班後放鬆。",
+      "reason": "Abstract query mapping a social/fitness persona to the extensive list of high-end amenities: 健身房, 瑜珈教室, 保齡球道, 撞球區, which are all present in the metadata.",
+      "type": "abstract"
+    },
+    {
+      "question": "家裡有學齡前兒童，希望找近捷運站、生活機能好（近市場/全聯）的房子，最重要的是社區要有安全的室內兒童遊戲區，像是球池或軟墊設施。",
+      "reason": "Abstract query focusing on a family persona. It requires proximity to transit/shops (捷運, 市場, 全聯) and specifically targets the '親子友善設施' like '兒童球池遊戲室' and '軟墊地板'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我很常在家開伙，不喜歡油煙跑進客廳，請問有沒有高樓層、視野好，而且廚房是獨立空間，配備雙口瓦斯爐的兩房物件？",
+      "reason": "Abstract query for a home chef (pain point: oil smoke). This maps directly to the '獨立廚房空間' and '雙口瓦斯爐' features, combined with the '高樓層無限景觀'.",
+      "type": "abstract"
+    },
+    {
+      "question": "請問橋頭區有沒有屋齡在10年內，公設項目非常稀有，例如有專屬保齡球館或大型KTV室，能吸引高素質租客的兩房產品？",
+      "reason": "Abstract query from an investor's perspective. It uses the district (橋頭區), age constraint (7年屋), and highlights the rare, high-value amenities (保齡球館, KTV室) that increase rental appeal.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對樓層有要求，一定要在24層大樓的16樓，希望是兩房兩衛，而且衛浴最好是乾濕分離，能提供高樓層無限景觀的物件。",
+      "reason": "Abstract query expressing a strong preference for the exact floor (16/24F), combined with the specific layout (2房2衛), bathroom requirement (乾濕分離), and the view ('無限景觀').",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS187126"
+}

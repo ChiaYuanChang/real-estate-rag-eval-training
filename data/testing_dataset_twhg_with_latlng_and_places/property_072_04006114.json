@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "小港區宏平路附近，總價2300萬以內，四層樓透天店面，需要靠近捷運站，且一樓空間是狹長格局的。",
+      "reason": "Simple query stacking location (小港區宏平路), price cap (2300萬), property type (四層樓透天店面), proximity to transit (捷運站), and a unique layout feature (一樓狹長格局).",
+      "type": "simple"
+    },
+    {
+      "question": "找小港機場附近，屋齡40年左右的五房老透天，室內實坪要超過65坪，且頂樓有鐵皮加蓋空間可以當作儲藏室或曬衣場。",
+      "reason": "Simple query combining landmark (小港機場), age (40年), size/room count (五房, 實坪>65坪), and the specific top-floor structure (頂樓鐵皮加蓋/儲藏室).",
+      "type": "simple"
+    },
+    {
+      "question": "我想找在小港金府鬧區商圈附近，有四間衛浴的透天厝，希望二樓有大坪數臥室，且一樓廚房是傳統流理臺設計。",
+      "reason": "Simple query focusing on commercial proximity (金府鬧區商圈), high bathroom count (四間衛浴), and specific internal features (二樓大坪數臥室, 傳統流理臺).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找可做文武百市的住商透天，坐向是南北向，目前牆面有嚴重受潮或霉斑，需要大翻修的物件。",
+      "reason": "Simple query using the commercial usage phrase (文武百市), orientation (南北向), and critical defects mentioned in the tags (嚴重受潮或霉斑, 大翻修).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近高速公路交流道，交通便利的小港透天，屋內有大量內建木櫃體，可以提供充足收納空間。",
+      "reason": "Simple query focusing on transportation convenience (高速公路交流道), location (小港), and the specific built-in storage feature (內建木櫃體/充足收納).",
+      "type": "simple"
+    },
+    {
+      "question": "我是投資客，專門找小港區地段好、近捷運站，但屋況極差需要全棟翻新的老透天，最好是牆面有裂痕、電線外露，且有頂樓鐵皮加蓋需要處理的物件。",
+      "reason": "Abstract query simulating an investor persona seeking high-renovation properties. It stacks multiple defects (屋況極差, 牆面裂痕, 電線外露, 頂樓鐵皮加蓋) and location anchors (近捷運站).",
+      "type": "abstract"
+    },
+    {
+      "question": "我想到小港開一間小型工作室，需要一樓是狹長型的空間，方便規劃動線，且附近要有全聯或小北百貨這種生活機能店面。",
+      "reason": "Abstract query simulating a small business owner persona requiring the specific commercial layout (狹長型的空間) and proximity to key retail anchors (全聯或小北百貨).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是三代同堂大家庭，需要至少五房四衛浴的透天，希望二樓的臥室空間要夠大，可以規劃成臥房加書房，而且家裡東西多，需要有整面牆的收納櫃。",
+      "reason": "Abstract query simulating a large family persona requiring high capacity (五房四衛浴), large secondary rooms (臥室空間要夠大), and extensive built-in storage (整面牆的收納櫃).",
+      "type": "abstract"
+    },
+    {
+      "question": "預算有限，想找小港區總價2280萬左右的透天，我不怕麻煩，但要求物件必須是老屋，且有明顯的天花板老化或板材翹曲問題，我會自己找工班處理防水和管線。",
+      "reason": "Abstract query simulating a budget buyer/DIY enthusiast. It uses the exact price (2280萬), age (老屋), and specific structural defects (天花板老化或板材翹曲) as positive search criteria.",
+      "type": "abstract"
+    },
+    {
+      "question": "尋找小港區「一市吃三代」的黃金店面，必須緊鄰捷運站，且位於宏平路商圈，適合文武百市經營。",
+      "reason": "Abstract query using the exact marketing slogan from the description (「一市吃三代」) combined with specific location and usage constraints (緊鄰捷運站, 宏平路商圈, 文武百市).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS181554"
+}

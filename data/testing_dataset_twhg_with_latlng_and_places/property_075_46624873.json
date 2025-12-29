@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我想找鳥松區本館路附近，有雙車位庭院的透天別墅，客廳必須是挑高七米以上，而且面寬要超過八米四。",
+      "reason": "Simple Query combining location (鳥松/本館路), property type (透天別墅), parking (雙車位), and two highly specific structural dimensions (挑高七米, 面寬8.46米) to ensure high recall.",
+      "type": "simple"
+    },
+    {
+      "question": "預算四千萬以內，高雄鳥松區，要找有七房四衛以上的大地坪別墅，一定要有一樓孝親房，並且主臥衛浴要有按摩浴缸。",
+      "reason": "Simple Query stacking price, size (七房四衛/大地坪), location (鳥松), and two specific luxury/utility features (一樓孝親房, 按摩浴缸).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有靠近大華國小250公尺內，屋齡38年左右的透天，要求配備太陽能熱水系統，而且附近要有53A公車站牌。",
+      "reason": "Simple Query focusing on specific proximity anchors (大華國小215公尺, 53A公車站49公尺) combined with the unique utility feature (太陽能熱水系統) and property age.",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一間裝潢典雅的七房別墅，客廳要有挑高設計，而且至少要有兩個房間是採光極佳且直接連接陽台的大型臥室。",
+      "reason": "Simple Query combining decoration level (裝潢典雅), size (七房), high ceiling (挑高設計), and the specific layout detail mentioned in the image tags (採光極佳/連接陽台的大型臥室).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找鳥松區縱深超過39米的私人庭院別墅，必須是七房格局，適合三代同堂居住。",
+      "reason": "Simple Query using the highly specific depth dimension (縱深39.5米) as the primary anchor, combined with location, type (私人庭院別墅), and usage (七房/三代同堂).",
+      "type": "simple"
+    },
+    {
+      "question": "我們家人口眾多，經常需要宴客，希望找一間氣派非凡的豪門之家，客廳要有足夠的挑高展現氣度，而且餐廳必須是獨立且有內建餐邊櫃的設計，方便收納酒水與餐具。",
+      "reason": "Abstract Query mapping the desire for 'grandeur' (氣派非凡) to the '挑高七米' feature, and the need for entertaining to the specific '獨立餐廳/內建餐邊櫃' detail found in Image 7.",
+      "type": "abstract"
+    },
+    {
+      "question": "為了照顧年邁的父母，我急需一間有「一樓孝親房」的透天厝，同時希望主臥能有高級的衛浴設備，最好是配備按摩浴缸，讓辛苦工作的我可以放鬆身心。",
+      "reason": "Abstract Query based on a multi-generational persona (照顧父母), directly targeting the '一樓孝親房' and the specific luxury amenity '按摩浴缸' for personal wellness.",
+      "type": "abstract"
+    },
+    {
+      "question": "我很注重環保節能，想找一間已經安裝「太陽能熱水系統」的別墅，而且因為家庭成員多，需要一個超大且通風良好的工作陽台來處理大量衣物晾曬和儲物。",
+      "reason": "Abstract Query focusing on an eco-conscious persona, linking the desire for energy efficiency to the '太陽能熱水系統' and the high utility demand to the '超大工作陽台' described in Image 8.",
+      "type": "abstract"
+    },
+    {
+      "question": "我和太太都需要在家辦公，所以需要至少兩間以上的大型臥室可以規劃雙工作桌，此外，我們有很多收藏品和衣物，希望房子裡有專門的更衣室或多功能房，提供大量的開放式收納空間。",
+      "reason": "Abstract Query targeting the specific layout for remote work (多間臥室/雙工作桌, seen in Image 11) and the need for extensive storage, mapping to the dedicated '更衣室/大量開放收納' feature (Image 14).",
+      "type": "abstract"
+    },
+    {
+      "question": "我在澄清湖附近工作，希望找一間步行距離可達大華國小，並且離公車站牌非常近的私人庭院別墅，最好是面寬夠大，停車方便的雙車位設計。",
+      "reason": "Abstract Query simulating a commuter's need, combining proximity to multiple landmarks (澄清湖, 大華國小, 公車站牌) with the structural requirements (面寬夠大, 雙車位庭院).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "QT80286659"
+}

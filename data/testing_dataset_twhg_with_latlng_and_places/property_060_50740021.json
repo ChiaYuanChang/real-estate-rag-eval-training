@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我想找左營區R14捷運站附近，兩戶打通的超大六房，室內要鋪設大尺寸拋光磚且有百萬裝潢的物件。",
+      "reason": "Simple query stacking location (Zuoying, R14), unique structural feature (2戶打通), size (六房), decoration level (百萬裝潢), and specific material detail (大尺寸拋光磚).",
+      "type": "simple"
+    },
+    {
+      "question": "預算3880萬左右，室內超過60坪的左營大樓，需要有獨立書房且配備整面收納櫃，主臥衛浴要有紅木浴櫃和擴大鏡面。",
+      "reason": "Simple query focusing on price anchor (3880萬), interior area (64.43坪), and specific high-density features from the study (整面收納櫃) and master bathroom (紅木浴櫃, 擴大鏡面).",
+      "type": "simple"
+    },
+    {
+      "question": "找屋齡約26年的大六房三衛浴華廈，公領域必須是客餐廳一體且有天花出風口冷氣，另外需要有獨立的神明桌擺放區。",
+      "reason": "Simple query combining property age (26年), layout (6房3衛), and specific public area details: ceiling AC outlet (天花出風口) and the unique feature of a separate altar area (神明桌擺放區).",
+      "type": "simple"
+    },
+    {
+      "question": "請問正心街三樓有沒有大坪數的房子？要求有大陽台，且至少兩間臥室內建書桌工作區，房門最好是實心木門以提升隔音。",
+      "reason": "Simple query using the specific street name (正心街) and floor number (三樓), combined with functional requirements: large balcony, multiple built-in desks (內建書桌工作區), and construction detail (實心木門).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找坐東朝西的住家大樓，客廳要能容納大型L型沙發，且主衛浴空間要特大，能達到雙人檯面潛力並有乾濕分離。",
+      "reason": "Simple query based on orientation (坐東朝西), living room capacity (大型L型沙發), and detailed bathroom specifications (特大衛浴空間, 雙人檯面潛力).",
+      "type": "simple"
+    },
+    {
+      "question": "我們是三代同堂的大家庭，需要找左營巨蛋商圈附近，室內空間要夠大，最好是兩戶打通的六房格局，公領域要能容納大型聚餐桌，且有兩個獨立客廳。",
+      "reason": "Abstract query based on a multi-generational family persona. Maps the need for large space and multiple zones to the '2戶打通', '六房', '2客廳', and '餐廳空間充足' tags.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是SOHO族，家裡有兩個學齡兒童。希望找一個有百萬裝潢的房子，必須有獨立且安靜的書房，書房內要有整面收納櫃，且至少兩間次臥已經內建書桌，方便孩子直接入住使用。",
+      "reason": "Abstract query based on a home office/student family persona. Maps the need for dedicated workspace to the '書房', '整面櫃體', and '靜音潛力佳' tags, and the children's needs to the '內建書桌工作區' in multiple bedrooms.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對塵螨過敏，希望找左營區裝潢等級高的豪宅型物件。主臥室地板必須是拋光磚，且要有連接陽台的落地窗，衛浴設備要新穎，最好是特大空間且有乾濕分離。",
+      "reason": "Abstract query based on an allergy sufferer persona prioritizing cleanliness and high-end finishes. Maps the requirement to '拋光磚適合過敏族', 'deluxe' decoration, and '特大衛浴空間' with good dry/wet separation.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有祭祀需求，想找左營巨蛋捷運站附近的大樓，除了六房大空間外，最重要的是公領域必須規劃出獨立且明確的區域來擺放神明桌，不能與餐桌混在一起。",
+      "reason": "Abstract query based on a traditional Taiwanese family persona with specific cultural needs. Directly maps to the unique tag '用餐與拜拜區分明' and '神明桌各自獨立'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個生活機能超強，走路就能到R14捷運站的房子。希望主臥室空間要非常寬敞，除了床位外，還能規劃出一個獨立的沙發休憩區或嬰兒床空間。",
+      "reason": "Abstract query based on a lifestyle buyer prioritizing convenience and flexible space. Maps the convenience need to '步行可抵達R14捷運站', and the space requirement to '超大主臥空間' and '可規劃多功能區' tags.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "CU23072937"
+}

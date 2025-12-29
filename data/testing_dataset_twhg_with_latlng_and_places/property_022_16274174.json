@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找三民區正興路附近，總價1200萬內，屋齡雖高但要求全室水電管線都已翻新的大四房，最好是獨立廚房可以開明火煮飯的。",
+      "reason": "Simple query combining location (三民區/正興路), price constraint (1200萬內), the critical renovation detail (水電管線翻新), and the specific kitchen feature (獨立廚房/明火爐具).",
+      "type": "simple"
+    },
+    {
+      "question": "我想找靠近樹德家商輕軌站，走路10分鐘內可達的物件，樓層不要太高（例如3樓），希望至少有一間衛浴是有對外窗的，預算在1180萬左右。",
+      "reason": "Directly targets the specific transit link (樹德家商輕軌站), the exact floor (3樓), the price, and the highly desired feature '衛浴開窗' (Bathroom 1).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找三民區低公設、一層兩戶的華廈，室內裝潢希望是新翻新的拋光石英磚地坪，客廳有軌道燈設計，且其中一間次臥是淺藍色牆面的。",
+      "reason": "Focuses on structural details (低公設, 一層兩戶) and unique interior tags (拋光石英磚, 軌道燈, 淺藍色牆面), ensuring high information density.",
+      "type": "simple"
+    },
+    {
+      "question": "請問建工商圈附近有沒有室內實坪超過30坪的四房物件？屋齡30年上下沒關係，但一定要有雙陽台，且格局要方正。",
+      "reason": "Targets the high interior area (31.5坪), the specific commercial area (建工商圈), and the layout requirements (雙陽台, 格局方正).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一個四房的房子，其中一間房間可以當作安靜的書房使用（空間小沒關係），且希望是全屋翻新、屋況維護成本低的，兩間浴室雖然有一間沒開窗，但要求空間要夠寬敞。",
+      "reason": "Combines the specific functional requirement for the smallest room (次臥C - 適合書房) with the description of Bathroom 2 (無窗但空間寬敞) and the general '全屋翻新' status.",
+      "type": "simple"
+    },
+    {
+      "question": "我們是年輕夫妻，想找三民區科工館附近，屋齡雖然舊但要求水電管線必須全部換新，希望是裝潢好的免整理即可入住，且廚房是獨立式能避免油煙亂竄的四房。",
+      "reason": "Abstract query mapping the persona's pain point (fear of old pipes/need for move-in ready) to the '水電管線皆翻新' tag and the '獨立廚房' feature.",
+      "type": "abstract"
+    },
+    {
+      "question": "為了三代同堂，我們需要一個大四房，但希望社區住戶單純、隱私性高，不要太多戶共用電梯，最好是低公設比、一層兩戶的華廈，地點在建工商圈附近。",
+      "reason": "Maps the multi-generational living scenario to the structural features that ensure privacy and simplicity: '一層兩戶', '住戶單純', and '低公設比'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是自由工作者，需要至少兩個房間能當作獨立工作室，其中一間可以小一點但要安靜。另外，我非常重視衛浴的通風和採光，要求至少一間浴室必須有對外窗。",
+      "reason": "Focuses on the SOHO requirement (multiple flexible rooms, specifically referencing 次臥C as the quiet small office) and the high priority for '衛浴有對外窗' (Bathroom 1).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是個愛下廚的人，一定要有獨立廚房和明火瓦斯爐，而且廚房牆面必須是全瓷磚好清理油污的。希望整體裝潢是新翻新的，地坪是拋光石英磚，看起來乾淨明亮。",
+      "reason": "Persona of a cooking enthusiast, requiring specific kitchen details ('獨立廚房', '明火', '牆面全瓷磚') and linking the aesthetic preference to the '拋光石英磚' flooring.",
+      "type": "abstract"
+    },
+    {
+      "question": "預算抓在1200萬以內，希望在三民區找到高CP值的大坪數四房，生活機能要好，最好是靠近科工館或建工商圈，且走路就能到輕軌站的物件。",
+      "reason": "Abstractly describes a budget-conscious buyer seeking '高CP值' (implied by the large interior area for the price) while anchoring the search to the specific local landmarks and transit convenience.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS174605"
+}

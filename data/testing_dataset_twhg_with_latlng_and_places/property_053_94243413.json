@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找小港區捷運附近，總價五百萬內，水電管線有全部換新，而且兩間衛浴都有開窗的翻新三房公寓。",
+      "reason": "Simple query stacking location (Xiaogang, MRT), price (under 5M), critical renovation detail (plumbing/electrical replacement), and the unique feature that both bathrooms have windows (衛浴開窗).",
+      "type": "simple"
+    },
+    {
+      "question": "我要找小港區四樓的公寓，希望是精緻裝潢可直接入住，裡面要有附床組，而且其中一間房間要有像和室那種大量收納櫃的設計。",
+      "reason": "Simple query targeting the specific floor (4F), move-in readiness (精緻裝潢, 附床組), and the highly specific feature of the multi-functional room (大量收納櫃).",
+      "type": "simple"
+    },
+    {
+      "question": "預算四百多萬，想買小港區的邊間公寓，要求採光通風要好，廚房是開放式一字型流理台，適合單身或小家庭的。",
+      "reason": "Simple query using the corner unit feature (路口邊間) as the anchor for light/ventilation, specifying the kitchen layout (一字型流理台), and price range (4M+).",
+      "type": "simple"
+    },
+    {
+      "question": "找小港區屋齡較高的公寓，但內部必須是全新翻修，客廳鋪木紋地板，衛浴要用木紋防滑地磚，希望是三房格局。",
+      "reason": "Simple query addressing the property age (46 years) but demanding full renovation, specifically mentioning the wood-grain flooring in both the main living area and the bathroom (木紋防滑地磚) for high specificity.",
+      "type": "simple"
+    },
+    {
+      "question": "我在小港工業區上班，想找附近通勤方便的公寓，需要有三個房間，而且廚房要能直接通往後陽台曬衣區，方便洗曬衣物。",
+      "reason": "Simple query linking the location feature (臨近工業區/convenient employment) with a practical utility requirement (廚房直接通往後陽台/work balcony access).",
+      "type": "simple"
+    },
+    {
+      "question": "我是剛到小港工業區報到的工程師，希望找一間不用整理、家具齊全、拎包入住的精裝修三房公寓，最好是水電管線都已經更新過的，住起來才安心。",
+      "reason": "Abstract query for a young professional prioritizing immediate move-in (拎包入住, 家具齊全) and safety/low maintenance, specifically demanding the critical infrastructure update (水電管線更新) for an older building.",
+      "type": "abstract"
+    },
+    {
+      "question": "家裡有小孩，很重視衛浴的通風和採光，希望兩間廁所都要有對外窗。另外，需要一間可以當遊戲室或書房，且有超大收納櫃的房間，地板最好是好清潔的木紋材質。",
+      "reason": "Abstract query based on a family persona prioritizing hygiene and storage. Maps to 衛浴開窗 (both bathrooms), 大量收納櫃 (multi-functional room), and easy-to-clean flooring.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們年紀大了，想找小港區總樓高五樓的公寓，樓層不要太高（四樓可接受），但一定要是邊間，確保採光和通風是最好的，避免爬樓梯又住到暗房。",
+      "reason": "Abstract query for an older couple prioritizing low-floor access (4F/5F) while demanding the corner unit feature (邊間) to guarantee superior natural light and ventilation, a key concern for walk-up apartments.",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡在家宴客，希望客餐廳是開放式格局，用餐區要夠寬敞可以放得下大餐桌。雖然廚房是小型的，但流理台上下櫃的收納空間一定要足夠。",
+      "reason": "Abstract query for a home chef/entertainer focusing on the open layout (開放客餐廳), spacious dining area (用餐區寬敞), and sufficient kitchen storage (櫥櫃收納足夠).",
+      "type": "abstract"
+    },
+    {
+      "question": "預算抓在五百萬內，想在小港區找一間CP值最高的翻新三房。最重要的是，這間房子的水電管線必須已經全部更新過，確保未來十年內不會有大筆維修費用。",
+      "reason": "Abstract query for a budget-conscious first-time buyer or investor prioritizing value (CP值高) and demanding proof of major infrastructure replacement (水電管線必須已經全部更新過) to mitigate future repair risks.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS186305"
+}

@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找燕巢區全新完工的電梯別墅，預算三千五百萬內，要求主臥衛浴必須有浴缸且對外開窗，方便長輩使用。",
+      "reason": "This simple query stacks five constraints: specific location (燕巢區), condition (全新完工), type (電梯別墅), price ceiling (三千五百萬內), and a specific luxury feature (主衛浴有浴缸且對外開窗), ensuring high recall accuracy based on the detailed bathroom tags (Image 5).",
+      "type": "simple"
+    },
+    {
+      "question": "我要找屋齡一年內、格局方正的透天，廚房需要有瓦斯爐具和足夠的檯面空間備料，且臥室地板要是木紋磚材質。",
+      "reason": "This query targets specific material and functional details: property age (屋齡一年內), layout (格局方正), kitchen setup (瓦斯爐具, 檯面寬敞), and the specific flooring used in the private areas (木紋磚), which is mentioned across multiple bedroom image tags.",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有在燕巢國小附近，所有衛浴都有開窗的透天？需要有大面積的工作陽台，可以規劃洗衣區並有預留水電管線。",
+      "reason": "This query uses a local landmark (燕巢國小) and two critical functional requirements: the rare feature of all bathrooms having windows (衛浴皆有開窗) and the specific utility details of the working balcony (大面積, 預留水電管線).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找高樓底設計的豪華別墅，客廳要有大面落地窗採光，且公共空間的地板要是亮面磁磚，看起來比較氣派。",
+      "reason": "This query focuses on architectural and aesthetic features indicative of a luxury property: high ceiling (高樓底), specific lighting source (大面落地窗), and the material used in the public areas (亮面磁磚).",
+      "type": "simple"
+    },
+    {
+      "question": "找燕巢區鄰近寶雅或全聯的四房五衛電梯別墅，要求至少兩間次衛浴要有乾溼分離的淋浴拉門。",
+      "reason": "This query combines commercial anchors (寶雅/全聯), exact room count (四房五衛), property type (電梯別墅), and a specific functional requirement for secondary bathrooms (乾溼分離的淋浴拉門, referencing Image 8).",
+      "type": "simple"
+    },
+    {
+      "question": "我們家有幼兒，希望找一間新成屋，最好是電梯別墅方便推嬰兒車，而且需要有浴缸可以幫小孩洗澡，臥室地板要溫潤好打理的木紋材質。",
+      "reason": "This abstract query uses the persona of a family with young children. The needs (推嬰兒車, 幫小孩洗澡, 溫潤地板) map directly to the property features: 電梯, 浴缸, and 木紋磚。",
+      "type": "abstract"
+    },
+    {
+      "question": "我很喜歡在家開伙宴客，需要一個收納充足、有雙口瓦斯爐的L型廚房，而且客廳旁邊要有足夠的空間可以規劃獨立的餐廳區。",
+      "reason": "This query targets the 'home chef' persona. It requires specific kitchen details (收納充足, 雙口瓦斯爐, L型流理台) and leverages the unique layout feature mentioned in the living room tags (可規劃餐廳區).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是SOHO族，需要至少兩間採光通風都很好的房間當作獨立書房，而且希望房子是全新完工的，不用再花時間裝修。",
+      "reason": "The SOHO persona requires multiple, high-quality workspaces. This maps to the property's multiple flexible rooms (多功能房/臥室) explicitly tagged with '採光通風佳' and the '全新完工' status.",
+      "type": "abstract"
+    },
+    {
+      "question": "為了讓年邁的父母住得舒適，想找有室內電梯的五層樓別墅，希望房間和公共區域的動線都要順暢，且地面材質要易清潔、好打理。",
+      "reason": "This query addresses accessibility and maintenance for elderly residents. It requires the core feature (室內電梯, 五層樓) and links comfort/safety to specific design elements (動線順暢, 地面易清潔/亮面磁磚).",
+      "type": "abstract"
+    },
+    {
+      "question": "我很注重清潔，希望廚房流理台後方有玻璃防濺板，而且衛浴設備必須是新穎的，最好是乾溼分離且有對外窗，避免潮濕發霉。",
+      "reason": "This query focuses on a detail-oriented buyer prioritizing hygiene. It specifically calls out the unique kitchen feature (玻璃防濺板) and stacks the ideal bathroom configuration (新穎設備, 乾溼分離, 對外窗) which is present in the main and secondary bathrooms.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS178399"
+}

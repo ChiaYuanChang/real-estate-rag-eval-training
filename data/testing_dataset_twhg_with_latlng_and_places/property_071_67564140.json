@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我想找左營區近台積電廠區，總價2500萬以內，一樓有面寬的店面，交通要方便近國10或台17線。",
+      "reason": "This simple query stacks location (Zuoying, near TSMC), price constraint (under 25M), property type (1F storefront, wide frontage), and infrastructure proximity (Hwy 10/17). These are all explicitly mentioned in the metadata.",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有高雄左營區，適合做咖啡廳或工作室的物件？室內要有大面積拋光磚易清潔，而且最好有夾層可以自住使用。",
+      "reason": "This query targets the specific usage scenario (cafe/studio), the unique structural feature (夾層可自住), and a specific material detail (大面積拋光磚適合家庭與店面).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一個客廳有整面落地窗採光好的物件，主臥衛浴必須是乾濕分離且有玻璃拉門，臥室要鋪設木紋地板。",
+      "reason": "This query stacks three specific interior design constraints: large floor-to-ceiling windows in the living area, a main bathroom with wet/dry separation via a glass door, and wood-grain flooring in the bedrooms.",
+      "type": "simple"
+    },
+    {
+      "question": "找左營區可以住辦合一的店面，希望一樓有現成的櫃台基礎，方便規劃開放式吧台或廚房，且格局方正。",
+      "reason": "This query focuses on the mixed-use potential (住辦合一) and the existing infrastructure detail (現有櫃台設備基礎) which allows for easy planning of an open bar or kitchen.",
+      "type": "simple"
+    },
+    {
+      "question": "請問左營區有沒有靠近左營三角公園的店面？希望附近有永清國小和大義國中，方便接送小孩。",
+      "reason": "This query uses specific, less common neighborhood anchors: the Zuoying Triangle Park and the two specific schools (永清國小, 大義國中) mentioned in the proximity list.",
+      "type": "simple"
+    },
+    {
+      "question": "我是室內設計師，想找一個在美術館或漢神巨蛋附近，可以當作展示空間的店面。要求室內採光要非常好，有大面落地窗，而且地坪要耐磨好清潔，方便我展示大型家具。",
+      "reason": "This abstract query defines a persona (designer) needing a showroom. It maps the need for display space to the property's features: proximity to commercial centers (美術館/漢神巨蛋), excellent light (大面採光), and durable, easy-to-clean floors (拋光磚).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是雙薪家庭，看好台積電設廠後的增值潛力，想在左營找一個有投資價值的物件。希望附近新大樓多，戶數集中，且走路能到國小國中，方便小孩上下學。",
+      "reason": "This query targets an investor/family persona focused on future value (台積電增值可期). It requires the property to be in a developing area (附近新大樓林立, 戶數多) and close to the specific schools mentioned (永清國小, 大義國中).",
+      "type": "abstract"
+    },
+    {
+      "question": "我經營小型工作室，需要一個動線明確、管理方便的空間。希望櫃台區和座位區的界線清楚，出入口與櫃台位置要集中，方便我掌握進出人員。",
+      "reason": "This query addresses the pain point of a small business owner needing efficient management. It maps directly to the tags describing the layout: 動線集中, 前後動線順暢, and 開放式格局 with clear counter/seating separation.",
+      "type": "abstract"
+    },
+    {
+      "question": "雖然是店面，但我更重視居住品質。希望主臥室空間要夠寬敞，可以放按摩椅，而且臥室地板要是木紋材質，腳感比較溫暖舒適。",
+      "reason": "This query focuses on the residential aspect of the mixed-use property. It requires a spacious master bedroom (空間寬敞), specific appliance space (按摩椅/電器空間預留), and the comfort feature of wood-grain flooring (木紋地板提升舒適度).",
+      "type": "abstract"
+    },
+    {
+      "question": "我常需要招待客戶或舉辦小型聚會，希望一樓大廳的採光和通風都要非常好，天花板不能有壓樑，而且要有獨立的客用衛浴，不用擔心客人使用到私人空間。",
+      "reason": "This query describes a host/professional need for a presentable public space. It requires high-quality main hall features (大面採光, 通風佳, 天花高度佳/無壓樑) and the functional requirement of a separate guest-only bathroom (客用衛浴, 乾區為主).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "NT08349613"
+}

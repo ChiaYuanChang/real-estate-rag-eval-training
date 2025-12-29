@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找高雄大社800萬以內，近國道一號方便通勤的公寓，希望其中一間房有轉角窗設計，且已附書桌吊櫃和冷氣。",
+      "reason": "Simple Query combining location (大社, 近國道1號), price (800萬內), and specific unique interior features (轉角窗, 書桌吊櫃, 已裝冷氣) found in臥室C/書房 tags.",
+      "type": "simple"
+    },
+    {
+      "question": "我要找大社路附近，格局方正的3房，客廳有附沙發茶几等基本家具，主臥要有內建收納櫃和固定床架，公區是磨石子地坪的物件。",
+      "reason": "Simple Query stacking layout constraints (方正格局, 3房) with specific included items (基本家具附贈, 內建收納櫃, 固定床架) and flooring type (磨石子地坪).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有大社地區30年左右的公寓，雖然衛浴設備老舊需要翻新，但兩間浴室都有浴缸，且廚房是雙一字工作動線的物件？",
+      "reason": "Simple Query focusing on property age (30年), specific functional requirements (兩間浴缸, 雙一字工作動線), while acknowledging a negative attribute (設備老舊需翻新) to increase specificity.",
+      "type": "simple"
+    },
+    {
+      "question": "尋找採光通風極佳的南北向三房，客廳要有電扇燈設備，主臥最好有落地窗可以直接通往陽台晾曬衣物。",
+      "reason": "Simple Query emphasizing orientation (S-N), lighting/ventilation (採光通風佳), and specific fixtures (電扇燈設備) and structural access (主臥落地窗通陽台).",
+      "type": "simple"
+    },
+    {
+      "question": "鎖定大社國小國中學區房，希望有獨立玄關動線，臥室鋪設木紋地板，可以接受廚房通道略為狹窄的物件。",
+      "reason": "Simple Query combining location anchor (近學校), layout detail (獨立玄關動線), flooring (木紋地板), and a specific drawback (廚房略為狹窄) to narrow the search.",
+      "type": "simple"
+    },
+    {
+      "question": "我們是剛結婚的首購族，預算抓在800萬內，希望找大社附近，室內維護整潔，且客廳家具和臥室收納櫃、冷氣都已經備妥，可以拎包入住的物件。",
+      "reason": "Abstract Query based on the 'First-Time Buyer/Move-in Ready' persona. Maps to tags: 基本家具附贈, 內建收納櫃, 已裝冷氣, 室內維護尚可, and the total price.",
+      "type": "abstract"
+    },
+    {
+      "question": "我家有兩個小孩，想找近公園、公領域地面平整無高低差的房子，最重要的是兩間衛浴都要有浴缸，方便幫小朋友洗澡，乾濕分離不是必要條件。",
+      "reason": "Abstract Query based on the 'Family with Young Children' persona. Maps to tags: 近公園, 地面無高低差 (safety), 兩間衛浴都有浴缸, and explicitly accepts 乾溼不分離.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是SOHO族，需要一個採光好的獨立工作空間，希望該空間有轉角窗、內建書桌、吊櫃和展示櫃，且公私領域分區清楚，避免工作時被打擾。",
+      "reason": "Abstract Query based on the 'WFH Professional' persona. Maps directly to the detailed tags of 臥室C/書房 (轉角窗, 書桌吊櫃, 展示櫃) and the layout feature 公私分區明確.",
+      "type": "abstract"
+    },
+    {
+      "question": "尋找大社地區30年左右的優質社區老公寓，我打算自行翻新，所以可以接受衛浴和廚房磁磚樣式較舊，但希望格局方正，且裝潢簡約好拆除改造。",
+      "reason": "Abstract Query based on the 'Investor/DIY Enthusiast' persona. Maps to property age (30年), accepts negative tags (衛浴/廚房磁磚老舊), and requires positive structural tags (格局方正, 裝潢簡約易改造).",
+      "type": "abstract"
+    },
+    {
+      "question": "退休長輩想找高雄大社採光通風好的南北向住宅，希望客廳有大面窗，臥室鋪設木紋地板腳感較溫暖，主臥最好有陽台可以曬曬太陽。",
+      "reason": "Abstract Query based on the 'Elderly Couple' persona. Focuses on comfort and light. Maps to tags: 南北向, 採光佳(大面窗戶), 臥室木紋地板, and 主臥可通往陽台 (for sun exposure).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "JC27234122"
+}

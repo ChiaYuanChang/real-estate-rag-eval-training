@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓土庫商圈，預算850萬內，要找有和室架高地台，且主臥有雙窗設計的高樓層兩房。",
+      "reason": "Simple query stacking location (土庫商圈), price cap (850萬), floor level (高樓層), and two specific bedroom features (和室架高地台, 雙窗設計) found in the tags.",
+      "type": "simple"
+    },
+    {
+      "question": "尋找楠梓車站附近，有固定機車位，衛浴必須有對外窗，且廚房是一字型瓦斯爐配置的精美兩房。",
+      "reason": "Simple query combining transportation proximity (楠梓車站), specific parking type (固定機車位), essential bathroom feature (衛浴有對外窗), and kitchen layout/appliance type (一字型瓦斯爐).",
+      "type": "simple"
+    },
+    {
+      "question": "我要找高樓層已裝潢好的小資宅，客廳要有L型沙發，次臥要有粉色大衣櫃，且附有洗衣機冰箱可直接入住。",
+      "reason": "Simple query focusing on decoration level (精美裝潢), floor level (高樓層), specific furniture details (L型沙發, 粉色大衣櫃), and move-in readiness (附洗衣機冰箱).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近楠梓國小學區，屋齡15年內，總價820萬左右，大樓公設大廳要有大尺度挑高空間的兩房。",
+      "reason": "Simple query combining school district proximity (楠梓國小), age constraint (15年內), tight price range (820萬左右), and a specific common area feature (大尺度挑高空間).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找朝向西北或東南的高樓層兩房，室內收納要充足，主臥要有架高床架，次臥要有到頂衣櫃。",
+      "reason": "Simple query using the specific orientation (NW-SE), floor level, and stacking two distinct storage solutions mentioned in the tags (架高床架, 到頂衣櫃).",
+      "type": "simple"
+    },
+    {
+      "question": "我是高科大的學生，需要一個安靜、採光好的地方讀書，希望次臥有內建書桌和層板，而且要有足夠的空間放行李雜物，最好是有架高地台可以收納。",
+      "reason": "Abstract query targeting a student persona (高科大) whose needs map directly to the secondary room features: study area (內建書桌, 層板) and specialized storage (架高地台).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們很常在家開伙，需要有瓦斯爐的廚房，而且希望油煙能容易排出。另外，衛浴一定要有對外窗，避免潮濕發霉，最好是乾濕分離的。",
+      "reason": "Abstract query focusing on cooking and hygiene needs. This requires a gas stove (瓦斯爐), ventilation (靠陽台出口), and the critical bathroom features (衛浴有對外窗, 乾濕分離).",
+      "type": "abstract"
+    },
+    {
+      "question": "第一次買房，希望是精美裝潢且基本家具都齊全的，客廳地坪要是亮面磁磚好打掃。最重要的是，我只有機車，所以必須要有固定的機車車位。",
+      "reason": "Abstract query representing a first-time buyer prioritizing low maintenance (亮面磁磚, 精美裝潢), move-in readiness (家具齊全), and the specific parking constraint (固定機車車位).",
+      "type": "abstract"
+    },
+    {
+      "question": "我希望找一間可以當作女兒房的兩房，希望房間裡有現成的粉色系收納櫃，而且要有鏡面設計可以讓空間看起來大一點。",
+      "reason": "Abstract query using a specific aesthetic requirement (粉色系收納櫃) and design feature (鏡面設計) which are unique tags found in the secondary bedroom description.",
+      "type": "abstract"
+    },
+    {
+      "question": "我很重視社區門面和管理，希望大樓公設大廳是挑高設計，看起來氣派，而且環境維護要良好。地點要在楠梓家樂福附近，方便採買。",
+      "reason": "Abstract query focusing on building quality and management, requiring the specific common area feature (大尺度挑高空間, 維護良好) and proximity to a key landmark (楠梓家樂福).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS184357"
+}

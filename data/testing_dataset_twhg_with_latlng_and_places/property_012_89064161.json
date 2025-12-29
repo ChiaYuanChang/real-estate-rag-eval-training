@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓區總價千萬內，靠近R20捷運站，高樓層要有室內平面車位，格局是兩房一衛，且客廳要有大片落地窗採光。",
+      "reason": "Stacks location (Nanzi), price (<10M), specific transit (R20 MRT, 5 min walk), floor (High), parking type (Indoor Flat), layout (2R1B), and a specific visual feature (Floor-to-ceiling window/大片落地窗).",
+      "type": "simple"
+    },
+    {
+      "question": "找屋齡兩年內的新大樓，需要一字型廚房且有規劃電器櫃，希望近國道一號交流道，室內實坪要超過11坪。",
+      "reason": "Uses specific kitchen layout (I-shaped, appliance cabinet/電器櫃規劃), age (2 years), highway access (5 min drive), and interior area constraint (11.79 ping).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有附帶基本家具的兩房，希望是高樓層景觀宅，朝向西北-東南，且主臥室要有整排大衣櫃收納。",
+      "reason": "Combines furniture inclusion (附傢俱), high floor view (高樓層景觀宅), specific orientation (NW-SE), and large storage capacity (整排大衣櫃).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要有乾濕分離衛浴的兩房，但浴室沒有開窗沒關係，社區要有健身房公設，且陽台要有安全格柵。",
+      "reason": "Targets the specific bathroom feature (dry/wet separation) and flaw (no window/回收通風疑慮), plus amenity (gym) and the unique safety feature (安全格柵).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近台積電廠區的兩房，總價希望控制在998萬左右，客廳與陽台採光要極佳，且有獨立的洗衣機空間。",
+      "reason": "Uses the specific price anchor (998萬), location (near TSMC), high light quality (採光極佳), and functional laundry area (已設洗衣機/陽台洗衣區).",
+      "type": "simple"
+    },
+    {
+      "question": "我是台積電工程師，希望找一間下班後可以快速到家，且不用花時間裝潢的兩房，最好是高樓層，要有室內平面車位。",
+      "reason": "Maps 'TSMC engineer' to proximity (near TSMC), 'no time to renovate' to move-in ready/furnished (附傢俱), and stacks high floor and flat parking.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是新婚夫妻，喜歡在家裡煮飯，希望廚房是功能完整的一字型，有電器櫃可以放烤箱，而且客廳格局方正，地磚要淺色系好清潔維護。",
+      "reason": "Focuses on detailed kitchen features (I-shaped, appliance cabinet, complete function) and the aesthetic/maintenance tags (square layout, light-colored, easy-to-clean floor tiles).",
+      "type": "abstract"
+    },
+    {
+      "question": "家裡有幼童，想找楠梓區屋齡新的大樓，陽台必須有安全格柵，而且要有足夠的晾衣空間，主臥室需要有大量的收納衣櫃。",
+      "reason": "Uses the specific safety feature (安全格柵) and links it to the demographic (幼童), combined with new age (2 years), large storage, and functional laundry area.",
+      "type": "abstract"
+    },
+    {
+      "question": "我經常需要開車出差，希望住家離國道一號交流道越近越好，而且社區管理要完善，公設看起來要新穎明亮，最好是高樓層視野開闊。",
+      "reason": "Maps frequent travel to highway access (5 min drive) and emphasizes the visual cues of good management (new facilities, bright lobby, good maintenance) and high floor view.",
+      "type": "abstract"
+    },
+    {
+      "question": "我追求生活動線順暢，希望客廳採光是極佳的大面落地窗，衛浴一定要做乾濕分離，但可以接受浴室沒有開窗，總價希望控制在998萬左右。",
+      "reason": "Combines the strong light/ventilation features (落地窗, 動線順暢), the specific bathroom configuration (dry/wet separation, lack of window), and the precise price anchor (998萬).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "CW67133884"
+}

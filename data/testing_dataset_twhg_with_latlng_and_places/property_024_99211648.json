@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓區總價千萬內，屋齡雖高但水電管線已全部換新，且要求雙衛浴都有對外窗的超大三房。",
+      "reason": "Simple Query: Directly stacks three critical renovation and layout features: price constraint (998萬), infrastructure update (水電全部換新), and specific bathroom requirement (雙衛皆開窗).",
+      "type": "simple"
+    },
+    {
+      "question": "找楠梓莒光國小附近，室內使用空間大，裝潢使用全新拋光石英磚，且廚房配備全新歐式廚具的獨立廚房格局。",
+      "reason": "Simple Query: Focuses on specific material and appliance details (全新拋光石英磚, 全新歐式廚具) combined with proximity to a specific school (莒光國小) and the layout requirement (獨立廚房空間).",
+      "type": "simple"
+    },
+    {
+      "question": "希望靠近世運捷運站，格局要求三面採光，有前後大陽台，且其中一間次臥必須是雙面採光的方正格局。",
+      "reason": "Simple Query: Stacks multiple unique lighting and ventilation features (三面採光, 前後大陽台, 次臥雙面採光) anchored by the nearby MRT station (世運捷運站).",
+      "type": "simple"
+    },
+    {
+      "question": "楠梓軍校路附近，室內坪數要接近30坪的大三房，希望一進門就有完善的玄關櫃收納空間。",
+      "reason": "Simple Query: Tests recall on the exact interior area (29.77坪) and the specific mention of the entrance storage solution (玄關櫃完善, 收納量大).",
+      "type": "simple"
+    },
+    {
+      "question": "找屋齡約35年但已做過全新精緻裝潢的物件，要求公領域使用亮面地磚且客餐廳空間開闊，適合擺放大型家具。",
+      "reason": "Simple Query: Combines the property age (35年) with the 'deluxe/newly renovated' status and the specific layout tags (超大客餐廳, 空間感開闊, 亮面地磚).",
+      "type": "simple"
+    },
+    {
+      "question": "我們是雙薪家庭，希望找一間完全不用整理、可立即入住的精裝修三房。因為有小孩，特別要求衛浴一定要有開窗，且水電管線最好是近期有更新過的。",
+      "reason": "Abstract Query: Persona (雙薪家庭, 有小孩) implies a need for safety and low maintenance, mapping directly to the critical features: '水電全部換新' and '全新衛浴雙衛皆開窗'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我在台積電上班，希望找一間離世運捷運站不遠的房子。因為常在家工作，需要一個採光通風極佳的次臥當書房，而且廚房必須是獨立空間，避免油煙影響客廳。",
+      "reason": "Abstract Query: Persona (TSMC worker) implies location needs (近世運捷運站). The WFH requirement maps to the unique features '次臥1: 雙面採光' (ideal for study) and '獨立廚房空間' (oil smoke isolation).",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡邀請朋友來家裡聚餐，所以非常重視公領域的空間感。希望客餐廳是連貫且開闊的，能擺放大型沙發和餐桌，動線也要順暢。",
+      "reason": "Abstract Query: Persona (Host/Entertainer) requires large public space, mapping to the tags '超大客餐廳', '餐客一體', '空間感開闊', and '家具擺放彈性'.",
+      "type": "abstract"
+    },
+    {
+      "question": "幫長輩找房，最重視採光和通風，希望是三面採光，且全室通風對流要好，避免潮濕。另外，因為是老屋，希望屋主已經處理好水電管線更新的問題。",
+      "reason": "Abstract Query: Focuses on health and safety concerns for the elderly, linking the need for good air quality (避免潮濕) to '三面採光', '通風好', and the safety feature '水電全部換新'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是收納控，希望家裡有明確的玄關落塵區，且入口處要有大量的木作收納櫃。主臥也必須配備完整的系統櫃，讓我不用再額外添購。",
+      "reason": "Abstract Query: Persona (Storage Enthusiast) requires specific storage solutions, mapping directly to the detailed tags: '玄關落塵區明確', '收納量大', and '主臥房: 系統收納櫃齊全'.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS186645"
+}

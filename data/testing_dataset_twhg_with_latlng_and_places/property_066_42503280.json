@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "橋頭區，總價1500萬內，頂樓高樓層景觀宅，要有吊隱式冷氣，以及機械平移車位。",
+      "reason": "This query stacks five specific constraints: district (橋頭區), price cap (1500萬內), floor level (頂樓高樓層, 15F/15F), specific appliance installation (吊隱式冷氣), and parking type (機械平移車位).",
+      "type": "simple"
+    },
+    {
+      "question": "找橋頭實驗中學附近的3房，客廳必須是方正格局且鋪設大尺寸拋光磚，衛浴要有開窗且使用止滑磚。",
+      "reason": "This query combines a key local landmark (實驗中學), room count (3房), a specific material detail (大尺寸拋光磚), and two critical bathroom features (衛浴開窗, 止滑磚) found in the image tags.",
+      "type": "simple"
+    },
+    {
+      "question": "德賢商圈附近，3房2廳，希望客餐廳是連通格局，且有軌道燈照明，臥室要有內建大面衣櫃。",
+      "reason": "This query targets the commercial area (德賢商圈), layout (連通格局), specific lighting fixture (軌道燈), and a unique built-in feature (大面衣櫃) mentioned in the bedroom tags.",
+      "type": "simple"
+    },
+    {
+      "question": "6年屋，近青埔捷運站，需要有雙陽台，且主衛浴空間大，附有浴缸和石紋磁磚裝潢。",
+      "reason": "This query stacks property age (6年屋), transit proximity (青埔捷運站), exterior feature (雙陽台), and detailed, high-value bathroom amenities (大空間, 浴缸, 石紋磁磚).",
+      "type": "simple"
+    },
+    {
+      "question": "預算1498萬左右，面中庭景觀的輕裝潢3房，必須提供兩個室內機車位。",
+      "reason": "This query uses the exact price, the specific view (面中庭), decoration level (輕裝潢), and the highly unique parking requirement (兩個室內機車位) for high recall accuracy.",
+      "type": "simple"
+    },
+    {
+      "question": "我是橋科的工程師，希望找一間下班後可以走路或騎車五分鐘到家樂福採買的房子。希望是輕裝潢，客廳採光要非常好，而且已經裝好吊隱式冷氣，不用再花時間裝修。",
+      "reason": "This abstract query maps a persona (橋科工程師) to location convenience (近家樂福), and links the desire for move-in readiness to specific features (輕裝潢, 採光非常好, 吊隱式冷氣).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有小孩，希望找學區房，最好是實驗中學旁邊。衛浴一定要有對外窗確保通風，而且至少一間浴室要有浴缸，地面最好是止滑磚，確保小朋友洗澡安全。",
+      "reason": "This query represents a family persona, mapping educational needs (實驗中學) and safety concerns to specific property features (衛浴有對外窗, 浴缸, 止滑磚).",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個安靜的頂樓空間，方便在家辦公或讀書。希望臥室內建有書桌位和收納層板，客廳要有大面落地窗，讓我在休息時能享受景觀。",
+      "reason": "This query targets a home office/student persona, requiring the top floor (頂樓), dedicated workspace features (內建書桌位, 收納層板), and the specific aesthetic feature (大面落地窗) for the view.",
+      "type": "abstract"
+    },
+    {
+      "question": "考慮橋科未來發展性，想找一間有增值潛力的房子。我需要一個機械平移車位，而且家裡有兩台機車，必須要有室內機車位可以停放。",
+      "reason": "This query uses investment context (橋科未來發展性) as the anchor, combined with the highly specific and unique parking requirements (機械平移車位, 兩個室內機車位).",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡開放式設計，希望客餐廳是連通格局，牆面留白好規劃。衛浴希望是新穎的石紋磁磚裝潢，客廳地面要用大尺寸拋光磚，看起來大氣。",
+      "reason": "This query focuses on aesthetic and material preferences, linking the desire for open design (連通格局, 牆面留白) to specific high-end finishes mentioned in the tags (石紋磁磚, 大尺寸拋光磚).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "FB49252244"
+}

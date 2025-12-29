@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我想找鼓山區明誠中學附近的公寓，預算在800萬內，屋齡雖然高但必須是近期有做過全室翻新，而且水電管線路都已經重拉過的二樓物件。",
+      "reason": "Simple query stacking location (Gushan, Mingcheng School), price constraint (under 8M), floor (2F), and the critical unique renovation detail (管線路重拉).",
+      "type": "simple"
+    },
+    {
+      "question": "請推薦鼓山區中華一路附近，有前後大陽台的三房兩廳公寓，要求衛浴一定要有對外窗，且客廳必須是採光佳的大面落地窗設計。",
+      "reason": "Simple query focusing on specific layout features: location (中華一路), structure (3R2L apartment), dual balconies (前後大陽台), and two key quality-of-life features (衛浴開窗 and 大面落地窗).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一間屋況新免整理的精緻裝潢公寓，希望主臥室有整面嵌入式衣櫃，且能直接連接陽台方便曬被，樓層在四樓以下。",
+      "reason": "Simple query targeting specific interior design and functionality: deluxe decoration (精緻裝潢), move-in ready (屋況新免整理), and the unique master bedroom features (整面嵌入式衣櫃 and 直接連接陽台).",
+      "type": "simple"
+    },
+    {
+      "question": "找近美術公園的3房公寓，希望室內地坪是拋光磚材質易於打掃，廚房是新穎的一字型廚具，且收納空間足夠。",
+      "reason": "Simple query combining a nearby landmark (美術公園), layout (3R), and specific material/fixture requirements (拋光磚地板, 新穎一字型廚具, 收納空間足夠).",
+      "type": "simple"
+    },
+    {
+      "question": "鼓山區二樓公寓，要求房間格局方正，其中一間臥室必須有雙面窗戶確保通風良好，客廳天花板要有間接照明設計。",
+      "reason": "Simple query focusing on architectural details and lighting: floor (2F), room shape (房間方正), unique bedroom feature (雙面窗戶), and specific decoration detail (間接照明天花設計).",
+      "type": "simple"
+    },
+    {
+      "question": "我是SOHO族，需要一個安靜且採光好的工作環境。希望房子在鼓山區，其中一間臥室已經配置好書桌工作區，且客廳有足夠的收納展示櫃，方便我擺放設備。",
+      "reason": "Abstract query based on a WFH persona (SOHO族). Maps the need for a workspace to the '臥室一(帶書桌)' tag, and the need for storage to the '收納展示一體' tag.",
+      "type": "abstract"
+    },
+    {
+      "question": "家裡有長輩，不方便爬樓梯，希望找鼓山區低樓層（二樓佳）的公寓。雖然是老屋，但要求屋主已經處理過最麻煩的水電管線問題，可以馬上入住，不用再動工。",
+      "reason": "Abstract query based on mobility/elderly concerns. Maps the pain point (climbing stairs, old house risk) to the required features: low floor (二樓), and the critical renovation detail (水電管線路重拉).",
+      "type": "abstract"
+    },
+    {
+      "question": "我對廚房要求很高，希望找鼓山區有翻新過的公寓，廚房必須是全新的『一字型廚具』，且有足夠的上下櫃收納空間，同時衛浴一定要有對外窗，避免潮濕。",
+      "reason": "Abstract query based on a 'Home Chef' persona. Maps the desire for a functional kitchen to the '一字型廚具新穎' and '收納空間足夠' tags, and the hygiene concern to the '衛浴開窗' feature.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是新婚夫妻，希望找一間裝潢風格現代、家具齊全的物件，最好是客廳有大面落地窗，主臥室有系統櫃或整面衣櫃，讓我們可以一卡皮箱入住。",
+      "reason": "Abstract query based on a 'New Couple/Move-in Ready' scenario. Maps the desire for convenience to '家具齊全', '已裝潢', and the specific storage requirement '整面嵌入式衣櫃' (系統櫃).",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一間通風採光極佳的房子，希望客廳有超大採光面，而且臥室內要有兩面窗戶可以形成對流，同時要有前後陽台方便曬衣與換氣。",
+      "reason": "Abstract query focusing purely on ventilation and light quality. Stacks multiple features related to air flow: '超大採光面', '兩面窗戶進光量大' (臥室三), and '前後大陽台'.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "FL63605277"
+}

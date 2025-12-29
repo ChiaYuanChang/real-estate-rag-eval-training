@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "燕巢區，總價三千多萬的全新電梯透天，要求所有衛浴都要有開窗，而且是邊間採光好的。",
+      "reason": "Simple query stacking location (燕巢), price (三千多萬), type (電梯透天), age (全新), and two critical features (衛浴開窗, 邊間) found in the main description.",
+      "type": "simple"
+    },
+    {
+      "question": "我想找高雄燕巢的大坪數別墅，室內要超過80坪，廚房必須是L型動線，而且有嵌入式烤箱或洗碗機，地板最好是木紋磚。",
+      "reason": "Targets specific interior area (80+ ping), kitchen layout (L型), embedded appliances (嵌入式家電), and flooring material (木紋磚), all detailed in Image 1 and Image 4 tags.",
+      "type": "simple"
+    },
+    {
+      "question": "兩年內的新成屋豪墅，要有五間以上的衛浴，主臥浴室要有浴缸，而且一樓要有寬敞的玄關多功能空間，最好已經有裝冷氣。",
+      "reason": "Targets age (兩年內), high bathroom count (5.0), specific master bath feature (浴缸), and the unique feature of the pre-installed AC in the multi-function space (Image 9 tags).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有近橋科的南北向透天，總價在3600萬左右，室內收納要充足，特別是衛浴要有鏡櫃設計。",
+      "reason": "Targets investment potential (近橋科), orientation (南北向), price point (3600萬), and specific storage features (收納充足, 鏡櫃設計) mentioned in the bathroom tags (Image 3, 6, 8).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近燕巢寶雅或全聯的電梯別墅，格局要方正，客廳要有超大採光面，而且臥室要有連接陽台的設計。",
+      "reason": "Uses local commercial anchors (寶雅/全聯), property type (電梯別墅), and specific image tags (超大採光面 from Image 2, 臥室連接陽台 from Image 5).",
+      "type": "simple"
+    },
+    {
+      "question": "我們家有長輩，需要找一間方便上下樓的透天，希望是新屋況，而且長輩喜歡泡澡，所以主臥衛浴一定要有浴缸，最重要的是所有衛浴都要有對外窗。",
+      "reason": "Abstract query mapping multi-generational needs: easy access maps to 'Elevator', relaxation maps to 'Tub' (主浴室), and health/ventilation maps to 'All bathrooms have windows' (衛浴有開窗).",
+      "type": "abstract"
+    },
+    {
+      "question": "我很喜歡在家裡宴客，需要一個動線流暢、檯面面積大的L型廚房，最好能放洗碗機，而且客餐廳空間要夠大，採光要好到可以不用開燈。",
+      "reason": "Maps entertaining needs to the specific kitchen features (L型, 檯面面積大, 嵌入式家電) and the living room tags (開放式格局, 超大採光面) for natural light.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是SOHO族，需要一個安靜、採光穩定的多功能空間當作工作室，最好是方正格局，而且這個空間最好已經有冷氣，可以馬上進駐工作。",
+      "reason": "Targets the unique '玄關/多功能空間' (Image 9/10) which is described as having stable lighting (採光穩定), being large and square (方正大空間), and having pre-installed AC (已有冷氣).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是小家庭，希望找一間在燕巢國小或國中附近的別墅，因為有小孩，所以地板要耐磨耐髒好清潔的木紋磚，而且需要有乾濕分離的衛浴，確保洗澡安全。",
+      "reason": "Maps family needs to location (近學校), durability/cleanliness to 'Wood-grain tiles' (木紋磚), and safety/hygiene to 'Dry/Wet separation' (乾濕分離), features found across multiple image tags.",
+      "type": "abstract"
+    },
+    {
+      "question": "預算充足，想找高雄燕巢區最高級的電梯豪墅，要求邊間，注重通風對流，希望客廳和臥室都有雙面窗或落地門窗，確保空氣流通。",
+      "reason": "Targets the high price point/type (電梯豪墅), corner unit (邊間), and specific ventilation tags (雙面窗, 落地門窗, 通風良好) indicating a focus on high-quality living environment.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS178680"
+}

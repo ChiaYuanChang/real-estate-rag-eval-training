@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找三民區科工館附近，屋齡40年以上但已經全屋管線翻新過的兩房公寓，預算800萬內，而且一樓過道或地下室可以停放機車。",
+      "reason": "Simple query combining location (三民區, 科工館), structure (40+年公寓, 2房), price (800萬內), and the critical unique feature (全屋管線翻新) and parking detail (可停機車).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有高雄三民區平等路附近，總樓層五樓的二樓公寓，必須是陽台進出，且客廳採光因為外側有鐵捲門影響而偏弱的物件？",
+      "reason": "Simple query stacking specific structural details (5F/2F, 公寓, 陽台進出) with a highly specific image tag detail (客廳採光普通/鐵捲門影響自然光).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找近民族車站，權狀約21坪多，兩房兩衛浴，廚房是一字型流理臺且廚具是新裝修的物件。衛浴可以接受沒有做乾濕分離。",
+      "reason": "Simple query focusing on area size (21.74坪), specific kitchen layout (一字型流理臺, 新裝修廚具), and acknowledging the bathroom constraint (乾溼未分離).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一間已經整新、可拎包入住的兩房，客廳有軌道燈等多組照明設計，且臥室有橫樑壓頂的狀況，需要注意床位配置。",
+      "reason": "Simple query combining the 'move-in ready' status (拎包入住), the specific lighting detail (軌道燈/多組照明), and a unique structural flaw mentioned in the tags (臥室天花略低/橫樑壓頂).",
+      "type": "simple"
+    },
+    {
+      "question": "找高雄三民區，總價798萬，屋齡45年，但已經全屋翻修的兩房兩廳兩衛的低樓層公寓。",
+      "reason": "Directly uses the exact price (798萬), age (45年), and renovation status (全屋翻修) combined with the basic structure (2房2廳2衛, 低樓層公寓).",
+      "type": "simple"
+    },
+    {
+      "question": "我是通勤族，希望住在靠近民族車站或科工館車站附近，而且我完全不想處理老屋的漏水或管線問題，需要一間已經把所有管線都翻新好、可以直接入住的兩房。",
+      "reason": "Abstract query for a commuter (近車站) who prioritizes avoiding old house maintenance issues (不想處理漏水/管線問題), mapping directly to the '全屋管線翻修整新' and '拎包入住' tags.",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡在家開伙，需要一個有瓦斯爐、檯面好操作的一字型廚房。因為是老房子，我很擔心結構安全，請問有沒有那種屋齡較高但已經做過全屋管線翻修的物件？",
+      "reason": "Abstract query for a home chef (喜歡開伙, 瓦斯爐, 一字型流理臺) who is concerned about the integrity of an old property (擔心結構安全), requiring the '全屋管線翻修' anchor.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有長輩，不考慮電梯大樓，想找五樓以下的二樓公寓，希望地磚是亮面且容易清潔的材質，且衛浴是新式設備但沒有做乾濕分離的物件。",
+      "reason": "Abstract query for a family needing a low floor (2樓, 適合長輩), prioritizing easy maintenance (地坪易清理/亮面地磚), and specifying the exact bathroom condition (新式衛浴設備, 乾溼未完全分離).",
+      "type": "abstract"
+    },
+    {
+      "question": "我正在找一間基礎工程已經完成，但牆面仍有留白空間讓我自己規劃收納或層架的兩房。希望客廳已經有軌道燈等多組照明，且臥室是空房狀態，方便我自行設計家具擺位。",
+      "reason": "Abstract query from a design-conscious buyer (牆面留白, 臥室空房好規劃) who appreciates the existing modern lighting upgrades (軌道燈/多組照明), linking multiple image tags.",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個安靜、白天自然光不會太強的居住環境，希望是單層單戶的低樓層公寓，且有足夠空間可以停放機車，地點在三民區科工館附近。",
+      "reason": "Abstract query focusing on privacy and light control (單層單戶, 採光普通/自然光不會太強), combined with the specific structure (低樓層公寓) and parking requirement (可停機車).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS178479"
+}

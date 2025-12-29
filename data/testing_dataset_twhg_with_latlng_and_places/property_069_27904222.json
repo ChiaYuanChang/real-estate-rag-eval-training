@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "鳳山區大東捷運站附近，預算七百萬內，需要有獨立廚房且流理台上方有對外窗的公寓。",
+      "reason": "Simple query stacking location (Fengshan/Dadong MRT), price constraint (under 7M), and the unique kitchen feature (獨立廚房, 流理台上方外窗) found in Tag 3.",
+      "type": "simple"
+    },
+    {
+      "question": "找三房兩廳兩衛的公寓，希望客廳是白色系裝潢，有內建整排電視收納櫃，且地坪是亮面磁磚好清理的。",
+      "reason": "Stacks layout (3/2/2), specific decor (白色系裝潢), and two detailed features from Tags 1, 11, and 12: built-in storage (內建整排電視收納櫃) and specific flooring (亮面磁磚).",
+      "type": "simple"
+    },
+    {
+      "question": "40年以上的老公寓，希望是低樓層（二樓），要有室內機車停車位，且主臥房可以直接通往陽台方便曬衣服。",
+      "reason": "Combines property age (42 years), floor level (2F), the specific parking amenity (室內機車停車位 from Tag 10), and the master bedroom feature (通往陽台 from Tag 4).",
+      "type": "simple"
+    },
+    {
+      "question": "權狀23坪左右，希望採光充足，客廳有大面窗戶，但可以接受衛浴沒有對外窗，只要設備齊全即可。",
+      "reason": "Stacks gross area (23.28 ping), high light requirement (採光充足/大面窗), and explicitly accepts the known drawback (衛浴沒有對外窗) mentioned in Tags 5 and 8, ensuring high recall despite the flaw.",
+      "type": "simple"
+    },
+    {
+      "question": "靠近大東文化中心，有國中小學區，希望是屋況新穎、牆面地坪乾淨明亮，且客廳格局方正的現成公寓。",
+      "reason": "Stacks landmark (大東文化中心), school district (學區房), and move-in ready condition details (牆面地坪乾淨明亮, 格局方正) derived from Tags 1 and 12.",
+      "type": "simple"
+    },
+    {
+      "question": "我是個很注重居家整潔的上班族，希望找鳳山區交通方便的房子，一定要有獨立的廚房空間來減少油煙，而且牆面和地面最好都是全瓷磚材質，方便我打掃。",
+      "reason": "Abstract query based on a cleanliness persona. Requires independent kitchen (獨立廚房空間) and easy-to-clean materials (全瓷磚材質) as detailed in Tag 3, linking lifestyle to specific material requirements.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有小孩，希望找學區房，客廳需要有充足的自然光線，最好是白色地磚能讓室內更明亮，而且客廳動線要順暢，不要有太多遮擋物。",
+      "reason": "Abstract query for a family persona. Requires school district (學區房), high natural light (充足的自然光線), and specific aesthetic/material requirements (白色地磚, 動線順暢) found in Tags 1 and 2.",
+      "type": "abstract"
+    },
+    {
+      "question": "尋找近捷運站（走路可到）的投資型公寓，希望是三房格局，且屋內已經有基本的窗型冷氣和家具，可以馬上出租，不需要額外裝修。",
+      "reason": "Abstract query for an investor persona. Focuses on proximity to MRT (大東捷運站), 3-bedroom layout, and immediate rental readiness, requiring existing window AC (窗型冷氣既有) and basic furniture (基本家具附) from Tags 1, 4, and 6.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們需要一間可以當作書房的小臥室，希望空間方正且採光良好，另外主臥房一定要有陽台門，方便我們直接在房間外晾曬衣物。",
+      "reason": "Abstract query focusing on functional needs: a dedicated workspace (方正, 採光良好 secondary bedroom from Tags 7/9) and specific laundry convenience (主臥房陽台門 from Tag 4).",
+      "type": "abstract"
+    },
+    {
+      "question": "我每天都騎機車通勤，希望找黃埔路附近，總價七百萬以內的房子，最重要的是要有室內機車停車位，這樣下雨天車子才不會淋濕。",
+      "reason": "Abstract query for a scooter commuter persona. Stacks location (黃埔路), price limit (七百萬以內), and the critical amenity (室內機車停車位) detailed in Tag 10.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "FO23216695"
+}

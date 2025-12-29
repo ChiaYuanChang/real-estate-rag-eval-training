@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找前金區中央公園捷運站附近，室內超過30坪的大四房，要求是全部翻新整理過，地板要是拋光磚，可以馬上入住的。",
+      "reason": "This query stacks location (Qianjin, MRT Central Park), size constraint (interior area > 30 ping, actual 33.21), layout (4 bedrooms), renovation status (fully renovated/move-in ready), and a specific material detail (polished tile flooring, mentioned in Image 1, 5, 8, 13).",
+      "type": "simple"
+    },
+    {
+      "question": "預算1300萬到1400萬之間，要找前金區屋齡35年以上但有重新裝潢的華廈，必須有獨立廚房且瓦斯爐具齊全，衛浴空間要寬敞但不用乾濕分離。",
+      "reason": "This query uses a tight price range (1360萬), age constraint (39 years old), renovation status, and specific functional requirements: a separate kitchen with gas stove (Image 4) and spacious bathrooms without wet/dry separation (Image 7, 9, 12).",
+      "type": "simple"
+    },
+    {
+      "question": "請問大立百貨附近有沒有四房的電梯華廈，希望是公領域開闊、動線流暢的長形格局，而且客廳和主臥的家具（沙發、床組、衣櫃）都已經附贈的？",
+      "reason": "This query anchors on the landmark (Da Li Department Store), layout (4BR condo), specific architectural description (long shape, smooth flow, open public area - Image 2, 14), and the critical detail that major furniture items are included (Image 1, 8, 10).",
+      "type": "simple"
+    },
+    {
+      "question": "找前金區四樓的四房，要求臥室採光和通風都要非常好，至少要有兩間次臥是雙向開窗的，而且主臥空間要夠大，可以擺下床組和書桌。",
+      "reason": "This query uses the exact floor number (4F), layout (4BR), and highly specific ventilation requirements derived from image tags (secondary bedrooms with dual/cross-ventilation - Image 5, 6), plus the large, furnished master suite requirement (Image 8, 10).",
+      "type": "simple"
+    },
+    {
+      "question": "我想找靠近新崛江商圈或大立市場，生活機能好的四房，衛浴設備必須是新穎的，而且至少有一間浴室地面有止滑磚，適合長輩使用。",
+      "reason": "This query combines commercial proximity (Xinjuejiang/Market), layout (4BR), and specific safety/condition features: new bathroom fixtures (Image 7, 9, 12) and the presence of anti-slip tiles (Image 12), catering to the 'elderly use' scenario.",
+      "type": "simple"
+    },
+    {
+      "question": "我們是從北部搬來高雄的小家庭，希望找一個不用再花時間裝修，可以拎包入住的四房。因為有小孩，特別要求衛浴空間要夠大，方便親子共浴，而且地板要好清潔的拋光磚。",
+      "reason": "This abstract query implies 'fully renovated' and 'furniture included' (move-in ready). It specifically requests a large 4BR, spacious bathrooms suitable for parent/child use (Image 12), and easy-to-maintain polished tile floors.",
+      "type": "abstract"
+    },
+    {
+      "question": "退休後想住在前金區生活機能好的地方，希望房子是中低樓層（不要爬太高），室內坪數要大，衛浴設備要新，而且空間要寬敞到輪椅或助行器可以方便進出。",
+      "reason": "This persona (retiree) requires a central location (Qianjin), mid-low floor (4/7), large interior area (33.21 ping), and crucially, spacious bathrooms with wide equipment spacing (Image 7, 9, 12), which semantically maps to accessibility for mobility aids.",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個位於高雄市中心，步行可達捷運站和百貨公司的物件。雖然屋齡較高，但要求公領域必須是現代化大翻新，客廳要有大片落地窗採光，而且一定要有獨立的廚房，避免油煙影響客廳。",
+      "reason": "This query focuses on high-density urban living (MRT/Department Store proximity) and demands a major renovation despite the property age (39 years). It specifies the desired features: large French windows for lighting (Image 1) and a separate kitchen to contain cooking fumes (Image 4).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是SOHO族，需要四房來區分工作區和休息區。要求主臥室要有足夠的空間可以設置書桌和衣櫃，而且客餐廳的動線要順暢，適合偶爾在家招待客戶或朋友。",
+      "reason": "This persona (WFH professional) requires a 4-bedroom layout for functional separation. It maps to the large master suite with existing desk/wardrobe setup (Image 8, 10) and the description of a large, open public area with smooth flow suitable for entertaining (Image 2, 14).",
+      "type": "abstract"
+    },
+    {
+      "question": "我對房子的採光和通風要求很高，希望客廳有大片窗戶，而且至少兩間臥室要有雙向開窗的設計，能形成空氣對流。地點要在前金區，靠近大立百貨。",
+      "reason": "This query directly targets the property's strongest features related to air quality and light: large living room windows (Image 1, 13) and the specific detail of cross-ventilation achieved through dual windows in the secondary bedrooms (Image 5, 6), anchored by the Qianjin/Da Li location.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KI86868968"
+}

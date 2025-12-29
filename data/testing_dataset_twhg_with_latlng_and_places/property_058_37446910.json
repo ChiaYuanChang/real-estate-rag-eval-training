@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找梓官蚵寮海邊附近，總價700萬以內，需要全棟翻修的古早味透天厝。",
+      "reason": "Simple query stacking location (梓官蚵寮海邊), price constraint (700萬以內), property type (透天厝), and the critical condition tag (全棟翻修/古早味).",
+      "type": "simple"
+    },
+    {
+      "question": "我想找屋齡超過40年，有5房格局的透天，特別是牆面有嚴重受潮剝落，需要做防水工程的物件。",
+      "reason": "Targets the specific layout (5房), age (46年), and the unique, recurring defect mentioned in the image tags (牆面有嚴重受潮剝落, 牆角受潮明顯).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近蚵仔寮海邊夜市或魚市場，衛浴設備老舊且無乾濕分離，廚房也需要全面更新的兩層樓透天。",
+      "reason": "Combines local landmarks (夜市/魚市場), property type (兩層樓透天), and specific conditions of the wet areas (衛浴無乾濕分離, 廚房需全面更新).",
+      "type": "simple"
+    },
+    {
+      "question": "梓官區權狀不到30坪的透天，有沒有房間採光極差，適合當儲藏室或更衣間的物件？",
+      "reason": "Uses the specific area constraint (權狀不到30坪, 25.92坪) and the unique description of Room C (採光極差, 適合儲物/更衣間).",
+      "type": "simple"
+    },
+    {
+      "question": "找朝向東北-西南的透天，客廳地面是老式拼花石，且玄關有規劃車庫空間的物件。",
+      "reason": "Uses the technical orientation (NE-SW) and specific material/feature tags found in the common areas (老式拼花石, 玄關/車庫空間).",
+      "type": "simple"
+    },
+    {
+      "question": "我是投資客，想找高雄梓官區，靠近漁港或夜市，屋況極差但地點熱鬧，需要從頭到尾自己設計規劃的毛胚老屋。",
+      "reason": "Abstract query targeting an investor persona. Maps '靠近漁港或夜市' (魚市場/夜市), '屋況極差' (全屋須整棟翻修), and '自己設計規劃的毛胚老屋' (裸裝狀態, degree_of_decoration: no).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有三個小孩，希望住在蚵寮國小附近，走路就能到學校，需要至少五個房間，不介意老舊，但要求其中一間臥室採光要通透，適合當主臥。",
+      "reason": "Abstract query focusing on family needs. Maps '蚵寮國小附近' (步行約3分鐘), '至少五個房間' (num_bedroom: 5), and the specific condition of Room B ('採光良好/通風條件佳').",
+      "type": "abstract"
+    },
+    {
+      "question": "預算極低，希望在700萬內找到高雄海邊靜巷的透天，可以接受牆面有嚴重水痕和天花板有滲水疑慮，打算買來慢慢整修。",
+      "reason": "Abstract query targeting a budget buyer accepting severe defects. Maps '700萬內' (688萬), '海邊靜巷' (蚵寮海邊靜巷), and the specific defects '牆面有嚴重水痕' and '天花板有滲水疑慮'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡傳統透天格局，需要一個空間寬敞、有後門可以通風的工作廚房，不要求設備新，但要有基礎水槽和足夠的空間讓我重新規劃流理台動線。",
+      "reason": "Abstract query focusing on a specific functional requirement (kitchen). Maps '空間寬敞' (廚房/工作區 tags), '有後門可以通風', and '基礎水槽' (備有水槽).",
+      "type": "abstract"
+    },
+    {
+      "question": "我有很多收藏品需要儲藏空間，請問有沒有五房的透天，其中有幾間房間是無對外窗、採光極差，適合當作儲藏室或暗房的？",
+      "reason": "Abstract query focusing on a hobbyist need for specific room conditions. Maps '五房的透天' and the unique tags associated with Rooms A and C ('無對外窗', '採光極差', '適合作儲藏室').",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "GC80324861"
+}

@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找小港區松金街附近，總價1700萬內，四百萬重金翻新且管線重拉的七房透天車墅。",
+      "reason": "This query stacks the specific location (松金街), the price cap (1700萬內), the unique renovation cost (四百萬翻新), the critical infrastructure update (管線重拉), and the high room count (七房), ensuring high recall density.",
+      "type": "simple"
+    },
+    {
+      "question": "我想找小港捷運R3站周邊，有挑高天花板、客廳牆面插座多，且廚房是一字型工作檯搭配雙槽流理台的新裝潢透天。",
+      "reason": "This query combines a geographical anchor (小港捷運R3站) with specific interior design details: high ceilings (挑高天花板), utility features (牆面插座多), and the exact kitchen layout (一字型工作檯, 雙槽流理台).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找近小港餐旅大學或少康萬坪公園，適合三代同堂居住的七房大空間車庫別墅。",
+      "reason": "The query uses two specific local landmarks (餐旅大學, 少康萬坪公園) and targets the property's primary use case (三代同堂) which directly maps to the unique 7-bedroom count and '車墅' type.",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有小港區屋齡36年但已全部內外翻新，且多間臥室帶有獨立陽台，至少一間衛浴有開窗的透天？",
+      "reason": "This query stacks the property age (36年) with the full renovation status (全部內外翻新), and specific room features (多間臥室帶有獨立陽台) and the crucial hygiene feature (衛浴有開窗).",
+      "type": "simple"
+    },
+    {
+      "question": "總價1680萬，權狀約44坪，室內近40坪的七房小港區透天，要求是管線重拉的豪華裝潢。",
+      "reason": "This query uses the exact total price (1680萬) and precise area metrics (44坪/40坪), combined with the high-value renovation keywords (管線重拉, 豪華裝潢) and the 7-room count.",
+      "type": "simple"
+    },
+    {
+      "question": "我們家是三代同堂，人口數多，希望找一間在漢民商圈附近，不用擔心老舊管線問題，已經全部翻新整理好，且有七個房間可以分配的車墅。",
+      "reason": "This abstract query uses the persona of a large family (三代同堂) which requires 7 rooms. The pain point of '老舊管線問題' maps directly to the '管線重拉' feature, anchored by the location '漢民商圈'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡在家做飯，需要一個新裝潢的廚房，最好是電陶爐配置，有雙槽流理台，而且客廳空間要開闊，天花板不能太低，方便我招待朋友。",
+      "reason": "The persona is a home chef/entertainer. The requirements map to specific kitchen tags ('新裝潢廚房', '電陶爐配置', '雙槽流理台') and living room features ('空間開闊', '挑高天花板').",
+      "type": "abstract"
+    },
+    {
+      "question": "我在小港高中或餐旅大學附近工作，希望找一間走路可達，格局方正，且樓梯間有額外空間可以規劃成獨立書房或儲物角的透天。",
+      "reason": "This query targets the specific landmarks (小港高中/餐旅大學) and focuses on the unique, non-standard feature mentioned in the metadata: the usable space near the stairs ('樓梯間可作書房或儲物角').",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一間在小港區，已經重金翻新，地磚耐磨好清潔的透天。另外，我需要多個陽台空間可以曬衣服，最好是後陽台出入方便，且衛浴有對外窗可以保持乾燥。",
+      "reason": "This query focuses on maintenance and utility needs (implied pet owner or high laundry volume). It maps to '重金翻新', '地磚耐磨/易清潔', the presence of '多臥室帶陽台', '後陽台出入', and the critical '衛浴有對外窗' feature.",
+      "type": "abstract"
+    },
+    {
+      "question": "請問有沒有小港區的透天，是七房格局，客廳採光通風良好，且壁面留白大，方便我後續設計收納櫃，總價在1680萬左右的物件？",
+      "reason": "This query focuses on the high room count (七房) and specific interior design flexibility ('壁面留白大', '方便後續設計收納櫃'), combined with the exact price point and general lighting/ventilation requirements.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS167228"
+}

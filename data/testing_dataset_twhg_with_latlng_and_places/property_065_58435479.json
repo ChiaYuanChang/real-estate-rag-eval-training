@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓區常德商圈附近，總價1400萬以內，要四房有平面車位，而且主臥衛浴一定要有對外窗。",
+      "reason": "Simple query stacking location (常德商圈), price (1400萬內), size (四房), parking type (平面車位), and the critical unique feature (主衛開窗).",
+      "type": "simple"
+    },
+    {
+      "question": "找楠梓區有重新裝潢過的四房，希望地坪是拋光石英磚或石材，廚房跟衛浴設備是新換過的。",
+      "reason": "Simple query targeting the renovation status ('煥然一新'), specific flooring materials ('拋光石英磚/石材地面' suitable for allergies), and the explicit mention of new equipment ('廚衛新配備').",
+      "type": "simple"
+    },
+    {
+      "question": "空間闊綽的四房大樓，客餐廳要開放格局動線順暢，收納櫃體要多，且至少一間衛浴要有玻璃拉門乾濕分離。",
+      "reason": "Simple query focusing on interior layout and storage: '空間闊綽', '開放格局', '收納櫃體多', and the specific requirement for one bathroom having '玻璃拉門乾濕分離'.",
+      "type": "simple"
+    },
+    {
+      "question": "楠梓屋齡30年左右但有整理過的四房，室內要超過30坪，次臥房希望有雙向窗戶或角窗設計，採光通風要好。",
+      "reason": "Simple query combining age (31年), size (室內31.05坪), renovation status, and the specific, high-density features of the secondary rooms ('雙向窗戶', '角窗設計').",
+      "type": "simple"
+    },
+    {
+      "question": "旗楠路附近，要平面車位，主臥室要能放特大床，而且要有兩面大衣櫃提供充足收納。",
+      "reason": "Simple query anchoring on the street name (旗楠路), parking type (平面車位), and specific master bedroom dimensions/storage ('特大床', '兩面大衣櫃').",
+      "type": "simple"
+    },
+    {
+      "question": "我們是三代同堂，想找楠梓四房，因為長輩有過敏體質，希望地坪是石材或拋光磚易清理。最重要的是主衛浴要有對外窗，而且要有室內平面車位。",
+      "reason": "Abstract query (Multi-generational family persona). Maps '過敏體質' to '石材或拋光磚' flooring, and stacks '主衛浴要有對外窗' and '室內平面車位' for health and convenience.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是SOHO族，需要四房來規劃兩個獨立辦公空間。主臥室除了休息區，還要有窗邊工作檯面，方便白天辦公。客餐廳希望是開放格局，適合招待客戶。",
+      "reason": "Abstract query (WFH Professional persona). Targets the specific master bedroom configuration ('窗邊工作檯面', '休息與工作區分明') and the '開放格局' for entertaining.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對衛浴品質要求很高，不喜歡潮濕。我要找四房，要求一間衛浴要有對外窗，另一間衛浴則必須有玻璃拉門做乾濕分離。",
+      "reason": "Abstract query focusing purely on specific bathroom quality. This query perfectly stacks the two distinct bathroom features present in the metadata (主衛開窗 + 次衛玻璃拉門乾濕分離).",
+      "type": "abstract"
+    },
+    {
+      "question": "我想在楠梓找一間可以馬上出租的四房，希望是現況交屋，家具可以直接入住，例如客廳的大型L型沙發要現成，且廚衛設備必須是新的，減少後續維修。",
+      "reason": "Abstract query (Investor/Landlord persona). Focuses on minimizing vacancy time by requiring '家具可以直接入住' (specifically mentioning the '大型L型沙發') and low maintenance via '廚衛設備必須是新的'.",
+      "type": "abstract"
+    },
+    {
+      "question": "雖然預算有限只能買30年左右的舊大樓，但要求室內要超過30坪，且必須是煥然一新的裝潢。特別要求次臥房的採光要充足，最好有角窗或雙向窗戶。",
+      "reason": "Abstract query (Budget-conscious buyer persona). Acknowledges the age constraint (30年舊大樓) but demands high quality ('煥然一新', '室內超過30坪') and specific features in secondary rooms ('角窗或雙向窗戶') often missing in older properties.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KD35672006"
+}

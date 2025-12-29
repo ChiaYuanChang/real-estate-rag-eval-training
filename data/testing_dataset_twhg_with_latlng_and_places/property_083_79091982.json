@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我想找高醫大學附近，預算700萬內的翻新公寓，要求水電管線重拉，且座向必須是南北帝王向。",
+      "reason": "Stacks location (高醫), price (700萬內), renovation status (水電重拉), and highly specific orientation (南北帝王座向) to ensure high recall on core structural features.",
+      "type": "simple"
+    },
+    {
+      "question": "請問三民區有沒有3樓以上、室內約17坪的3房公寓？廚房必須是獨立空間，配備雙口瓦斯爐且有對外窗通風。",
+      "reason": "Combines district, floor level, interior area, and specific kitchen requirements (獨立廚房, 雙口瓦斯爐, 廚房有外窗) which are detailed in the image tags.",
+      "type": "simple"
+    },
+    {
+      "question": "尋找近民族車站（騎車5分鐘內）的方正格局公寓，要求全屋翻新，特別想確認衛浴是否已整新，且是否為無對外窗的設計？",
+      "reason": "Uses transportation anchor (民族車站), layout (方正), renovation status, and confirms a specific, potentially negative feature (衛浴無對外窗) which is explicitly mentioned in the tags.",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有適合自住兼出租、豪華裝修的物件？希望客廳有前後採光，且工作陽台是狹長型並已加裝鐵窗防護。",
+      "reason": "Stacks usage flexibility (自住出租), decoration level (豪華裝修), a lighting feature (前後採光), and a unique balcony detail (狹長型, 有鐵窗防護).",
+      "type": "simple"
+    },
+    {
+      "question": "請問熱河商圈附近有沒有屋齡約47年，室內實坪17坪左右的公寓？要求廚房是一字型配置，且上下櫃收納量要充足。",
+      "reason": "Uses specific property age (47年) and area (17坪) combined with location (熱河商圈) and detailed kitchen configuration requirements (一字型廚具, 上下櫃收納充足).",
+      "type": "simple"
+    },
+    {
+      "question": "我是高醫的住院醫師，希望找一個走路或騎車能快速到醫院的安靜住所。因為工時長沒時間裝修，要求全屋翻新且水電管線都換新，最好是獨立廚房，避免油煙影響客廳或書房。",
+      "reason": "Abstract query based on a professional persona (高醫住院醫師) requiring proximity (近高醫), immediate move-in readiness (全屋翻新, 水電重拉), and a functional layout (獨立廚房空間) to manage work/life balance.",
+      "type": "abstract"
+    },
+    {
+      "question": "請問三民區有沒有低樓層、適合投資出租的公寓？要求座向是南北帝王向，靠近熱河商圈，且已經全屋翻新整理過，可以馬上出租的物件。",
+      "reason": "Abstract query based on an investor persona, focusing on rental suitability (低樓層, 自住出租皆適宜), high-demand features (南北帝王座向), and immediate readiness (全屋翻新) near commercial hubs.",
+      "type": "abstract"
+    },
+    {
+      "question": "為了方便家裡長輩，我們想找動線順暢、格局方正的房子。特別要求衛浴空間要夠寬敞，且地面平整沒有高低差，方便輪椅或行動不便者使用。",
+      "reason": "Abstract query focusing on accessibility for the elderly, mapping directly to specific tags like '空間平整無高低差', '空間寬敞', and '動線順暢' found in the bathroom description.",
+      "type": "abstract"
+    },
+    {
+      "question": "我很常在家開伙，需要一個獨立的廚房，一定要有雙口瓦斯爐，而且廚房要有對外窗可以排熱氣。希望流理台操作檯面要夠長，方便備料。",
+      "reason": "Abstract query based on a 'Home Chef' persona, requiring multiple specific kitchen features: '獨立廚房', '雙口瓦斯爐', '有外窗通風', and '流理台操作檯面長'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對房屋基礎結構很重視，請問有沒有水電管線已經全部重拉翻新的老公寓？另外，工作陽台是否已經安裝好鐵窗防護，可以安心曬衣服？",
+      "reason": "Abstract query focusing on structural integrity and safety, requiring confirmation of '水電管線重拉' and the presence of '鐵窗防護' on the utility balcony.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "XF05985876"
+}

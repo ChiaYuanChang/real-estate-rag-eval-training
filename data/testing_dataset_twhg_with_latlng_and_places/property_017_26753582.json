@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我想找橋頭區靠近青埔捷運站的房子，預算1600萬左右，一定要高樓層有永久棟距，而且車位要有電動車充電樁。",
+      "reason": "Simple Query combining location (橋頭/青埔捷運), price (1600萬), height/view (高樓層/永久棟距), and the unique feature of EV charging (電動車充電樁/充電設施).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有三房兩廳的物件，要求雙衛浴都要有開窗，主臥衛浴最好還有浴缸可以泡澡，廚房要是獨立式設計，不要開放式。",
+      "reason": "Simple Query focusing on specific interior layout constraints: 3 bedrooms, double windowed bathrooms (雙衛浴開窗), master bath with a tub (浴缸配置), and an independent kitchen (獨立廚房).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找橋科園區附近屋齡在6年左右的電梯大樓，希望客廳格局方正、採光要好，車位必須是地下平面車位。",
+      "reason": "Simple Query testing proximity to the industrial park (橋科園區), property age (6年), living room quality (格局方正/採光佳), and parking type (地下平面車位).",
+      "type": "simple"
+    },
+    {
+      "question": "預算1650萬，希望找三房，面東南座向，靠近都會公園，室內實際使用面積要超過20坪。",
+      "reason": "Simple Query testing specific numerical constraints: exact price (1650萬), size (20.18坪), orientation (東南座向), and proximity to a major landmark (都會公園).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要高樓層的房子，停車場要求動線清楚、照明良好，最好是多車位空間大，方便會車的平面車位。",
+      "reason": "Simple Query focusing heavily on the specific details of the common area and parking lot tags (高樓層, 動線清楚, 照明良好, 平面車位, 空間大).",
+      "type": "simple"
+    },
+    {
+      "question": "我是橋科園區的工程師，希望找一個下班後能快速搭捷運回家、安靜不吵雜的高樓層住家，而且我最近換了電動車，車位一定要有充電樁設備。",
+      "reason": "Abstract Query linking the persona (橋科工程師) to location (近捷運), lifestyle need (安靜/高樓層/永久無遮蔽), and the critical unique feature (電動車充電樁).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有小孩，希望找一個靠近公園、客餐廳空間寬敞的物件。特別要求浴室要有浴缸方便幫小孩洗澡，而且衛浴地磚必須是止滑材質，最好有對外窗保持乾燥。",
+      "reason": "Abstract Query mapping family needs (小孩/公園) to specific safety and amenity features (浴缸配置, 地面止滑磚, 衛浴開窗, 空間寬敞).",
+      "type": "abstract"
+    },
+    {
+      "question": "我很常在家開伙，不喜歡油煙跑進客廳，所以一定要有獨立廚房，而且希望是雙口瓦斯爐。另外，房子整體通風要好，最好連兩間廁所都有開窗。",
+      "reason": "Abstract Query focusing on the 'Home Chef' persona, requiring specific kitchen features (獨立廚房, 雙口瓦斯爐) and ventilation details (雙衛浴開窗) to manage cooking smells and humidity.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對樓層高度和視野要求很高，希望是頂樓附近的超高樓層，而且要保證有永久棟距，客廳要有大面窗戶採光充足。",
+      "reason": "Abstract Query prioritizing the aesthetic and structural benefits of the property (高樓層, 永久無遮蔽物, 採光佳/大面窗戶), which are key selling points of this unit.",
+      "type": "abstract"
+    },
+    {
+      "question": "退休後想找生活機能好的地方，希望走路五分鐘內能到捷運站，附近要有傳統市場方便買菜，如果開車，停車場動線要好，平面車位優先。",
+      "reason": "Abstract Query focusing on convenience for daily life (近捷運青埔站, 近橋頭市場) combined with the requirement for easy parking access (平面車位, 動線清楚).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "VJ68230460"
+}

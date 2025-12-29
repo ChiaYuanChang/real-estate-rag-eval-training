@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找小港區高餐附近的店面，要求是全屋大翻修且電線全部重換過的，總價希望在1100萬以內。",
+      "reason": "Simple query stacking location (小港區, 高餐旁), price constraint (1080萬), and the critical renovation details (全屋大翻修, 電線全重換) found in the description.",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一間六房格局的店面，樓下是磁磚地坪，樓上臥室區是木紋地板，且附近要有停車場方便客戶停車。",
+      "reason": "Combines the specific layout (六房), the distinct flooring types mentioned in the image tags (磁磚地坪 vs. 木紋地板), and the logistical detail (附近停車場) mentioned in the description.",
+      "type": "simple"
+    },
+    {
+      "question": "請問小港敬業路有沒有適合有小孩家庭的店面，雖然樓梯口需要加裝安全防護，但整體是已整修過的，且衛浴是無對外窗的設計？",
+      "reason": "Uses the specific street name (敬業路), the unique safety requirement derived from image tags (階梯口需安全防護), the renovation status (已整修), and the specific bathroom feature (衛浴無對外窗).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找小港區近全聯或7-11的店面，希望是長方形格局好規劃，且玄關或下層過道是老式石子地面的物件。",
+      "reason": "Anchors the query using nearby amenities (全聯, 7-11), specific layout description (長方形格局), and the unique material detail (老式石子地面) from Image 7.",
+      "type": "simple"
+    },
+    {
+      "question": "我想找小港區投報率高的店住兩用物件，需要樓下可做生意，樓上能分租，且離捷運站騎車五分鐘內可達。",
+      "reason": "Focuses on the investment usage model (樓下做生意, 樓上出租, 投報率高) and the specific transportation anchor (捷運站騎車五分鐘).",
+      "type": "simple"
+    },
+    {
+      "question": "我是專門投資高餐周邊套房的房東，需要一間已經全屋大翻修、電線都換新，且客源穩定、投報率高的店面，希望買來就能直接分租收租金。",
+      "reason": "Abstract query mapping an investor persona to the property's core selling points: proximity to KUHT (高餐周邊), high ROI (投報率高), and low immediate maintenance risk (全屋大翻修, 電線都換新).",
+      "type": "abstract"
+    },
+    {
+      "question": "我對房屋基礎結構安全很重視，希望找到水電管線已經全部重換過的物件，即使樓梯口需要自行加裝兒童安全防護欄也沒關係。",
+      "reason": "Abstract query focusing on a safety-conscious buyer. It links the major infrastructure upgrade (電線全重換) with the minor, specific safety requirement (樓梯口需自行加裝兒童安全防護欄) mentioned in the image tags.",
+      "type": "abstract"
+    },
+    {
+      "question": "我想開一間小型補習班或工作室，需要六個獨立空間，樓下能當作接待區，樓上能當教室或辦公室，且員工通勤方便，離捷運站不能太遠。",
+      "reason": "Maps the business owner persona to the large room count (六個獨立空間), the dual-use nature (樓下接待/樓上辦公), and the required proximity to public transit (離捷運站不能太遠).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是輪班工作者，白天需要休息，希望臥室的採光不要太強烈，最好是像描述中提到的採光不足或僅有小窗戶的房間，且地面是木紋地板。",
+      "reason": "Abstract query for a shift worker. It uses the specific negative attributes mentioned repeatedly in the image tags ('採光不足', '僅有小窗戶') as a positive requirement, combined with the preferred flooring type ('木紋地板').",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個室內使用面積大於28坪的寬敞空間，希望是已裝潢好的店面，且樓上走道區可以兼作書桌或收納區使用。",
+      "reason": "Stacks the large interior area requirement (大於28坪), the decoration status (已裝潢好的店面), and the specific functional detail from Image 2 (樓上走道區可以兼作書桌或收納區).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS168456"
+}

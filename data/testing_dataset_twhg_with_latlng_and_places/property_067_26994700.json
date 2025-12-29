@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找仁武區的透天，預算2700萬內，要求是全棟翻新且管線路都換新的，面寬要能停雙車，最好已經有預留電動車充電樁管線。",
+      "reason": "This simple query stacks four critical, unique constraints: location (仁武), price range (2700萬內), renovation status (全棟翻新且管線路更新), and the specific EV infrastructure (電動車充電樁220W管線+雙車位). These details are explicitly mentioned in the title and description.",
+      "type": "simple"
+    },
+    {
+      "question": "我想找仁慈公園附近的五房透天，希望客廳餐廳是一體空間，廚房要有L型流理台搭配中島吧檯，裝潢要精緻可直接入住。",
+      "reason": "This query targets specific interior layout features (客廳餐廳一體, L型流理台, 中島吧檯) detailed in tags 1, 2, and 3, combined with the location anchor (仁慈公園) and the room count (五房).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找屋齡約30年左右，但已經全棟翻新整理過的豪華透天，面寬至少七米，總樓層三樓，希望是精緻裝潢。",
+      "reason": "This query uses the specific property age (33年), the structural detail (面寬七米), and the total floor count (3樓), ensuring high specificity based on the metadata's structural attributes.",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有仁武區新生路附近的透天，五房格局，主臥要有落地窗採光，且衛浴設備是近期更新過的乾濕分離設計？",
+      "reason": "This query focuses on specific room-level details: the master bedroom feature (主臥落地窗, tag 6) and the bathroom condition (衛浴更新, 乾濕分離, tag 7), combined with the street name.",
+      "type": "simple"
+    },
+    {
+      "question": "找仁雄商圈或黃昏市場附近的透天，預算2680萬，五房，座向是南北向，要求是全屋精緻裝潢。",
+      "reason": "This query combines multiple location anchors (仁雄商圈, 黃昏市場) with the exact price (2680萬) and the orientation (南北向), maximizing the density of factual constraints.",
+      "type": "simple"
+    },
+    {
+      "question": "我們家剛換了電動車，需要找一間高雄仁武區能停雙車的透天，而且一定要有預留220W充電樁管線。希望室內空間夠大，廚房要有中島方便全家人一起備餐。",
+      "reason": "This abstract query establishes a persona (EV owner) and links their need directly to the unique features: 雙車, 220W充電樁管線, and the L型廚房搭配中島，ensuring retrieval based on the high-value technical and layout features.",
+      "type": "abstract"
+    },
+    {
+      "question": "我不想買舊屋還要花大錢處理水電管線問題，有沒有仁武區的五房透天，是近期才剛完成全棟翻新，連管線路都全部更新，可以直接拎包入住的豪華別墅？",
+      "reason": "This query addresses the pain point of buying an older home (水電管線問題) and maps it directly to the property's primary selling point: 全棟內外翻新 and 管線路全部更新, indicating a move-in ready, worry-free condition.",
+      "type": "abstract"
+    },
+    {
+      "question": "我很喜歡在家宴客，希望找一個客廳和餐廳是開放式一體空間的透天，廚房一定要有中島吧檯和充足的L型操作檯面，最好是新穎裝修過的。",
+      "reason": "This query defines a 'Home Chef/Entertainer' persona, requiring the specific integrated layout (客廳餐廳一體) and the detailed kitchen configuration (中島吧檯, L型操作檯面) described in tags 1, 2, and 3.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對採光要求很高，希望客廳有大面窗，主臥房最好有落地窗，但同時要有遮光簾或薄紗窗簾來兼顧隱私和通風。地點希望在仁武區。",
+      "reason": "This query focuses on detailed aesthetic and functional requirements related to light and privacy, using specific keywords found in the tags (大面窗, 落地窗, 薄紗窗簾, 遮光簾) for the living room and master bedroom.",
+      "type": "abstract"
+    },
+    {
+      "question": "我在找高雄仁武區具備高轉手性的透天產品，必須是面寬可停雙車，且已經具備電動車友善設施，靠近仁雄商圈，屋況要達到豪華翻新等級。",
+      "reason": "This query adopts an investor perspective, prioritizing features that maximize marketability: 面寬雙車, EV友善設施 (charging), prime location (仁雄商圈), and deluxe, fully renovated condition.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS181694"
+}

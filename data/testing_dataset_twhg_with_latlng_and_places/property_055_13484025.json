@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我正在找仁武仁雄商圈附近，可以店住合一的透天厝，預算四千萬內，要求全棟翻新且門口可以停車的物件。",
+      "reason": "Simple query stacking location (仁雄商圈), usage (店住合一), price (四千萬內), renovation status (全棟翻新), and a specific amenity (門口可停車).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有靠近鼎金系統交流道，有六間衛浴且多數都有乾濕分離設計的翻新透天？",
+      "reason": "Simple query focusing on transportation access (鼎金系統交流道), high bathroom count (六間衛浴), and a specific renovation feature (多數乾濕分離).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找仁武區六房透天，要求室內鋪設新式木紋地板，且玄關走道有做半高磁磚方便清潔的物件。",
+      "reason": "Simple query targeting specific interior finishes mentioned in the detailed tags: layout (六房), flooring (新式木紋地板), and unique detail (玄關走道半高磁磚).",
+      "type": "simple"
+    },
+    {
+      "question": "請問仁武區有沒有近慈惠公園，使用空間超過60坪，座向是東南朝西北的優質翻新透天？",
+      "reason": "Simple query combining neighborhood amenity (近慈惠公園), size (使用空間超過60坪, derived from 64坪增建), and orientation (東南朝西北).",
+      "type": "simple"
+    },
+    {
+      "question": "預算三千九百多萬，想找仁武區的透天，要求客廳有大面窗採光通風良好，但衛浴設備多數是無對外窗的新式裝潢。",
+      "reason": "Simple query using the exact price point (3980萬) and contrasting the high quality of the main living space (客廳採光通風良好) with the specific flaw/feature of the bathrooms (衛浴多數無對外窗).",
+      "type": "simple"
+    },
+    {
+      "question": "我是包租公，想找一間在仁武區可以馬上收租的透天，需要至少五間以上套房，且全棟已經翻新，最好是連玄關走道都貼了半高磁磚方便房客清潔維護的。",
+      "reason": "Abstract query based on an Investor/Landlord persona. Requirements map to: high suite count (五大套房), low maintenance (全棟翻新), and specific easy-clean feature (玄關走道半高磁磚).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有小孩和寵物，希望找仁武區近公園的透天，室內要鋪設新式木紋地板，而且至少有一間臥室的陽台出入口有加裝安全鐵窗或鐵門的。",
+      "reason": "Abstract query based on a Family persona prioritizing safety and maintenance. Requirements map to: environment (近公園), flooring (新式木紋地板), and safety feature (臥室陽台有安全鐵窗與鐵門).",
+      "type": "abstract"
+    },
+    {
+      "question": "我在仁雄商圈經營小型電商，需要一個黃金店面作為辦公和住家，要求交通便利，能快速上國道處理物流，且門口能停放貨車，室內裝潢必須是全新的。",
+      "reason": "Abstract query based on a Small Business Owner persona. Requirements map to: commercial location (仁雄商圈黃金店面), logistics (快速上國道/鼎金系統), parking (門口可停車), and condition (裝潢全新).",
+      "type": "abstract"
+    },
+    {
+      "question": "我對衛浴品質要求很高，希望找一間高雄仁武區的透天，必須是全棟翻新，而且至少有四間以上的衛浴都做了乾濕分離設計，設備也都是新款的。",
+      "reason": "Abstract query based on a Hygiene/Modern Living persona. Requirements map to: renovation status (全棟翻新), high bathroom count (6衛浴), and specific modern features (四間以上乾濕分離, 新式衛浴設備).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是SOHO族，需要一個採光極佳的客廳作為主要工作區，但我也知道透天常有樓梯間陰暗的問題，請問仁武區有沒有這種客廳有整排大窗戶，格局方正，且全棟翻新的物件？",
+      "reason": "Abstract query based on a Work-from-Home persona. Requirements map to: specific lighting needs (客廳採光極佳/整排大窗戶), acknowledging a common property flaw (樓梯間採光不足), and layout (規則方正格局).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "IG04122406"
+}

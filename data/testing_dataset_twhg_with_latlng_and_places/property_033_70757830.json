@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我想找楠梓區總價在600萬以內，近都會公園捷運站的翻新公寓，格局方正的3房，而且一定要有前後大陽台。",
+      "reason": "Simple Query combining location (楠梓區, 都會公園捷運站), price (600萬內), property type (翻新公寓), layout (格局方正, 3房), and specific feature (前後大陽台). All constraints are explicitly mentioned in the metadata.",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一間在楠梓區可以拎包入住的房子，要求全屋鋪設木紋地板，客餐廳廚房必須是開放式連通的格局，並且在室內動線外要有額外的儲藏收納空間。",
+      "reason": "Simple Query focusing on specific interior finishes and unique features: move-in ready (拎包入住), flooring (木紋地板), layout (開放式設計/連通), and the unique storage feature (樓梯間增建/小儲藏室).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找屋齡超過40年，位於頂樓（5樓/5樓）的公寓，要求3房，座向為東南-西北，且客廳的採光是屬於單側窗戶自然光，但整體採光尚可的物件。",
+      "reason": "Simple Query stacking specific technical details: age (44年), floor (5/5), orientation (SE-NW), and a very specific lighting detail captured in the tags (客廳採光尚可/單側窗戶自然光).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近家樂福與後勁商圈，找格局方正的3房，可以接受衛浴是乾濕不分離且沒有對外窗的舊式設計。",
+      "reason": "Simple Query using commercial anchors (家樂福, 後勁商圈), layout (格局方正, 3房), and explicitly including the property's main drawback (乾濕不分離, 衛浴未見窗戶) to ensure high recall.",
+      "type": "simple"
+    },
+    {
+      "question": "我要找都會公園捷運站與楠梓火車站附近的房子，預算在560萬左右，主臥室必須是套房設計，且臥室內要有大窗與側窗雙向進光，採光通風要非常好。",
+      "reason": "Simple Query combining transportation hubs (捷運站, 火車站), tight price cap (560萬), and a highly specific feature of the master bedroom (套房臥室, 雙向進光, 通風良好).",
+      "type": "simple"
+    },
+    {
+      "question": "我們是首購族，預算在550萬左右，在楠梓區工作，完全不想花時間裝潢。希望找到一個完全拎包入住、裝潢豪華，且客餐廳廚房是開放式格局，適合招待朋友的物件，最好走路就能到捷運站。",
+      "reason": "Abstract Query (First-time buyer persona). Maps budget (550萬), pain point (不想裝潢 -> 拎包入住/全屋翻新/deluxe), desire (招待朋友 -> 開放式格局/空間寬敞), and location preference (走路到捷運站 -> 都會公園捷運站3分鐘).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有小孩，搬進老公寓很擔心安全和雜物堆積問題。希望找到頂樓公寓，陽台必須有安全鐵窗防護，而且要有足夠的儲藏空間，前陽台要夠長，可以同時規劃晾衣區和休閒區。",
+      "reason": "Abstract Query (Family persona). Maps property type (老公寓/頂樓), safety concern (安全鐵窗), clutter concern (儲藏室/收納空間), and specific functional requirement for the balcony (長條型陽台/晾衣空間充足/休閒使用可).",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡在家做台式重油煙料理，也常舉辦家庭聚餐。我需要一個廚房有配置抽油煙機、檯面完整，並且與餐廳連通，餐廳空間要寬敞，且照明設計要溫暖舒適，營造溫馨氣氛。",
+      "reason": "Abstract Query (Home Chef persona). Maps cooking style to specific kitchen features (抽油煙機配置, 檯面完整), dining needs (與廚房連通, 空間寬敞), and aesthetic requirements (溫暖照明, 氣氛舒適).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是投資客，想找一間在交通樞紐附近、低維護成本的租賃物件。要求全屋翻新、格局方正的3房，且室內材質必須易於清潔，例如連續的木紋地板和好擦洗的白色櫥櫃與磁磚牆面。",
+      "reason": "Abstract Query (Investor persona). Maps investment goals (低維護成本, 易清潔材質) to specific material tags (木紋地板易清潔, 白色櫥櫃/磁磚牆), combined with core requirements (全屋翻新, 格局方正, 3房, 近交通樞紐).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是在家工作的學生，需要一個安靜且採光極佳的讀書環境。我希望臥室能有雙向進光的大窗戶，通風良好，而且整個客餐廳區域的自然光線都要充足明亮。",
+      "reason": "Abstract Query (Student/Remote Worker persona). Maps study needs to specific lighting and ventilation tags (雙向進光/通風良好, 採光佳), focusing on the best-lit room (套房臥室) and the main living area (客餐廳開放空間採光良好).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "SZ52843889"
+}

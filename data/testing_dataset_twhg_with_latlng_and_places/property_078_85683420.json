@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我在找台中龍井區靠近東海藝術街的別墅，預算1980萬內，要求水電有全部更新過，且廚房是L型廚具方便備料。",
+      "reason": "Simple query stacking location (龍井區, 東海藝術街), price (1980萬內), and two critical renovation details (水電更新, 完整L型廚具) found in the description and image tags.",
+      "type": "simple"
+    },
+    {
+      "question": "我想找台中龍井的邊間透天，至少4房3衛，屋內採光要好，特別是樓梯間要有大面窗，且衛浴一定要開窗。",
+      "reason": "Simple query focusing on structural attributes (邊間, 4房3衛) combined with specific lighting requirements (樓梯上方大面窗戶) and a highly desired Taiwanese feature (衛浴有對外窗).",
+      "type": "simple"
+    },
+    {
+      "question": "請問有沒有靠近中科或榮總醫院的社區型別墅，希望是4層樓，有鐵窗防護，且至少一間臥室附有封閉式陽台可以曬衣。",
+      "reason": "Simple query combining location context (近中科/榮總), property type (社區型別墅, 4層樓), security detail (鐵窗防護), and a specific bedroom feature (臥室附封閉式陽台).",
+      "type": "simple"
+    },
+    {
+      "question": "預算1980萬，想找台中龍井區的4房透天，要求全屋已鋪設新型木紋地板，且衛浴有預留免治馬桶的電源插座。",
+      "reason": "Simple query focusing on price, room count, and specific interior finishing details (新型木紋地板) and future-proofing features (免治馬桶預留電源).",
+      "type": "simple"
+    },
+    {
+      "question": "找屋齡約30年但已整理過的透天，適合置產出租，希望樓梯是寬梯設計，廚房檯面是新式鋼檯面。",
+      "reason": "Simple query combining property age (30), usage intent (置產、出租), and two unique structural/material details (寬梯設計, 新式鋼檯面).",
+      "type": "simple"
+    },
+    {
+      "question": "我在榮總或澄清醫院上班，下班很累，希望找一個屋況好、水電都換新、不用再花時間裝潢的透天，最好是社區型的，住起來比較單純。",
+      "reason": "Abstract query representing a healthcare worker persona. Maps to: 近榮總/澄清醫院 + 水電更新 + 全屋整理/牆面潔白 (move-in ready) + 社區型別墅 (simplicity/security).",
+      "type": "abstract"
+    },
+    {
+      "question": "家裡有長輩和小孩，希望找一個通風採光極佳的邊間別墅，樓梯要夠寬走起來比較安全，而且衛浴一定要有窗戶可以排濕氣。",
+      "reason": "Abstract query representing a family safety persona. Maps to: 邊間 + 採光通風佳 + 寬梯設計 (safety) + 衛浴有對外窗 (health/air quality).",
+      "type": "abstract"
+    },
+    {
+      "question": "我很喜歡在家開伙，需要一個收納空間充足、動線順暢的廚房，最好是L型廚具，而且要能直接接後陽台方便規劃洗滌區。",
+      "reason": "Abstract query representing a home chef persona. Maps to: 完整L型廚具 + 櫃體收納充足 + 瓦斯爐齊備 + 後陽台連結潛力 (for laundry/storage).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是東海大學的教授，需要一個可以當工作室的房間，要求採光極佳，視野開闊，而且房間格局要方正，方便我規劃書桌和書櫃。",
+      "reason": "Abstract query representing an academic/remote worker persona. Maps to: 近東海大學 + 臥室採光極佳/視野開闊 (Image 7/8 tags) + 格局端正 (for furniture planning).",
+      "type": "abstract"
+    },
+    {
+      "question": "我在找龍井區1980萬左右的透天，希望是已經整理好，地坪是好清理的木紋材質。我可以接受衛浴是乾濕未完全分離，但至少要有抽風設備或對外窗。",
+      "reason": "Abstract query representing a budget-conscious buyer who accepts a known flaw (乾濕未完全分離) but requires compensating features (抽風設備/對外窗) and specific modern finishes (新型木紋地板).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS180018"
+}

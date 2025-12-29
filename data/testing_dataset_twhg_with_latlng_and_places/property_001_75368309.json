@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓舊街附近，總價458萬左右，找兩間獨立大套房格局，適合立即收租的低總價公寓，希望客廳有附贈基本家具家電。",
+      "reason": "Simple query stacking specific location (楠梓舊街), exact price (458萬), unique layout (2大套房), investment goal (收租), and included amenities (基本家具家電).",
+      "type": "simple"
+    },
+    {
+      "question": "找楠梓區已翻新的老公寓，希望衛浴有做乾濕分離的獨立淋浴區，且客廳已附贈電視冰箱等基本家電，可直接入住。",
+      "reason": "Simple query targeting renovation status (翻新), specific bathroom feature (乾濕分離獨立淋浴區), and included appliances (電視冰箱).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近楠梓捷運站和台積電廠區，需要有明確的靠窗書桌工作閱讀區，適合單身或學生使用的兩房物件。",
+      "reason": "Simple query focusing on key landmarks (捷運站, 台積電) and a specific functional requirement (靠窗書桌工作閱讀區) mentioned in the image tags.",
+      "type": "simple"
+    },
+    {
+      "question": "楠梓區頂樓公寓，希望是木紋地板好打理，且屋主有整理過，牆面狀況良好無壁癌，並且有室內機車停車空間的物件。",
+      "reason": "Simple query combining building specifics (頂樓, 5F/5F), maintenance details (木紋地板好打理, 牆面保存良好), and parking amenity (室內機車停車空間).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找楠梓生活機能優越的低總價公寓，要求臥室B必須能通往外陽台曬衣區，並且公共區域有明確標示禁菸規定的物件。",
+      "reason": "Simple query targeting location quality (生活機能優), price (低總價), specific utility (外陽台曬衣區), and management detail (明確標示禁菸).",
+      "type": "simple"
+    },
+    {
+      "question": "我是台積電工程師，希望在楠梓找一個通勤方便、屋況很新不用整理、且有獨立書桌工作區的兩房，最好是低總價可以當作長期投資的物件。",
+      "reason": "Abstract query establishing a persona (台積電工程師) and mapping needs: Commute (近台積電), Low Maintenance (屋況很新/翻新), WFH (獨立書桌工作區), and Financial Goal (低總價/投資收租皆宜).",
+      "type": "abstract"
+    },
+    {
+      "question": "我想在楠梓學區附近找一間適合隔套收租的物件，最好是已經規劃成兩間獨立大套房，且家具家電都已附贈，能馬上開始出租。",
+      "reason": "Abstract query establishing an investor persona focused on turnkey rental. Requirements map to: Location (學區近), Layout (2大套房客廳), and Readiness (家具家電都已附贈).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有小孩，希望住在楠梓生活機能好的地方，靠近公園和學校，雖然是老公寓但希望是翻新過的，而且地板要選木紋地板這種易清潔好打理的材質。",
+      "reason": "Abstract query establishing a small family persona. Requirements map to: Location (近公園/學校), Condition (翻新), and Maintenance (木紋地板易清潔好打理).",
+      "type": "abstract"
+    },
+    {
+      "question": "兩位朋友合租，預算有限，希望在楠梓捷運站附近找兩間有獨立衛浴的套房，公共客廳空間採光要好，且格局是長方形空間好擺家具。",
+      "reason": "Abstract query establishing a roommate scenario. Requirements map to: Location (近捷運), Layout (2大套房/獨立衛浴), and Aesthetic/Utility (採光好, 格局方正/長方形空間).",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個在楠梓舊街附近，有明確工作閱讀區的單身公寓，希望客廳空間開闊感尚可，且有乾濕分離的衛浴，即使是頂樓也沒關係。",
+      "reason": "Abstract query establishing a single professional persona focused on utility. Requirements map to: Location (楠梓舊街), Function (工作閱讀區), Space Feel (空間開闊感尚可), and Specific Feature (乾濕分離).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "GZ50364605"
+}

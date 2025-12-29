@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "前鎮區三多商圈，總價兩千萬內，找四樓透天店面，要求汙水處理已完成，且店面一樓是長型開放格局。",
+      "reason": "Simple Query S1: Combines location (前鎮區三多商圈), price ceiling (兩千萬內), structure (四樓透天店面), and two specific, high-value features found in the metadata (汙水處理已做, 開放長型格局).",
+      "type": "simple"
+    },
+    {
+      "question": "我想找高雄光華商圈附近的透天，需要有三間以上套房，且樓梯在中間，房間內要有木紋地板和均勻的崁燈照明。",
+      "reason": "Simple Query S2: Targets the unique layout constraints (三間套房, 樓梯在中間) and specific interior finishes mentioned in multiple room tags (木紋地板, 崁燈照明均勻).",
+      "type": "simple"
+    },
+    {
+      "question": "適合文武百市經營的四層樓透天，希望有簡易廚房設備，且至少兩間衛浴是乾濕分離設計。",
+      "reason": "Simple Query S3: Focuses on the commercial potential (文武百市), structure, and specific amenities (簡易廚房, 乾濕分離), ensuring retrieval based on utility features.",
+      "type": "simple"
+    },
+    {
+      "question": "靠近三多二路的店面透天，必須有頂樓大露臺可以曬衣或休閒，一樓店面空間冷氣設備要現成。",
+      "reason": "Simple Query S4: Stacks a location anchor (三多二路) with a unique exterior feature (頂樓大露臺) and a practical retail requirement (冷氣已安裝).",
+      "type": "simple"
+    },
+    {
+      "question": "預算1800萬到1900萬之間，坐南朝北的四樓透天，要求其中一間房間要有大片落地窗採光佳，適合當作接待區。",
+      "reason": "Simple Query S5: Uses the exact price range, orientation (坐南朝北), and the specific description of Room B (大片落地窗採光佳, 適合當作接待區).",
+      "type": "simple"
+    },
+    {
+      "question": "我是剛創業的服飾店老闆，想找高雄前鎮區雙面市的黃金店面，希望一樓是中性色系裝潢且冷氣現成，樓上最好能隔出套房出租或當員工宿舍。",
+      "reason": "Abstract Query A1: Persona is an entrepreneur. Maps the need for immediate business setup (雙面市, 冷氣現成, 中性色系) and mixed-use potential (三間大套房 for rental/staff housing).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家有長輩，想找前鎮區已處理好汙水問題的透天，雖然樓梯在中間，但希望公共梯間寬敞，且地坪是好清理的磁磚，減少後續維護麻煩。",
+      "reason": "Abstract Query A2: Persona is a family concerned with maintenance and safety. Maps the requirements to specific structural and maintenance tags (汙水處理已做, 樓梯在中間, 梯間寬敞, 磁磚地面).",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡在頂樓種植花草，需要一個有遮雨棚的大露臺，同時家裡雜物多，需要一個有獨立房門且有小窗通風的儲藏室或小房。",
+      "reason": "Abstract Query A3: Focuses on specific utility spaces. Maps the desire for outdoor space to (有遮雨鐵皮頂, 大面積露臺) and the need for storage to the description of Room 11 (有對外小窗, 空間較小, 獨立房門).",
+      "type": "abstract"
+    },
+    {
+      "question": "我在找高雄三多商圈附近，有「一市吃三代」潛力的透天，雖然知道部分區域如廚房或客用廁所較老舊需要翻新，但要求主要衛浴必須是乾濕分離且設備新穎。",
+      "reason": "Abstract Query A4: Persona is an investor. Acknowledges the investment value (一市吃三代) and demonstrates awareness of the property's mixed condition (老舊感明顯 vs. 乾濕分離且設備較新).",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個在店面後方，格局狹長、採光較弱但安靜的空間作為我的辦公室，要求該區域已預留好網路線路，且有木紋地板提升舒適度。",
+      "reason": "Abstract Query A5: Persona is a professional needing a dedicated workspace. Targets the specific description of Room A (後側房間A: 狹長型格局, 採光弱, 已預留線路, 木紋地板).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "DS69760226"
+}

@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓都會公園捷運站附近，預算1800萬內，找一樓店面，必須有挑高6米以上，且配有室內平面車位。",
+      "reason": "Simple query stacking location (MRT), price constraint, floor/type (1F retail), the unique 6.7m ceiling height (挑高6米以上), and the specific parking type (室內平面車位). These are all high-density attributes.",
+      "type": "simple"
+    },
+    {
+      "question": "尋找楠梓區適合當工作室的店面，格局要是規則長條形，已經裝好軌道燈和壁掛冷氣，最好是目前有收租金的物件。",
+      "reason": "Targets the intended use (工作室), specific layout (規則長條形), pre-installed fixtures (軌道燈/壁掛冷氣), and the investment status (現收租), ensuring high recall on the description details.",
+      "type": "simple"
+    },
+    {
+      "question": "我想找82期重劃區內，屋齡很新的店面，門面要有大片玻璃落地窗採光，衛浴一定要有對外窗通風。",
+      "reason": "Uses the specific development zone (82期重劃區), new property age (3 years), facade detail (玻璃落地窗), and the crucial bathroom feature (衛浴有對外窗), which is often a long-tail search term.",
+      "type": "simple"
+    },
+    {
+      "question": "楠梓區一樓店面，權狀約40坪左右，目前是作為瑜伽教室或運動空間使用的，希望是高挑樓層。",
+      "reason": "Focuses on the current specific use case mentioned in the tags (瑜伽教室/運動空間), combined with the area (39.83坪) and the high ceiling feature (高挑樓層).",
+      "type": "simple"
+    },
+    {
+      "question": "靠近楠梓國小和第一公有市場的店面，需要室內平面車位，店內空間要整潔，地板是木紋且沒有高低差。",
+      "reason": "Combines specific local landmarks (國小/市場) with parking type (室內平面車位) and detailed interior finishes (木紋地板, 無高低差), testing retrieval of granular tag data.",
+      "type": "simple"
+    },
+    {
+      "question": "我是設計公司老闆，需要一個門面氣派、挑高夠高的辦公空間，方便我們規劃接待區與工作區，希望是長條形格局，且已經有基礎照明設備，最好是捷運站附近。",
+      "reason": "Abstract query mapping a design firm's needs: '門面氣派/挑高夠高' (6.7米挑高), '規劃接待區與工作區' (長條形格局/可彈性規劃隔間), and '基礎照明設備' (軌道燈/嵌燈).",
+      "type": "abstract"
+    },
+    {
+      "question": "我想在楠梓開一間精品瑜伽教室，需要一個沒有樑柱干擾、高挑且採光好的大空間，最好是前一手就是運動相關用途，而且冷氣已經裝好，可以馬上開始營業。",
+      "reason": "Abstract query targeting a fitness entrepreneur. Requirements map directly to: '瑜伽教室' (current use), '沒有樑柱干擾' (規則長方格局), '高挑' (6.7米), and '冷氣已經裝好' (壁掛冷氣已裝設).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是長期投資客，鎖定楠梓82期重劃區，希望找屋齡新、已經有穩定租客在收租的黃金店面，交通要方便，最好是靠近捷運站，且有附平面車位方便管理。",
+      "reason": "Abstract query for an investor. Focuses on investment criteria: '82期重劃區', '屋齡新', '穩定租客在收租' (現收租), '靠近捷運站', and '平面車位'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對店面環境要求很高，希望室內維護整潔良好，地板平整，特別要求廁所一定要有對外窗，避免潮濕異味。另外，必須提供室內平面車位給員工或客戶使用。",
+      "reason": "Abstract query focusing on maintenance and specific amenities. It links '維護整潔良好' and '地板平整' to the tags, and crucially, '廁所一定要有對外窗' and '室內平面車位'.",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個縱深夠長的店面，方便我區隔展示區和辦公區，出入口單一且動線要清楚，高挑天花板可以增加展示效果，希望在楠梓都會公園附近。",
+      "reason": "Abstract query for a small business owner needing functional separation. Requirements map to '縱深夠長' (規則縱深格局), '區隔展示區和辦公區' (易於分區規劃), '出入口單一', and '高挑天花板'.",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "BP20139248"
+}

@@ -1,21 +1,16 @@
 import asyncio
 import json
 import os
-import sys
 from glob import glob
 from typing import Dict
 
-# Add project root to sys.path
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
-sys.path.append(PROJECT_ROOT)
-
-from services.property_search_recommendation.service import extract_user_question_intent
-from services.property_search_recommendation.models import RealEstateQuery
-from infrastructures.neo4j.retriever import hybrid_search
 from infrastructures.neo4j.client import neo4j_client
+from infrastructures.neo4j.retriever import hybrid_search
+from services.property_search_recommendation.models import RealEstateQuery
+from services.property_search_recommendation.service import extract_user_question_intent
 
-DATASET_DIR = os.path.join(PROJECT_ROOT, "data/testing_dataset_twhg_with_latlng_and_places")
-REPORT_FILE = os.path.join(PROJECT_ROOT, "evaluation_report.md")
+DATASET_DIR = "../../data/testing_dataset_twhg_with_latlng_and_places"
+REPORT_FILE = "../../reports/evaluation_report.md"
 
 
 async def process_question(question_data: Dict, target_property_id: str) -> bool:

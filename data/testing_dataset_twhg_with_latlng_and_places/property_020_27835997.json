@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "找苓雅區衛武營附近，總價550萬內，三房，要求水電管線全部換新的翻新公寓。",
+      "reason": "This query stacks the location (苓雅區, 衛武營), the price constraint (550萬內), the layout (三房), and the most critical unique selling point (水電管線全部換新) to ensure high recall.",
+      "type": "simple"
+    },
+    {
+      "question": "我要找高雄市頂樓公寓，必須是高檔裝潢且有獨立廚房可開伙，客廳要有木紋地板和間接照明。",
+      "reason": "Focuses on the property type (頂樓公寓), the high degree of decoration (高檔裝潢), and specific interior details (獨立廚房, 木紋地板, 間接照明) found in the tags.",
+      "type": "simple"
+    },
+    {
+      "question": "靠近正義車站或九如交流道，需要有大面積前陽台可以曬衣服，客廳要有整面落地窗採光好的三房。",
+      "reason": "Combines transportation anchors (正義車站, 九如交流道) with specific physical features (大面積前陽台, 整面落地窗) mentioned in the image tags for the front balcony and living room.",
+      "type": "simple"
+    },
+    {
+      "question": "尋找屋齡超過40年但室內已全翻新的三房公寓，希望頂樓有額外的鐵皮空間可以當儲藏室或工作室。",
+      "reason": "Targets the property's age (46 years old), its renovation status (全翻新), and the unique, specific feature of the top floor (頂樓鐵皮空間) which is a strong retrieval anchor.",
+      "type": "simple"
+    },
+    {
+      "question": "靠近中正國小或大仁國中學區的三房，預算550萬內，衛浴雖然是乾濕不分離但要求設備必須是新穎的。",
+      "reason": "Uses school proximity (中正國小, 大仁國中) and price, while incorporating a nuanced detail about the bathrooms: acknowledging the lack of dry/wet separation but requiring new fixtures (衛浴設備新穎).",
+      "type": "simple"
+    },
+    {
+      "question": "我是首購族，預算有限但很怕買到老舊公寓要花大錢處理水電管線，希望找一間已經全部翻新、可以直接入住的苓雅區三房。",
+      "reason": "Abstract query based on the 'Budget-Conscious Buyer' persona. It semantically links the pain point (怕處理水電管線) directly to the solution provided by the property metadata (水電管線更新, 可立即入住).",
+      "type": "abstract"
+    },
+    {
+      "question": "我喜歡運動，希望住在衛武營都會公園或苓雅運動中心附近，交通要方便，最好離火車站或交流道近，下班可以馬上過去跑步。",
+      "reason": "Abstract query based on the 'Fitness Enthusiast' persona. It maps lifestyle needs (跑步, 運動) to the nearby amenities (衛武營都會公園, 苓雅運動中心) and transportation links (正義車站, 九如交流道).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家很常開伙，需要有獨立的廚房空間，最好是瓦斯爐，而且客廳和餐廳的動線要順暢，適合一家人活動。",
+      "reason": "Abstract query based on the 'Home Chef/Family' persona. It requires the specific kitchen setup (獨立廚房, 瓦斯爐) and the layout feature (客廳餐廳連通, 動線順暢) suitable for family activities.",
+      "type": "abstract"
+    },
+    {
+      "question": "我對房子的採光和通風要求很高，客廳一定要有大面積落地窗，而且要有前後對流的設計，廚房也需要有對外窗戶。",
+      "reason": "Abstract query focusing on environmental quality. It uses specific descriptive tags (大面積落地窗, 陽台推門可對流, 廚房側窗可開啟) to describe the desired light and ventilation features.",
+      "type": "abstract"
+    },
+    {
+      "question": "我需要一個安靜的空間在家工作，希望除了臥室之外，還有一個可以當作儲藏或工作室的頂樓空間，但要留意夏天會不會太熱。",
+      "reason": "Abstract query based on the 'Home Worker/Hobbyist' persona. It targets the unique '頂樓鐵皮空間' feature and includes the caveat mentioned in the metadata analysis (可能熱度較高/需留意隔熱).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS186887"
+}

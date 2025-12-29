@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "楠梓區透天，預算800-900萬，靠近台積電擴廠區，需要有4房2廳，且至少一間臥室是鋪設木地板的。",
+      "reason": "This query stacks location (楠梓/台積電), price range (868萬), property type (透天), layout (4房2廳), and a specific interior finish detail (木地板, visible in Images 6 & 9), ensuring high recall specificity.",
+      "type": "simple"
+    },
+    {
+      "question": "找高雄大學商圈的透天，4房格局，可以接受衛浴是無乾濕分離且無對外窗的舊式設計，但要求陽台採光要好且已配置洗衣機。",
+      "reason": "This query targets the specific location (高大商圈) and layout (4房), while explicitly mentioning the unique flaws of the bathroom (無乾濕分離/無對外窗) and confirming the presence of the laundry setup (已配置洗衣機) and good balcony lighting.",
+      "type": "simple"
+    },
+    {
+      "question": "45年屋齡的透天，朝向坐北朝南，有沒有適合當作更衣間或書房的小房間，而且該房間沒有對外窗，僅靠冷氣機通風？",
+      "reason": "This query uses the exact age (45年), orientation (S-N), and targets the highly specific characteristics of the smallest room (Image 10: 採光不足, 通風較差, 適合作書房或更衣間).",
+      "type": "simple"
+    },
+    {
+      "question": "楠梓區總價868萬左右的透天，室內實坪27坪，至少要有一間臥室是現成有床組和衣櫃，可以立即入住的。",
+      "reason": "This query combines the exact price (868萬), exact interior area (27.02坪), and the specific 'move-in ready' furniture detail found in multiple bedroom tags (床組與衣櫃現成).",
+      "type": "simple"
+    },
+    {
+      "question": "找近藍田公園的透天，需要有洗衣機配置在陽台，但可以接受陽台牆面有磚牆與管線外露的狀況。",
+      "reason": "This query anchors on the nearby landmark (藍田公園) and includes a highly specific, negative detail from the image analysis (磚牆與管線外露) related to the laundry area, ensuring uniqueness.",
+      "type": "simple"
+    },
+    {
+      "question": "我是投資客，看好台積電設廠帶來的增值潛力。找楠梓區總價千萬內，適合收租的獨立門戶透天，希望部分房間已經有基本家具（床組/衣櫃），減少裝修成本。",
+      "reason": "This abstract query defines a persona (TSMC investor) and maps their needs (增值潛力, 獨立門戶, 減少裝修成本) directly to the property's key selling points and existing furniture tags.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是預算有限的首購族，願意自己動手整理老屋。請問有沒有高雄大學商圈附近，屋齡40年以上，目前屋況多處堆滿雜物，需要清空整理，但格局方正的兩層樓透天？",
+      "reason": "This query targets a 'budget renovator' persona, explicitly requiring an old property (40年以上), located near the commercial area, and confirming the current messy state (堆滿雜物, 需清空整理) which is evident in multiple image descriptions.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是SOHO族，需要一個安靜、不被打擾的獨立工作空間。我在楠梓找透天，希望有一個小房間可以當作書房或工作室，即使沒有自然採光，只要能裝冷氣、空間方正就好。",
+      "reason": "This query maps the need for a dedicated, quiet workspace to the specific characteristics of the smallest, windowless room (Image 10: 採光不足, 通風較差, 房型方正, 有冷氣設備), which is ideal for a home office.",
+      "type": "abstract"
+    },
+    {
+      "question": "我們家人口多，喜歡自然晾曬衣物，需要大容量的曬衣空間。請問有沒有在德中路附近，陽台是開放式結構，且晾曬容量大，適合大量曬衣服的透天厝？",
+      "reason": "This query focuses on a specific lifestyle need (large capacity natural drying) and maps it to the detailed features of the balcony (開放式結構, 晾曬容量大, 空間狹長) described in Images 3 and 4.",
+      "type": "abstract"
+    },
+    {
+      "question": "我是退休人士，重視居住環境的單純與寧靜。找近藍田公園的透天，要求是巷內住宅區，環境單純，有獨立門戶，而且朝向是坐北朝南的。",
+      "reason": "This query uses the 'retired person' persona, emphasizing privacy and quietness, which maps directly to the description's keywords (巷內寧靜住宅區, 環境單純, 獨立門戶) and the property's orientation (S-N).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS180728"
+}

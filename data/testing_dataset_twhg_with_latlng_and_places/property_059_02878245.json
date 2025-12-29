@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "我正在找仁武區2880萬左右的透天別墅，要求是臨路非社區型，而且要有河畔綠蔭的永久開闊景觀，廚房最好是新式白色全排系統廚具。",
+      "reason": "This query stacks location (仁武區), price (2880萬), property type (透天別墅), unique environment (臨路非社區型, 河畔綠蔭永久視野), and specific interior finish (新式白色全排系統廚具). High density of unique attributes.",
+      "type": "simple"
+    },
+    {
+      "question": "請問名湖街附近有沒有近灣北公園（250公尺內）的透天，需要有5房3衛，主臥衛浴必須是乾濕分離，但客用衛浴沒有乾濕分離也沒關係。",
+      "reason": "Stacks specific street name (名湖街), proximity to landmark (灣北公園245公尺), room count (5房3衛), and detailed bathroom configuration (主浴乾濕分離, 客浴無乾濕分離).",
+      "type": "simple"
+    },
+    {
+      "question": "尋找仁武區屋齡15年左右的別墅，希望是屋況新的一手屋，格局要大器，且客廳是長型大客廳，坐向最好是坐北朝南。",
+      "reason": "Combines property age (15年), condition (一手屋, 屋況新), layout description (格局大器, 長型大客廳), and orientation (坐北朝南).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要一間仁武的透天，客廳空間要非常寬敞，但要能接受天花板有樑柱外露，臥室地板要是磁磚好清理的，且廚房要有對外門窗可以外接曬衣陽台。",
+      "reason": "Focuses on specific layout constraints and material details: large living room (空間非常寬敞), structural detail (樑柱外露), flooring (磁磚地板好清理), and utility access (廚房有對外門窗可外接曬衣陽台).",
+      "type": "simple"
+    },
+    {
+      "question": "找仁武區有大落地門窗的透天，希望是少住屋況新，且客餐廳是開放式設計，最好是傢俱和冰箱都已經備好，可以立即入住。",
+      "reason": "Stacks architectural feature (大落地門窗), condition (少住屋況新), layout (開放式客餐廳), and included items (傢俱與冰箱已備), emphasizing move-in readiness.",
+      "type": "simple"
+    },
+    {
+      "question": "我們家有兩個學齡前的小孩，希望在仁武區找一個寧靜愜意的別墅區，需要有大面積地坪讓小孩活動，而且要離灣北公園很近，最好是臨路型別墅，不要社區管理。",
+      "reason": "Abstract query mapping a family persona (小孩活動) to specific features: quiet environment (寧靜愜意別墅豪宅區), large floor area (大面積地坪), proximity to park (近灣北公園), and property type (臨路非社區型).",
+      "type": "abstract"
+    },
+    {
+      "question": "我是單身貴族，工作很忙，希望找一間仁武區少住、屋況新的透天，最好是基本家具和冰箱都已經附贈，可以拎包入住，而且臥室要有大窗或落地門，採光通風要好，減少室內潮濕發霉的困擾。",
+      "reason": "Abstract query for a busy professional (拎包入住) requiring move-in readiness (家具和冰箱已附贈), excellent condition (少住、屋況新), and specific bedroom features for comfort (臥室有大窗或落地門，採光通風要好).",
+      "type": "abstract"
+    },
+    {
+      "question": "我很常在家宴客，需要一個動線順暢、空間大器的透天，客餐廳必須是開放式設計，要能容納大餐桌，而且廚房要有完整的全排系統廚具，通風排煙效果要好，最好有對外窗。",
+      "reason": "Abstract query for a home cook/entertainer (常在家宴客) requiring specific layout and kitchen features: open concept (開放式客餐廳), large dining area (容納大餐桌), full kitchen setup (全排系統廚具), and superior ventilation (通風排煙效果好，有對外窗).",
+      "type": "abstract"
+    },
+    {
+      "question": "我對衛浴隱私要求很高，希望主臥衛浴是完全室內封閉、沒有對外窗的設計，但客廳一定要有大落地門窗，確保公共區域光線通透明亮又涼爽。",
+      "reason": "Abstract query focusing on contrasting lighting requirements for different spaces: high privacy/no light in master bath (主臥衛浴無對外窗, 完全室內封閉) vs. maximum light in public area (客廳有大落地門窗，光線通透明亮).",
+      "type": "abstract"
+    },
+    {
+      "question": "我們在找一間可以住很久的傳家別墅，要求有永久視野開闊景觀，而且室內格局要長矩形，方便我們規劃客廳與遊戲區或書房等多功能區域。",
+      "reason": "Abstract query for a long-term investment (傳家別墅) emphasizing environmental stability (永久視野開闊景觀) and flexible interior layout (長矩形格局, 易規劃多功能區域/遊戲區).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "KS175280"
+}

@@ -1,0 +1,55 @@
+{
+  "question_list": [
+    {
+      "question": "苓雅區信義國小捷運站附近，找一層一戶的四房，裝潢要包含TOTO衛浴設備。",
+      "reason": "Simple query stacking location (苓雅區, 捷運站), exclusivity (一層一戶), layout (四房), and specific brand fixture (TOTO衛浴設備). These are all explicit features in the title and description.",
+      "type": "simple"
+    },
+    {
+      "question": "預算2800萬左右，要找有獨立廚房空間，且配備櫻花牌AI智能抽油煙機的四房華廈。",
+      "reason": "Simple query combining price range, layout (四房), kitchen type (獨立廚房空間), and the highly specific appliance anchor (櫻花牌AI智能抽油煙機).",
+      "type": "simple"
+    },
+    {
+      "question": "我需要雙主臥的帝王格局，地板要是拋光磚好清潔，而且客廳要有整面木作收納櫃。",
+      "reason": "Simple query focusing on unique layout terminology (雙主臥, 帝王格局), specific flooring material (拋光磚), and detailed storage features (整面木作收納櫃).",
+      "type": "simple"
+    },
+    {
+      "question": "苓雅區信守街附近，希望是新穎裝潢，客廳有大面落地窗採光好，且使用西班牙進口磁磚。",
+      "reason": "Simple query stacking location (信守街), decoration quality (新穎裝潢), lighting detail (大面落地窗), and the specific imported material (西班牙進口磁磚).",
+      "type": "simple"
+    },
+    {
+      "question": "找四房三衛，主臥要有更衣室配置，最好是玻璃衣櫃，而且餐廳要有中島設計。",
+      "reason": "Simple query combining layout count (4房3衛), specific master suite feature (更衣室配置, 玻璃衣櫃), and dining feature (中島設計).",
+      "type": "simple"
+    },
+    {
+      "question": "我是收藏家，常在家宴請朋友，需要有隱私性高的一層一戶，而且要有玻璃展示櫃可以放酒或公仔，客廳和餐吧區要能連貫。",
+      "reason": "Abstract query targeting a persona (收藏家/宴客) which maps to the unique privacy feature (一層一戶), the specific display feature (玻璃展示櫃), and the open social layout (客廳和餐吧區連貫).",
+      "type": "abstract"
+    },
+    {
+      "question": "家裡有小孩和寵物，希望地板是拋光磚，容易打理，而且需要有獨立的廚房空間，避免油煙亂竄，收納櫃體要非常充足。",
+      "reason": "Abstract query mapping the needs of a family with pets/children (易清潔, 避免油煙) to the specific property features: 拋光磚地板, 獨立廚房空間, and 充足收納。",
+      "type": "abstract"
+    },
+    {
+      "question": "我們是雙薪夫妻，需要各自獨立的主臥空間（雙主臥），其中一間要有完整的更衣化妝區，另外還需要一間格局方正的房間當作工作室。",
+      "reason": "Abstract query targeting the 'double master' lifestyle (雙主臥) and requiring the detailed features of the master suite (更衣化妝區) and the flexibility of the secondary rooms (格局方正, 工作室潛力).",
+      "type": "abstract"
+    },
+    {
+      "question": "我對建材品質要求高，希望衛浴設備是TOTO，廚房要有櫻花牌AI智能抽油煙機，整體裝潢要新穎，採光要好，不要舊屋翻新的感覺。",
+      "reason": "Abstract query focusing on quality assurance and specific brand names (TOTO, 櫻花牌AI智能抽油煙機) combined with the aesthetic requirement (裝潢新穎, 採光佳).",
+      "type": "abstract"
+    },
+    {
+      "question": "雖然靠近捷運站和學校，但我希望住家環境是安靜且有隱私的，最好是獨立門戶一層一戶，而且客廳空間要夠大，能容納大型L型沙發。",
+      "reason": "Abstract query combining the location context (近捷運/學校) with the need for exclusivity (獨立門戶, 一層一戶) and the specific size requirement derived from image tags (大尺度客廳, 容納L型沙發).",
+      "type": "abstract"
+    }
+  ],
+  "property_id": "QU58853602"
+}
