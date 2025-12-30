@@ -1,0 +1,360 @@
+[
+    {
+        "original_input": {
+            "description_id": "Desc_1",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479a.jpg?1760412563",
+            "evidence": "Shows the main living area with basic furniture ('基本家具') and a square layout ('規劃方正').",
+            "confidence_score": 0.97,
+            "extracted_feature": {
+                "room": "客廳",
+                "tag_list": [
+                    "採光普通",
+                    "通風尚可",
+                    "規劃方正",
+                    "天花高度正常",
+                    "新裝修",
+                    "基本家具",
+                    "隔音待確認"
+                ],
+                "raw_description": "多組照明(主燈加軌道燈提升亮度), 視聽牆預留(低矮電視櫃可放電視與收納), 牆面完整(方便加裝收納櫃或展示層板), 空間比例適中(沙發與電視距離舒適), 裝潢新穎(燈具與櫃體為新式設計)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: Overall tags match the image — living room with sliding glass door (ventilation), moderate natural light (blinds partly closed), regular ceiling height, square/rectangular plan, recent/clean finishes, and basic furniture (沙發、邊桌、低電視櫃) are visible. Specificity: Tags are generic and subjective (採光普通, 通風尚可). Missing specific visual details that are obvious in the photo (e.g., 磁磚地面/亮面地磚, 推拉落地窗) which would improve precision. Redundancy: No major redundancies; tags are discrete and non-overlapping. Spatial Signals: “規劃方正” is supported by the visible geometry; implied comfortable sofa–電視距離 is plausible given furniture placement and visible empty wall/電視櫃. However tags do not note the sliding balcony door or the open floor area which are useful spatial cues. Hallucination: The raw_description’s claim of “多組照明(主燈加軌道燈)” is not supported — only a central ceiling light is visible, no track lighting seen. “隔音待確認” is an appropriate uncertain tag (cannot be verified from image). Conclusion: Tags are largely correct and relevant with minor omissions and one unsupported lighting claim in the description, so I rate high (4/5)."
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_2",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479e.jpg?1760412563",
+            "evidence": "Wide view showing the connection to the hallway, emphasizing smooth flow ('動線順暢') and good sense of space ('空間感佳').",
+            "confidence_score": 0.96,
+            "extracted_feature": {
+                "room": "客廳",
+                "tag_list": [
+                    "動線順暢",
+                    "空間感佳",
+                    "採光依賴人工",
+                    "牆面留白",
+                    "地坪易清理",
+                    "家具擺位彈性"
+                ],
+                "raw_description": "多組照明(主燈加軌道燈提升亮度), 視聽牆預留(低矮電視櫃可放電視與收納), 牆面完整(方便加裝收納櫃或展示層板), 空間比例適中(沙發與電視距離舒適), 裝潢新穎(燈具與櫃體為新式設計)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "正確性: 大部分標籤在影像中可視證實 — 動線順暢(前方開口與走道空間明顯)、空間感佳(視野開闊、家具不擁擠)、牆面留白(淨白牆面僅有兩幅畫)、地坪易清理(大面拋光瓷磚/亮面地磚可見)。採光依賴人工在此角度也成立（畫面無可見落地窗，天花主燈開啟）。家具擺位彈性屬主觀推論，影像顯示有可變動空間但未充分證明深層靈活度。 具體性: 標籤偏概括（例如“空間感佳”“地坪易清理”），缺少材質/尺寸/窗型等具體描述（如大理石感拋光磚、是否有落地窗或窗戶類型）。 冗餘性: 存在語意重複（“動線順暢”與“空間感佳”部分重疊；描述中“牆面完整”與標籤“牆面留白”接近）。 空間訊號: 標籤捕捉到開放動線與牆邊沙發配置，但未提供幾何細節（如房間長寬比、動線走向、梁位或電視牆位置），因此空間信號淺顯。 幻覺 / 不實陳述: 詳細描述中提到的「多組照明(主燈加軌道燈)」在照片中不可見（只見主燈），屬過度推論；「視聽牆預留」為合理假設但無明確電源/壁掛配線佐證，屬可疑陳述；「裝潢新穎」為主觀評價，影像可支持但非確證。 綜合評價: 標籤整體與影像對應良好且實用，但缺乏更高的具體性、部分描述包含輕微幻覺或過度推斷，因此評分為4。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_3",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479f.jpg?1760412563",
+            "evidence": "Clearly displays track lighting ('多組照明') and the media console area, confirming '視聽牆預留'.",
+            "confidence_score": 0.99,
+            "extracted_feature": {
+                "room": "客廳",
+                "tag_list": [
+                    "多組照明",
+                    "視聽牆預留",
+                    "牆面完整",
+                    "空間比例適中",
+                    "裝潢新穎"
+                ],
+                "raw_description": "多組照明(主燈加軌道燈提升亮度), 視聽牆預留(低矮電視櫃可放電視與收納), 牆面完整(方便加裝收納櫃或展示層板), 空間比例適中(沙發與電視距離舒適), 裝潢新穎(燈具與櫃體為新式設計)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 高度對應。照片可見主燈（吸頂燈）與軌道燈，側邊有低矮電視櫃與空白牆面可放電視，牆面平整無破損，沙發與電視櫃距離看起來舒適，整體燈具與櫃體屬現代新穎風格。Specificity: 中等偏低。標籤描述正確但不夠精準（例如寫成「軌道燈/吸頂燈」、「可掛壁掛電視」會更具體），未指出地材、天花高度或採光方向等細節。Redundancy: 低重複性。各標籤意涵大致互補；唯一輕微重疊為“牆面完整”與“視聽牆預留”（兩者都在描述牆面可用性）。Spatial Signals: 有一定空間訊號（預留視聽牆、空間比例適中），但缺少幾何／格局細節（如長寬比例、動線或樑位等），未充分刻畫平面配置。Hallucination: 無明顯幻覺或錯誤資訊；描述中的具體細節（主燈+軌道燈、低矮電視櫃、現代櫃體）皆可由影像驗證。綜合評價：標籤整體準確且實用，但可增加更高細節與空間參數以達近乎完美。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_4",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479d.jpg?1760412563",
+            "evidence": "The only kitchen image, showing the I-shaped counter ('一字型流理臺'), stove, and range hood.",
+            "confidence_score": 1.0,
+            "extracted_feature": {
+                "room": "廚房",
+                "tag_list": [
+                    "一字型流理臺",
+                    "瓦斯爐具備",
+                    "抽油煙機完整",
+                    "收納量充足",
+                    "牆面易清潔",
+                    "採光通風尚可",
+                    "新裝修廚具"
+                ],
+                "raw_description": "一字型流理臺(檯面連續好操作), 瓦斯爐具備(可正常開伙), 抽油煙機完整(有上櫃式排油煙), 收納量充足(下方多組櫃體), 牆面易清潔(防油磁磚 backsplash), 採光通風尚可(側邊有小窗有助排氣), 新裝修廚具(門板與五金狀況良好)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness：大多數標籤在影像中有明確視覺依據。一字型流理臺明顯為單面直列佈局；右側可見雙口黑色爐具，且上方有整合式抽油煙/上櫃設備；下櫃與上方櫃體可見，支持「收納量充足」判斷；牆面為深色有光澤的防油磚/紋理面板，符合「牆面易清潔」；左側有小窗，可推論「採光通風尚可」；櫃門與五金外觀乾淨，支持「新裝修廚具」的視覺印象。 Specificity：標籤已有一定細節（如一字型、抽油煙機、防油磁磚），但可更精確描述素材與設備位置（例如「上櫃式排油煙」「黑色紋理防油背牆」「嵌入式雙口瓦斯爐」）。 Redundancy：標籤間重複較少；唯有描述中「抽油煙機完整」與補述的「上櫃式排油煙」屬近義重疊（但原始tag並未明確寫上櫃），整體冗餘不高。 Spatial Signals：一字型流理臺與側窗位置明確傳達了平面佈局與通風方向，但缺少對動線寬度、檯面左/右端設備（例如水槽具體位置）等空間尺度的描述。 Hallucination：有小幅主觀或無法從照片完全驗證的斷言，例如「可正常開伙」(功能性/燃氣供應無法單憑照片確認)及「新裝修」的時間判定屬推測。總評：視覺對應度高，僅有少量功能性與時間性推斷超出純影像可驗證範圍，故給予高分但非完美。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_5",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479h.jpg?1760412563",
+            "evidence": "Shows the narrow, long path ('動線狹長') of the utility balcony leading to a door, fitting the description of a reserved washer space.",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "前陽台/工作陽台",
+                "tag_list": [
+                    "有遮雨棚",
+                    "採光通風良好",
+                    "洗衣機位預留",
+                    "動線狹長",
+                    "隔柵安全",
+                    "地面耐用"
+                ],
+                "raw_description": "晾衣空間充足(長條型可加裝曬衣桿), 通風佳(外牆開放式欄杆利於空氣流通), 隔壁鄰戶距離近(外側視野較封閉), 適合作儲物區(一側牆面可加置收納櫃), 掃除容易(平整地磚好清理)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "總評：大多數標籤與照片顯示一致，僅有少數標籤缺乏直接視覺證據或可更具體。具體檢視如下： 1) 正確性：\n- 有遮雨棚：有。照片可見完整頂棚與崁燈，明確為有遮蔽的陽台走道。✅\n- 採光通風良好：部分成立。照片中有側邊欄杆/格柵與百葉/格柵門，利於風透；但主要光源為崁燈，天然採光有限（若以通風論較成立）。±\n- 洗衣機位預留：無明確證據。畫面未見水龍頭、排水口或專用平台，無法確認預留位。✖\n- 動線狹長：有。畫面呈長條狀走道，寬度偏窄，符合「動線狹長」。✅\n- 隔柵安全：有。右側明顯金屬格柵/百葉門，左側亦有開放式欄杆，具安全性及隔離功能。✅\n- 地面耐用：有。地板為仿木紋平整地磚/耐磨材質，看起來易清理且耐用。✅\n\n2) 具體性：標籤多為中等具體（如「有遮雨棚」「隔柵安全」「動線狹長」具描述性）；但「地面耐用」可改為「仿木紋地磚」更精準；「採光通風良好」應分開說明採光與通風程度。3) 冗餘性：標籤間冗餘低，彼此資訊互補，無明顯重複語義。4) 空間訊號：標籤抓到重要空間訊號（長條狹窄走道、格柵位置、頂棚），對布局有良好表徵。5) 幻覺(hallucination)：主要為「洗衣機位預留」為明顯幻覺或未經視覺驗證之標註；描述中「晾衣空間充足」屬推論，畫面雖有可掛衣桿的長條空間，但是否「充足」為主觀判斷。 建議：刪除或標註為「不確定」的洗衣機預留位，將「地面耐用」改為更具體材質描述，並分開採光與通風兩項以提高精確度。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_6",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479j.jpg?1760412563",
+            "evidence": "View emphasizing the wall space suitable for storage/drying ('適合作儲物區') and the proximity to the neighboring structure.",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "前陽台/工作陽台",
+                "tag_list": [
+                    "晾衣空間充足",
+                    "通風佳",
+                    "隔壁鄰戶距離近",
+                    "適合作儲物區",
+                    "掃除容易"
+                ],
+                "raw_description": "晾衣空間充足(長條型可加裝曬衣桿), 通風佳(外牆開放式欄杆利於空氣流通), 隔壁鄰戶距離近(外側視野較封閉), 適合作儲物區(一側牆面可加置收納櫃), 掃除容易(平整地磚好清理)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "1. 正確性: 大部分標籤有視覺依據。照片顯示為長條型前/工作陽台，有木紋地磚與平整牆面，外側有開放式鐵欄杆與曬衣繩，支撐「晾衣空間充足」、「掃除容易」與「適合作儲物區」的判斷；欄杆與開口也支持一定程度的「通風佳」。\n2. 精確性: 標籤偏概括，缺少關鍵空間細節（例如未標註為「長條型陽台/有頂棚」、「鐵欄杆」、「木紋地磚」等），無法精準區分為半開放或全開放陽台。\n3. 冗餘性: 標籤語義重疊不多，但「晾衣空間充足」與「適合作儲物區」都屬於多功能使用的實用性評語，屬於輕微語義重合但不重大冗餘。\n4. 空間訊號: 目前標籤未明確描述陽台的幾何與配置（如長條窄型、欄杆位置、上方是否有遮蓋），因此未充分捕捉到可視的空間佈局訊號（照片明顯為長條狀且有頂棚/半封閉特性）。\n5. 亂想/臆測: 無明顯重大虛構；但「通風佳」被標示為強烈評語略有誇大風險（空間為半封閉、有頂棚，通風非完全開放），而「隔壁鄰戶距離近」雖可從有限視野推測，但從此角度並非完全直接可見，屬於可推論但非完全驗證的敘述。\n總結: 標籤整體與影像相符且實用，但精確度與空間描述不足，並有少量可爭議的推論（通風與鄰距）。因此給予高但非完美的信心評分：4。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_7",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479k.jpg?1760412563",
+            "evidence": "The only interior corridor image, featuring smooth walls ('牆面平整') and reliance on artificial light ('採光依賴燈光').",
+            "confidence_score": 0.98,
+            "extracted_feature": {
+                "room": "走廊",
+                "tag_list": [
+                    "動線清楚",
+                    "採光依賴燈光",
+                    "牆面平整",
+                    "空間寬度中等",
+                    "新裝潢"
+                ],
+                "raw_description": "動線清楚(筆直走廊連接各房間), 採光依賴燈光(無對外窗較暗), 牆面平整(可加裝收納櫃或掛勾), 空間寬度中等(兩人錯身略擁擠), 新裝潢(牆面與踢腳線新穎)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "1) Correctness: 大部分標籤與影像一致。走廊為筆直動線（動線清楚）且牆面看起來平整、白淨（牆面平整）。走道上方有崁燈，且走廊本身無明顯對外窗，可視為主要依賴室內照明（採光依賴燈光）。寬度屬中等，兩人錯身會略顯侷促（空間寬度中等）。踢腳線與牆面狀態良好，看起來像是近期整理過（新裝潢）。 2) Specificity: 標籤較為中性，沒明確指出地材（拋光磁磚/大理石感）、燈具類型或牆面顏色，若能標示「無窗的內走廊」「拋光地磚」「崁燈」會更精確。 3) Redundancy: 部分重複性低但有交集，例如「牆面平整」與「新裝潢」在語意上有重疊（新裝潢通常導致牆面平整、清潔）。 4) Spatial Signals: 標籤包含動線與寬度評估，捕捉到走廊的幾何特性（筆直連通多房間、寬度中等），屬於合適的空間訊號。 5) Hallucination: 無明顯重大幻覺；唯一為「新裝潢」帶有主觀判斷（外觀尋新但無法驗證施工時間），但影像支持為翻新或維護良好。 總結：標籤整體與影像高度對應、具實用性，僅在細節具體化與避免小幅主觀推論（新舊程度）上有提升空間，因此給予4分。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_8",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479l.jpg?1760412563",
+            "evidence": "Empty room with a square layout ('格局方正') and a single window, fitting the general description of Bedroom 1.",
+            "confidence_score": 0.97,
+            "extracted_feature": {
+                "room": "臥室1",
+                "tag_list": [
+                    "有窗採光",
+                    "通風尚可",
+                    "格局方正",
+                    "天花略低",
+                    "預留插座",
+                    "空房好規劃"
+                ],
+                "raw_description": "有窗採光(單面窗提供自然光), 通風尚可(窗戶可開啟換氣), 格局方正(四角完整好擺床與衣櫃), 天花略低(橫樑壓頂需注意床位配置), 預留插座(牆面插座方便擺放書桌或家電), 空房好規劃(未裝家具可依需求設計)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "逐項核對：有窗採光 — 視覺上可見右側單面窗且有自然光來源，標註合理；通風尚可 — 由窗可推斷可換氣，但無法確認是否對流，屬主觀判斷但不明顯錯誤；格局方正 — 房間為矩形、四角完整，畫面支持「方正」判斷；天花略低 — 牆左側明顯有樑或下降天花，標註抓到實際空間信號但「略低」為定性描述；預留插座 — 牆面可視到至少一組插座，標註正確；空房好規劃 — 房間為空間未擺家具，該標籤可視為真實陳述。針對五個評估面向：1) 正確性：大多數標籤有直接視覺依據（窗、插座、方正、空房、樑）；2) 具體性：標籤中「有窗採光」「天花略低」已具體但仍可更精確（例如標註為「單面窗」「橫樑位置靠近入口」）；3) 冗餘性：部分語意重疊（有窗採光 vs. 通風尚可、空房好規劃與未裝家具描述），但不算過度重複；4) 空間訊號：有捕捉到重要幾何資訊（方正、樑位/低天花），但缺少尺寸/採光面向（窗向、採光強弱量化）；5) 妄想/錯誤宣稱：無重大幻覺（未宣稱內建櫃、衛浴或其他不可見設備），唯一較主觀為「通風尚可」「天花略低」的程度判定。綜合評分為4分：標籤大致準確且抓到關鍵空間訊號，僅有少數主觀表述和可提升的具體化建議。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_9",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479m.jpg?1760412563",
+            "evidence": "Empty room with a noticeably rectangular/narrower shape ('房型狹長') compared to Image_8, with single-sided lighting.",
+            "confidence_score": 0.97,
+            "extracted_feature": {
+                "room": "臥室2",
+                "tag_list": [
+                    "房型狹長",
+                    "單面採光",
+                    "通風尚可",
+                    "牆面留白",
+                    "地坪一致性",
+                    "適合辦公讀書"
+                ],
+                "raw_description": "房型狹長(適合單人或做書房), 單面採光(一扇窗提供自然光), 通風尚可(窗戶可開啟), 牆面留白(便於加裝層架或衣櫃), 地坪一致性(與全室同材質增加整體感), 適合辦公讀書(長型空間利於擺放書桌)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "正確性: 大部分標籤可由圖像直接觀察到。房型狹長(房間縱深長、橫寬窄)與單面採光(右側可見一扇窗)明顯成立；牆面留白(四周無裝飾/櫃體)與地坪一致性(可見範圍內地板材質與顏色一致)也可視覺確認。Specificity(精確度): 標籤偏概括，缺少可增加區分度的細節，例如窗為窄高窗/靠右側偏高、地坪為灰色磁磚或仿石材、天花或有樑位(畫面上有下降的天花段)未被標註。冗餘性: 標籤間冗餘不多，只有「房型狹長」與「適合辦公讀書」語意相關但不完全重複，整體冗餘度低。空間信號: 已捕捉到重要空間訊號(狹長格局、單面採光、牆面留白、地坪一致)，但未標註可見的天花降板/樑位置與窗戶實際高度等細節，影響空間理解完整度。幻覺/不可驗證項目: 「通風尚可(窗戶可開啟)」與「適合辦公讀書」屬推論性描述；圖中可見窗但無法確認是否可開啟或通風效能，故此為可疑/主觀判斷而非確證；描述中提及與“全室”一致性超出畫面範圍亦屬假設。綜合評價: 標籤大致正確且有用，但精確度與可驗證性可提升，存在少量主觀/假設性敘述。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_10",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479n.jpg?1760412563",
+            "evidence": "View of Bathroom 1 (colorful floor) showing the basic setup where dry/wet areas are not fully separated ('乾溼未完全分離').",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "浴室1",
+                "tag_list": [
+                    "新式衛浴設備",
+                    "乾溼未完全分離",
+                    "通風設備不明",
+                    "收納空間基本",
+                    "地磚防滑",
+                    "管線隱藏"
+                ],
+                "raw_description": "浴室空間寬敞(洗手台與馬桶間距足夠), 清潔易維護(大面積亮面磁磚), 排水坡度待確認(未見明顯乾區分界), 採光依賴燈具(未見窗戶自然光不足), 視覺明亮(牆磚淺色搭配彩色地磚)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 3,
+            "reasoning": "Correctness: 多數標籤與影像吻合——可見現代感衛浴配件(新式衛浴設備)、浴室無明顯淋浴隔間或玻璃門因此『乾溼未完全分離』成立、懸掛式洗面櫃提供基本收納(收納空間基本)、畫面未見窗戶故標註『通風設備不明』合理。失準/無法核實的部分：地磚是否防滑無法由照片外觀確定（防滑屬材質/表面處理資訊），且「管線隱藏」過度籠統——洗面下方管線被櫃體遮蔽成立，但淋浴軟管與蓮蓬頭為明顯外露，不能宣稱整體管線隱藏。 Specificity: 標籤偏泛化（如「新式衛浴設備」「地磚防滑」）；可更具體描述為「懸浮式洗面櫃」「無淋浴隔間/地面連續濕區」「大面積亮面牆磚」「彩色花磚地面」。 Redundancy: 標籤與描述有部分語意重複（例如通風不明在raw_description也已說明；乾溼未完全分離與描述中排水/乾區邊界不明有重疊），但整體冗餘不多。 Spatial Signals: 已捕捉到重要空間訊息（無隔間導致乾濕未分、洗手台與馬桶間距合宜），但缺少更細的幾何資訊（淋浴位置/地面坡度說明、門位/動線）。 Hallucination: 有輕微幻覺或無充分證據的宣稱（「地磚防滑」無法視覺驗證；「管線隱藏」為部分真但過度泛化）。 總結：標籤整體基本正確且與影像主要觀察相符，但含有少數無法驗證或過度概括的項目，且可提升具體度與空間細節描述，故給予中等信心分數3/5。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_11",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479o.jpg?1760412563",
+            "evidence": "Wider view of Bathroom 1, emphasizing the spaciousness ('浴室空間寬敞') and bright visual aesthetic ('視覺明亮') created by the white walls and colorful floor.",
+            "confidence_score": 0.98,
+            "extracted_feature": {
+                "room": "浴室1",
+                "tag_list": [
+                    "浴室空間寬敞",
+                    "清潔易維護",
+                    "排水坡度待確認",
+                    "採光依賴燈具",
+                    "視覺明亮"
+                ],
+                "raw_description": "浴室空間寬敞(洗手台與馬桶間距足夠), 清潔易維護(大面積亮面磁磚), 排水坡度待確認(未見明顯乾區分界), 採光依賴燈具(未見窗戶自然光不足), 視覺明亮(牆磚淺色搭配彩色地磚)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標註與照片一致。牆面為淺色大面亮面磁磚（支持「清潔易維護、牆磚淺色」），地磚為彩色花磚（支持「視覺明亮」說法），畫面未見窗戶且以嵌燈照明（支持「採光依賴燈具」）。畫面也看得到懸空洗手台與馬桶，空間看來不擁擠但稱為「寬敞」屬主觀判斷，屬勉強可接受。 Specificity: 標籤較通用（如「清潔易維護」「視覺明亮」），可更具體例如標出「無窗/僅人工照明」、「大面板拋光磁磚」、「懸吊洗手台」、「無乾濕分界」等以提升精準度。 Redundancy: 標籤間冗餘程度低，但「採光依賴燈具」與「視覺明亮」部分語意重疊（都在描述光線狀況），可合併或細化。 Spatial Signals: 有提出空間寬敞與排水坡度（乾濕分界）待確認，這捕捉到布局與功能性訊號；照片中確實看不到乾濕分界或明顯地面排水坡度，故該警示合理。 Hallucination: 無明顯錯誤或杜撰（未聲稱有窗、浴缸或淋浴隔間等不存在之物）。 少許扣分理由：將空間直接標為「寬敞」帶有主觀判斷且標籤可更具體化。綜合評估為高準確度但非完美。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_12",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479p.jpg?1760412563",
+            "evidence": "Spacious room with a large window and a door connecting to an exterior area ('連接陽台/外廊'). Features a distinct light blue accent wall.",
+            "confidence_score": 0.99,
+            "extracted_feature": {
+                "room": "多功能室/大臥室",
+                "tag_list": [
+                    "採光良好",
+                    "通風佳",
+                    "空間寬敞",
+                    "規劃方正",
+                    "連接陽台/外廊",
+                    "隱私中等",
+                    "新裝修"
+                ],
+                "raw_description": "大面窗景(連續窗帶提升視野), 採光充足(白天可減少開燈), 家具擺放彈性(三面牆可設計衣櫃或電視櫃), 頂樓樑位明顯(部分區域高度略低), 適合作家庭活動室(空間足夠放沙發與書桌), 地面光滑(需搭配地毯以防滑倒兒童安全)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "1) Correctness：大部分標籤可由影像直接驗證。畫面顯示長寬窗（大面窗），左側有一扇門/對外開口，採光充足且有可開啟的門窗支持通風，地面為亮面大理石/拋光磚（光滑可見反光），空間視覺上寬敞且牆面、角度呈矩形，支持「規劃方正」。天花有明顯樑位（raw_description 提及的樑位可見）。\n2) Specificity：標籤語意偏泛（如「採光良好」「空間寬敞」），可更精確為「大面連續窗/落地窗」「亮面拋光磚地板」「天花横向樑」等以提高鑑別力。\n3) Redundancy：標籤間重複程度不高，但屬於常見泛化詞彙集合（採光/通風/寬敞/方正），描述中有些重複暗示（如描述與標籤都提到採光與空間彈性）。\n4) 空間訊號：有明顯空間與幾何資訊（矩形平面、三面可利用牆、天花樑位、連窗一側與對外門），這些空間信號在影像中可被辨識並部分反映於描述。\n5) 生成式幻覺：少數主張無法從此角度確證：標籤「隱私中等」為主觀/無直接證據（需外側視角或周邊環境判斷）；描述中稱為「頂樓樑位」或明確為「新裝修」亦屬推測——畫面顯示整體新淨但無法確定是否近期整修或位於頂樓。因此存在輕微推論過度。\n綜合評價：標籤與描述大體與影像一致且可視證據充足，但用詞較泛且包含少量主觀/無法驗證之項目（隱私/頂樓/新裝修），故評為 4 分（高）。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_13",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479q.jpg?1760412563",
+            "evidence": "Spacious room with a large window bank ('大面窗景') and a clearly visible structural drop/beam near the ceiling ('頂樓樑位明顯').",
+            "confidence_score": 0.98,
+            "extracted_feature": {
+                "room": "多功能室/大臥室",
+                "tag_list": [
+                    "大面窗景",
+                    "採光充足",
+                    "家具擺放彈性",
+                    "頂樓樑位明顯",
+                    "適合作家庭活動室",
+                    "地面光滑"
+                ],
+                "raw_description": "大面窗景(連續窗帶提升視野), 採光充足(白天可減少開燈), 家具擺放彈性(三面牆可設計衣櫃或電視櫃), 頂樓樑位明顯(部分區域高度略低), 適合作家庭活動室(空間足夠放沙發與書桌), 地面光滑(需搭配地毯以防滑倒兒童安全)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: Most visual claims are supported. The room clearly has a large continuous band of black-framed windows and a door on that wall (大面窗景). The floor is glossy/tile and reflective (地面光滑). The room is empty and rectangular, so furniture placement is flexible (家具擺放彈性) and it is plausibly suitable as a family activity room (適合作家庭活動室). A dropped/visible ceiling beam is evident (樑位明顯). Specificity: Tags are moderately specific — “大面窗景” and “頂樓樑位明顯” are descriptive; however “採光充足” is less precise because the windows appear to face an interior/common corridor (not an exterior view) so natural daylight level is ambiguous in this photo. “地面光滑” is specific and correct. Redundancy: There is semantic overlap — “大面窗景” vs “採光充足” are related, and “家具擺放彈性” vs “適合作家庭活動室” duplicate usage of room-purpose/flexibility. Spatial Signals: The tags capture key geometry: continuous window band, rectangular open plan, and a noticeable beam/soffit affecting ceiling height in parts of the room. Missing finer spatial cues such as exact window orientation, ceiling height numbers, door position, or narrow/wide ratio. Hallucination: Some claims overreach or are not verifiable — stating this is a “頂樓” (top-floor) is not provable from the image (only a beam is visible); claiming daytime lighting will eliminate need to turn on lights is not supported (interior view and artificial lights are on); the child-safety recommendation (需搭配地毯以防滑倒) is advisory, not a visual fact. Overall the tags align well with the photo but include a few unverifiable/overgeneralized assertions and some redundancy."
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_14",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479r.jpg?1760412563",
+            "evidence": "View of Bathroom 2 (monochrome floor) showing the wall-mounted vanity ('掛牆式櫃體') and new fixtures.",
+            "confidence_score": 0.95,
+            "extracted_feature": {
+                "room": "浴室2",
+                "tag_list": [
+                    "新式衛浴",
+                    "乾溼未分離",
+                    "已設排風扇",
+                    "通風採光仰賴機械",
+                    "地磚止滑",
+                    "掛牆式櫃體"
+                ],
+                "raw_description": "空間深度適中(洗手台到門口距離剛好), 牆面防水完善(全貼磁磚減少滲水風險), 採光仍偏弱(無自然光源), 清潔容易(平整牆地磚好打掃), 隱私佳(實心門搭配浴室位置)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤在畫面可見或合理推斷：新式衛浴(外觀及材質新穎) — 符合；乾溼未分離 — 明顯，淋浴區與馬桶/洗手台無隔間；掛牆式櫃體 — 明顯可見懸空洗手台櫃；已設排風扇／通風仰賴機械 — 牆上有長形通風格柵/出風口且無窗，通風/採光確實以機械/人工光為主。Specificity: 標籤中有具體描述（如乾溼未分離、掛牆式櫃體、已設排風扇）為加分；但“新式衛浴”較為籠統。Redundancy: 存在輕微重複：已設排風扇 與 通風採光仰賴機械 在通風面向上重疊；新式衛浴與其他具體標籤功能上也有重複意義。Spatial Signals: 標籤捕捉到重要的空間布局（乾溼未分離、掛牆櫃）但未指出更細節的幾何資訊（如淋浴位於左側、馬桶靠右等可見位置信息未被標註）。Hallucination: 有少量無法從照片直接驗證或可能為推測的項目：地磚止滑(防滑屬性無法僅由照片斷言)、原描述中提到“實心門/洗手台到門口距離剛好”與“隱私佳”皆因畫面未見門而不可驗證。 綜合評估：輸出標籤大體與影像一致且實用，但含少數不可直接驗證的主張與輕微冗餘，故評分為4。"
+        }
+    },
+    {
+        "original_input": {
+            "description_id": "Desc_15",
+            "matched_image": "https://img.hbhousing.com.tw/pictures/D510%2fD510KS178479s.jpg?1760412563",
+            "evidence": "View emphasizing the depth of the room ('空間深度適中') and the overall slightly lower light level compared to Bathroom 1 ('採光仍偏弱').",
+            "confidence_score": 0.98,
+            "extracted_feature": {
+                "room": "浴室2",
+                "tag_list": [
+                    "空間深度適中",
+                    "牆面防水完善",
+                    "採光仍偏弱",
+                    "清潔容易",
+                    "隱私佳"
+                ],
+                "raw_description": "空間深度適中(洗手台到門口距離剛好), 牆面防水完善(全貼磁磚減少滲水風險), 採光仍偏弱(無自然光源), 清潔容易(平整牆地磚好打掃), 隱私佳(實心門搭配浴室位置)"
+            }
+        },
+        "evaluation": {
+            "confidence_score": 4,
+            "reasoning": "Correctness: 大部分標籤與影像可視證據相符。畫面顯示全牆磁磚、洗手台、馬桶、淋浴花灑與實心門，支持「空間深度適中」（洗手台到門距離視覺上適中）、「全貼磁磚/牆面防水處理可見跡象」及「清潔容易」（平整牆地磚易擦拭）。無明顯窗戶或自然光源，支持「無自然光源」這一說法。 Specificity: 標籤為中等具體性，但可更精確（例如寫成「全牆磁磚」、「無窗採光/僅人工照明」、「手持式花灑」等），目前語句較概括。 Redundancy: 標籤間無明顯重複，語義各自獨立。 Spatial Signals: 僅有「空間深度適中」給出空間佈局訊號；未描述其他關鍵空間信息（如是否乾濕分離、排水位置、天花高度、地面坡度或梁位），空間訊號採樣不足。 Hallucination: 有小幅過度斷言風險——「牆面防水完善」超出可視範圍（看得到磁磚但無法驗證防水層施工完整性），以及「隱私佳」在門上有花窗或透光設計的情況下屬主觀判斷，不能完全確證；「採光仍偏弱」屬主觀評價，影像中雖無自然光但人工照明看起來充足，該標籤只能部分支持。 綜合評定：影像與標籤大致一致但包含一兩項過於絕對或主觀的斷定，屬高品質但非完美對應，因此給予4分。"
+        }
+    }
+]
